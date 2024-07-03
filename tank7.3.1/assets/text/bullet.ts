@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Vec3 } from 'cc';
+import { _decorator, Component, Node, Vec3,RigidBody2D } from 'cc';
 
 const { ccclass, property } = _decorator;
 
@@ -18,8 +18,12 @@ export class Bullet extends Component {
         // 在组件开始时执行的逻辑
     }
 
-    update(deltaTime: number) {
-
+    update(dt: number) {
+        // 假设速度的变化是通过某种逻辑改变的，这里只是一个示例
+        if (this.speed !== this.node.RigidBody2D.linearVelocity) {
+            // 速度发生变化，销毁子弹
+            this.destroyBullet();
+        }
     }
 
     // 发射子弹的方法
@@ -33,7 +37,9 @@ export class Bullet extends Component {
         this.node.position.add(moveOffset);
     }
 
-    getspeed(){
 
+    destroyBullet() {
+        // 销毁子弹节点
+        this.node.destroy();
     }
 }

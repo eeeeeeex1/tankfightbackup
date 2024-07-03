@@ -18,8 +18,7 @@ export class PlayerController extends Component {
     @property(RigidBody2D)
     rigidBody: RigidBody2D = null;
 
-    @property
-    shootPower:number=500;//子弹的发射速度
+   
 
     @property(Node)
     bulletPrefab:Node=null;
@@ -29,7 +28,7 @@ export class PlayerController extends Component {
 
 
     
-    private direction : cc.Vec2=cc.Vec2.ZERO;
+    private direction : Vec2=new Vec2(0,0);
     private currentDirection: Vec2 = Vec2.ZERO;
     private pressedKeys: Set<number> = new Set<number>();
 
@@ -37,18 +36,14 @@ export class PlayerController extends Component {
     start() {
         systemEvent.on(SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
         systemEvent.on(SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
-        input.on(Input.EventType.MOUSE_DOWN,this.onMouseDown,this);
-
-        input.on(Input.EventType.KEY_DOWN,this.keytodirection,this);
-        input.on(Input.EventType.KEY_UP,this.directiontokey,this);
+    
     }
 
     onDestroy() {
         systemEvent.off(SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
         systemEvent.off(SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
 
-        input.off(Input.EventType.KEY_DOWN,this.keytodirection,this);
-        input.off(Input.EventType.KEY_UP,this.directiontokey,this);
+
     }
 
 //运动实现模块
@@ -112,83 +107,5 @@ export class PlayerController extends Component {
         }
     }
 
-    //检测是否设计鼠标左键按下 触发fireBullet
-    private onMouseDown(event:EventMouse) {
-        if(event.getButton()===EventMouse.BUTTON_LEFT){
-            this.fireBullet();
-        }
-    }
-    //发射子弹
-    private fireBullet(){
-        const bullet = instantiate(this.bulletPrefab);
-        bullet.setParent(this.node);
-        bullet.setPosition(this.node.position);
-
-        const rgd =bullet.getComponent(RigidBody2D);
-        const speed= this.setbulletspeed().multiply(400);
-        rgd.linearVelocity=speed;
-    }
-
-
-    private setbulletspeed(){
-        const direction=this.node.direction.clone();
-        return direction;
-    }
-//坦克方向判断模块
-//坦克方向判断模块
-//坦克方向判断模块
-
-    //keydown赋值方向
-    private keytodirection(event:EventKeyboard){
-        switch (event.keyCode) {
-            case macro.KEY.a:
-                this.direction.x = -1;
-                break;
-            case macro.KEY.d:
-                this.direction.x = 1;
-                break;
-            case macro.KEY.w:
-                this.direction.y = 1;
-                break;
-            case macro.KEY.s:
-                this.direction.y = -1;
-                break;
-                /*
-            case macro.KEY.w && macro.KEY.a:
-                this.direction.set(-1, 1);
-                break;
-            case macro.KEY.w && macro.KEY.d:
-                this.direction.set(1, 1);
-                break;
-            case macro.KEY.s && macro.KEY.a:
-                this.direction.set(-1, -1);
-                break;
-            case macro.KEY.s && macro.KEY.d:
-                this.direction.set(1, -1);
-                break;
-                */
-        }
-    }
-
-    //keyup删除方向
-    private directiontokey(event:EventKeyboard){
-        switch (event.keyCode) {
-            case macro.KEY.a:
-            case macro.KEY.d:
-                this.direction.x = 0;
-                break;
-            case macro.KEY.w:
-            case macro.KEY.s:
-                this.direction.y = 0;
-                break;
-                /*
-            case macro.KEY.w && macro.KEY.a:
-            case macro.KEY.w && macro.KEY.d:
-            case macro.KEY.s && macro.KEY.a:
-            case macro.KEY.s && macro.KEY.d:
-                this.direction.set(0, 0);
-                break;
-                */
-        }
-    }
 }
+
