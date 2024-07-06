@@ -25,7 +25,7 @@ export class Loading extends Component {
         this.time+=deltaTime/4;//60帧4秒
         this.ProImage.setScale(this.time,1);
         if(this.ProImage.scale.x==1)
-            director.loadScene('BeginScene');//加载完毕时切入登录界面
+            director.loadScene('LoginScene');//加载完毕时切入登录界面
     }
 
 
