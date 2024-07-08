@@ -5,13 +5,18 @@ const { ccclass, property } = _decorator;
 
 @ccclass('monitor')
 export class tankdestroy extends Component {
+playercontroller0:PlayerController0;
+playercontroller1:PlayerController1;
 
+protected start(): void {
+    this.playercontroller0=this.node.getComponentInChildren(PlayerController0);
+    this.playercontroller1=this.node.getComponentInChildren(PlayerController1);
+}
 
     update(deltaTime: number) {
-        const playercontroller0: PlayerController0 = this.node.parent.getComponent(PlayerController0);
-        const playercontroller1: PlayerController1 = this.node.parent.getComponent(PlayerController1);
+        
 
-        if(playercontroller0.tanklife===0||playercontroller1.tanklife===0){
+        if(this.playercontroller0.tanklife==0||this.playercontroller1.tanklife==0){
             this.endsence();
         }
     }
