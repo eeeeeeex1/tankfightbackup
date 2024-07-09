@@ -1,0 +1,116 @@
+2024-7-9 18:47:59-log: Cannot access game frame or container.
+2024-7-9 18:47:59-debug: asset-db:require-engine-code (877ms)
+2024-7-9 18:47:59-log: meshopt wasm decoder initialized
+2024-7-9 18:47:59-log: [box2d]:box2d wasm lib loaded.
+2024-7-9 18:47:59-log: [bullet]:bullet wasm lib loaded.
+2024-7-9 18:48:00-log: Cocos Creator v3.8.3
+2024-7-9 18:48:00-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:24.22MB, end 78.04MB, increase: 53.82MB
+2024-7-9 18:48:00-debug: [Assets Memory track]: asset-db-plugin-register: programming start:78.78MB, end 82.29MB, increase: 3.50MB
+2024-7-9 18:48:01-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:204.57MB, end 207.54MB, increase: 2.97MB
+2024-7-9 18:48:01-debug: [Assets Memory track]: asset-db-plugin-register: builder start:82.31MB, end 204.12MB, increase: 121.81MB
+2024-7-9 18:48:01-debug: [Assets Memory track]: asset-db-plugin-register: project start:78.64MB, end 207.60MB, increase: 128.96MB
+2024-7-9 18:48:01-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:78.05MB, end 207.62MB, increase: 129.57MB
+2024-7-9 18:48:01-debug: run package(cocos-service) handler(enable) start
+2024-7-9 18:48:01-debug: run package(cocos-service) handler(enable) success!
+2024-7-9 18:48:01-debug: run package(im-plugin) handler(enable) start
+2024-7-9 18:48:01-debug: run package(im-plugin) handler(enable) success!
+2024-7-9 18:48:01-debug: run package(blank-template) handler(enable) start
+2024-7-9 18:48:01-debug: run package(placeholder) handler(enable) start
+2024-7-9 18:48:01-debug: run package(placeholder) handler(enable) success!
+2024-7-9 18:48:01-debug: run package(blank-template) handler(enable) success!
+2024-7-9 18:48:01-debug: asset-db:worker-init: initPlugin (1171ms)
+2024-7-9 18:48:01-debug: [Assets Memory track]: asset-db:worker-init start:24.22MB, end 207.83MB, increase: 183.61MB
+2024-7-9 18:48:01-debug: Run asset db hook programming:beforePreStart ...
+2024-7-9 18:48:01-debug: Run asset db hook programming:beforePreStart success!
+2024-7-9 18:48:01-debug: Run asset db hook engine-extends:beforePreStart success!
+2024-7-9 18:48:01-debug: Run asset db hook engine-extends:beforePreStart ...
+2024-7-9 18:48:01-debug: asset-db:worker-init (3089ms)
+2024-7-9 18:48:01-debug: asset-db-hook-programming-beforePreStart (159ms)
+2024-7-9 18:48:01-debug: asset-db-hook-engine-extends-beforePreStart (159ms)
+2024-7-9 18:48:01-debug: Preimport db internal success
+2024-7-9 18:48:01-debug: Preimport db assets success
+2024-7-9 18:48:01-debug: Run asset db hook programming:afterPreStart ...
+2024-7-9 18:48:01-debug: starting packer-driver...
+2024-7-9 18:48:02-debug: initialize scripting environment...
+2024-7-9 18:48:02-debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-7-9 18:48:02-debug: Run asset db hook engine-extends:afterPreStart success!
+2024-7-9 18:48:02-debug: Run asset db hook engine-extends:afterPreStart ...
+2024-7-9 18:48:02-debug: Run asset db hook programming:afterPreStart success!
+2024-7-9 18:48:02-debug: Start up the 'internal' database...
+2024-7-9 18:48:02-debug: asset-db-hook-programming-afterPreStart (681ms)
+2024-7-9 18:48:02-debug: asset-db:worker-effect-data-processing (242ms)
+2024-7-9 18:48:02-debug: asset-db-hook-engine-extends-afterPreStart (242ms)
+2024-7-9 18:48:02-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:207.88MB, end 218.11MB, increase: 10.22MB
+2024-7-9 18:48:02-debug: Start up the 'assets' database...
+2024-7-9 18:48:02-debug: asset-db:worker-startup-database[internal] (1015ms)
+2024-7-9 18:48:02-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:208.99MB, end 221.10MB, increase: 12.10MB
+2024-7-9 18:48:02-debug: [Assets Memory track]: asset-db:worker-init: startup start:206.61MB, end 221.10MB, increase: 14.50MB
+2024-7-9 18:48:02-debug: lazy register asset handler *
+2024-7-9 18:48:02-debug: lazy register asset handler directory
+2024-7-9 18:48:02-debug: lazy register asset handler json
+2024-7-9 18:48:02-debug: lazy register asset handler spine-data
+2024-7-9 18:48:02-debug: lazy register asset handler dragonbones
+2024-7-9 18:48:02-debug: lazy register asset handler dragonbones-atlas
+2024-7-9 18:48:02-debug: lazy register asset handler javascript
+2024-7-9 18:48:02-debug: lazy register asset handler terrain
+2024-7-9 18:48:02-debug: lazy register asset handler text
+2024-7-9 18:48:02-debug: lazy register asset handler typescript
+2024-7-9 18:48:02-debug: lazy register asset handler scene
+2024-7-9 18:48:02-debug: lazy register asset handler sprite-frame
+2024-7-9 18:48:02-debug: lazy register asset handler prefab
+2024-7-9 18:48:02-debug: lazy register asset handler tiled-map
+2024-7-9 18:48:02-debug: lazy register asset handler buffer
+2024-7-9 18:48:02-debug: lazy register asset handler image
+2024-7-9 18:48:02-debug: lazy register asset handler sign-image
+2024-7-9 18:48:02-debug: lazy register asset handler alpha-image
+2024-7-9 18:48:02-debug: lazy register asset handler texture-cube
+2024-7-9 18:48:02-debug: lazy register asset handler erp-texture-cube
+2024-7-9 18:48:02-debug: lazy register asset handler texture
+2024-7-9 18:48:02-debug: lazy register asset handler texture-cube-face
+2024-7-9 18:48:02-debug: lazy register asset handler rt-sprite-frame
+2024-7-9 18:48:02-debug: lazy register asset handler gltf
+2024-7-9 18:48:02-debug: lazy register asset handler gltf-mesh
+2024-7-9 18:48:02-debug: lazy register asset handler render-texture
+2024-7-9 18:48:02-debug: lazy register asset handler gltf-material
+2024-7-9 18:48:02-debug: lazy register asset handler gltf-animation
+2024-7-9 18:48:02-debug: lazy register asset handler gltf-skeleton
+2024-7-9 18:48:02-debug: lazy register asset handler gltf-scene
+2024-7-9 18:48:02-debug: lazy register asset handler gltf-embeded-image
+2024-7-9 18:48:02-debug: lazy register asset handler fbx
+2024-7-9 18:48:02-debug: lazy register asset handler material
+2024-7-9 18:48:02-debug: lazy register asset handler physics-material
+2024-7-9 18:48:02-debug: lazy register asset handler effect
+2024-7-9 18:48:02-debug: lazy register asset handler audio-clip
+2024-7-9 18:48:02-debug: lazy register asset handler effect-header
+2024-7-9 18:48:02-debug: lazy register asset handler animation-clip
+2024-7-9 18:48:02-debug: lazy register asset handler animation-graph-variant
+2024-7-9 18:48:02-debug: lazy register asset handler animation-mask
+2024-7-9 18:48:02-debug: lazy register asset handler animation-graph
+2024-7-9 18:48:02-debug: lazy register asset handler bitmap-font
+2024-7-9 18:48:02-debug: lazy register asset handler particle
+2024-7-9 18:48:02-debug: lazy register asset handler ttf-font
+2024-7-9 18:48:02-debug: lazy register asset handler sprite-atlas
+2024-7-9 18:48:02-debug: lazy register asset handler label-atlas
+2024-7-9 18:48:02-debug: lazy register asset handler auto-atlas
+2024-7-9 18:48:02-debug: lazy register asset handler render-pipeline
+2024-7-9 18:48:02-debug: lazy register asset handler instantiation-material
+2024-7-9 18:48:02-debug: lazy register asset handler render-stage
+2024-7-9 18:48:02-debug: lazy register asset handler instantiation-mesh
+2024-7-9 18:48:02-debug: lazy register asset handler instantiation-skeleton
+2024-7-9 18:48:02-debug: lazy register asset handler render-flow
+2024-7-9 18:48:02-debug: lazy register asset handler instantiation-animation
+2024-7-9 18:48:02-debug: lazy register asset handler video-clip
+2024-7-9 18:48:02-debug: asset-db:worker-startup-database[assets] (862ms)
+2024-7-9 18:48:02-debug: init worker message success
+2024-7-9 18:48:02-debug: asset-db:ready (5950ms)
+2024-7-9 18:48:02-debug: asset-db:start-database (1076ms)
+2024-7-9 18:48:02-debug: programming:execute-script (3ms)
+2024-7-9 18:48:03-debug: [Build Memory track]: builder:worker-init start:220.56MB, end 231.21MB, increase: 10.64MB
+2024-7-9 18:48:03-debug: builder:worker-init (495ms)
+2024-7-9 18:48:16-debug: start refresh asset from D:\TankFight\TK2\assets\text\NewComponent.ts...
+2024-7-9 18:48:16-debug: %cImport%c: D:\TankFight\TK2\assets\text\NewComponent.tsbackground: #aaff85; color: #000;color: #000;
+2024-7-9 18:48:16-debug: refresh asset D:\TankFight\TK2\assets\text success
+2024-7-9 18:48:16-debug: %cImport%c: D:\TankFight\TK2\assets\textbackground: #aaff85; color: #000;color: #000;
+2024-7-9 18:48:21-debug: start refresh asset from D:\TankFight\TK2\assets\map\alonemap2.scene...
+2024-7-9 18:48:21-debug: %cImport%c: D:\TankFight\TK2\assets\map\alonemap2.scenebackground: #aaff85; color: #000;color: #000;
+2024-7-9 18:48:21-debug: refresh asset D:\TankFight\TK2\assets\map success

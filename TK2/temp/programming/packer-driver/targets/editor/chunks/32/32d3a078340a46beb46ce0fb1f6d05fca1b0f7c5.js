@@ -1,0 +1,20 @@
+System.register([], function (_export, _context) {
+  "use strict";
+
+  return {
+    setters: [],
+    execute: function () {
+      // This module is auto-generated to report error emitted when try to load module file:///D:/TankFight/TK2/assets/text/pause.ts at runtime.
+      throw new Error(`SyntaxError: D:\CocosDashboard\file:\D:\TankFight\TK2\assets\text\pause.ts: Unexpected token (23:12)
+
+  21 |                 this.status=1;
+  22 |                 this.node.parent.getChildByName('background').
+> 23 |             }
+     |             ^
+  24 |             else
+  25 |             {
+  26 |             this.node.getChildByName('pause').destroy();`);
+    }
+  };
+});
+//# sourceMappingURL=32d3a078340a46beb46ce0fb1f6d05fca1b0f7c5.js.map

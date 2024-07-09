@@ -1,0 +1,364 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "buildPath": "project://build",
+      "outputName": "demo1",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "windows",
+      "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+      "scenes": [
+        {
+          "url": "db://assets/Scenes/LoadingScene.scene",
+          "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+        },
+        {
+          "url": "db://assets/Scenes/LoginScene.scene",
+          "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+        },
+        {
+          "url": "db://assets/Scenes/scene-2d-001.scene",
+          "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+        },
+        {
+          "url": "db://assets/Scenes/select.scene",
+          "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+        },
+        {
+          "url": "db://assets/Scenes/single.scene",
+          "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+        },
+        {
+          "url": "db://assets/Scenes/alonemap2.scene",
+          "uuid": "36291188-d37d-4b4f-a128-588f20d16162"
+        }
+      ],
+      "md5Cache": false
+    },
+    "options": {
+      "windows": {
+        "executableName": "demo1",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      }
+    },
+    "taskOptionsMap": {
+      "1720151685213": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": "2022"
+      },
+      "1720152395510": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": "2022"
+      },
+      "1720161158063": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720164697424": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720164967350": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720169081757": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720169275100": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720194361622": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720196048570": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720199530405": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": false,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720222416440": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720222821715": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720223299452": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720225481937": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720227060288": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720227751831": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720228239635": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720228686512": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720229087906": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720229489675": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720230201242": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720230566203": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720231316643": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720232159354": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720233889544": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720239327253": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720239727442": {
+        "executableName": "test",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720375288561": {
+        "executableName": "demo1",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      }
+    },
+    "__version__": "1.3.8"
+  },
+  "vsData": []
+}
