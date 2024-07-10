@@ -59,6 +59,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           _initializerDefineProperty(this, "password", _descriptor2, this);
 
           this.RegSet = new Array();
+          //注册索引表
           this.presentAccout = void 0;
         }
 
@@ -66,7 +67,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           if (localStorage.getItem('RegSet') == null) {
             var json = JSON.stringify(this.RegSet);
             localStorage.setItem('RegSet', json);
-          }
+          } //创建注册表
+
 
           this.node.on(Button.EventType.CLICK, this.checkAccount, this);
         }
@@ -101,7 +103,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
             director.getScene().getChildByName('PassNode').getComponent(_crd && PassInf === void 0 ? (_reportPossibleCrUseOfPassInf({
               error: Error()
-            }), PassInf) : PassInf).CurrentUser = this.presentAccout; //储存用户信息到常驻节点
+            }), PassInf) : PassInf).CurrentUser = this.presentAccout; //储存当前用户信息到常驻节点
 
             director.loadScene('select');
           } else {
@@ -118,13 +120,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
               var _json2 = JSON.stringify(this.RegSet);
 
-              localStorage.setItem('RegSet', _json2); //将账户加入注册表
+              localStorage.setItem('RegSet', _json2); //将账户加入注册表，防止账户遗漏
             }
 
             this.presentAccout = Object.assign(new user(), JSON.parse(result));
             if (this.presentAccout.Password != _pwd) console.log("Password Error!");else {
-              // this.presentAccout =Object.assign(new user(),JSON.parse(localStorage.getItem('wuxu')));
-              // console.log(this.presentAccout.Account);
               console.log("Login Success!");
               director.getScene().getChildByName('PassNode').getComponent(_crd && PassInf === void 0 ? (_reportPossibleCrUseOfPassInf({
                 error: Error()

@@ -15,14 +15,14 @@ export class log extends Component {
     account:EditBox;
     @property(EditBox)
     password:EditBox;
-    private RegSet: string[]=new Array;
+    private RegSet: string[]=new Array;//注册索引表
     presentAccout:user;
     start() {
         if(localStorage.getItem('RegSet')==null)
             {
                 let json=JSON.stringify(this.RegSet);
                 localStorage.setItem('RegSet',json);
-            }
+            }//创建注册表
         this.node.on(Button.EventType.CLICK, this.checkAccount, this);
         
     }
@@ -53,7 +53,7 @@ export class log extends Component {
             this.RegSet.push(_account);
             let _json=JSON.stringify(this.RegSet);
             localStorage.setItem('RegSet',_json);//将账户加入注册表
-            director.getScene().getChildByName('PassNode').getComponent(PassInf).CurrentUser=this.presentAccout;//储存用户信息到常驻节点
+            director.getScene().getChildByName('PassNode').getComponent(PassInf).CurrentUser=this.presentAccout;//储存当前用户信息到常驻节点
             director.loadScene('select');
         }
         else
@@ -70,15 +70,13 @@ export class log extends Component {
             {
                 this.RegSet.push(_account);
                 let _json=JSON.stringify(this.RegSet);
-                localStorage.setItem('RegSet',_json);//将账户加入注册表
+                localStorage.setItem('RegSet',_json);//将账户加入注册表，防止账户遗漏
             }
             this.presentAccout =Object.assign(new user(),JSON.parse(result));
             if(this.presentAccout.Password!=_pwd)
                 console.log("Password Error!");
             else
             {
-                // this.presentAccout =Object.assign(new user(),JSON.parse(localStorage.getItem('wuxu')));
-                // console.log(this.presentAccout.Account);
                 console.log("Login Success!");
                 director.getScene().getChildByName('PassNode').getComponent(PassInf).CurrentUser=this.presentAccout;
                 director.loadScene('select');

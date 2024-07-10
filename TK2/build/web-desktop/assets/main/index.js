@@ -2266,8 +2266,8 @@ System.register("chunks:///_virtual/Loading.ts", ['./rollupPluginModLoBabelHelpe
   };
 });
 
-System.register("chunks:///_virtual/log.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
-  var _applyDecoratedDescriptor, _inheritsLoose, _initializerDefineProperty, _assertThisInitialized, cclegacy, _decorator, EditBox, Button, director, Component;
+System.register("chunks:///_virtual/log.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './PassInf.ts'], function (exports) {
+  var _applyDecoratedDescriptor, _inheritsLoose, _initializerDefineProperty, _assertThisInitialized, cclegacy, _decorator, EditBox, Button, director, Component, PassInf;
   return {
     setters: [function (module) {
       _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
@@ -2281,6 +2281,8 @@ System.register("chunks:///_virtual/log.ts", ['./rollupPluginModLoBabelHelpers.j
       Button = module.Button;
       director = module.director;
       Component = module.Component;
+    }, function (module) {
+      PassInf = module.PassInf;
     }],
     execute: function () {
       var _dec, _dec2, _dec3, _class2, _class3, _descriptor, _descriptor2;
@@ -2304,13 +2306,17 @@ System.register("chunks:///_virtual/log.ts", ['./rollupPluginModLoBabelHelpers.j
           _this = _Component.call.apply(_Component, [this].concat(args)) || this;
           _initializerDefineProperty(_this, "account", _descriptor, _assertThisInitialized(_this));
           _initializerDefineProperty(_this, "password", _descriptor2, _assertThisInitialized(_this));
+          _this.RegSet = new Array();
           _this.presentAccout = void 0;
           return _this;
         }
         var _proto = log.prototype;
         _proto.start = function start() {
+          if (localStorage.getItem('RegSet') == null) {
+            var json = JSON.stringify(this.RegSet);
+            localStorage.setItem('RegSet', json);
+          }
           this.node.on(Button.EventType.CLICK, this.checkAccount, this);
-          director.addPersistRootNode(this.node);
         };
         _proto.update = function update(deltaTime) {};
         _proto.checkAccount = function checkAccount() {
@@ -2327,14 +2333,34 @@ System.register("chunks:///_virtual/log.ts", ['./rollupPluginModLoBabelHelpers.j
             this.presentAccout.Password = _pwd;
             this.presentAccout.save = 0;
             this.presentAccout.difficulty = 0;
+            this.presentAccout.time = 0;
             var json = JSON.stringify(this.presentAccout);
             localStorage.setItem(_account, json); //不存在则创建新账户
+            this.RegSet = Object.assign(new Array(), JSON.parse(localStorage.getItem('RegSet')));
+            this.RegSet.push(_account);
+            var _json = JSON.stringify(this.RegSet);
+            localStorage.setItem('RegSet', _json); //将账户加入注册表
+            director.getScene().getChildByName('PassNode').getComponent(PassInf).CurrentUser = this.presentAccout; //储存用户信息到常驻节点
             director.loadScene('select');
           } else {
             console.log("found!");
+            this.RegSet = Object.assign(new Array(), JSON.parse(localStorage.getItem('RegSet')));
+            var i;
+            for (i = 0; i < this.RegSet.length; i++) {
+              if (this.RegSet[i] == _account) break;
+            }
+            if (i == this.RegSet.length) {
+              this.RegSet.push(_account);
+              var _json2 = JSON.stringify(this.RegSet);
+              localStorage.setItem('RegSet', _json2); //将账户加入注册表
+            }
+
             this.presentAccout = Object.assign(new user(), JSON.parse(result));
             if (this.presentAccout.Password != _pwd) console.log("Password Error!");else {
+              // this.presentAccout =Object.assign(new user(),JSON.parse(localStorage.getItem('wuxu')));
+              // console.log(this.presentAccout.Account);
               console.log("Login Success!");
+              director.getScene().getChildByName('PassNode').getComponent(PassInf).CurrentUser = this.presentAccout;
               director.loadScene('select');
             } //找到账户，检查密码
           }
@@ -2357,9 +2383,9 @@ System.register("chunks:///_virtual/log.ts", ['./rollupPluginModLoBabelHelpers.j
   };
 });
 
-System.register("chunks:///_virtual/main", ['./debug-view-runtime-control.ts', './Loading.ts', './double.ts', './endgame.ts', './esc.ts', './log.ts', './pause.ts', './returnlog.ts', './returnselect.ts', './select.ts', './welcome.ts', './AudioManeger.ts', './background.ts', './bullet0.ts', './bullet1.ts', './cheat-test.ts', './enemybullet.ts', './enemylandmine.ts', './enemyfire.ts', './enemytank.ts', './fireaffect0.ts', './fireaffect1.ts', './firedirection0.ts', './firedirection1.ts', './hp0.ts', './hp1.ts', './landmine0%20copy.ts', './landmine0.ts', './landmine1.ts', './normalwall.ts', './obj-firefast.ts', './obj-movefast.ts', './specialwall.ts', './speedaffect0.ts', './speedaffect1.ts', './tank0.ts', './tank1.ts', './tankdestroy.ts', './victory.ts'], function () {
+System.register("chunks:///_virtual/main", ['./debug-view-runtime-control.ts', './Loading.ts', './PassInf.ts', './double.ts', './endgame.ts', './esc.ts', './log.ts', './pause.ts', './returnlog.ts', './returnselect.ts', './select.ts', './welcome.ts', './AudioManeger.ts', './background.ts', './bullet0.ts', './bullet1.ts', './cheat-test.ts', './enemybullet.ts', './enemylandmine.ts', './enemyfire.ts', './enemytank.ts', './fireaffect0.ts', './fireaffect1.ts', './firedirection0.ts', './firedirection1.ts', './hp0.ts', './hp1.ts', './landmine0%20copy.ts', './landmine0.ts', './landmine1.ts', './normalwall.ts', './obj-firefast.ts', './obj-movefast.ts', './specialwall.ts', './speedaffect0.ts', './speedaffect1.ts', './tank0.ts', './tank1.ts', './tankdestroy.ts', './victory.ts'], function () {
   return {
-    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     execute: function () {}
   };
 });
@@ -2529,6 +2555,46 @@ System.register("chunks:///_virtual/obj-movefast.ts", ['./rollupPluginModLoBabel
   };
 });
 
+System.register("chunks:///_virtual/PassInf.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
+  var _inheritsLoose, cclegacy, _decorator, director, Component;
+  return {
+    setters: [function (module) {
+      _inheritsLoose = module.inheritsLoose;
+    }, function (module) {
+      cclegacy = module.cclegacy;
+      _decorator = module._decorator;
+      director = module.director;
+      Component = module.Component;
+    }],
+    execute: function () {
+      var _dec, _class2;
+      cclegacy._RF.push({}, "1fe4egUZHJGoqk8QUF2F1mm", "PassInf", undefined);
+      var ccclass = _decorator.ccclass,
+        property = _decorator.property;
+      var PassInf = exports('PassInf', (_dec = ccclass('PassInf'), _dec(_class2 = /*#__PURE__*/function (_Component) {
+        _inheritsLoose(PassInf, _Component);
+        function PassInf() {
+          var _this;
+          for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+            args[_key] = arguments[_key];
+          }
+          _this = _Component.call.apply(_Component, [this].concat(args)) || this;
+          _this.CurrentUser = void 0;
+          return _this;
+        }
+        var _proto = PassInf.prototype;
+        _proto.start = function start() {
+          director.addPersistRootNode(this.node); //设置常驻节点存放用户信息
+        };
+
+        _proto.update = function update(deltaTime) {};
+        return PassInf;
+      }(Component)) || _class2));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
 System.register("chunks:///_virtual/pause.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
   var _applyDecoratedDescriptor, _inheritsLoose, _initializerDefineProperty, _assertThisInitialized, cclegacy, _decorator, Prefab, input, Input, macro, instantiate, director, Component;
   return {
@@ -2672,39 +2738,58 @@ System.register("chunks:///_virtual/returnselect.ts", ['./rollupPluginModLoBabel
   };
 });
 
-System.register("chunks:///_virtual/select.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
-  var _inheritsLoose, cclegacy, _decorator, Button, director, Component;
+System.register("chunks:///_virtual/select.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './PassInf.ts'], function (exports) {
+  var _inheritsLoose, _createForOfIteratorHelperLoose, cclegacy, _decorator, director, Button, Component, PassInf;
   return {
     setters: [function (module) {
       _inheritsLoose = module.inheritsLoose;
+      _createForOfIteratorHelperLoose = module.createForOfIteratorHelperLoose;
     }, function (module) {
       cclegacy = module.cclegacy;
       _decorator = module._decorator;
-      Button = module.Button;
       director = module.director;
+      Button = module.Button;
       Component = module.Component;
+    }, function (module) {
+      PassInf = module.PassInf;
     }],
     execute: function () {
-      var _dec, _class;
+      var _dec, _class2;
       cclegacy._RF.push({}, "9acb6G0RhtAtb61aAt1B1dA", "select", undefined);
       var ccclass = _decorator.ccclass,
         property = _decorator.property;
-      var SceneSwitcher = exports('SceneSwitcher', (_dec = ccclass('SceneSwitcher'), _dec(_class = /*#__PURE__*/function (_Component) {
+      var SceneSwitcher = exports('SceneSwitcher', (_dec = ccclass('SceneSwitcher'), _dec(_class2 = /*#__PURE__*/function (_Component) {
         _inheritsLoose(SceneSwitcher, _Component);
         function SceneSwitcher() {
-          return _Component.apply(this, arguments) || this;
+          var _this;
+          for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+            args[_key] = arguments[_key];
+          }
+          _this = _Component.call.apply(_Component, [this].concat(args)) || this;
+          _this.CurrentUser = void 0;
+          _this.RegSet = void 0;
+          return _this;
         }
         var _proto = SceneSwitcher.prototype;
         _proto.start = function start() {
-          // 绑定按钮点击事件
+          // 绑定按钮点击事件,传递存档参数
+          this.RegSet = Object.assign(new Array(), JSON.parse(localStorage.getItem('RegSet')));
+          for (var _iterator = _createForOfIteratorHelperLoose(this.RegSet), _step; !(_step = _iterator()).done;) {
+            var admin = _step.value;
+            if (admin == 'nmmm') {
+              console.log('success!');
+              break;
+            }
+          }
+          this.CurrentUser = director.getScene().getChildByName('PassNode').getComponent(PassInf).CurrentUser;
           this.node.on(Button.EventType.CLICK, this.loadSinglePlayerScene, this);
         };
         _proto.loadSinglePlayerScene = function loadSinglePlayerScene() {
-          director.loadScene('single'); // 使用你的单人闯关场景名称
+          if (this.CurrentUser.save == 0) director.loadScene('single'); // 使用你的单人闯关场景名称
+          else director.loadScene('alonemap2');
         };
-
         return SceneSwitcher;
-      }(Component)) || _class));
+      }(Component)) || _class2));
       cclegacy._RF.pop();
     }
   };
