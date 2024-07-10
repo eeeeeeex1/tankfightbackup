@@ -309,7 +309,7 @@
       "uuid": "f17a33e8-fcc1-487f-b5b7-019231f92fcb"
     },
     "D:\\TankFight\\TK2\\assets\\text": {
-      "time": 1720522096785.968,
+      "time": 1720526472236.726,
       "uuid": "da66a686-fdaf-4c0f-a9b8-793763f22bcd"
     },
     "D:\\TankFight\\TK2\\assets\\photo\\environment": {
@@ -1242,10 +1242,6 @@
     },
     "D:\\TankFight\\TK2\\assets\\text\\NewComponent.ts.meta": {
       "time": 1720522096790.4756
-    },
-    "D:\\TankFight\\TK2\\assets\\text\\NewComponent.ts": {
-      "time": 1720522096784.9631,
-      "uuid": "620940d9-bc32-4c10-a9cf-8fb667172cda"
     }
   },
   "missing": {
@@ -1453,6 +1449,11 @@
       "path": "D:\\TankFight\\TK2\\assets\\Loading\\loading.jpg",
       "time": 1719975659706.0803,
       "removeTime": 1720521628115
+    },
+    "620940d9-bc32-4c10-a9cf-8fb667172cda": {
+      "path": "D:\\TankFight\\TK2\\assets\\text\\NewComponent.ts",
+      "time": 1720522096784.9631,
+      "removeTime": 1720526528198
     }
   }
 }

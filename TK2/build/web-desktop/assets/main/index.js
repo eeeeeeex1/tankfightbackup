@@ -2322,40 +2322,10 @@ System.register("chunks:///_virtual/log.ts", ['./rollupPluginModLoBabelHelpers.j
   };
 });
 
-System.register("chunks:///_virtual/main", ['./debug-view-runtime-control.ts', './Loading.ts', './double.ts', './endgame.ts', './esc.ts', './log.ts', './pause.ts', './returnlog.ts', './returnselect.ts', './select.ts', './welcome.ts', './NewComponent.ts', './background.ts', './bullet0.ts', './bullet1.ts', './cheat-test.ts', './enemybullet.ts', './enemylandmine.ts', './enemyfire.ts', './enemytank.ts', './fireaffect0.ts', './fireaffect1.ts', './firedirection0.ts', './firedirection1.ts', './hp0.ts', './hp1.ts', './landmine0%20copy.ts', './landmine0.ts', './landmine1.ts', './normalwall.ts', './obj-firefast.ts', './obj-movefast.ts', './specialwall.ts', './speedaffect0.ts', './speedaffect1.ts', './tank0.ts', './tank1.ts', './tankdestroy.ts', './victory.ts'], function () {
+System.register("chunks:///_virtual/main", ['./debug-view-runtime-control.ts', './Loading.ts', './double.ts', './endgame.ts', './esc.ts', './log.ts', './pause.ts', './returnlog.ts', './returnselect.ts', './select.ts', './welcome.ts', './background.ts', './bullet0.ts', './bullet1.ts', './cheat-test.ts', './enemybullet.ts', './enemylandmine.ts', './enemyfire.ts', './enemytank.ts', './fireaffect0.ts', './fireaffect1.ts', './firedirection0.ts', './firedirection1.ts', './hp0.ts', './hp1.ts', './landmine0%20copy.ts', './landmine0.ts', './landmine1.ts', './normalwall.ts', './obj-firefast.ts', './obj-movefast.ts', './specialwall.ts', './speedaffect0.ts', './speedaffect1.ts', './tank0.ts', './tank1.ts', './tankdestroy.ts', './victory.ts'], function () {
   return {
-    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     execute: function () {}
-  };
-});
-
-System.register("chunks:///_virtual/NewComponent.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
-  var _inheritsLoose, cclegacy, _decorator, Component;
-  return {
-    setters: [function (module) {
-      _inheritsLoose = module.inheritsLoose;
-    }, function (module) {
-      cclegacy = module.cclegacy;
-      _decorator = module._decorator;
-      Component = module.Component;
-    }],
-    execute: function () {
-      var _dec, _class;
-      cclegacy._RF.push({}, "62094DZvDJMEKnPj7ZnFyza", "NewComponent", undefined);
-      var ccclass = _decorator.ccclass,
-        property = _decorator.property;
-      var NewComponent = exports('NewComponent', (_dec = ccclass('NewComponent'), _dec(_class = /*#__PURE__*/function (_Component) {
-        _inheritsLoose(NewComponent, _Component);
-        function NewComponent() {
-          return _Component.apply(this, arguments) || this;
-        }
-        var _proto = NewComponent.prototype;
-        _proto.start = function start() {};
-        _proto.update = function update(deltaTime) {};
-        return NewComponent;
-      }(Component)) || _class));
-      cclegacy._RF.pop();
-    }
   };
 });
 
