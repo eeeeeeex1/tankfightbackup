@@ -5,6 +5,8 @@ class user{
     Account:string;
     Password:string;
     save:number;
+    difficulty:number;
+    time:number;
 }
 @ccclass('log')
 export class log extends Component {
@@ -13,8 +15,10 @@ export class log extends Component {
     @property(EditBox)
     password:EditBox;
 
+    presentAccout:user;
     start() {
         this.node.on(Button.EventType.CLICK, this.checkAccount, this);
+        director.addPersistRootNode(this.node);
     }
 
     update(deltaTime: number) {
@@ -31,19 +35,20 @@ export class log extends Component {
         if(result==null)
         {
             console.log("No Account!Create New Account");
-            let _user:user=new user();
-            _user.Account=_account;
-            _user.Password=_pwd;
-            _user.save=0;
-            let json=JSON.stringify(_user);
+            this.presentAccout=new user();
+            this.presentAccout.Account=_account;
+            this.presentAccout.Password=_pwd;
+            this.presentAccout.save=0;
+            this.presentAccout.difficulty=0
+            let json=JSON.stringify(this.presentAccout);
             localStorage.setItem(_account,json);//不存在则创建新账户
             director.loadScene('select');
         }
         else
         {
             console.log("found!");
-            let _user2: user =Object.assign(new user(),JSON.parse(result));
-            if(_user2.Password!=_pwd)
+            this.presentAccout =Object.assign(new user(),JSON.parse(result));
+            if(this.presentAccout.Password!=_pwd)
                 console.log("Password Error!");
             else
             {

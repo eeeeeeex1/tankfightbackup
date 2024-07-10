@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 7785.59279999882,
+      "mTimestamp": 5587.230400003493,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 9137.956500001252,
+      "mTimestamp": 5751669.710399993,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -798,7 +798,7 @@
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/background.ts",
+          "value": "file:///D:/TankFight/TK2/assets/text/AudioManeger.ts",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
@@ -807,255 +807,255 @@
             },
             "end": {
               "line": 5,
-              "column": 910
+              "column": 912
+            }
+          }
+        },
+        {
+          "value": "file:///D:/TankFight/TK2/assets/text/background.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 928
+            },
+            "end": {
+              "line": 5,
+              "column": 980
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/bullet0.ts",
-          "resolved": "__unresolved_12",
+          "resolved": "__unresolved_13",
           "loc": {
             "start": {
               "line": 5,
-              "column": 926
+              "column": 996
             },
             "end": {
               "line": 5,
-              "column": 975
+              "column": 1045
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/bullet1.ts",
-          "resolved": "__unresolved_13",
+          "resolved": "__unresolved_14",
           "loc": {
             "start": {
               "line": 5,
-              "column": 991
+              "column": 1061
             },
             "end": {
               "line": 5,
-              "column": 1040
+              "column": 1110
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/cheat-test.ts",
-          "resolved": "__unresolved_14",
+          "resolved": "__unresolved_15",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1056
+              "column": 1126
             },
             "end": {
               "line": 5,
-              "column": 1108
+              "column": 1178
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/enemybullet.ts",
-          "resolved": "__unresolved_15",
+          "resolved": "__unresolved_16",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1124
+              "column": 1194
             },
             "end": {
               "line": 5,
-              "column": 1177
+              "column": 1247
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/enemylandmine.ts",
-          "resolved": "__unresolved_16",
+          "resolved": "__unresolved_17",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1193
+              "column": 1263
             },
             "end": {
               "line": 5,
-              "column": 1248
+              "column": 1318
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/enemytank/enemyfire.ts",
-          "resolved": "__unresolved_17",
+          "resolved": "__unresolved_18",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1264
+              "column": 1334
             },
             "end": {
               "line": 5,
-              "column": 1325
+              "column": 1395
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/enemytank/enemytank.ts",
-          "resolved": "__unresolved_18",
+          "resolved": "__unresolved_19",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1341
+              "column": 1411
             },
             "end": {
               "line": 5,
-              "column": 1402
+              "column": 1472
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/fireaffect0.ts",
-          "resolved": "__unresolved_19",
+          "resolved": "__unresolved_20",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1418
+              "column": 1488
             },
             "end": {
               "line": 5,
-              "column": 1471
+              "column": 1541
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/fireaffect1.ts",
-          "resolved": "__unresolved_20",
+          "resolved": "__unresolved_21",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1487
+              "column": 1557
             },
             "end": {
               "line": 5,
-              "column": 1540
+              "column": 1610
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/firedirection0.ts",
-          "resolved": "__unresolved_21",
+          "resolved": "__unresolved_22",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1556
+              "column": 1626
             },
             "end": {
               "line": 5,
-              "column": 1612
+              "column": 1682
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/firedirection1.ts",
-          "resolved": "__unresolved_22",
+          "resolved": "__unresolved_23",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1628
+              "column": 1698
             },
             "end": {
               "line": 5,
-              "column": 1684
+              "column": 1754
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/hp0.ts",
-          "resolved": "__unresolved_23",
+          "resolved": "__unresolved_24",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1700
+              "column": 1770
             },
             "end": {
               "line": 5,
-              "column": 1745
+              "column": 1815
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/hp1.ts",
-          "resolved": "__unresolved_24",
+          "resolved": "__unresolved_25",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1761
+              "column": 1831
             },
             "end": {
               "line": 5,
-              "column": 1806
+              "column": 1876
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/landmine0%20copy.ts",
-          "resolved": "__unresolved_25",
+          "resolved": "__unresolved_26",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1822
+              "column": 1892
             },
             "end": {
               "line": 5,
-              "column": 1880
+              "column": 1950
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/landmine0.ts",
-          "resolved": "__unresolved_26",
+          "resolved": "__unresolved_27",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1896
+              "column": 1966
             },
             "end": {
               "line": 5,
-              "column": 1947
+              "column": 2017
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/landmine1.ts",
-          "resolved": "__unresolved_27",
+          "resolved": "__unresolved_28",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1963
+              "column": 2033
             },
             "end": {
               "line": 5,
-              "column": 2014
+              "column": 2084
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/normalwall.ts",
-          "resolved": "__unresolved_28",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 2030
-            },
-            "end": {
-              "line": 5,
-              "column": 2082
-            }
-          }
-        },
-        {
-          "value": "file:///D:/TankFight/TK2/assets/text/obj-firefast.ts",
           "resolved": "__unresolved_29",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2098
+              "column": 2100
             },
             "end": {
               "line": 5,
@@ -1064,7 +1064,7 @@
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/obj-movefast.ts",
+          "value": "file:///D:/TankFight/TK2/assets/text/obj-firefast.ts",
           "resolved": "__unresolved_30",
           "loc": {
             "start": {
@@ -1078,7 +1078,7 @@
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/specialwall.ts",
+          "value": "file:///D:/TankFight/TK2/assets/text/obj-movefast.ts",
           "resolved": "__unresolved_31",
           "loc": {
             "start": {
@@ -1087,17 +1087,17 @@
             },
             "end": {
               "line": 5,
-              "column": 2291
+              "column": 2292
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/speedaffect0.ts",
+          "value": "file:///D:/TankFight/TK2/assets/text/specialwall.ts",
           "resolved": "__unresolved_32",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2307
+              "column": 2308
             },
             "end": {
               "line": 5,
@@ -1106,7 +1106,7 @@
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/speedaffect1.ts",
+          "value": "file:///D:/TankFight/TK2/assets/text/speedaffect0.ts",
           "resolved": "__unresolved_33",
           "loc": {
             "start": {
@@ -1120,7 +1120,7 @@
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/tank0.ts",
+          "value": "file:///D:/TankFight/TK2/assets/text/speedaffect1.ts",
           "resolved": "__unresolved_34",
           "loc": {
             "start": {
@@ -1129,49 +1129,63 @@
             },
             "end": {
               "line": 5,
-              "column": 2494
+              "column": 2501
+            }
+          }
+        },
+        {
+          "value": "file:///D:/TankFight/TK2/assets/text/tank0.ts",
+          "resolved": "__unresolved_35",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2517
+            },
+            "end": {
+              "line": 5,
+              "column": 2564
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/tank1.ts",
-          "resolved": "__unresolved_35",
+          "resolved": "__unresolved_36",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2510
+              "column": 2580
             },
             "end": {
               "line": 5,
-              "column": 2557
+              "column": 2627
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/tankdestroy.ts",
-          "resolved": "__unresolved_36",
+          "resolved": "__unresolved_37",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2573
+              "column": 2643
             },
             "end": {
               "line": 5,
-              "column": 2626
+              "column": 2696
             }
           }
         },
         {
           "value": "file:///D:/TankFight/TK2/assets/text/victory.ts",
-          "resolved": "__unresolved_37",
+          "resolved": "__unresolved_38",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2642
+              "column": 2712
             },
             "end": {
               "line": 5,
-              "column": 2691
+              "column": 2761
             }
           }
         }
@@ -1252,6 +1266,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///D:/TankFight/TK2/assets/Scripts/welcome.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/TankFight/TK2/assets/text/AudioManeger.ts"
           },
           "messages": []
         },
@@ -1500,7 +1521,7 @@
     },
     "file:///D:/TankFight/TK2/assets/Scripts/Loading.ts": {
       "mTimestamp": {
-        "mtime": 1720230538428.0957,
+        "mtime": 1720577077274.2698,
         "uuid": "45e19a0e-19cd-47a7-91ff-efa5210f49f7"
       },
       "chunkId": "50c30f67700a5fa0b712ec808eeb1b4e83f1e1ba",
@@ -1656,7 +1677,7 @@
     },
     "file:///D:/TankFight/TK2/assets/Scripts/welcome.ts": {
       "mTimestamp": {
-        "mtime": 1720571468341.5261,
+        "mtime": 1720577079872.9712,
         "uuid": "c4498d13-2555-4639-bb4a-f0fe9a14fb41"
       },
       "chunkId": "107735bd8ab6aeedb8dedfa61097e7d039af005f",
@@ -1707,7 +1728,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1720575691600,
+      "mTimestamp": 1720577188514,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1767,7 +1788,7 @@
     },
     "file:///D:/TankFight/TK2/assets/Scripts/select.ts": {
       "mTimestamp": {
-        "mtime": 1720199377433.782,
+        "mtime": 1720582425805.9292,
         "uuid": "9acb61b4-461b-40b5-beb5-680b75075740"
       },
       "chunkId": "7ee63c9a9e29a3b987d22de292a94292f031aa6c",
@@ -1871,7 +1892,7 @@
     },
     "file:///D:/TankFight/TK2/assets/Scripts/log.ts": {
       "mTimestamp": {
-        "mtime": 1720232036646.324,
+        "mtime": 1720582935652.882,
         "uuid": "c0d874b8-7781-4364-a158-9e2bec11454a"
       },
       "chunkId": "64ce6dd9c651e5c51a2186680c637515cd5b2e58",
@@ -2323,7 +2344,7 @@
     },
     "file:///D:/TankFight/TK2/assets/text/bullet0.ts": {
       "mTimestamp": {
-        "mtime": 1720423310000,
+        "mtime": 1720577916325.2358,
         "uuid": "82eb8b8b-d44e-40ea-a107-a24ff1bfa5b0"
       },
       "chunkId": "37b153d16d326e699d889dd2abe7af979808812f",
@@ -2679,7 +2700,7 @@
     },
     "file:///D:/TankFight/TK2/assets/text/firedirection0.ts": {
       "mTimestamp": {
-        "mtime": 1720423214000,
+        "mtime": 1720577585950.9585,
         "uuid": "03b5b70c-f874-4daf-a3ab-5f8ecd787a7f"
       },
       "chunkId": "36d3bfeda5cf9f318bc54772175b4f3fc5a0607e",
@@ -4749,7 +4770,7 @@
     },
     "file:///D:/TankFight/TK2/assets/text/victory.ts": {
       "mTimestamp": {
-        "mtime": 1720572548330.6995,
+        "mtime": 1720576932623.9253,
         "uuid": "06ffd294-885b-4a68-b096-3a30290411f3"
       },
       "chunkId": "cc9236053f6bd93142b84e579965a32f6c28a3ca",
@@ -5026,6 +5047,58 @@
         "uuid": "620940d9-bc32-4c10-a9cf-8fb667172cda"
       },
       "chunkId": "40c1eed0a3e90adc509745f59c95a7f3d35defe4",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/TankFight/TK2/assets/text/AudioManeger.ts": {
+      "mTimestamp": {
+        "mtime": 1720578074067.4253,
+        "uuid": "b35888f9-f87e-4036-9abb-f2acbbbab28a"
+      },
+      "chunkId": "96a1d608170b6742a1cb3d661554d7612da226fd",
       "imports": [
         {
           "value": "cc"

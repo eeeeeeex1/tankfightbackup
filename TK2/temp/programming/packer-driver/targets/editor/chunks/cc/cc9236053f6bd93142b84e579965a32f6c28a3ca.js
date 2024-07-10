@@ -54,7 +54,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           this.playercontroller1 = this.node.getComponentInChildren(_crd && PlayerController1 === void 0 ? (_reportPossibleCrUseOfPlayerController2({
             error: Error()
           }), PlayerController1) : PlayerController1);
-          director.preloadScene('vectory');
+          director.preloadScene('victory');
         }
 
         update(deltaTime) {
@@ -65,7 +65,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
         endsence() {
           console.log('游戏结束');
-          director.loadScene('vectory');
+          director.loadScene('victory');
         }
 
       }) || _class));

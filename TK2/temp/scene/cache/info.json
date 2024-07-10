@@ -1,0 +1,12 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "AMD Ryzen 9 7945HX with Radeon Graphics        ",
+        "version": "Windows 10 Home China"
+    },
+    "sceneListMap": {
+        "36291188-d37d-4b4f-a128-588f20d16162": "D:\\TankFight\\TK2\\assets\\map\\alonemap2.scene",
+        "380ca9d3-3ed1-4bb4-a284-ff95f9508893": "D:\\TankFight\\TK2\\assets\\Prefabs\\bulletnode1.prefab"
+    },
+    "deviceMd5": "21016482aa57b40cb78706676d50abc2"
+}

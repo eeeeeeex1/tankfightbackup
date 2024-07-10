@@ -36,6 +36,8 @@ System.register(["cc"], function (_export, _context) {
           this.Account = void 0;
           this.Password = void 0;
           this.save = void 0;
+          this.difficulty = void 0;
+          this.time = void 0;
         }
 
       };
@@ -47,10 +49,13 @@ System.register(["cc"], function (_export, _context) {
           _initializerDefineProperty(this, "account", _descriptor, this);
 
           _initializerDefineProperty(this, "password", _descriptor2, this);
+
+          this.presentAccout = void 0;
         }
 
         start() {
           this.node.on(Button.EventType.CLICK, this.checkAccount, this);
+          director.addPersistRootNode(this.node);
         }
 
         update(deltaTime) {}
@@ -65,22 +70,19 @@ System.register(["cc"], function (_export, _context) {
 
           if (result == null) {
             console.log("No Account!Create New Account");
-
-            var _user = new user();
-
-            _user.Account = _account;
-            _user.Password = _pwd;
-            _user.save = 0;
-            var json = JSON.stringify(_user);
+            this.presentAccout = new user();
+            this.presentAccout.Account = _account;
+            this.presentAccout.Password = _pwd;
+            this.presentAccout.save = 0;
+            this.presentAccout.difficulty = 0;
+            var json = JSON.stringify(this.presentAccout);
             localStorage.setItem(_account, json); //不存在则创建新账户
 
             director.loadScene('select');
           } else {
             console.log("found!");
-
-            var _user2 = Object.assign(new user(), JSON.parse(result));
-
-            if (_user2.Password != _pwd) console.log("Password Error!");else {
+            this.presentAccout = Object.assign(new user(), JSON.parse(result));
+            if (this.presentAccout.Password != _pwd) console.log("Password Error!");else {
               console.log("Login Success!");
               director.loadScene('select');
             } //找到账户，检查密码

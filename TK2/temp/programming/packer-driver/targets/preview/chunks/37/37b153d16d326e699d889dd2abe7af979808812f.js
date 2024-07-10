@@ -79,7 +79,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.scheduleOnce(() => {
             if (!selfCollider.isValid) return; // 防止已销毁的对象再次操作
 
-            selfCollider.node.destroy(); // 检查音频源组件和音频剪辑是否已定义
+            selfCollider.node.destroy(); //检查音频源组件和音频剪辑是否已定义
 
             if (this.explosionAudio && this.explosionAudio.clip) {
               // 播放音效

@@ -1,4 +1,5 @@
 import { _decorator, Component, Node, Button, director } from 'cc';
+import { log } from './log';
 const { ccclass, property } = _decorator;
 
 @ccclass('SceneSwitcher')

@@ -12,8 +12,7 @@ export class Loading extends Component {
     start() {
         this.ProImage.setScale(0,1);
         this.time=0;
-        localStorage.setItem("name","sss");
-        localStorage.getItem("name");
+        director.preloadScene('alonemap2');
     }
 
    //规定进度条百分比为0—1

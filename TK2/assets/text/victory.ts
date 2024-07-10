@@ -11,7 +11,7 @@ playercontroller1:PlayerController1;
 protected start(): void {
     this.playercontroller0=this.node.getComponentInChildren(PlayerController0);
     this.playercontroller1=this.node.getComponentInChildren(PlayerController1);
-    director.preloadScene('vectory');
+    director.preloadScene('victory');
 }
 
     update(deltaTime: number) {
@@ -23,7 +23,7 @@ protected start(): void {
 
    private endsence(){
     console.log('游戏结束');
-    director.loadScene('vectory');
+    director.loadScene('victory');
    }
 
 }

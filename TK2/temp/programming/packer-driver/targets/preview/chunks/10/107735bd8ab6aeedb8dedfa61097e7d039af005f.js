@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, director, instantiate, Prefab, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, welcome;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, instantiate, Prefab, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, welcome;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -16,7 +16,6 @@ System.register(["cc"], function (_export, _context) {
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
       Component = _cc.Component;
-      director = _cc.director;
       instantiate = _cc.instantiate;
       Prefab = _cc.Prefab;
     }],
@@ -43,7 +42,6 @@ System.register(["cc"], function (_export, _context) {
           var Load = instantiate(this.LoadingPrefab); //动态挂载进度条
 
           this.node.addChild(Load);
-          director.preloadScene('alonemap2');
         }
 
         start() {}

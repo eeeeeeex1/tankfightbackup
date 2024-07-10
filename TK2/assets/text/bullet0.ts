@@ -42,7 +42,7 @@ export class Bullet extends Component {
 
             selfCollider.node.destroy();
 
-            // 检查音频源组件和音频剪辑是否已定义
+            //检查音频源组件和音频剪辑是否已定义
             if (this.explosionAudio && this.explosionAudio.clip) {
                 // 播放音效
                 this.explosionAudio.playOneShot(this.explosionAudio.clip, 1);
