@@ -1,0 +1,50 @@
+{
+  "__version__": "1.0.6",
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "tank0"
+      },
+      {
+        "index": 2,
+        "name": "tank1"
+      },
+      {
+        "index": 3,
+        "name": "bullet0"
+      },
+      {
+        "index": 4,
+        "name": "bullet1"
+      },
+      {
+        "index": 5,
+        "name": "wall"
+      },
+      {
+        "index": 6,
+        "name": "gameobject"
+      },
+      {
+        "index": 7,
+        "name": "enemytank"
+      },
+      {
+        "index": 8,
+        "name": "enemybullet"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 33,
+      "1": 500,
+      "2": 490,
+      "3": 436,
+      "4": 426,
+      "5": 415,
+      "6": 134,
+      "7": 126,
+      "8": 62
+    }
+  }
+}

@@ -1,0 +1,2270 @@
+{
+  "__version__": "1.3.8",
+  "log": {
+    "level": 1
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "buildPath": "project://build",
+    "outputName": "web-desktop",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-desktop",
+    "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+    "bundleConfigs": [],
+    "scenes": [
+      {
+        "url": "db://assets/map/alonemap2.scene",
+        "uuid": "36291188-d37d-4b4f-a128-588f20d16162"
+      },
+      {
+        "url": "db://assets/Scenes/LoadingScene.scene",
+        "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+      },
+      {
+        "url": "db://assets/Scenes/LoginScene.scene",
+        "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+      },
+      {
+        "url": "db://assets/Scenes/single.scene",
+        "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+      },
+      {
+        "url": "db://assets/Scenes/select.scene",
+        "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+      },
+      {
+        "url": "db://assets/Scenes/scene-2d-001.scene",
+        "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+      }
+    ],
+    "md5Cache": false
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1720151685213": {
+        "type": "build",
+        "id": "1720151685213",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-7-5 11:55:36 build success in 51 s!",
+        "detailMessage": "Asset DB is resume!\r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows",
+          "taskName": "windows",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "logDest": "project://temp/builder/log/windows2024-7-5 11-54.log"
+        },
+        "time": "2024-7-5 11:54:45",
+        "dirty": false
+      },
+      "1720152395510": {
+        "type": "build",
+        "id": "1720152395510",
+        "progress": 1,
+        "state": "failure",
+        "stage": "run",
+        "message": "2024-7-5 13:46:19 Run build stage[run] in package D:\\TankFight\\TK2\\build\\windows-001 failed!",
+        "detailMessage": "[runCmd]: test.exe \r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows-001",
+          "taskName": "windows-001",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-5 12-06.log"
+        },
+        "time": "2024-7-5 13:45:04",
+        "dirty": false
+      },
+      "1720155568858": {
+        "type": "build",
+        "id": "1720155568858",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-7-5 13:00:14 build success in 45 s!",
+        "detailMessage": "// ---- build task web-desktop：onBeforeCopyBuildTemplate ----\r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "web-desktop",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "web-desktop",
+          "taskName": "web-desktop",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "logDest": "project://temp/builder/log/web-desktop2024-7-5 12-59.log"
+        },
+        "time": "2024-7-5 12:59:28",
+        "dirty": false
+      },
+      "1720161158063": {
+        "type": "build",
+        "id": "1720161158063",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-7-5 14:32:54 build success in 16 s!",
+        "detailMessage": "[cmake] -- Configuring done (4.2s)\r\r\r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows-002",
+          "taskName": "windows-002",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "logDest": "project://temp/builder/log/windows2024-7-5 14-32.log"
+        },
+        "time": "2024-7-5 14:32:38",
+        "dirty": false
+      },
+      "1720164697424": {
+        "type": "build",
+        "id": "1720164697424",
+        "progress": 1,
+        "state": "failure",
+        "stage": "run",
+        "message": "2024-7-5 15:35:16 Run build stage[run] in package D:\\TankFight\\TK2\\build\\windows failed!",
+        "detailMessage": "[runCmd]: test.exe \r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows",
+          "taskName": "windows",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-5 15-31.log"
+        },
+        "time": "2024-7-5 15:31:37",
+        "dirty": false
+      },
+      "1720164967350": {
+        "type": "build",
+        "id": "1720164967350",
+        "progress": 1,
+        "state": "failure",
+        "stage": "run",
+        "message": "2024-7-5 15:39:11 Run build stage[run] in package D:\\TankFight\\TK2\\build\\windows-001 failed!",
+        "detailMessage": "[runCmd]: test.exe \r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "6af980a4-4fd8-4a72-bb26-f91537116825",
+          "outputName": "windows-001",
+          "taskName": "windows-001",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-5 15-36.log"
+        },
+        "time": "2024-7-5 15:36:07",
+        "dirty": false
+      },
+      "1720169081757": {
+        "type": "build",
+        "id": "1720169081757",
+        "progress": 1,
+        "state": "success",
+        "stage": "run",
+        "message": "2024-7-5 16:47:35 run package D:\\TankFight\\TK2\\build\\windows-003 success!",
+        "detailMessage": "[runCmd]: test.exe \r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "0554d124-5936-4455-9b17-a083050a9281",
+          "outputName": "windows-003",
+          "taskName": "windows-003",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-5 16-44.log"
+        },
+        "time": "2024-7-5 16:44:41",
+        "dirty": false
+      },
+      "1720169275100": {
+        "type": "build",
+        "id": "1720169275100",
+        "progress": 1,
+        "state": "failure",
+        "stage": "run",
+        "message": "2024-7-5 16:51:17 Run build stage[run] in package D:\\TankFight\\TK2\\build\\windows-004 failed!",
+        "detailMessage": "[runCmd]: test.exe \r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "6af980a4-4fd8-4a72-bb26-f91537116825",
+          "outputName": "windows-004",
+          "taskName": "windows-004",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-5 16-47.log"
+        },
+        "time": "2024-7-5 16:47:55",
+        "dirty": false
+      },
+      "1720194361622": {
+        "type": "build",
+        "id": "1720194361622",
+        "progress": 1,
+        "state": "failure",
+        "stage": "run",
+        "message": "2024-7-5 23:48:56 Run build stage[run] in package D:\\TankFight\\TK2\\build\\windows failed!",
+        "detailMessage": "[runCmd]: test.exe \r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows",
+          "taskName": "windows",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-5 23-46.log"
+        },
+        "time": "2024-7-5 23:46:01",
+        "dirty": false
+      },
+      "1720196048570": {
+        "type": "build",
+        "id": "1720196048570",
+        "progress": 1,
+        "state": "failure",
+        "stage": "run",
+        "message": "2024-7-6 00:17:02 Run build stage[run] in package D:\\TankFight\\TK2\\build\\windows-001 failed!",
+        "detailMessage": "[runCmd]: test.exe \r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": true,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "0554d124-5936-4455-9b17-a083050a9281",
+          "outputName": "windows-001",
+          "taskName": "windows-001",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 00-14.log"
+        },
+        "time": "2024-7-6 00:14:08",
+        "dirty": false
+      },
+      "1720199530405": {
+        "type": "build",
+        "id": "1720199530405",
+        "progress": 1,
+        "state": "success",
+        "stage": "run",
+        "message": "2024-7-6 01:15:00 run package D:\\TankFight\\TK2\\build\\windows-002 success!",
+        "detailMessage": "[runCmd test.exe] 01:14:52 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]\r\r01:14:52 [INFO]: GLES3 device initialized.\r\r01:14:52 [INFO]: RENDERER: PVRVFrame 10.8 - Non...",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "0554d124-5936-4455-9b17-a083050a9281",
+          "outputName": "windows-002",
+          "taskName": "windows-002",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 01-12.log"
+        },
+        "time": "2024-7-6 01:12:10",
+        "dirty": false
+      },
+      "1720222416440": {
+        "type": "build",
+        "id": "1720222416440",
+        "progress": 1,
+        "state": "failure",
+        "stage": "run",
+        "message": "2024-7-6 07:36:32 Run build stage[run] in package D:\\TankFight\\TK2\\build\\windows-003 failed!",
+        "detailMessage": "[runCmd]: test.exe \r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows-003",
+          "taskName": "windows-003",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 07-33.log"
+        },
+        "time": "2024-7-6 07:33:36",
+        "dirty": false
+      },
+      "1720222821715": {
+        "type": "build",
+        "id": "1720222821715",
+        "progress": 1,
+        "state": "failure",
+        "stage": "run",
+        "message": "2024-7-6 07:43:10 Run build stage[run] in package D:\\TankFight\\TK2\\build\\windows-004 failed!",
+        "detailMessage": "[runCmd]: test.exe \r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows-004",
+          "taskName": "windows-004",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 07-40.log"
+        },
+        "time": "2024-7-6 07:40:21",
+        "dirty": false
+      },
+      "1720223299452": {
+        "type": "build",
+        "id": "1720223299452",
+        "progress": 1,
+        "state": "failure",
+        "stage": "run",
+        "message": "2024-7-6 07:51:03 Run build stage[run] in package D:\\TankFight\\TK2\\build\\windows-005 failed!",
+        "detailMessage": "Run asset db hook engine-extends:afterRefresh success!\r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows-005",
+          "taskName": "windows-005",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 07-48.log"
+        },
+        "time": "2024-7-6 07:48:19",
+        "dirty": false
+      },
+      "1720225481937": {
+        "type": "build",
+        "id": "1720225481937",
+        "progress": 1,
+        "state": "failure",
+        "stage": "run",
+        "message": "2024-7-6 08:27:31 Run build stage[run] in package D:\\TankFight\\TK2\\build\\windows-006 failed!",
+        "detailMessage": "Run asset db hook engine-extends:afterRefresh success!\r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows-006",
+          "taskName": "windows-006",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 08-24.log"
+        },
+        "time": "2024-7-6 08:24:41",
+        "dirty": false
+      },
+      "1720227060288": {
+        "type": "build",
+        "id": "1720227060288",
+        "progress": 1,
+        "state": "failure",
+        "stage": "run",
+        "message": "2024-7-6 08:53:47 Run build stage[run] in package D:\\TankFight\\TK2\\build\\windows-007 failed!",
+        "detailMessage": "Run asset db hook engine-extends:afterRefresh success!\r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows-007",
+          "taskName": "windows-007",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 08-51.log"
+        },
+        "time": "2024-7-6 08:51:00",
+        "dirty": false
+      },
+      "1720227751831": {
+        "type": "build",
+        "id": "1720227751831",
+        "progress": 1,
+        "state": "success",
+        "stage": "run",
+        "message": "2024-7-6 09:05:21 run package D:\\TankFight\\TK2\\build\\windows-008 success!",
+        "detailMessage": "[runCmd]: test.exe \r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "0554d124-5936-4455-9b17-a083050a9281",
+          "outputName": "windows-008",
+          "taskName": "windows-008",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 09-02.log"
+        },
+        "time": "2024-7-6 09:02:31",
+        "dirty": false
+      },
+      "1720228239635": {
+        "type": "build",
+        "id": "1720228239635",
+        "progress": 1,
+        "state": "failure",
+        "stage": "run",
+        "message": "2024-7-6 09:13:37 Run build stage[run] in package D:\\TankFight\\TK2\\build\\windows-009 failed!",
+        "detailMessage": "Run asset db hook engine-extends:afterRefresh success!\r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "6af980a4-4fd8-4a72-bb26-f91537116825",
+          "outputName": "windows-009",
+          "taskName": "windows-009",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 09-10.log"
+        },
+        "time": "2024-7-6 09:10:39",
+        "dirty": false
+      },
+      "1720228686512": {
+        "type": "build",
+        "id": "1720228686512",
+        "progress": 1,
+        "state": "failure",
+        "stage": "run",
+        "message": "2024-7-6 09:21:11 Run build stage[run] in package D:\\TankFight\\TK2\\build\\windows-010 failed!",
+        "detailMessage": "Run asset db hook engine-extends:afterRefresh success!\r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "6af980a4-4fd8-4a72-bb26-f91537116825",
+          "outputName": "windows-010",
+          "taskName": "windows-010",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 09-18.log"
+        },
+        "time": "2024-7-6 09:18:06",
+        "dirty": false
+      },
+      "1720229087906": {
+        "type": "build",
+        "id": "1720229087906",
+        "progress": 1,
+        "state": "failure",
+        "stage": "run",
+        "message": "2024-7-6 09:27:42 Run build stage[run] in package D:\\TankFight\\TK2\\build\\windows-011 failed!",
+        "detailMessage": "Run asset db hook engine-extends:afterRefresh success!\r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "6af980a4-4fd8-4a72-bb26-f91537116825",
+          "outputName": "windows-011",
+          "taskName": "windows-011",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/BeginScene.scene",
+              "uuid": "6af980a4-4fd8-4a72-bb26-f91537116825"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 09-24.log"
+        },
+        "time": "2024-7-6 09:24:47",
+        "dirty": false
+      },
+      "1720229489675": {
+        "type": "build",
+        "id": "1720229489675",
+        "progress": 1,
+        "state": "success",
+        "stage": "run",
+        "message": "2024-7-6 09:34:39 run package D:\\TankFight\\TK2\\build\\windows-012 success!",
+        "detailMessage": "[runCmd]: test.exe \r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "9486f291-e0a6-47f7-ab5b-7440590026f7",
+          "outputName": "windows-012",
+          "taskName": "windows-012",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/LoginScene.scene",
+              "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 09-31.log"
+        },
+        "time": "2024-7-6 09:31:29",
+        "dirty": false
+      },
+      "1720230201242": {
+        "type": "build",
+        "id": "1720230201242",
+        "progress": 1,
+        "state": "success",
+        "stage": "run",
+        "message": "2024-7-6 09:49:39 run package D:\\TankFight\\TK2\\build\\windows success!",
+        "detailMessage": "asset-db-hook-engine-extends-afterRefresh (1ms)\r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "9486f291-e0a6-47f7-ab5b-7440590026f7",
+          "outputName": "windows",
+          "taskName": "windows",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/LoginScene.scene",
+              "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 09-43.log"
+        },
+        "time": "2024-7-6 09:43:21",
+        "dirty": false
+      },
+      "1720230566203": {
+        "type": "build",
+        "id": "1720230566203",
+        "progress": 1,
+        "state": "success",
+        "stage": "run",
+        "message": "2024-7-6 09:52:45 run package D:\\TankFight\\TK2\\build\\windows-001 success!",
+        "detailMessage": "[task:run]: native:(run) in 12967 ms ✓, 23.333333333333332%\r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows-001",
+          "taskName": "windows-001",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/LoginScene.scene",
+              "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 09-49.log"
+        },
+        "time": "2024-7-6 09:49:26",
+        "dirty": false
+      },
+      "1720231316643": {
+        "type": "build",
+        "id": "1720231316643",
+        "progress": 1,
+        "state": "success",
+        "stage": "run",
+        "message": "2024-7-6 10:04:51 run package D:\\TankFight\\TK2\\build\\windows-002 success!",
+        "detailMessage": "[runCmd]: test.exe \r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows-002",
+          "taskName": "windows-002",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/LoginScene.scene",
+              "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 10-01.log"
+        },
+        "time": "2024-7-6 10:01:56",
+        "dirty": false
+      },
+      "1720232159354": {
+        "type": "build",
+        "id": "1720232159354",
+        "progress": 1,
+        "state": "success",
+        "stage": "run",
+        "message": "2024-7-6 10:20:01 run package D:\\TankFight\\TK2\\build\\windows-003 success!",
+        "detailMessage": "[runCmd]: test.exe \r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows-003",
+          "taskName": "windows-003",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/LoginScene.scene",
+              "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 10-15.log"
+        },
+        "time": "2024-7-6 10:15:59",
+        "dirty": false
+      },
+      "1720233889544": {
+        "type": "build",
+        "id": "1720233889544",
+        "progress": 1,
+        "state": "success",
+        "stage": "run",
+        "message": "2024-7-6 10:49:35 run package D:\\TankFight\\TK2\\build\\windows-004 success!",
+        "detailMessage": "[task:run]: native:(run) in 96967 ms ✓, 23.333333333333332%\r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows-004",
+          "taskName": "windows-004",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/LoginScene.scene",
+              "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 10-44.log"
+        },
+        "time": "2024-7-6 10:44:49",
+        "dirty": false
+      },
+      "1720239327253": {
+        "type": "build",
+        "id": "1720239327253",
+        "progress": 1,
+        "state": "success",
+        "stage": "run",
+        "message": "2024-7-6 12:20:00 run package D:\\TankFight\\TK2\\build\\windows-005 success!",
+        "detailMessage": "[runCmd]: test.exe \r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows-005",
+          "taskName": "windows-005",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/LoginScene.scene",
+              "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            },
+            {
+              "url": "db://assets/Scenes/alonemap2.scene",
+              "uuid": "36291188-d37d-4b4f-a128-588f20d16162"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 12-15.log"
+        },
+        "time": "2024-7-6 12:15:27",
+        "dirty": false
+      },
+      "1720239727442": {
+        "type": "build",
+        "id": "1720239727442",
+        "progress": 1,
+        "state": "success",
+        "stage": "run",
+        "message": "2024-7-6 12:26:04 run package D:\\TankFight\\TK2\\build\\windows-006 success!",
+        "detailMessage": "[runCmd]: test.exe \r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows-006",
+          "taskName": "windows-006",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/LoginScene.scene",
+              "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            },
+            {
+              "url": "db://assets/Scenes/alonemap2.scene",
+              "uuid": "36291188-d37d-4b4f-a128-588f20d16162"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-6 12-22.log"
+        },
+        "time": "2024-7-6 12:22:07",
+        "dirty": false
+      },
+      "1720375288561": {
+        "type": "build",
+        "id": "1720375288561",
+        "progress": 1,
+        "state": "success",
+        "stage": "run",
+        "message": "2024-7-8 02:10:23 run package D:\\TankFight\\TK2\\build\\demo1 success!",
+        "detailMessage": "[runCmd]: demo1.exe \r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "demo1",
+          "taskName": "windows-007",
+          "scenes": [
+            {
+              "url": "db://assets/map/doublemap.scene",
+              "uuid": "56c94625-6c31-4bd5-90fe-90c9552fdc01"
+            },
+            {
+              "url": "db://assets/map/test.scene",
+              "uuid": "d506c42d-a2d8-4de2-bff7-83bd68a68175"
+            },
+            {
+              "url": "db://assets/Scenes/alonemap2.scene",
+              "uuid": "36291188-d37d-4b4f-a128-588f20d16162"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/LoginScene.scene",
+              "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-8 02-01.log"
+        },
+        "time": "2024-7-8 02:01:28",
+        "dirty": false
+      },
+      "1720384834688": {
+        "type": "build",
+        "id": "1720384834688",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-7-8 04:41:10 build success in 35 s!",
+        "detailMessage": "refresh db internal success\r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "web-desktop",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "web-desktop",
+          "taskName": "web-desktop",
+          "scenes": [
+            {
+              "url": "db://assets/map/doublemap.scene",
+              "uuid": "56c94625-6c31-4bd5-90fe-90c9552fdc01"
+            },
+            {
+              "url": "db://assets/map/test.scene",
+              "uuid": "d506c42d-a2d8-4de2-bff7-83bd68a68175"
+            },
+            {
+              "url": "db://assets/Scenes/alonemap2.scene",
+              "uuid": "36291188-d37d-4b4f-a128-588f20d16162"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/LoginScene.scene",
+              "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "logDest": "project://temp/builder/log/web-desktop2024-7-8 04-40.log"
+        },
+        "time": "2024-7-8 04:40:34",
+        "dirty": false
+      },
+      "1720403938619": {
+        "type": "build",
+        "id": "1720403938619",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-7-8 09:59:44 build success in 45 s!",
+        "detailMessage": "Asset DB is resume!\r",
+        "options": {
+          "name": "TK2",
+          "server": "",
+          "platform": "web-desktop",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "web-desktop-001",
+          "taskName": "web-desktop-001",
+          "scenes": [
+            {
+              "url": "db://assets/map/alonemap2.scene",
+              "uuid": "36291188-d37d-4b4f-a128-588f20d16162"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/LoginScene.scene",
+              "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/scene-2d-001.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-desktop2024-7-8 09-58.log"
+        },
+        "time": "2024-7-8 09:58:58",
+        "dirty": false
+      }
+    }
+  }
+}

@@ -1,0 +1,507 @@
+2024-7-10 08:50:40-log: Cannot access game frame or container.
+2024-7-10 08:50:41-debug: asset-db:require-engine-code (941ms)
+2024-7-10 08:50:41-log: meshopt wasm decoder initialized
+2024-7-10 08:50:41-log: [box2d]:box2d wasm lib loaded.
+2024-7-10 08:50:41-log: [bullet]:bullet wasm lib loaded.
+2024-7-10 08:50:41-log: Cocos Creator v3.8.3
+2024-7-10 08:50:41-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:24.29MB, end 76.94MB, increase: 52.65MB
+2024-7-10 08:50:42-debug: [Assets Memory track]: asset-db-plugin-register: programming start:77.84MB, end 81.39MB, increase: 3.54MB
+2024-7-10 08:50:43-debug: [Assets Memory track]: asset-db-plugin-register: project start:77.71MB, end 174.80MB, increase: 97.09MB
+2024-7-10 08:50:43-debug: [Assets Memory track]: asset-db-plugin-register: builder start:81.40MB, end 178.98MB, increase: 97.58MB
+2024-7-10 08:50:43-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:76.95MB, end 174.82MB, increase: 97.87MB
+2024-7-10 08:50:43-debug: run package(cocos-service) handler(enable) start
+2024-7-10 08:50:43-debug: run package(cocos-service) handler(enable) success!
+2024-7-10 08:50:43-debug: run package(im-plugin) handler(enable) start
+2024-7-10 08:50:43-debug: run package(im-plugin) handler(enable) success!
+2024-7-10 08:50:43-debug: run package(blank-template) handler(enable) start
+2024-7-10 08:50:43-debug: run package(blank-template) handler(enable) success!
+2024-7-10 08:50:43-debug: run package(placeholder) handler(enable) start
+2024-7-10 08:50:43-debug: run package(placeholder) handler(enable) success!
+2024-7-10 08:50:43-debug: asset-db:worker-init: initPlugin (1159ms)
+2024-7-10 08:50:43-debug: [Assets Memory track]: asset-db:worker-init start:24.28MB, end 174.99MB, increase: 150.70MB
+2024-7-10 08:50:43-debug: Run asset db hook programming:beforePreStart ...
+2024-7-10 08:50:43-debug: Run asset db hook programming:beforePreStart success!
+2024-7-10 08:50:43-debug: Run asset db hook engine-extends:beforePreStart success!
+2024-7-10 08:50:43-debug: Run asset db hook engine-extends:beforePreStart ...
+2024-7-10 08:50:43-debug: asset-db-hook-programming-beforePreStart (157ms)
+2024-7-10 08:50:43-debug: asset-db:worker-init (3284ms)
+2024-7-10 08:50:43-debug: asset-db-hook-engine-extends-beforePreStart (157ms)
+2024-7-10 08:50:43-debug: Preimport db internal success
+2024-7-10 08:50:43-debug: Preimport db assets success
+2024-7-10 08:50:43-debug: Run asset db hook programming:afterPreStart ...
+2024-7-10 08:50:43-debug: starting packer-driver...
+2024-7-10 08:50:43-debug: initialize scripting environment...
+2024-7-10 08:50:43-debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-7-10 08:50:43-debug: Run asset db hook programming:afterPreStart success!
+2024-7-10 08:50:43-debug: Run asset db hook engine-extends:afterPreStart ...
+2024-7-10 08:50:43-debug: Run asset db hook engine-extends:afterPreStart success!
+2024-7-10 08:50:43-debug: [Assets Memory track]: asset-db:worker-init: preStart start:174.99MB, end 176.86MB, increase: 1.87MB
+2024-7-10 08:50:43-debug: Start up the 'internal' database...
+2024-7-10 08:50:44-debug: asset-db-hook-programming-afterPreStart (687ms)
+2024-7-10 08:50:44-debug: asset-db:worker-effect-data-processing (263ms)
+2024-7-10 08:50:44-debug: asset-db-hook-engine-extends-afterPreStart (263ms)
+2024-7-10 08:50:44-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:175.04MB, end 189.71MB, increase: 14.67MB
+2024-7-10 08:50:44-debug: Start up the 'assets' database...
+2024-7-10 08:50:44-debug: asset-db:worker-startup-database[internal] (1021ms)
+2024-7-10 08:50:44-debug: lazy register asset handler *
+2024-7-10 08:50:44-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:179.89MB, end 187.99MB, increase: 8.10MB
+2024-7-10 08:50:44-debug: lazy register asset handler text
+2024-7-10 08:50:44-debug: [Assets Memory track]: asset-db:worker-init: startup start:176.87MB, end 188.00MB, increase: 11.13MB
+2024-7-10 08:50:44-debug: lazy register asset handler directory
+2024-7-10 08:50:44-debug: lazy register asset handler spine-data
+2024-7-10 08:50:44-debug: lazy register asset handler dragonbones
+2024-7-10 08:50:44-debug: lazy register asset handler json
+2024-7-10 08:50:44-debug: lazy register asset handler dragonbones-atlas
+2024-7-10 08:50:44-debug: lazy register asset handler javascript
+2024-7-10 08:50:44-debug: lazy register asset handler terrain
+2024-7-10 08:50:44-debug: lazy register asset handler typescript
+2024-7-10 08:50:44-debug: lazy register asset handler scene
+2024-7-10 08:50:44-debug: lazy register asset handler prefab
+2024-7-10 08:50:44-debug: lazy register asset handler sprite-frame
+2024-7-10 08:50:44-debug: lazy register asset handler tiled-map
+2024-7-10 08:50:44-debug: lazy register asset handler sign-image
+2024-7-10 08:50:44-debug: lazy register asset handler image
+2024-7-10 08:50:44-debug: lazy register asset handler buffer
+2024-7-10 08:50:44-debug: lazy register asset handler alpha-image
+2024-7-10 08:50:44-debug: lazy register asset handler texture-cube
+2024-7-10 08:50:44-debug: lazy register asset handler texture
+2024-7-10 08:50:44-debug: lazy register asset handler erp-texture-cube
+2024-7-10 08:50:44-debug: lazy register asset handler texture-cube-face
+2024-7-10 08:50:44-debug: lazy register asset handler render-texture
+2024-7-10 08:50:44-debug: lazy register asset handler rt-sprite-frame
+2024-7-10 08:50:44-debug: lazy register asset handler gltf-mesh
+2024-7-10 08:50:44-debug: lazy register asset handler gltf
+2024-7-10 08:50:44-debug: lazy register asset handler gltf-skeleton
+2024-7-10 08:50:44-debug: lazy register asset handler gltf-animation
+2024-7-10 08:50:44-debug: lazy register asset handler gltf-material
+2024-7-10 08:50:44-debug: lazy register asset handler gltf-scene
+2024-7-10 08:50:44-debug: lazy register asset handler gltf-embeded-image
+2024-7-10 08:50:44-debug: lazy register asset handler material
+2024-7-10 08:50:44-debug: lazy register asset handler physics-material
+2024-7-10 08:50:44-debug: lazy register asset handler fbx
+2024-7-10 08:50:44-debug: lazy register asset handler effect
+2024-7-10 08:50:44-debug: lazy register asset handler audio-clip
+2024-7-10 08:50:44-debug: lazy register asset handler effect-header
+2024-7-10 08:50:44-debug: lazy register asset handler animation-clip
+2024-7-10 08:50:44-debug: lazy register asset handler animation-graph
+2024-7-10 08:50:44-debug: lazy register asset handler animation-graph-variant
+2024-7-10 08:50:44-debug: lazy register asset handler animation-mask
+2024-7-10 08:50:44-debug: lazy register asset handler ttf-font
+2024-7-10 08:50:44-debug: lazy register asset handler particle
+2024-7-10 08:50:44-debug: lazy register asset handler sprite-atlas
+2024-7-10 08:50:44-debug: lazy register asset handler auto-atlas
+2024-7-10 08:50:44-debug: lazy register asset handler bitmap-font
+2024-7-10 08:50:44-debug: lazy register asset handler render-stage
+2024-7-10 08:50:44-debug: lazy register asset handler render-pipeline
+2024-7-10 08:50:44-debug: lazy register asset handler label-atlas
+2024-7-10 08:50:44-debug: lazy register asset handler instantiation-mesh
+2024-7-10 08:50:44-debug: lazy register asset handler instantiation-skeleton
+2024-7-10 08:50:44-debug: lazy register asset handler instantiation-material
+2024-7-10 08:50:44-debug: lazy register asset handler instantiation-animation
+2024-7-10 08:50:44-debug: lazy register asset handler render-flow
+2024-7-10 08:50:44-debug: lazy register asset handler video-clip
+2024-7-10 08:50:44-debug: asset-db:worker-startup-database[assets] (870ms)
+2024-7-10 08:50:44-debug: asset-db:start-database (1083ms)
+2024-7-10 08:50:44-debug: asset-db:ready (6224ms)
+2024-7-10 08:50:44-debug: init worker message success
+2024-7-10 08:50:44-debug: programming:execute-script (3ms)
+2024-7-10 08:50:44-debug: [Build Memory track]: builder:worker-init start:191.72MB, end 200.37MB, increase: 8.66MB
+2024-7-10 08:50:44-debug: builder:worker-init (500ms)
+2024-7-10 08:50:44-debug: Start record console... {file(D:\TankFight\TK2\temp\builder\log\web-desktop2024-7-10 08-50.log)}
+2024-7-10 08:50:44-debug: =================================== build Task (web-desktop) Start ================================
+2024-7-10 08:50:44-debug: Start build task, options:{"platform":"web-desktop","startScene":"7af63cc6-90a2-42ce-bfb5-42897472820c","name":"test","outputName":"web-desktop","debug":true,"taskName":"web-desktop","mainBundleCompressionType":"merge_dep","packages":{"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false,"__version__":"1.0.1","AFPHostPropertyCode":"ca-host-pub-5396158963872751","AFPHostDomain":"douyougame.com","otherAFPHostPropertyCode":"","otherAFPDomain":""},"web-desktop":{"resolution":{"designWidth":1280,"designHeight":960}},"cocos-service":{"configID":"bbddf8","services":[]}},"server":"","buildPath":"project://build","md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"overwriteProjectSettings":{"includeModules":{"gfx-webgl2":"on","physics":"inherit-project-setting","physics-2d":"inherit-project-setting"},"macroConfig":{"cleanupImageCache":"inherit-project-setting"}},"nativeCodeBundleMode":"both","polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"scenes":[{"url":"db://assets/map/alonemap2.scene","uuid":"36291188-d37d-4b4f-a128-588f20d16162"},{"url":"db://assets/map/doublemap.scene","uuid":"56c94625-6c31-4bd5-90fe-90c9552fdc01"},{"url":"db://assets/map/test.scene","uuid":"d506c42d-a2d8-4de2-bff7-83bd68a68175"},{"url":"db://assets/Scenes/LoadingScene.scene","uuid":"7af63cc6-90a2-42ce-bfb5-42897472820c"},{"url":"db://assets/Scenes/LoginScene.scene","uuid":"9486f291-e0a6-47f7-ab5b-7440590026f7"},{"url":"db://assets/Scenes/return.scene","uuid":"bda4619b-1bc8-442d-90ee-6b04df2eccd8"},{"url":"db://assets/Scenes/select.scene","uuid":"0554d124-5936-4455-9b17-a083050a9281"},{"url":"db://assets/Scenes/single.scene","uuid":"b9b0fce6-d144-4637-8f7b-c8b0c724ec99"},{"url":"db://assets/Scenes/vectory.scene","uuid":"2be201f8-3f82-437d-b138-1947eaf8f5a2"}],"wasmCompressionMode":false,"logDest":"project://temp/builder/log/web-desktop2024-7-10 08-50.log"}
+2024-7-10 08:50:44-debug: Build with Cocos Creator 3.8.3
+2024-7-10 08:50:44-debug: cocos-service:(onBeforeBuild) start..., progress: 0%
+2024-7-10 08:50:44-debug: // ---- build task cocos-service：onBeforeBuild ----
+2024-7-10 08:50:44-debug: cocos-service:(onBeforeBuild) in 4 ms ✓, progress: 2%
+2024-7-10 08:50:44-debug: // ---- build task cocos-service：onBeforeBuild ---- (4ms)
+2024-7-10 08:50:44-debug: scene:(onBeforeBuild) start..., progress: 2%
+2024-7-10 08:50:44-debug: // ---- build task scene：onBeforeBuild ----
+2024-7-10 08:50:44-debug: scene:(onBeforeBuild) in 1 ms ✓, progress: 4%
+2024-7-10 08:50:44-debug: // ---- build task scene：onBeforeBuild ---- (1ms)
+2024-7-10 08:50:44-debug: Start lock asset db..., progress: 4%
+2024-7-10 08:50:44-log: Asset DB is paused with build!
+2024-7-10 08:50:44-debug: Query all assets info in project
+2024-7-10 08:50:44-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-10 08:50:44-debug: web-desktop:(onAfterInit) start..., progress: 4%
+2024-7-10 08:50:44-debug: // ---- build task web-desktop：onAfterInit ----
+2024-7-10 08:50:44-debug: // ---- build task web-desktop：onAfterInit ---- (1ms)
+2024-7-10 08:50:44-debug: cocos-service:(onAfterInit) start..., progress: 5%
+2024-7-10 08:50:44-debug: web-desktop:(onAfterInit) in 1 ms ✓, progress: 5%
+2024-7-10 08:50:44-debug: // ---- build task cocos-service：onAfterInit ----
+2024-7-10 08:50:44-debug: // ---- build task cocos-service：onAfterInit ---- (3ms)
+2024-7-10 08:50:44-debug: cocos-service:(onAfterInit) in 3 ms ✓, progress: 7%
+2024-7-10 08:50:44-debug: engine:(onAfterInit) start..., progress: 7%
+2024-7-10 08:50:44-debug: // ---- build task engine：onAfterInit ----
+2024-7-10 08:50:44-debug: // ---- build task engine：onAfterInit ---- (1ms)
+2024-7-10 08:50:44-debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 9%
+2024-7-10 08:50:44-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+2024-7-10 08:50:44-debug: engine:(onAfterInit) in 1 ms ✓, progress: 9%
+2024-7-10 08:50:44-debug: [adsense-h5g-plugin] remove script success
+2024-7-10 08:50:44-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (1ms)
+2024-7-10 08:50:44-debug: adsense-h5g-plugin:(onBeforeBundleInit) in 1 ms ✓, progress: 9%
+2024-7-10 08:50:44-debug: Init all bundles start..., progress: 9%
+2024-7-10 08:50:44-debug: web-desktop:(onAfterBundleInit) start..., progress: 9%
+2024-7-10 08:50:44-debug: Num of bundles: 3..., progress: 9%
+2024-7-10 08:50:44-debug: // ---- build task web-desktop：onAfterBundleInit ----
+2024-7-10 08:50:44-debug: // ---- build task web-desktop：onAfterBundleInit ---- (1ms)
+2024-7-10 08:50:44-debug: web-desktop:(onAfterBundleInit) in 1 ms ✓, progress: 9%
+2024-7-10 08:50:44-debug: Init bundle root assets start..., progress: 9%
+2024-7-10 08:50:44-debug: 查询 Asset Bundle start, progress: 9%
+2024-7-10 08:50:44-debug: // ---- build task 查询 Asset Bundle ----
+2024-7-10 08:50:44-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-10 08:50:45-debug:   Number of all scripts: 38
+2024-7-10 08:50:45-debug:   Number of other assets: 567
+2024-7-10 08:50:45-debug: Init bundle root assets success..., progress: 9%
+2024-7-10 08:50:45-debug:   Number of all scenes: 9
+2024-7-10 08:50:45-debug: reload all scripts.
+2024-7-10 08:50:45-debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2024-7-10 08:50:45-debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\c8\c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\c8\c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Register DebugViewRuntimeControl
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\50\50c30f67700a5fa0b712ec808eeb1b4e83f1e1ba.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\50\50c30f67700a5fa0b712ec808eeb1b4e83f1e1ba.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/50/50c30f67700a5fa0b712ec808eeb1b4e83f1e1ba.js" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Register Loading
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\df\df06cbc8fed14dbb2278e77827da6a628e26ef2a.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\df\df06cbc8fed14dbb2278e77827da6a628e26ef2a.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register double
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/df/df06cbc8fed14dbb2278e77827da6a628e26ef2a.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\ae\aeeee5e034ceca1ec7dfed6e8f52e14324a1fc5e.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\ae\aeeee5e034ceca1ec7dfed6e8f52e14324a1fc5e.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/ae/aeeee5e034ceca1ec7dfed6e8f52e14324a1fc5e.js" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Register endgame
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\d9\d971c502b914999e80fb9ee701dc445d42345877.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\d9\d971c502b914999e80fb9ee701dc445d42345877.js is not in module cache!
+2024-7-10 08:50:45-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-10 08:50:45-debug: [[Executor]] Register esc
+2024-7-10 08:50:45-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/d9/d971c502b914999e80fb9ee701dc445d42345877.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\64\64ce6dd9c651e5c51a2186680c637515cd5b2e58.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\64\64ce6dd9c651e5c51a2186680c637515cd5b2e58.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register log
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/64/64ce6dd9c651e5c51a2186680c637515cd5b2e58.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\f0\f0b15c2f586cf2c1a1da084611b1f38943248fec.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\f0\f0b15c2f586cf2c1a1da084611b1f38943248fec.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register pause
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/f0/f0b15c2f586cf2c1a1da084611b1f38943248fec.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\0f\0f04fb789a6c7629e5cd49ae749338f6dce39df6.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\0f\0f04fb789a6c7629e5cd49ae749338f6dce39df6.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register returnlog
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/0f/0f04fb789a6c7629e5cd49ae749338f6dce39df6.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\6b\6b91a48b000c0b404c2005a17a116614998121dc.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\6b\6b91a48b000c0b404c2005a17a116614998121dc.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/6b/6b91a48b000c0b404c2005a17a116614998121dc.js" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Register returnselect
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\7e\7ee63c9a9e29a3b987d22de292a94292f031aa6c.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\7e\7ee63c9a9e29a3b987d22de292a94292f031aa6c.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register SceneSwitcher
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/7e/7ee63c9a9e29a3b987d22de292a94292f031aa6c.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\10\107735bd8ab6aeedb8dedfa61097e7d039af005f.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\10\107735bd8ab6aeedb8dedfa61097e7d039af005f.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register welcome
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/10/107735bd8ab6aeedb8dedfa61097e7d039af005f.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\85\8506b5890a376671fb518d6bc944b0e0c189a65f.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\85\8506b5890a376671fb518d6bc944b0e0c189a65f.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register background
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/85/8506b5890a376671fb518d6bc944b0e0c189a65f.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\37\37b153d16d326e699d889dd2abe7af979808812f.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\37\37b153d16d326e699d889dd2abe7af979808812f.js is not in module cache!
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js is not in module cache!
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\bd\bda66f12b708819fefbdfd3f5ac4139372f1955c.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\bd\bda66f12b708819fefbdfd3f5ac4139372f1955c.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\7b\7b65579927e3436e25a33e2cd766c3229919bb92.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\7b\7b65579927e3436e25a33e2cd766c3229919bb92.js is not in module cache!
+2024-7-10 08:50:45-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-10 08:50:45-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-10 08:50:45-debug: [[Executor]] Register firedirection1
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/7b/7b65579927e3436e25a33e2cd766c3229919bb92.js" loaded.
+2024-7-10 08:50:45-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-10 08:50:45-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-10 08:50:45-debug: [[Executor]] Register PlayerController1
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/bd/bda66f12b708819fefbdfd3f5ac4139372f1955c.js" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Register Bullet
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/37/37b153d16d326e699d889dd2abe7af979808812f.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\74\74415ce5e09097a65a5a79d76907797be9a9a87b.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\74\74415ce5e09097a65a5a79d76907797be9a9a87b.js is not in module cache!
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\cc\ccd58ad23c547685d09480e2fdc942fd3911138c.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\cc\ccd58ad23c547685d09480e2fdc942fd3911138c.js is not in module cache!
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\36\36d3bfeda5cf9f318bc54772175b4f3fc5a0607e.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\36\36d3bfeda5cf9f318bc54772175b4f3fc5a0607e.js is not in module cache!
+2024-7-10 08:50:45-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-10 08:50:45-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-10 08:50:45-debug: [[Executor]] Register firedirection0
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/36/36d3bfeda5cf9f318bc54772175b4f3fc5a0607e.js" loaded.
+2024-7-10 08:50:45-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-10 08:50:45-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/cc/ccd58ad23c547685d09480e2fdc942fd3911138c.js" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Register PlayerController0
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/74/74415ce5e09097a65a5a79d76907797be9a9a87b.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\62\6275fa94b592203dc11997433cb492a59edefec9.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\62\6275fa94b592203dc11997433cb492a59edefec9.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register Bullet
+2024-7-10 08:50:45-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-10 08:50:45-warn: 'SystemEventType' is deprecated since v3.3.0, please use 'Input.EventType' instead.
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/62/6275fa94b592203dc11997433cb492a59edefec9.js" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Register TankCheatController
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\3e\3edfb0d15a6fd62055ec1aa8fb517c9c95c8fac5.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\3e\3edfb0d15a6fd62055ec1aa8fb517c9c95c8fac5.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/3e/3edfb0d15a6fd62055ec1aa8fb517c9c95c8fac5.js" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Register enemybullet
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\1e\1e3a0887b2546876cf3cf9f1111e7eaec80e236a.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\1e\1e3a0887b2546876cf3cf9f1111e7eaec80e236a.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register enemylandmine
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/1e/1e3a0887b2546876cf3cf9f1111e7eaec80e236a.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\a0\a060a1c4b617696d9c1dcacf6b48a1b21c4d36b4.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\a0\a060a1c4b617696d9c1dcacf6b48a1b21c4d36b4.js is not in module cache!
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\f0\f060d6f668839bbfe6113042b8cd96d43a74db5b.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\f0\f060d6f668839bbfe6113042b8cd96d43a74db5b.js is not in module cache!
+2024-7-10 08:50:45-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-10 08:50:45-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-10 08:50:45-debug: [[Executor]] Register enemytank
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/f0/f060d6f668839bbfe6113042b8cd96d43a74db5b.js" loaded.
+2024-7-10 08:50:45-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-10 08:50:45-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-10 08:50:45-debug: [[Executor]] Register enemyfire
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/a0/a060a1c4b617696d9c1dcacf6b48a1b21c4d36b4.js" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Register fireaffect0
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\c7\c738b4a9b147d5326231324f6aa0f916d54c0594.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\c7\c738b4a9b147d5326231324f6aa0f916d54c0594.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/c7/c738b4a9b147d5326231324f6aa0f916d54c0594.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\d0\d071c5af2ebf586a3bd2153d8102bb7a4e9fff34.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\d0\d071c5af2ebf586a3bd2153d8102bb7a4e9fff34.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/d0/d071c5af2ebf586a3bd2153d8102bb7a4e9fff34.js" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Register fireaffect1
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\89\8906db6d13046aeec5c8a3fce431d7deaca8fde1.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\89\8906db6d13046aeec5c8a3fce431d7deaca8fde1.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register hp0
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/89/8906db6d13046aeec5c8a3fce431d7deaca8fde1.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\5f\5f512b4a44dace4a3ed4b4beae2ba24854549ac8.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\5f\5f512b4a44dace4a3ed4b4beae2ba24854549ac8.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register hp1
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/5f/5f512b4a44dace4a3ed4b4beae2ba24854549ac8.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\fd\fd1de5ba0abea696b44097c7c70321f7e30d53ca.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\fd\fd1de5ba0abea696b44097c7c70321f7e30d53ca.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/fd/fd1de5ba0abea696b44097c7c70321f7e30d53ca.js" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Register landmine0
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\80\8048104a86f8d48b38f3bf72a69a5a583fd461d9.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\80\8048104a86f8d48b38f3bf72a69a5a583fd461d9.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register landmine0
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/80/8048104a86f8d48b38f3bf72a69a5a583fd461d9.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\b1\b104e002c6ceaf41d3202f4112fc5cc5ddd26542.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\b1\b104e002c6ceaf41d3202f4112fc5cc5ddd26542.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register landmine1
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/b1/b104e002c6ceaf41d3202f4112fc5cc5ddd26542.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\7d\7d776c13862b8294ac8e1ca54933c7ce511c9de6.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\7d\7d776c13862b8294ac8e1ca54933c7ce511c9de6.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register wallbox
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/7d/7d776c13862b8294ac8e1ca54933c7ce511c9de6.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\8c\8cbcac0ff3852ef0ad041ecd0c3489f1faffc83c.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\8c\8cbcac0ff3852ef0ad041ecd0c3489f1faffc83c.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register objectfirefast
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/8c/8cbcac0ff3852ef0ad041ecd0c3489f1faffc83c.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\61\613099c8a6849ad586c6e443d2565d771480f804.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\61\613099c8a6849ad586c6e443d2565d771480f804.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register objectmovefast
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/61/613099c8a6849ad586c6e443d2565d771480f804.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\3a\3ae15428e46cec218300a87cb6d309f49a021773.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\3a\3ae15428e46cec218300a87cb6d309f49a021773.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/3a/3ae15428e46cec218300a87cb6d309f49a021773.js" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Register background
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\c9\c99779b06efa9823621ab8342827c1ad0774ca91.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\c9\c99779b06efa9823621ab8342827c1ad0774ca91.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/c9/c99779b06efa9823621ab8342827c1ad0774ca91.js" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Register speedaffect0
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\38\38629f0ed4e9381bb79dd57fda3dd2475331d578.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\38\38629f0ed4e9381bb79dd57fda3dd2475331d578.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/38/38629f0ed4e9381bb79dd57fda3dd2475331d578.js" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Register speedaffect1
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\fe\fe26176a1b669ffdbe0bde11740255bfde568dfc.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\fe\fe26176a1b669ffdbe0bde11740255bfde568dfc.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register tankdestroy
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/fe/fe26176a1b669ffdbe0bde11740255bfde568dfc.js" loaded.
+2024-7-10 08:50:45-debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\cc\cc9236053f6bd93142b84e579965a32f6c28a3ca.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\cc\cc9236053f6bd93142b84e579965a32f6c28a3ca.js is not in module cache!
+2024-7-10 08:50:45-debug: [[Executor]] Register tankdestroy
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/cc/cc9236053f6bd93142b84e579965a32f6c28a3ca.js" loaded.
+2024-7-10 08:50:45-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-7-10 08:50:45-debug: Incremental keys: 
+2024-7-10 08:50:45-debug: Init bundle share assets start..., progress: 9%
+2024-7-10 08:50:45-warn: The SpriteFrame used by component "cc.Sprite" in scene "vectory" is missing. Detailed information:Node path: "Canvas/vectory"Asset url: "db://assets/Scenes/vectory"Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
+2024-7-10 08:50:45-debug: Init bundle share assets success..., progress: 9%
+2024-7-10 08:50:45-debug: handle json group in bundle internal
+2024-7-10 08:50:45-debug: handle json group in bundle internal success
+2024-7-10 08:50:45-debug: handle json group in bundle resources
+2024-7-10 08:50:45-debug: handle json group in bundle resources success
+2024-7-10 08:50:45-debug: handle json group in bundle main
+2024-7-10 08:50:45-debug: init image compress task 0 in bundle resources
+2024-7-10 08:50:45-debug: init image compress task 0 in bundle internal
+2024-7-10 08:50:45-debug: [json-group] check self or raw asset, skip. f4845990-e17f-411e-b3a6-fa50eff4b210 depended by f4845990-e17f-411e-b3a6-fa50eff4b210 has checked in raw asset 33cb7d9f-ae99-44a9-bad2-18344f293dcb/bundle(main)}
+2024-7-10 08:50:45-debug: [json-group] check self or raw asset, skip. f4845990-e17f-411e-b3a6-fa50eff4b210 depended by f4845990-e17f-411e-b3a6-fa50eff4b210 has checked in raw asset 36291188-d37d-4b4f-a128-588f20d16162/bundle(main)}
+2024-7-10 08:50:45-debug: [json-group] check self or raw asset, skip. 44ea65dd-dcbb-4c3b-8483-488681b996e9 depended by 44ea65dd-dcbb-4c3b-8483-488681b996e9 has checked in raw asset 36291188-d37d-4b4f-a128-588f20d16162/bundle(main)}
+2024-7-10 08:50:45-debug: [json-group] check self or raw asset, skip. 44ea65dd-dcbb-4c3b-8483-488681b996e9 depended by 44ea65dd-dcbb-4c3b-8483-488681b996e9 has checked in raw asset 44ea65dd-dcbb-4c3b-8483-488681b996e9/bundle(main)}
+2024-7-10 08:50:45-debug: [json-group] check self or raw asset, skip. f4845990-e17f-411e-b3a6-fa50eff4b210 depended by f4845990-e17f-411e-b3a6-fa50eff4b210 has checked in raw asset d506c42d-a2d8-4de2-bff7-83bd68a68175/bundle(main)}
+2024-7-10 08:50:45-debug: [json-group] check self or raw asset, skip. 44ea65dd-dcbb-4c3b-8483-488681b996e9 depended by 44ea65dd-dcbb-4c3b-8483-488681b996e9 has checked in raw asset d506c42d-a2d8-4de2-bff7-83bd68a68175/bundle(main)}
+2024-7-10 08:50:45-debug: [json-group] check self or raw asset, skip. f4845990-e17f-411e-b3a6-fa50eff4b210 depended by f4845990-e17f-411e-b3a6-fa50eff4b210 has checked in raw asset f4845990-e17f-411e-b3a6-fa50eff4b210/bundle(main)}
+2024-7-10 08:50:45-debug: handle json group in bundle main success
+2024-7-10 08:50:45-debug: init image compress task 0 in bundle main
+2024-7-10 08:50:45-debug: // ---- build task 查询 Asset Bundle ---- (319ms)
+2024-7-10 08:50:45-debug: [Build Memory track]: 查询 Asset Bundle start:203.83MB, end 236.31MB, increase: 32.48MB
+2024-7-10 08:50:45-debug: run build task 查询 Asset Bundle success in 319 ms√, progress: 14%
+2024-7-10 08:50:45-debug: 查询 Asset Bundle start, progress: 14%
+2024-7-10 08:50:45-debug: // ---- build task 查询 Asset Bundle ----
+2024-7-10 08:50:45-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
+2024-7-10 08:50:45-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 19%
+2024-7-10 08:50:45-debug: [Build Memory track]: 查询 Asset Bundle start:236.33MB, end 236.45MB, increase: 128.96KB
+2024-7-10 08:50:45-debug: 打包脚本 start, progress: 19%
+2024-7-10 08:50:45-debug: // ---- build task 打包脚本 ----
+2024-7-10 08:50:46-debug: Generate systemJs..., progress: 19%
+2024-7-10 08:50:47-debug: 构建项目脚本 start..., progress: 19%
+2024-7-10 08:50:47-debug: Build script in bundle start, progress: 19%
+2024-7-10 08:50:47-log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2024-7-10 08:50:48-log: [build-script]enter sub process 34136, C:\ProgramData\cocos\editors\Creator\3.8.3\CocosCreator.exe,C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\builder\static\sub-process-index
+2024-7-10 08:50:49-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/TankFight/TK2/assets/text/tank1.ts -> file:///D:/TankFight/TK2/assets/text/firedirection1.ts -> file:///D:/TankFight/TK2/assets/text/tank1.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/TankFight/TK2/assets/text/tank0.ts -> file:///D:/TankFight/TK2/assets/text/firedirection0.ts -> file:///D:/TankFight/TK2/assets/text/tank0.ts
+2024-7-10 08:50:49-debug: excute-script over with build-script 2130ms
+2024-7-10 08:50:49-debug: Copy externalScripts success!
+2024-7-10 08:50:49-debug: Build script in bundle success, progress: 19%
+2024-7-10 08:50:49-debug: 构建项目脚本 in (2150 ms) √, progress: 19%
+2024-7-10 08:50:49-debug: 构建引擎脚本 start..., progress: 19%
+2024-7-10 08:50:50-debug: Use cache engine: {link(C:\Users\53190\AppData\Local\Temp\CocosCreator\3.8.3\builder\engine\e12b2630943430827e8a0a9dc50f7490)}
+2024-7-10 08:50:50-debug: {"debug":true,"sourceMaps":false,"includeModules":["2d","animation","audio","base","dragon-bones","gfx-webgl","gfx-webgl2","intersection-2d","meshopt","particle-2d","physics-2d-box2d","profiler","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.8.3","md5Map":[],"engineName":"cocos-js","platform":"HTML5","useCache":true,"isNative":false,"nativeCodeBundleMode":"both","wasmCompressionMode":false,"assetURLFormat":"runtime-resolved","output":"D:\\TankFight\\TK2\\build\\web-desktop\\cocos-js","flags":{"DEBUG":true},"entry":"C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine"}
+2024-7-10 08:50:50-debug: 构建引擎脚本 in (141 ms) √, progress: 19%
+2024-7-10 08:50:50-debug: Copy plugin script ..., progress: 19%
+2024-7-10 08:50:50-debug: Generate import-map..., progress: 19%
+2024-7-10 08:50:50-debug: // ---- build task 打包脚本 ---- (4768ms)
+2024-7-10 08:50:50-debug: run build task 打包脚本 success in 4 s√, progress: 24%
+2024-7-10 08:50:50-debug: [Build Memory track]: 打包脚本 start:236.57MB, end 259.60MB, increase: 23.03MB
+2024-7-10 08:50:50-debug: Build Assets start, progress: 24%
+2024-7-10 08:50:50-debug: // ---- build task Build Assets ----
+2024-7-10 08:50:50-debug: Pack Images start, progress: 24%
+2024-7-10 08:50:50-debug: Build bundles..., progress: 24%
+2024-7-10 08:50:50-debug: Pack Images success, progress: 24%
+2024-7-10 08:50:50-debug: Compress image start..., progress: 24%
+2024-7-10 08:50:50-debug: Num of all image compress task 0, really: 0, configTasks: 0
+2024-7-10 08:50:50-debug: No image need to compress
+2024-7-10 08:50:50-debug: sort compress task {}
+2024-7-10 08:50:50-debug: Compress image success..., progress: 24%
+2024-7-10 08:50:50-debug: Handle all json groups in bundle internal
+2024-7-10 08:50:50-debug: Output asset in bundles start, progress: 24%
+2024-7-10 08:50:50-debug: handle json group
+2024-7-10 08:50:50-debug: Handle all json groups in bundle resources
+2024-7-10 08:50:50-debug: handle json group
+2024-7-10 08:50:50-debug: handle single json
+2024-7-10 08:50:50-debug: Handle all json groups in bundle main
+2024-7-10 08:50:50-debug: handle json group
+2024-7-10 08:50:50-debug: Json group(0cfd6fd25) compile success，json number: 6
+2024-7-10 08:50:50-debug: Json group(027502e28) compile success，json number: 6
+2024-7-10 08:50:50-debug: Json group(0ca60d3e4) compile success，json number: 6
+2024-7-10 08:50:50-debug: handle single json
+2024-7-10 08:50:50-warn: The SpriteFrame used by component "cc.Sprite" in scene "vectory" is missing. Detailed information:Node path: "Canvas/vectory"Asset url: "db://assets/Scenes/vectory"Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
+2024-7-10 08:50:50-debug: Json group(09e1fd531) compile success，json number: 6
+2024-7-10 08:50:50-debug: Json group(0cf773eab) compile success，json number: 6
+2024-7-10 08:50:50-debug: Json group(0a6923e87) compile success，json number: 6
+2024-7-10 08:50:50-debug: Json group(0d39d32c3) compile success，json number: 6
+2024-7-10 08:50:50-debug: Json group(019e0010b) compile success，json number: 6
+2024-7-10 08:50:50-debug: Json group(049e90c10) compile success，json number: 6
+2024-7-10 08:50:50-debug: Json group(057a269f5) compile success，json number: 6
+2024-7-10 08:50:50-debug: Json group(0e4b203e2) compile success，json number: 6
+2024-7-10 08:50:50-debug: Json group(08385ff53) compile success，json number: 6
+2024-7-10 08:50:50-debug: Json group(06aa3b9df) compile success，json number: 6
+2024-7-10 08:50:50-debug: handle single json
+2024-7-10 08:50:50-debug: Output asset in bundles success, progress: 24%
+2024-7-10 08:50:50-debug: output config of bundle internal success
+2024-7-10 08:50:50-debug: Output asset in bundles start, progress: 24%
+2024-7-10 08:50:50-debug: output config of bundle internal
+2024-7-10 08:50:50-debug: output config of bundle resources
+2024-7-10 08:50:50-debug: output config of bundle resources success
+2024-7-10 08:50:50-debug: Output asset in bundles success, progress: 24%
+2024-7-10 08:50:50-debug: output config of bundle main success
+2024-7-10 08:50:50-debug: output config of bundle main
+2024-7-10 08:50:50-debug: // ---- build task Build Assets ---- (346ms)
+2024-7-10 08:50:50-debug: run build task Build Assets success in 346 ms√, progress: 29%
+2024-7-10 08:50:50-debug: [Build Memory track]: Build Assets start:259.62MB, end 258.86MB, increase: -777.20KB
+2024-7-10 08:50:50-debug: 整理部分构建选项内数据到 settings.json start, progress: 29%
+2024-7-10 08:50:50-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-7-10 08:50:50-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 31%
+2024-7-10 08:50:50-debug: 填充脚本数据到 settings.json start, progress: 31%
+2024-7-10 08:50:50-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:258.93MB, end 258.95MB, increase: 15.56KB
+2024-7-10 08:50:50-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-7-10 08:50:50-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2024-7-10 08:50:50-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 32%
+2024-7-10 08:50:50-debug: 整理部分构建选项内数据到 settings.json start, progress: 32%
+2024-7-10 08:50:50-debug: [Build Memory track]: 填充脚本数据到 settings.json start:258.97MB, end 258.99MB, increase: 20.20KB
+2024-7-10 08:50:50-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-7-10 08:50:50-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
+2024-7-10 08:50:50-debug: run build task 整理部分构建选项内数据到 settings.json success in 3 ms√, progress: 34%
+2024-7-10 08:50:50-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:259.00MB, end 259.13MB, increase: 126.94KB
+2024-7-10 08:50:50-debug: web-desktop:(onBeforeCompressSettings) start..., progress: 34%
+2024-7-10 08:50:50-debug: // ---- build task web-desktop：onBeforeCompressSettings ----
+2024-7-10 08:50:50-debug: web-desktop:(onBeforeCompressSettings) in 1 ms ✓, progress: 36%
+2024-7-10 08:50:50-debug: // ---- build task web-desktop：onBeforeCompressSettings ---- (1ms)
+2024-7-10 08:50:50-debug: cocos-service:(onBeforeCompressSettings) start..., progress: 36%
+2024-7-10 08:50:50-debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2024-7-10 08:50:50-debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (2ms)
+2024-7-10 08:50:50-debug: 整理静态模板文件 start, progress: 38%
+2024-7-10 08:50:50-debug: cocos-service:(onBeforeCompressSettings) in 2 ms ✓, progress: 38%
+2024-7-10 08:50:50-debug: // ---- build task 整理静态模板文件 ----
+2024-7-10 08:50:50-debug: // ---- build task 整理静态模板文件 ---- (41ms)
+2024-7-10 08:50:50-debug: run build task 整理静态模板文件 success in 41 ms√, progress: 43%
+2024-7-10 08:50:50-debug: [Build Memory track]: 整理静态模板文件 start:259.24MB, end 260.38MB, increase: 1.14MB
+2024-7-10 08:50:50-debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2024-7-10 08:50:50-debug: cocos-service:(onAfterCompressSettings) start..., progress: 43%
+2024-7-10 08:50:50-debug: // ---- build task cocos-service：onAfterCompressSettings ---- (3ms)
+2024-7-10 08:50:50-debug: web-desktop:(onBeforeCopyBuildTemplate) start..., progress: 45%
+2024-7-10 08:50:50-debug: cocos-service:(onAfterCompressSettings) in 3 ms ✓, progress: 45%
+2024-7-10 08:50:50-debug: // ---- build task web-desktop：onBeforeCopyBuildTemplate ----
+2024-7-10 08:50:50-debug: // ---- build task web-desktop：onBeforeCopyBuildTemplate ---- (14ms)
+2024-7-10 08:50:50-debug: 给所有的资源加上 MD5 后缀 start, progress: 46%
+2024-7-10 08:50:50-debug: web-desktop:(onBeforeCopyBuildTemplate) in 14 ms ✓, progress: 46%
+2024-7-10 08:50:50-debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2024-7-10 08:50:50-debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (1ms)
+2024-7-10 08:50:50-debug: run build task 给所有的资源加上 MD5 后缀 success in 1 ms√, progress: 56%
+2024-7-10 08:50:50-debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:262.82MB, end 262.83MB, increase: 19.94KB
+2024-7-10 08:50:50-debug: cocos-service:(onAfterBuild) start..., progress: 56%
+2024-7-10 08:50:50-debug: // ---- build task cocos-service：onAfterBuild ----
+2024-7-10 08:50:50-debug: // ---- build task cocos-service：onAfterBuild ---- (2ms)
+2024-7-10 08:50:50-debug: cocos-service:(onAfterBuild) in 2 ms ✓, progress: 58%
+2024-7-10 08:50:50-debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 58%
+2024-7-10 08:50:50-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+2024-7-10 08:50:50-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (2ms)
+2024-7-10 08:50:50-debug: adsense-h5g-plugin:(onAfterBuild) in 2 ms ✓, progress: 60%
+2024-7-10 08:50:50-log: Asset DB is resume!
+2024-7-10 08:50:50-debug: builder:build-project-total (5664ms)
+2024-7-10 08:50:50-warn: The SpriteFrame used by component "cc.Sprite" in scene "vectory" is missing. Detailed information:Node path: "Canvas/vectory"Asset url: "db://assets/Scenes/vectory"Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
+2024-7-10 08:50:50-debug: build success in 5664!
+2024-7-10 08:50:50-debug: [Build Memory track]: builder:build-project-total start:200.48MB, end 264.48MB, increase: 64.00MB
+2024-7-10 08:50:50-debug: ================================ build Task (web-desktop) Finished in (5 s)ms ================================
+2024-7-10 08:50:50-debug: Stop record console. {file(D:\TankFight\TK2\temp\builder\log\web-desktop2024-7-10 08-50.log)}

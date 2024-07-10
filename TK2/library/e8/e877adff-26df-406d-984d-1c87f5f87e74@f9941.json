@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "password",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 222,
+      "height": 270
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 222,
+      "height": 270
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -111,
+        -135,
+        0,
+        111,
+        -135,
+        0,
+        -111,
+        135,
+        0,
+        111,
+        135,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        270,
+        222,
+        270,
+        0,
+        0,
+        222,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -111,
+        "y": -135,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 111,
+        "y": 135,
+        "z": 0
+      }
+    },
+    "texture": "e877adff-26df-406d-984d-1c87f5f87e74@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}
