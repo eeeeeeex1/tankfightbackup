@@ -1,3 +1,33 @@
+System.register("chunks:///_virtual/AudioManeger.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
+  var _inheritsLoose, cclegacy, _decorator, Component;
+  return {
+    setters: [function (module) {
+      _inheritsLoose = module.inheritsLoose;
+    }, function (module) {
+      cclegacy = module.cclegacy;
+      _decorator = module._decorator;
+      Component = module.Component;
+    }],
+    execute: function () {
+      var _dec, _class;
+      cclegacy._RF.push({}, "b3588j5+H5ANpq78qy7urKK", "AudioManeger", undefined);
+      var ccclass = _decorator.ccclass,
+        property = _decorator.property;
+      var AudioManeger = exports('AudioManeger', (_dec = ccclass('AudioManeger'), _dec(_class = /*#__PURE__*/function (_Component) {
+        _inheritsLoose(AudioManeger, _Component);
+        function AudioManeger() {
+          return _Component.apply(this, arguments) || this;
+        }
+        var _proto = AudioManeger.prototype;
+        _proto.start = function start() {};
+        _proto.update = function update(deltaTime) {};
+        return AudioManeger;
+      }(Component)) || _class));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
 System.register("chunks:///_virtual/background.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
   var _inheritsLoose, cclegacy, _decorator, Graphics, Color, Component;
   return {
@@ -111,7 +141,7 @@ System.register("chunks:///_virtual/bullet0.ts", ['./rollupPluginModLoBabelHelpe
 
             selfCollider.node.destroy();
 
-            // 检查音频源组件和音频剪辑是否已定义
+            //检查音频源组件和音频剪辑是否已定义
             if (_this3.explosionAudio && _this3.explosionAudio.clip) {
               // 播放音效
               _this3.explosionAudio.playOneShot(_this3.explosionAudio.clip, 1);
@@ -2212,8 +2242,7 @@ System.register("chunks:///_virtual/Loading.ts", ['./rollupPluginModLoBabelHelpe
         _proto.start = function start() {
           this.ProImage.setScale(0, 1);
           this.time = 0;
-          localStorage.setItem("name", "sss");
-          localStorage.getItem("name");
+          director.preloadScene('alonemap2');
         }
 
         //规定进度条百分比为0—1
@@ -2262,6 +2291,8 @@ System.register("chunks:///_virtual/log.ts", ['./rollupPluginModLoBabelHelpers.j
         this.Account = void 0;
         this.Password = void 0;
         this.save = void 0;
+        this.difficulty = void 0;
+        this.time = void 0;
       };
       var log = exports('log', (_dec = ccclass('log'), _dec2 = property(EditBox), _dec3 = property(EditBox), _dec(_class2 = (_class3 = /*#__PURE__*/function (_Component) {
         _inheritsLoose(log, _Component);
@@ -2273,11 +2304,13 @@ System.register("chunks:///_virtual/log.ts", ['./rollupPluginModLoBabelHelpers.j
           _this = _Component.call.apply(_Component, [this].concat(args)) || this;
           _initializerDefineProperty(_this, "account", _descriptor, _assertThisInitialized(_this));
           _initializerDefineProperty(_this, "password", _descriptor2, _assertThisInitialized(_this));
+          _this.presentAccout = void 0;
           return _this;
         }
         var _proto = log.prototype;
         _proto.start = function start() {
           this.node.on(Button.EventType.CLICK, this.checkAccount, this);
+          director.addPersistRootNode(this.node);
         };
         _proto.update = function update(deltaTime) {};
         _proto.checkAccount = function checkAccount() {
@@ -2289,17 +2322,18 @@ System.register("chunks:///_virtual/log.ts", ['./rollupPluginModLoBabelHelpers.j
 
           if (result == null) {
             console.log("No Account!Create New Account");
-            var _user = new user();
-            _user.Account = _account;
-            _user.Password = _pwd;
-            _user.save = 0;
-            var json = JSON.stringify(_user);
+            this.presentAccout = new user();
+            this.presentAccout.Account = _account;
+            this.presentAccout.Password = _pwd;
+            this.presentAccout.save = 0;
+            this.presentAccout.difficulty = 0;
+            var json = JSON.stringify(this.presentAccout);
             localStorage.setItem(_account, json); //不存在则创建新账户
             director.loadScene('select');
           } else {
             console.log("found!");
-            var _user2 = Object.assign(new user(), JSON.parse(result));
-            if (_user2.Password != _pwd) console.log("Password Error!");else {
+            this.presentAccout = Object.assign(new user(), JSON.parse(result));
+            if (this.presentAccout.Password != _pwd) console.log("Password Error!");else {
               console.log("Login Success!");
               director.loadScene('select');
             } //找到账户，检查密码
@@ -2323,9 +2357,9 @@ System.register("chunks:///_virtual/log.ts", ['./rollupPluginModLoBabelHelpers.j
   };
 });
 
-System.register("chunks:///_virtual/main", ['./debug-view-runtime-control.ts', './Loading.ts', './double.ts', './endgame.ts', './esc.ts', './log.ts', './pause.ts', './returnlog.ts', './returnselect.ts', './select.ts', './welcome.ts', './background.ts', './bullet0.ts', './bullet1.ts', './cheat-test.ts', './enemybullet.ts', './enemylandmine.ts', './enemyfire.ts', './enemytank.ts', './fireaffect0.ts', './fireaffect1.ts', './firedirection0.ts', './firedirection1.ts', './hp0.ts', './hp1.ts', './landmine0%20copy.ts', './landmine0.ts', './landmine1.ts', './normalwall.ts', './obj-firefast.ts', './obj-movefast.ts', './specialwall.ts', './speedaffect0.ts', './speedaffect1.ts', './tank0.ts', './tank1.ts', './tankdestroy.ts', './victory.ts'], function () {
+System.register("chunks:///_virtual/main", ['./debug-view-runtime-control.ts', './Loading.ts', './double.ts', './endgame.ts', './esc.ts', './log.ts', './pause.ts', './returnlog.ts', './returnselect.ts', './select.ts', './welcome.ts', './AudioManeger.ts', './background.ts', './bullet0.ts', './bullet1.ts', './cheat-test.ts', './enemybullet.ts', './enemylandmine.ts', './enemyfire.ts', './enemytank.ts', './fireaffect0.ts', './fireaffect1.ts', './firedirection0.ts', './firedirection1.ts', './hp0.ts', './hp1.ts', './landmine0%20copy.ts', './landmine0.ts', './landmine1.ts', './normalwall.ts', './obj-firefast.ts', './obj-movefast.ts', './specialwall.ts', './speedaffect0.ts', './speedaffect1.ts', './tank0.ts', './tank1.ts', './tankdestroy.ts', './victory.ts'], function () {
   return {
-    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     execute: function () {}
   };
 });
@@ -3451,7 +3485,7 @@ System.register("chunks:///_virtual/victory.ts", ['./rollupPluginModLoBabelHelpe
         _proto.start = function start() {
           this.playercontroller0 = this.node.getComponentInChildren(PlayerController0);
           this.playercontroller1 = this.node.getComponentInChildren(PlayerController1);
-          director.preloadScene('vectory');
+          director.preloadScene('victory');
         };
         _proto.update = function update(deltaTime) {
           if (this.playercontroller0.tanklife == 0 || this.playercontroller1.tanklife == 0) {
@@ -3460,7 +3494,7 @@ System.register("chunks:///_virtual/victory.ts", ['./rollupPluginModLoBabelHelpe
         };
         _proto.endsence = function endsence() {
           console.log('游戏结束');
-          director.loadScene('vectory');
+          director.loadScene('victory');
         };
         return tankdestroy;
       }(Component)) || _class));
@@ -3470,7 +3504,7 @@ System.register("chunks:///_virtual/victory.ts", ['./rollupPluginModLoBabelHelpe
 });
 
 System.register("chunks:///_virtual/welcome.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
-  var _applyDecoratedDescriptor, _inheritsLoose, _initializerDefineProperty, _assertThisInitialized, cclegacy, _decorator, Prefab, instantiate, director, Component;
+  var _applyDecoratedDescriptor, _inheritsLoose, _initializerDefineProperty, _assertThisInitialized, cclegacy, _decorator, Prefab, instantiate, Component;
   return {
     setters: [function (module) {
       _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
@@ -3482,7 +3516,6 @@ System.register("chunks:///_virtual/welcome.ts", ['./rollupPluginModLoBabelHelpe
       _decorator = module._decorator;
       Prefab = module.Prefab;
       instantiate = module.instantiate;
-      director = module.director;
       Component = module.Component;
     }],
     execute: function () {
@@ -3505,7 +3538,6 @@ System.register("chunks:///_virtual/welcome.ts", ['./rollupPluginModLoBabelHelpe
         _proto.onLoad = function onLoad() {
           var Load = instantiate(this.LoadingPrefab); //动态挂载进度条
           this.node.addChild(Load);
-          director.preloadScene('alonemap2');
         };
         _proto.start = function start() {};
         _proto.update = function update(deltaTime) {};

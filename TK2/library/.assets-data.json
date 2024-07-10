@@ -621,6 +621,7 @@
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
       ],
       "dependScripts": [
+        "1fe4e814-6472-46a2-a93c-4141761759a6",
         "c0d874b8-7781-4364-a158-9e2bec11454a"
       ]
     },
@@ -3028,6 +3029,71 @@
     "value": {
       "depends": []
     },
+    "versionCode": 1
+  },
+  "6cbf002f-ef20-4d67-99c1-d00fcf9f25e3": {
+    "url": "db://assets/Scripts-001",
+    "value": {},
+    "versionCode": 1
+  },
+  "1ab0e3df-c895-46cc-a4bc-6be026dac251": {
+    "url": "db://assets/Scripts-001/double.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "78d2ab88-a9ed-470f-8a28-61f7b0dbdb51": {
+    "url": "db://assets/Scripts-001/endgame.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4625ca6c-25cc-4b37-918c-70d1ac476309": {
+    "url": "db://assets/Scripts-001/esc.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "240aca91-97c7-4bb7-b666-a5eaa02ccaa8": {
+    "url": "db://assets/Scripts-001/Loading.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4991e085-0e3f-4dda-be1e-e743b63b8afd": {
+    "url": "db://assets/Scripts-001/log.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "02534668-2eca-4d50-8645-ce8aee0287b4": {
+    "url": "db://assets/Scripts-001/pause.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "e5542c4b-66b8-47fc-a7f8-145654f88ab6": {
+    "url": "db://assets/Scripts-001/returnlog.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "66127404-27a9-46e5-a9d7-12a27a13a8f7": {
+    "url": "db://assets/Scripts-001/returnselect.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f249b9cf-6799-4ff4-b2aa-d76b2ad57de1": {
+    "url": "db://assets/Scripts-001/select.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "87666bfa-7d90-4f64-a550-61096f653a4d": {
+    "url": "db://assets/Scripts-001/welcome.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "1fe4e814-6472-46a2-a93c-4141761759a6": {
+    "url": "db://assets/Scripts/PassInf.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4b8fe22b-784a-41af-a14e-b7d66201c77f": {
+    "url": "db://assets/map/leaderboard.scene",
+    "value": {},
     "versionCode": 1
   }
 }

@@ -1,7 +1,7 @@
-System.register(["cc"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Component, director, EditBox, user, _dec, _dec2, _dec3, _class2, _class3, _descriptor, _descriptor2, _crd, ccclass, property, log;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Component, director, EditBox, PassInf, user, _dec, _dec2, _dec3, _class2, _class3, _descriptor, _descriptor2, _crd, ccclass, property, log;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -9,8 +9,14 @@ System.register(["cc"], function (_export, _context) {
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
 
+  function _reportPossibleCrUseOfPassInf(extras) {
+    _reporterNs.report("PassInf", "./PassInf", _context.meta, extras);
+  }
+
   return {
-    setters: [function (_cc) {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
       _cclegacy = _cc.cclegacy;
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
@@ -19,6 +25,8 @@ System.register(["cc"], function (_export, _context) {
       Component = _cc.Component;
       director = _cc.director;
       EditBox = _cc.EditBox;
+    }, function (_unresolved_2) {
+      PassInf = _unresolved_2.PassInf;
     }],
     execute: function () {
       _crd = true;
@@ -50,12 +58,17 @@ System.register(["cc"], function (_export, _context) {
 
           _initializerDefineProperty(this, "password", _descriptor2, this);
 
+          this.RegSet = new Array();
           this.presentAccout = void 0;
         }
 
         start() {
+          if (localStorage.getItem('RegSet') == null) {
+            var json = JSON.stringify(this.RegSet);
+            localStorage.setItem('RegSet', json);
+          }
+
           this.node.on(Button.EventType.CLICK, this.checkAccount, this);
-          director.addPersistRootNode(this.node);
         }
 
         update(deltaTime) {}
@@ -75,15 +88,47 @@ System.register(["cc"], function (_export, _context) {
             this.presentAccout.Password = _pwd;
             this.presentAccout.save = 0;
             this.presentAccout.difficulty = 0;
+            this.presentAccout.time = 0;
             var json = JSON.stringify(this.presentAccout);
             localStorage.setItem(_account, json); //不存在则创建新账户
+
+            this.RegSet = Object.assign(new Array(), JSON.parse(localStorage.getItem('RegSet')));
+            this.RegSet.push(_account);
+
+            var _json = JSON.stringify(this.RegSet);
+
+            localStorage.setItem('RegSet', _json); //将账户加入注册表
+
+            director.getScene().getChildByName('PassNode').getComponent(_crd && PassInf === void 0 ? (_reportPossibleCrUseOfPassInf({
+              error: Error()
+            }), PassInf) : PassInf).CurrentUser = this.presentAccout; //储存用户信息到常驻节点
 
             director.loadScene('select');
           } else {
             console.log("found!");
+            this.RegSet = Object.assign(new Array(), JSON.parse(localStorage.getItem('RegSet')));
+            var i;
+
+            for (i = 0; i < this.RegSet.length; i++) {
+              if (this.RegSet[i] == _account) break;
+            }
+
+            if (i == this.RegSet.length) {
+              this.RegSet.push(_account);
+
+              var _json2 = JSON.stringify(this.RegSet);
+
+              localStorage.setItem('RegSet', _json2); //将账户加入注册表
+            }
+
             this.presentAccout = Object.assign(new user(), JSON.parse(result));
             if (this.presentAccout.Password != _pwd) console.log("Password Error!");else {
+              // this.presentAccout =Object.assign(new user(),JSON.parse(localStorage.getItem('wuxu')));
+              // console.log(this.presentAccout.Account);
               console.log("Login Success!");
+              director.getScene().getChildByName('PassNode').getComponent(_crd && PassInf === void 0 ? (_reportPossibleCrUseOfPassInf({
+                error: Error()
+              }), PassInf) : PassInf).CurrentUser = this.presentAccout;
               director.loadScene('select');
             } //找到账户，检查密码
           }

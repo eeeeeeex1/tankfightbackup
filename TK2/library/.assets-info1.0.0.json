@@ -12,7 +12,7 @@
       "time": 1719969094346.4465
     },
     "D:\\TankFight\\TK2\\assets\\Scripts": {
-      "time": 1720518128577.1426,
+      "time": 1720583367227.4197,
       "uuid": "61dd0dd4-ee37-473b-ab6e-de382665ab06"
     },
     "D:\\TankFight\\TK2\\assets\\Scenes\\LoadingScene.scene.meta": {
@@ -138,7 +138,7 @@
       "time": 1719985766000
     },
     "D:\\TankFight\\TK2\\assets\\Scenes\\select.scene": {
-      "time": 1720581641604.7463,
+      "time": 1720587568587.1682,
       "uuid": "0554d124-5936-4455-9b17-a083050a9281"
     },
     "D:\\TankFight\\TK2\\assets\\Scenes\\single.scene.meta": {
@@ -152,7 +152,7 @@
       "time": 1719991030000
     },
     "D:\\TankFight\\TK2\\assets\\Scripts\\select.ts": {
-      "time": 1720582425805.9292,
+      "time": 1720599317829.2117,
       "uuid": "9acb61b4-461b-40b5-beb5-680b75075740"
     },
     "D:\\TankFight\\TK2\\assets\\ImageSources.meta": {
@@ -187,14 +187,14 @@
       "time": 1720229424271.238
     },
     "D:\\TankFight\\TK2\\assets\\Scenes\\LoginScene.scene": {
-      "time": 1720233836496.4897,
+      "time": 1720588907332.8435,
       "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
     },
     "D:\\TankFight\\TK2\\assets\\Scripts\\log.ts.meta": {
       "time": 1720230406308.2332
     },
     "D:\\TankFight\\TK2\\assets\\Scripts\\log.ts": {
-      "time": 1720582935652.882,
+      "time": 1720599217471.8904,
       "uuid": "c0d874b8-7781-4364-a158-9e2bec11454a"
     },
     "D:\\TankFight\\TK2\\assets\\Scripts\\returnselect.ts.meta": {
@@ -297,7 +297,7 @@
       "time": 1720164432000
     },
     "D:\\TankFight\\TK2\\assets\\map": {
-      "time": 1720518128317.2278,
+      "time": 1720599556507.0945,
       "uuid": "2f042a5a-a82b-4598-aa7c-1a66cd590fa9"
     },
     "D:\\TankFight\\TK2\\assets\\photo": {
@@ -345,7 +345,7 @@
       "uuid": "82eb8b8b-d44e-40ea-a107-a24ff1bfa5b0"
     },
     "D:\\TankFight\\TK2\\assets\\text\\bullet1.ts": {
-      "time": 1720423488000,
+      "time": 1720588240357.5923,
       "uuid": "f16fb09b-91b4-4c02-a6b3-6e460f7ab65c"
     },
     "D:\\TankFight\\TK2\\assets\\text\\cheat-test.ts": {
@@ -507,7 +507,7 @@
       "uuid": "ba9b86be-3ecc-48ba-a83b-02ca9cefad71"
     },
     "D:\\TankFight\\TK2\\assets\\map\\doublemap.scene": {
-      "time": 1720164430000,
+      "time": 1720599606813.1926,
       "uuid": "56c94625-6c31-4bd5-90fe-90c9552fdc01"
     },
     "D:\\TankFight\\TK2\\assets\\map\\test.scene": {
@@ -1256,6 +1256,13 @@
     "D:\\TankFight\\TK2\\assets\\Audio\\bulletAudio\\shoot.mp3": {
       "time": 1720581563366.4639,
       "uuid": "a2103626-2617-47c9-9d3a-0de418cccfe8"
+    },
+    "D:\\TankFight\\TK2\\assets\\Scripts\\PassInf.ts.meta": {
+      "time": 1720583367231.4194
+    },
+    "D:\\TankFight\\TK2\\assets\\Scripts\\PassInf.ts": {
+      "time": 1720588960729.308,
+      "uuid": "1fe4e814-6472-46a2-a93c-4141761759a6"
     }
   },
   "missing": {
@@ -1473,6 +1480,66 @@
       "path": "D:\\TankFight\\TK2\\assets\\Scenes\\vectory.scene",
       "time": 1720427632000,
       "removeTime": 1720576918161
+    },
+    "6cbf002f-ef20-4d67-99c1-d00fcf9f25e3": {
+      "path": "D:\\TankFight\\TK2\\assets\\Scripts-001",
+      "time": 1720583323916.3381,
+      "removeTime": 1720583333995
+    },
+    "1ab0e3df-c895-46cc-a4bc-6be026dac251": {
+      "path": "D:\\TankFight\\TK2\\assets\\Scripts-001\\double.ts",
+      "time": 1720239266936.7766,
+      "removeTime": 1720583333996
+    },
+    "78d2ab88-a9ed-470f-8a28-61f7b0dbdb51": {
+      "path": "D:\\TankFight\\TK2\\assets\\Scripts-001\\endgame.ts",
+      "time": 1720233435339.955,
+      "removeTime": 1720583333996
+    },
+    "4625ca6c-25cc-4b37-918c-70d1ac476309": {
+      "path": "D:\\TankFight\\TK2\\assets\\Scripts-001\\esc.ts",
+      "time": 1720572450872.6057,
+      "removeTime": 1720583333996
+    },
+    "240aca91-97c7-4bb7-b666-a5eaa02ccaa8": {
+      "path": "D:\\TankFight\\TK2\\assets\\Scripts-001\\Loading.ts",
+      "time": 1720577077274.2698,
+      "removeTime": 1720583333996
+    },
+    "4991e085-0e3f-4dda-be1e-e743b63b8afd": {
+      "path": "D:\\TankFight\\TK2\\assets\\Scripts-001\\log.ts",
+      "time": 1720582935652.882,
+      "removeTime": 1720583333996
+    },
+    "02534668-2eca-4d50-8645-ce8aee0287b4": {
+      "path": "D:\\TankFight\\TK2\\assets\\Scripts-001\\pause.ts",
+      "time": 1720258241894.9187,
+      "removeTime": 1720583333996
+    },
+    "e5542c4b-66b8-47fc-a7f8-145654f88ab6": {
+      "path": "D:\\TankFight\\TK2\\assets\\Scripts-001\\returnlog.ts",
+      "time": 1720233468550.0186,
+      "removeTime": 1720583333996
+    },
+    "66127404-27a9-46e5-a9d7-12a27a13a8f7": {
+      "path": "D:\\TankFight\\TK2\\assets\\Scripts-001\\returnselect.ts",
+      "time": 1720232896428.7542,
+      "removeTime": 1720583333996
+    },
+    "f249b9cf-6799-4ff4-b2aa-d76b2ad57de1": {
+      "path": "D:\\TankFight\\TK2\\assets\\Scripts-001\\select.ts",
+      "time": 1720582425805.9292,
+      "removeTime": 1720583333996
+    },
+    "87666bfa-7d90-4f64-a550-61096f653a4d": {
+      "path": "D:\\TankFight\\TK2\\assets\\Scripts-001\\welcome.ts",
+      "time": 1720577079872.9712,
+      "removeTime": 1720583333996
+    },
+    "4b8fe22b-784a-41af-a14e-b7d66201c77f": {
+      "path": "D:\\TankFight\\TK2\\assets\\map\\leaderboard.scene",
+      "time": 1720597941300.6067,
+      "removeTime": 1720599556656
     }
   }
 }

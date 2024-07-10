@@ -1,4 +1,5 @@
 import { _decorator, Button, Component, director, EditBox, Node } from 'cc';
+import { PassInf } from './PassInf';
 const { ccclass, property } = _decorator;
 
 class user{
@@ -14,11 +15,16 @@ export class log extends Component {
     account:EditBox;
     @property(EditBox)
     password:EditBox;
-
+    private RegSet: string[]=new Array;
     presentAccout:user;
     start() {
+        if(localStorage.getItem('RegSet')==null)
+            {
+                let json=JSON.stringify(this.RegSet);
+                localStorage.setItem('RegSet',json);
+            }
         this.node.on(Button.EventType.CLICK, this.checkAccount, this);
-        director.addPersistRootNode(this.node);
+        
     }
 
     update(deltaTime: number) {
@@ -39,20 +45,42 @@ export class log extends Component {
             this.presentAccout.Account=_account;
             this.presentAccout.Password=_pwd;
             this.presentAccout.save=0;
-            this.presentAccout.difficulty=0
+            this.presentAccout.difficulty=0;
+            this.presentAccout.time=0;
             let json=JSON.stringify(this.presentAccout);
             localStorage.setItem(_account,json);//不存在则创建新账户
+            this.RegSet=Object.assign(new Array(),JSON.parse(localStorage.getItem('RegSet')));
+            this.RegSet.push(_account);
+            let _json=JSON.stringify(this.RegSet);
+            localStorage.setItem('RegSet',_json);//将账户加入注册表
+            director.getScene().getChildByName('PassNode').getComponent(PassInf).CurrentUser=this.presentAccout;//储存用户信息到常驻节点
             director.loadScene('select');
         }
         else
         {
             console.log("found!");
+            this.RegSet=Object.assign(new Array(),JSON.parse(localStorage.getItem('RegSet')));
+            let i:number;
+            for(i=0;i<this.RegSet.length;i++)
+            {
+                if(this.RegSet[i]==_account)
+                    break;
+            }
+            if(i==this.RegSet.length)
+            {
+                this.RegSet.push(_account);
+                let _json=JSON.stringify(this.RegSet);
+                localStorage.setItem('RegSet',_json);//将账户加入注册表
+            }
             this.presentAccout =Object.assign(new user(),JSON.parse(result));
             if(this.presentAccout.Password!=_pwd)
                 console.log("Password Error!");
             else
             {
+                // this.presentAccout =Object.assign(new user(),JSON.parse(localStorage.getItem('wuxu')));
+                // console.log(this.presentAccout.Account);
                 console.log("Login Success!");
+                director.getScene().getChildByName('PassNode').getComponent(PassInf).CurrentUser=this.presentAccout;
                 director.loadScene('select');
             }//找到账户，检查密码
             }
