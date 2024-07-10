@@ -5,6 +5,7 @@ const { ccclass, property } = _decorator;
 export class esc extends Component {
     start() {
         systemEvent.on(SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
+        director.preloadScene('return');
     }
 
     update(deltaTime: number) {

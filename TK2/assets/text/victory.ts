@@ -11,19 +11,19 @@ playercontroller1:PlayerController1;
 protected start(): void {
     this.playercontroller0=this.node.getComponentInChildren(PlayerController0);
     this.playercontroller1=this.node.getComponentInChildren(PlayerController1);
+    director.preloadScene('vectory');
 }
 
-    update(deltaTime: number) {
-        
+    update(deltaTime: number) {
 
-        if(this.playercontroller0.tanklife==0||this.playercontroller1.tanklife==0){
-            this.endsence();
-        }
-    }
+    if(this.playercontroller0.tanklife==0||this.playercontroller1.tanklife==0){
+    this.endsence();
+     }
+}
 
-    private endsence(){
-        console.log('游戏结束');
+   private endsence(){
+    console.log('游戏结束');
     director.loadScene('vectory');
-    }
+   }
 
 }

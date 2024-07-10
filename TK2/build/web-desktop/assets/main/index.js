@@ -3468,7 +3468,7 @@ System.register("chunks:///_virtual/victory.ts", ['./rollupPluginModLoBabelHelpe
 });
 
 System.register("chunks:///_virtual/welcome.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
-  var _applyDecoratedDescriptor, _inheritsLoose, _initializerDefineProperty, _assertThisInitialized, cclegacy, _decorator, Prefab, instantiate, Component;
+  var _applyDecoratedDescriptor, _inheritsLoose, _initializerDefineProperty, _assertThisInitialized, cclegacy, _decorator, Prefab, instantiate, director, Component;
   return {
     setters: [function (module) {
       _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
@@ -3480,6 +3480,7 @@ System.register("chunks:///_virtual/welcome.ts", ['./rollupPluginModLoBabelHelpe
       _decorator = module._decorator;
       Prefab = module.Prefab;
       instantiate = module.instantiate;
+      director = module.director;
       Component = module.Component;
     }],
     execute: function () {
@@ -3502,6 +3503,7 @@ System.register("chunks:///_virtual/welcome.ts", ['./rollupPluginModLoBabelHelpe
         _proto.onLoad = function onLoad() {
           var Load = instantiate(this.LoadingPrefab); //动态挂载进度条
           this.node.addChild(Load);
+          director.preloadScene('alonemap2');
         };
         _proto.start = function start() {};
         _proto.update = function update(deltaTime) {};

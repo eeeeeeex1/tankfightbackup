@@ -30,6 +30,7 @@ System.register(["cc"], function (_export, _context) {
       _export("esc", esc = (_dec = ccclass('esc'), _dec(_class = class esc extends Component {
         start() {
           systemEvent.on(SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
+          director.preloadScene('return');
         }
 
         update(deltaTime) {}

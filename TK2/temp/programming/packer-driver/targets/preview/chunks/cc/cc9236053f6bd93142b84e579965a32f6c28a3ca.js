@@ -54,6 +54,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           this.playercontroller1 = this.node.getComponentInChildren(_crd && PlayerController1 === void 0 ? (_reportPossibleCrUseOfPlayerController2({
             error: Error()
           }), PlayerController1) : PlayerController1);
+          director.preloadScene('vectory');
         }
 
         update(deltaTime) {
