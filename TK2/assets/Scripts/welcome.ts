@@ -8,6 +8,7 @@ export class welcome extends Component {
     onLoad (){
         let Load=instantiate(this.LoadingPrefab);//动态挂载进度条
         this.node.addChild(Load);
+        director.preloadScene('alonemap2');
     }
     start() {
 
