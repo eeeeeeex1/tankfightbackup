@@ -1,6 +1,7 @@
 import { _decorator, Component, Node, Collider2D,BoxCollider2D, Contact2DType,RigidBody2D} from 'cc';
 import { PlayerController0 } from './tank0'; // 确保正确引入 PlayerController0 类
 import { PlayerController1 } from './tank1'; // 确保正确引入 PlayerController1 类
+
 const { ccclass, property } = _decorator;
 
 @ccclass('objectmovefast')
@@ -17,10 +18,10 @@ export class objectmovefast extends Component {
             const playercontroller0: PlayerController0 = otherCollider.getComponent(PlayerController0);
             const playercontroller1: PlayerController1 = otherCollider.getComponent(PlayerController1);
             if(playercontroller0){
-                playercontroller0.magnification=20;
+                playercontroller0.speed=20;
             }
             else{
-                playercontroller1.magnification=20;
+                playercontroller1.speed=20;
             }
         }
         // 确保只处理一次销毁操作

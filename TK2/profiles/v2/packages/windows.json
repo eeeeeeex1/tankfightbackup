@@ -395,6 +395,39 @@
         "targetPlatform": "x64",
         "__version__": "1.0.1",
         "vsData": ""
+      },
+      "1720677526016": {
+        "executableName": "demo2",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720678312174": {
+        "executableName": "demo2",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720678402352": {
+        "executableName": "demo2",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
       }
     },
     "__version__": "1.3.8"

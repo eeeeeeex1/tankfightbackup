@@ -45,7 +45,7 @@ System.register(["cc"], function (_export, _context) {
         start() {
           this.ProImage.setScale(0, 1);
           this.time = 0;
-          director.preloadScene('alonemap2');
+          director.preloadScene('doublemap0');
         } //规定进度条百分比为0—1
 
 

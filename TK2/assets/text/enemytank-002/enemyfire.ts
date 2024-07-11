@@ -9,17 +9,21 @@ export class enemyfire extends Component {
     @property
     shootPower: number = 300;//子弹的发射速度
 
+    lastFireTime: number = 0; // 上次发射时间
+    @property
+    fireInterval: number = 1; // 发射间隔时间，单位秒
+
+    landminelastFireTime: number = 0; // 上次发射时间
+    @property
+    landminefireInterval: number = 2; // 发射间隔时间，单位秒
+
     @property(Prefab)
     bulletPrefab: Prefab = null;
 
     @property(Prefab)
     landminePrefab: Prefab = null;
 
-    lastFireTime: number = 0; // 上次发射时间
-    fireInterval: number = 1; // 发射间隔时间，单位秒
-
-    landminelastFireTime: number = 0; // 上次发射时间
-    landminefireInterval: number = 2; // 发射间隔时间，单位秒
+  
 
     //子弹的速度
     speed: Vec2 = new Vec2(0, 0);

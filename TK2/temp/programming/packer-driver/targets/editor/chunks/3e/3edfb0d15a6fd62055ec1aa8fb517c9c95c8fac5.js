@@ -82,6 +82,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
         onBeginContact(selfCollider, otherCollider) {
           // 确保只处理一次销毁操作
+          if (!otherCollider || !otherCollider.node) {
+            return;
+          }
+
           this.scheduleOnce(() => {
             if (!selfCollider.isValid) return; // 防止已销毁的对象再次操作
 

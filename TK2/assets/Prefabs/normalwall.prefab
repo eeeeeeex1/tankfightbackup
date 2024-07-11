@@ -150,8 +150,8 @@
     "_restitution": 0,
     "_offset": {
       "__type__": "cc.Vec2",
-      "x": -0.4,
-      "y": -0.3
+      "x": 0,
+      "y": 0
     },
     "_size": {
       "__type__": "cc.Size",

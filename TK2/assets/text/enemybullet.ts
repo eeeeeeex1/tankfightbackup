@@ -37,6 +37,11 @@ export class enemybullet extends Component {
 
     onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D) {
         // 确保只处理一次销毁操作
+
+        if (!otherCollider || !otherCollider.node) {
+            return;
+        }
+
         this.scheduleOnce(() => {
             if (!selfCollider.isValid) return; // 防止已销毁的对象再次操作
 

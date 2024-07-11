@@ -174,11 +174,9 @@
     "shootAudio": {
       "__id__": 7
     },
-    "shootPower": 500,
-    "bulletPrefab": {
-      "__uuid__": "380ca9d3-3ed1-4bb4-a284-ff95f9508893",
-      "__expectedType__": "cc.Prefab"
-    },
+    "shootPower": 20,
+    "fireInterval": 1,
+    "landminefireInterval": 2,
     "tankPrefab": {
       "__uuid__": "44ea65dd-dcbb-4c3b-8483-488681b996e9",
       "__expectedType__": "cc.Prefab"
@@ -647,7 +645,8 @@
     "__prefab": {
       "__id__": 33
     },
-    "magnification": 5,
+    "speed": 1,
+    "tanklife": 3,
     "rigidBody": {
       "__id__": 26
     },

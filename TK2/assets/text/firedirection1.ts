@@ -10,7 +10,16 @@ export class firedirection1 extends Component {
     @property
     shootPower:number=500;//子弹的发射速度
 
-    @property(Prefab)
+    //子弹发射间隔
+    lastFireTime: number = 0; // 上次发射时间
+    @property
+    fireInterval: number = 1; // 发射间隔时间，单位秒
+
+    //地雷发射间隔
+    landminelastFireTime: number = 0; // 上次发射时间
+    @property
+    landminefireInterval: number = 2; // 发射间隔时间，单位秒
+
     bulletPrefab:Prefab=null;
 
     @property(Prefab)
@@ -24,11 +33,6 @@ export class firedirection1 extends Component {
     lastdirection : Vec2 = new Vec2(0,-400);
     speed : Vec2 = new Vec2(0,0);
 
-    lastFireTime: number = 0; // 上次发射时间
-    fireInterval: number = 1; // 发射间隔时间，单位秒
-
-    landminelastFireTime: number = 0; // 上次发射时间
-    landminefireInterval: number = 2; // 发射间隔时间，单位秒
 
     static fireInterval: number;
 
@@ -82,7 +86,7 @@ export class firedirection1 extends Component {
 
         //console.log(this.currentiondirection);
         const rgd =bullet.getComponent(RigidBody2D);
-        this.speed = new Vec2(this.currentiondirection.x * 50, this.currentiondirection.y * 50);
+        this.speed = new Vec2(this.currentiondirection.x * this.shootPower, this.currentiondirection.y * this.shootPower);
 
         if(this.speed.x!==0||this.speed.y!==0){
             this.lastdirection=this.speed;

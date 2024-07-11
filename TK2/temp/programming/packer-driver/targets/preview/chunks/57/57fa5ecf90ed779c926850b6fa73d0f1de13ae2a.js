@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, SpriteFrame, RigidBody2D, Vec3, Collider2D, Contact2DType, Vec2, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, Direction, Directions, enemytank_002;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, RigidBody2D, Vec3, Collider2D, Contact2DType, Vec2, _dec, _dec2, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, Direction, Directions, enemytank_002;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -16,7 +16,6 @@ System.register(["cc"], function (_export, _context) {
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
       Component = _cc.Component;
-      SpriteFrame = _cc.SpriteFrame;
       RigidBody2D = _cc.RigidBody2D;
       Vec3 = _cc.Vec3;
       Collider2D = _cc.Collider2D;
@@ -54,16 +53,14 @@ System.register(["cc"], function (_export, _context) {
       new Vec2(0, -1) // DOWN
       ];
 
-      _export("enemytank_002", enemytank_002 = (_dec = ccclass('enemytank_002'), _dec2 = property(RigidBody2D), _dec3 = property(SpriteFrame), _dec(_class = (_class2 = class enemytank_002 extends Component {
+      _export("enemytank_002", enemytank_002 = (_dec = ccclass('enemytank_002'), _dec2 = property(RigidBody2D), _dec(_class = (_class2 = class enemytank_002 extends Component {
         constructor() {
           super(...arguments);
 
           //加速的倍率
-          _initializerDefineProperty(this, "magnification", _descriptor, this);
+          _initializerDefineProperty(this, "speed", _descriptor, this);
 
           _initializerDefineProperty(this, "rigidBody", _descriptor2, this);
-
-          _initializerDefineProperty(this, "speed", _descriptor3, this);
 
           this.direction = new Vec2(0, 0);
           //坦克生命值
@@ -147,12 +144,12 @@ System.register(["cc"], function (_export, _context) {
           this.lastspeed = Directions[newDirection].clone();
         }
 
-      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "magnification", [property], {
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "speed", [property], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
-          return 5;
+          return 2;
         }
       }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "rigidBody", [_dec2], {
         configurable: true,
@@ -160,13 +157,6 @@ System.register(["cc"], function (_export, _context) {
         writable: true,
         initializer: function initializer() {
           return null;
-        }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "speed", [_dec3], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return 2;
         }
       })), _class2)) || _class));
 

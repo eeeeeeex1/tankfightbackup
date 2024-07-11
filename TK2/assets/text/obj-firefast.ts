@@ -1,6 +1,7 @@
 import { _decorator, Component, Node, Collider2D,BoxCollider2D, Contact2DType,RigidBody2D} from 'cc';
 import { firedirection0 } from './firedirection0'; // 确保正确引入 firedirection0 类
 import { firedirection1 } from './firedirection1'; // 确保正确引入 firedirection1 类
+import { playerfire } from './playerfire'
 const { ccclass, property } = _decorator;
 
 @ccclass('objectfirefast')
@@ -15,13 +16,19 @@ export class objectfirefast extends Component {
 
     onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D){
 
-        if(otherCollider.node.name==="tank0"||otherCollider.node.name==="tank1"){
+        if(otherCollider.node.name==="tank0"||otherCollider.node.name==="tank1"||otherCollider.node.name==="playertank"){
             const playercontroller0: firedirection0 = otherCollider.getComponentInChildren(firedirection0);
             const playercontroller1: firedirection1 = otherCollider.getComponentInChildren(firedirection1);
+            const playerfire0: playerfire = otherCollider.getComponentInChildren(playerfire);
+
+
             if(playercontroller0){
                 playercontroller0.fireInterval=0;
             }
-            else{
+            else if(playercontroller1){
+                playercontroller1.fireInterval=0;
+            }
+            else if(playerfire0){
                 playercontroller1.fireInterval=0;
             }
 

@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Prefab, RigidBody2D, instantiate, Vec2, enemytank, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _descriptor3, _class3, _crd, ccclass, property, enemyfire;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Prefab, RigidBody2D, instantiate, Vec2, enemytank, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _class3, _crd, ccclass, property, enemyfire;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -50,17 +50,20 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           _initializerDefineProperty(this, "shootPower", _descriptor, this);
 
           //子弹的发射速度
-          _initializerDefineProperty(this, "bulletPrefab", _descriptor2, this);
+          _initializerDefineProperty(this, "fireInterval", _descriptor2, this);
 
-          _initializerDefineProperty(this, "landminePrefab", _descriptor3, this);
-
-          this.lastFireTime = 0;
-          // 上次发射时间
-          this.fireInterval = 1;
           // 发射间隔时间，单位秒
           this.landminelastFireTime = 0;
+
           // 上次发射时间
-          this.landminefireInterval = 2;
+          _initializerDefineProperty(this, "landminefireInterval", _descriptor3, this);
+
+          // 发射间隔时间，单位秒
+          _initializerDefineProperty(this, "bulletPrefab", _descriptor4, this);
+
+          _initializerDefineProperty(this, "landminePrefab", _descriptor5, this);
+
+          this.lastFireTime = 0;
           this.speed = new Vec2(0, 0);
           this.lastdirection = new Vec2(0, 0);
         }
@@ -128,16 +131,30 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         enumerable: true,
         writable: true,
         initializer: function initializer() {
-          return 300;
+          return 200;
         }
-      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "bulletPrefab", [_dec2], {
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "fireInterval", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return 1;
+        }
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "landminefireInterval", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return 2;
+        }
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "bulletPrefab", [_dec2], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "landminePrefab", [_dec3], {
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "landminePrefab", [_dec3], {
         configurable: true,
         enumerable: true,
         writable: true,

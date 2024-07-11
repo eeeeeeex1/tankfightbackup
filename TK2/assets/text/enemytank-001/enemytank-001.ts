@@ -31,13 +31,16 @@ export class enemytank_001 extends Component {
    
     //加速的倍率
     @property
-    public magnification: number = 5;
+    private speed: number = 2;
+
+    //索敌范围
+    @property
+    Enemy_range : number = 100;
 
     @property(RigidBody2D)
     rigidBody: RigidBody2D = null;
 
-    @property(SpriteFrame)
-    private speed: number = 2;
+   
 
 
     private direction: Vec2 = new Vec2(0, 0);
@@ -92,7 +95,7 @@ export class enemytank_001 extends Component {
 
         const player = this.node.parent.getChildByName('playertank');
         if(player){
-            if((Math.abs(this.node.position.x - player.position.x) < 100 || Math.abs(this.node.position.y - player.position.y) < 100)&&this.sign===0) {
+            if((Math.abs(this.node.position.x - player.position.x) < this.Enemy_range  || Math.abs(this.node.position.y - player.position.y) < this.Enemy_range )&&this.sign===0) {
                 this.aitankspeed.x = player.position.x - this.node.position.x;
                 this.aitankspeed.y = player.position.y - this.node.position.y;
                 this.aitankspeed.normalize();

@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, SpriteFrame, RigidBody2D, Vec3, Collider2D, Contact2DType, Vec2, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, Direction, Directions, enemytank;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, RigidBody2D, Vec3, Collider2D, Contact2DType, Vec2, _dec, _dec2, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, Direction, Directions, enemytank;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -16,7 +16,6 @@ System.register(["cc"], function (_export, _context) {
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
       Component = _cc.Component;
-      SpriteFrame = _cc.SpriteFrame;
       RigidBody2D = _cc.RigidBody2D;
       Vec3 = _cc.Vec3;
       Collider2D = _cc.Collider2D;
@@ -57,21 +56,20 @@ System.register(["cc"], function (_export, _context) {
       new Vec2(0, -1) // DOWN
       ];
 
-      _export("enemytank", enemytank = (_dec = ccclass('enemytank'), _dec2 = property(RigidBody2D), _dec3 = property(SpriteFrame), _dec(_class = (_class2 = class enemytank extends Component {
+      _export("enemytank", enemytank = (_dec = ccclass('enemytank'), _dec2 = property(RigidBody2D), _dec(_class = (_class2 = class enemytank extends Component {
         constructor() {
           super(...arguments);
 
           //加速的倍率
-          _initializerDefineProperty(this, "magnification", _descriptor, this);
+          _initializerDefineProperty(this, "speed", _descriptor, this);
 
-          _initializerDefineProperty(this, "rigidBody", _descriptor2, this);
+          //索敌范围
+          _initializerDefineProperty(this, "Enemy_range", _descriptor2, this);
 
-          _initializerDefineProperty(this, "speed", _descriptor3, this);
+          _initializerDefineProperty(this, "rigidBody", _descriptor3, this);
 
           this.direction = new Vec2(0, 0);
           //坦克生命值
-          this.tanklife = 5;
-          this.intervalInSeconds = 5;
           this.currentspeed = new Vec2(0, 0);
           this.lastChangeTime = void 0;
           // 上次位置改变的时间戳
@@ -79,16 +77,10 @@ System.register(["cc"], function (_export, _context) {
           // 累计经过的时间
           this.lastPosition = new Vec3();
           this.EPSILON = 0.0001;
-          this.pressedKeys = void 0;
-          this.spreadspeed = new Vec2(0, 0);
           this.aitankspeed = void 0;
           this.lastspeed = new Vec2(0, 0);
           this.sign = 0;
           this.signtimer = 0;
-          this.speedmonitor = new Vec2(0, 0);
-          this.speedtime = 0;
-          this.speedtimer = 0;
-          this.speedtimermonitor = 0;
         }
 
         onLoad() {
@@ -107,11 +99,7 @@ System.register(["cc"], function (_export, _context) {
 
           if (collider) {
             collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
-          } // 初始化
-
-
-          this.speedtimer = 0;
-          this.speedmonitor = this.currentspeed; // 初始化监视速度
+          }
         }
 
         update(dt) {
@@ -119,7 +107,8 @@ System.register(["cc"], function (_export, _context) {
           var player = this.node.parent.getChildByName('playertank');
 
           if (player) {
-            if ((Math.abs(this.node.position.x - player.position.x) < 100 || Math.abs(this.node.position.y - player.position.y) < 100) && this.sign === 0) {
+            if ((Math.abs(this.node.position.x - player.position.x) < this.Enemy_range || Math.abs(this.node.position.y - player.position.y) < this.Enemy_range) && this.sign === 0) {
+              //console.log('索敌');
               this.aitankspeed.x = player.position.x - this.node.position.x;
               this.aitankspeed.y = player.position.y - this.node.position.y;
               this.aitankspeed.normalize();
@@ -188,26 +177,26 @@ System.register(["cc"], function (_export, _context) {
           }
         }
 
-      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "magnification", [property], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return 5;
-        }
-      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "rigidBody", [_dec2], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return null;
-        }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "speed", [_dec3], {
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "speed", [property], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return 2;
+        }
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "Enemy_range", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return 100;
+        }
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "rigidBody", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
         }
       })), _class2)) || _class));
 

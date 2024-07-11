@@ -36,7 +36,13 @@ export class time01 extends Component {
                 if(RegSet[i].Account==Account)
                     break;
             }
+            if(RegSet[i].d1time==0)
             RegSet[i].d1time=time/1000;
+            else
+            {
+                if(RegSet[i].d1time>(time/1000))
+                    RegSet[i].d1time=time/1000;
+            }
             RegSet[i].save=1;
             let json=JSON.stringify(RegSet);
             localStorage.setItem('RegSet',json);

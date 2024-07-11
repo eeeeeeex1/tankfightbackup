@@ -75,7 +75,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               if (RegSet[i].Account == Account) break;
             }
 
-            RegSet[i].d1time = time / 1000;
+            if (RegSet[i].d1time == 0) RegSet[i].d1time = time / 1000;else {
+              if (RegSet[i].d1time > time / 1000) RegSet[i].d1time = time / 1000;
+            }
             RegSet[i].save = 1;
             var json = JSON.stringify(RegSet);
             localStorage.setItem('RegSet', json);

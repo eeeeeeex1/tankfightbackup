@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Prefab, Input, input, RigidBody2D, instantiate, AudioSource, Vec2, PlayerController1, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _class3, _crd, ccclass, property, firedirection1;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Prefab, Input, input, RigidBody2D, instantiate, AudioSource, Vec2, PlayerController1, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _class3, _crd, ccclass, property, firedirection1;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -46,7 +46,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         property
       } = _decorator);
 
-      _export("firedirection1", firedirection1 = (_dec = ccclass('firedirection1'), _dec2 = property(AudioSource), _dec3 = property(Prefab), _dec4 = property(Prefab), _dec5 = property(Prefab), _dec(_class = (_class2 = (_class3 = class firedirection1 extends Component {
+      _export("firedirection1", firedirection1 = (_dec = ccclass('firedirection1'), _dec2 = property(AudioSource), _dec3 = property(Prefab), _dec4 = property(Prefab), _dec(_class = (_class2 = (_class3 = class firedirection1 extends Component {
         constructor() {
           super(...arguments);
 
@@ -55,23 +55,30 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           _initializerDefineProperty(this, "shootPower", _descriptor2, this);
 
           //子弹的发射速度
-          _initializerDefineProperty(this, "bulletPrefab", _descriptor3, this);
+          //子弹发射间隔
+          this.lastFireTime = 0;
 
-          _initializerDefineProperty(this, "tankPrefab", _descriptor4, this);
+          // 上次发射时间
+          _initializerDefineProperty(this, "fireInterval", _descriptor3, this);
 
-          _initializerDefineProperty(this, "landminePrefab", _descriptor5, this);
+          // 发射间隔时间，单位秒
+          //地雷发射间隔
+          this.landminelastFireTime = 0;
+
+          // 上次发射时间
+          _initializerDefineProperty(this, "landminefireInterval", _descriptor4, this);
+
+          // 发射间隔时间，单位秒
+          this.bulletPrefab = null;
+
+          _initializerDefineProperty(this, "tankPrefab", _descriptor5, this);
+
+          _initializerDefineProperty(this, "landminePrefab", _descriptor6, this);
 
           this.direction = new Vec2(0, 0);
           this.currentiondirection = new Vec2(0, 0);
           this.lastdirection = new Vec2(0, -400);
           this.speed = new Vec2(0, 0);
-          this.lastFireTime = 0;
-          // 上次发射时间
-          this.fireInterval = 1;
-          // 发射间隔时间，单位秒
-          this.landminelastFireTime = 0;
-          // 上次发射时间
-          this.landminefireInterval = 2;
           this.playercontroller1 = null;
         }
 
@@ -120,7 +127,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           bullet.setPosition(this.node.position); //console.log(this.currentiondirection);
 
           var rgd = bullet.getComponent(RigidBody2D);
-          this.speed = new Vec2(this.currentiondirection.x * 50, this.currentiondirection.y * 50);
+          this.speed = new Vec2(this.currentiondirection.x * this.shootPower, this.currentiondirection.y * this.shootPower);
 
           if (this.speed.x !== 0 || this.speed.y !== 0) {
             this.lastdirection = this.speed;
@@ -165,21 +172,28 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         initializer: function initializer() {
           return 500;
         }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "bulletPrefab", [_dec3], {
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "fireInterval", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return 1;
+        }
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "landminefireInterval", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return 2;
+        }
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "tankPrefab", [_dec3], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "tankPrefab", [_dec4], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return null;
-        }
-      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "landminePrefab", [_dec5], {
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "landminePrefab", [_dec4], {
         configurable: true,
         enumerable: true,
         writable: true,

@@ -9,17 +9,21 @@ export class enemyfire extends Component {
     @property
     shootPower: number = 300;//子弹的发射速度
 
+
+    lastFireTime: number = 0; // 上次发射时间
+    @property
+    fireInterval: number = 1; // 发射间隔时间，单位秒
+
+    landminelastFireTime: number = 0; // 上次发射时间
+    @property
+    landminefireInterval: number = 2; // 发射间隔时间，单位秒
+
     @property(Prefab)
     bulletPrefab: Prefab = null;
 
     @property(Prefab)
     landminePrefab: Prefab = null;
 
-    lastFireTime: number = 0; // 上次发射时间
-    fireInterval: number = 1; // 发射间隔时间，单位秒
-
-    landminelastFireTime: number = 0; // 上次发射时间
-    landminefireInterval: number = 2; // 发射间隔时间，单位秒
 
     static fireInterval: number;
 
@@ -40,7 +44,7 @@ export class enemyfire extends Component {
 
         //地雷的时间发射间隔
         if (this.landminelastFireTime >= this.landminefireInterval) {
-            this.putlandmine();    
+            this.putlandmine(); 
             this.landminelastFireTime = 0;
         }
     }

@@ -60,9 +60,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             }), PlayerController1) : PlayerController1);
 
             if (playercontroller0) {
-              playercontroller0.magnification = 20;
+              playercontroller0.speed = 20;
             } else {
-              playercontroller1.magnification = 20;
+              playercontroller1.speed = 20;
             }
           } // 确保只处理一次销毁操作
 

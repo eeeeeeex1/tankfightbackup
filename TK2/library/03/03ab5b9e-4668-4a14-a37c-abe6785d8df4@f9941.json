@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ikun",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 984,
+      "height": 878
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 984,
+      "height": 878
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -492,
+        -439,
+        0,
+        492,
+        -439,
+        0,
+        -492,
+        439,
+        0,
+        492,
+        439,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        878,
+        984,
+        878,
+        0,
+        0,
+        984,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -492,
+        "y": -439,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 492,
+        "y": 439,
+        "z": 0
+      }
+    },
+    "texture": "03ab5b9e-4668-4a14-a37c-abe6785d8df4@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

@@ -166,6 +166,8 @@
       "__id__": 6
     },
     "shootPower": 300,
+    "fireInterval": 1,
+    "landminefireInterval": 2,
     "bulletPrefab": {
       "__uuid__": "282a2781-49d8-4c56-8812-c52f130e262b",
       "__expectedType__": "cc.Prefab"
@@ -546,11 +548,10 @@
     "__prefab": {
       "__id__": 27
     },
-    "magnification": 5,
+    "speed": 2,
     "rigidBody": {
       "__id__": 22
     },
-    "speed": 2,
     "_id": ""
   },
   {

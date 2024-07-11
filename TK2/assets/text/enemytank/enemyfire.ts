@@ -7,7 +7,16 @@ const { ccclass, property } = _decorator;
 export class enemyfire extends Component {
 
     @property
-    shootPower: number = 300;//子弹的发射速度
+    shootPower: number = 200;//子弹的发射速度
+
+    @property
+    fireInterval: number = 1; // 发射间隔时间，单位秒
+
+
+    landminelastFireTime: number = 0; // 上次发射时间
+    @property
+    landminefireInterval: number = 2; // 发射间隔时间，单位秒
+
 
     @property(Prefab)
     bulletPrefab: Prefab = null;
@@ -16,10 +25,6 @@ export class enemyfire extends Component {
     landminePrefab: Prefab = null;
 
     lastFireTime: number = 0; // 上次发射时间
-    fireInterval: number = 1; // 发射间隔时间，单位秒
-
-    landminelastFireTime: number = 0; // 上次发射时间
-    landminefireInterval: number = 2; // 发射间隔时间，单位秒
 
     static fireInterval: number;
 

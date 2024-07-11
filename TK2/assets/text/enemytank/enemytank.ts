@@ -32,19 +32,21 @@ export class enemytank extends Component {
 
     //加速的倍率
     @property
-    public magnification: number = 5;
+    private speed: number = 2;
+
+    //索敌范围
+    @property
+    Enemy_range : number = 100;
+
 
     @property(RigidBody2D)
     rigidBody: RigidBody2D = null;
 
-    @property(SpriteFrame)
-    private speed: number = 2;
+    
 
 
     private direction: Vec2 = new Vec2(0, 0);
     //坦克生命值
-    tanklife: number = 5;
-    intervalInSeconds: number = 5;
     currentspeed: Vec2 = new Vec2(0, 0);
 
 
@@ -53,18 +55,11 @@ export class enemytank extends Component {
 
     private lastPosition: Vec3 = new Vec3();
     private readonly EPSILON: number = 0.0001;
-    pressedKeys: any;
-    spreadspeed: Vec2 = new Vec2(0, 0);
     aitankspeed: Vec2;
 
     private lastspeed: Vec2 = new Vec2(0, 0);
     sign: number = 0;
     signtimer: number = 0;
-
-    speedmonitor : Vec2 = new Vec2(0,0);
-    speedtime : number = 0;
-    speedtimer : number = 0;
-    speedtimermonitor :number = 0;
 
 
 
@@ -83,10 +78,6 @@ export class enemytank extends Component {
         if (collider) {
             collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
         }
-
-        // 初始化
-        this.speedtimer = 0;
-        this.speedmonitor = this.currentspeed; // 初始化监视速度
     }
 
     update(dt: number) {
@@ -94,7 +85,8 @@ export class enemytank extends Component {
 
         const player = this.node.parent.getChildByName('playertank');
         if(player){
-            if((Math.abs(this.node.position.x - player.position.x) < 100 || Math.abs(this.node.position.y - player.position.y) < 100)&&this.sign===0) {
+            if((Math.abs(this.node.position.x - player.position.x) < this.Enemy_range  || Math.abs(this.node.position.y - player.position.y) < this.Enemy_range )&&this.sign===0) {
+                //console.log('索敌');
                 this.aitankspeed.x = player.position.x - this.node.position.x;
                 this.aitankspeed.y = player.position.y - this.node.position.y;
                 this.aitankspeed.normalize();

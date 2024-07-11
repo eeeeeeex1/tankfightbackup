@@ -88,6 +88,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               console.error('音频源组件或音频剪辑未定义');
             }
 
+            console.log(otherCollider.node.name);
+
             if (otherCollider && otherCollider.node.name !== 'normalwall' && otherCollider.node.name !== 'tank1') {
               otherCollider.node.destroy();
             } else if (otherCollider && otherCollider.node.name === 'tank1') {

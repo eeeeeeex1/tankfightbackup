@@ -67,7 +67,6 @@ export class Bullet extends Component {
                     console.error("PlayerController0 or PlayerController1 component not found on 'tank1' node.");
                 }
             }
-
         }, 0.0001); // 稍微增加延迟，确保事件处理完毕
     }
 

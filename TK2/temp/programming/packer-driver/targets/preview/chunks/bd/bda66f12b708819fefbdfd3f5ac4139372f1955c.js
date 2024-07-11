@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, SpriteFrame, Input, input, macro, RigidBody2D, firedirection1, Vec2, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _crd, ccclass, property, Direction, PlayerController1;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, SpriteFrame, Input, input, macro, RigidBody2D, firedirection1, Vec2, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _crd, ccclass, property, Direction, PlayerController1;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -62,32 +62,31 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         constructor() {
           super(...arguments);
 
-          _initializerDefineProperty(this, "magnification", _descriptor, this);
+          _initializerDefineProperty(this, "speed", _descriptor, this);
 
-          _initializerDefineProperty(this, "rigidBody", _descriptor2, this);
+          _initializerDefineProperty(this, "tanklife", _descriptor2, this);
 
-          _initializerDefineProperty(this, "upSpriteFrame", _descriptor3, this);
+          _initializerDefineProperty(this, "rigidBody", _descriptor3, this);
 
-          _initializerDefineProperty(this, "downSpriteFrame", _descriptor4, this);
+          _initializerDefineProperty(this, "upSpriteFrame", _descriptor4, this);
 
-          _initializerDefineProperty(this, "leftSpriteFrame", _descriptor5, this);
+          _initializerDefineProperty(this, "downSpriteFrame", _descriptor5, this);
 
-          _initializerDefineProperty(this, "rightSpriteFrame", _descriptor6, this);
+          _initializerDefineProperty(this, "leftSpriteFrame", _descriptor6, this);
 
-          _initializerDefineProperty(this, "rightandupSpriteFrame", _descriptor7, this);
+          _initializerDefineProperty(this, "rightSpriteFrame", _descriptor7, this);
 
-          _initializerDefineProperty(this, "rightanddownSpriteFrame", _descriptor8, this);
+          _initializerDefineProperty(this, "rightandupSpriteFrame", _descriptor8, this);
 
-          _initializerDefineProperty(this, "leftandupSpriteFrame", _descriptor9, this);
+          _initializerDefineProperty(this, "rightanddownSpriteFrame", _descriptor9, this);
 
-          _initializerDefineProperty(this, "leftanddownSpriteFrame", _descriptor10, this);
+          _initializerDefineProperty(this, "leftandupSpriteFrame", _descriptor10, this);
 
-          this.moveSpeed = 5;
-          // 调整移动速度
+          _initializerDefineProperty(this, "leftanddownSpriteFrame", _descriptor11, this);
+
           this.direction = new Vec2(0, 0);
           this.currentDirection = Vec2.ZERO;
           this.pressedKeys = new Set();
-          this.tanklife = 5;
         }
 
         start() {
@@ -159,9 +158,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
         updateVelocity() {
           // 计算归一化的速度方向向量
-          var velocity = this.currentDirection.clone().multiplyScalar(this.moveSpeed);
-          velocity.multiplyScalar(this.magnification); // 打印速度向量的值
+          var velocity = this.currentDirection.clone().multiplyScalar(this.speed); // 打印速度向量的值
           //console.log("当前方向： ", this.direction);
+          //console.log(this.tanklife);
 
           if (this.rigidBody) {
             this.rigidBody.linearVelocity = velocity;
@@ -223,70 +222,77 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           }
         }
 
-      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "magnification", [property], {
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "speed", [property], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return 5;
         }
-      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "rigidBody", [_dec2], {
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "tanklife", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return 5;
+        }
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "rigidBody", [_dec2], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "upSpriteFrame", [_dec3], {
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "upSpriteFrame", [_dec3], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "downSpriteFrame", [_dec4], {
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "downSpriteFrame", [_dec4], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "leftSpriteFrame", [_dec5], {
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "leftSpriteFrame", [_dec5], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "rightSpriteFrame", [_dec6], {
+      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "rightSpriteFrame", [_dec6], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "rightandupSpriteFrame", [_dec7], {
+      }), _descriptor8 = _applyDecoratedDescriptor(_class2.prototype, "rightandupSpriteFrame", [_dec7], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor8 = _applyDecoratedDescriptor(_class2.prototype, "rightanddownSpriteFrame", [_dec8], {
+      }), _descriptor9 = _applyDecoratedDescriptor(_class2.prototype, "rightanddownSpriteFrame", [_dec8], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor9 = _applyDecoratedDescriptor(_class2.prototype, "leftandupSpriteFrame", [_dec9], {
+      }), _descriptor10 = _applyDecoratedDescriptor(_class2.prototype, "leftandupSpriteFrame", [_dec9], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor10 = _applyDecoratedDescriptor(_class2.prototype, "leftanddownSpriteFrame", [_dec10], {
+      }), _descriptor11 = _applyDecoratedDescriptor(_class2.prototype, "leftanddownSpriteFrame", [_dec10], {
         configurable: true,
         enumerable: true,
         writable: true,

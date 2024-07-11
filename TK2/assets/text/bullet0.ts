@@ -49,6 +49,7 @@ export class Bullet extends Component {
             } else {
                 console.error('音频源组件或音频剪辑未定义');
             }
+            console.log(otherCollider.node.name);
             if (otherCollider && otherCollider.node.name !== 'normalwall' &&otherCollider.node.name!=='tank1' ) {
                 otherCollider.node.destroy();
             }

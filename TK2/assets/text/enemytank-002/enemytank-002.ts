@@ -30,13 +30,12 @@ export class enemytank_002 extends Component {
    
     //加速的倍率
     @property
-    public magnification: number = 5;
+    private speed: number = 2;
+
 
     @property(RigidBody2D)
     rigidBody: RigidBody2D = null;
 
-    @property(SpriteFrame)
-    private speed: number = 2;
 
 
     private direction: Vec2 = new Vec2(0, 0);

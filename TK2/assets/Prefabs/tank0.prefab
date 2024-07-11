@@ -177,7 +177,9 @@
     "shootAudio": {
       "__id__": 7
     },
-    "shootPower": 500,
+    "shootPower": 20,
+    "fireInterval": 1,
+    "landminefireInterval": 2,
     "bulletPrefab": {
       "__uuid__": "ba9b86be-3ecc-48ba-a83b-02ca9cefad71",
       "__expectedType__": "cc.Prefab"
@@ -650,7 +652,8 @@
     "__prefab": {
       "__id__": 33
     },
-    "magnification": 5,
+    "speed": 1,
+    "tanklife": 3,
     "rigidBody": {
       "__id__": 28
     },

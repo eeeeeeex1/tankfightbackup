@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Collider2D, Contact2DType, firedirection0, firedirection1, _dec, _class, _crd, ccclass, property, objectfirefast;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Collider2D, Contact2DType, firedirection0, firedirection1, playerfire, _dec, _class, _crd, ccclass, property, objectfirefast;
 
   function _reportPossibleCrUseOffiredirection(extras) {
     _reporterNs.report("firedirection0", "./firedirection0", _context.meta, extras);
@@ -9,6 +9,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
   function _reportPossibleCrUseOffiredirection2(extras) {
     _reporterNs.report("firedirection1", "./firedirection1", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfplayerfire(extras) {
+    _reporterNs.report("playerfire", "./playerfire", _context.meta, extras);
   }
 
   return {
@@ -26,6 +30,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
       firedirection0 = _unresolved_2.firedirection0;
     }, function (_unresolved_3) {
       firedirection1 = _unresolved_3.firedirection1;
+    }, function (_unresolved_4) {
+      playerfire = _unresolved_4.playerfire;
     }],
     execute: function () {
       _crd = true;
@@ -33,9 +39,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
       _cclegacy._RF.push({}, "16e0dDTkZxOaIW6RW+clXFW", "obj-firefast", undefined);
 
       __checkObsolete__(['_decorator', 'Component', 'Node', 'Collider2D', 'BoxCollider2D', 'Contact2DType', 'RigidBody2D']); // 确保正确引入 firedirection0 类
-
-
       // 确保正确引入 firedirection1 类
+
+
       ({
         ccclass,
         property
@@ -51,17 +57,22 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
         }
 
         onBeginContact(selfCollider, otherCollider) {
-          if (otherCollider.node.name === "tank0" || otherCollider.node.name === "tank1") {
+          if (otherCollider.node.name === "tank0" || otherCollider.node.name === "tank1" || otherCollider.node.name === "playertank") {
             const playercontroller0 = otherCollider.getComponentInChildren(_crd && firedirection0 === void 0 ? (_reportPossibleCrUseOffiredirection({
               error: Error()
             }), firedirection0) : firedirection0);
             const playercontroller1 = otherCollider.getComponentInChildren(_crd && firedirection1 === void 0 ? (_reportPossibleCrUseOffiredirection2({
               error: Error()
             }), firedirection1) : firedirection1);
+            const playerfire0 = otherCollider.getComponentInChildren(_crd && playerfire === void 0 ? (_reportPossibleCrUseOfplayerfire({
+              error: Error()
+            }), playerfire) : playerfire);
 
             if (playercontroller0) {
               playercontroller0.fireInterval = 0;
-            } else {
+            } else if (playercontroller1) {
+              playercontroller1.fireInterval = 0;
+            } else if (playerfire0) {
               playercontroller1.fireInterval = 0;
             }
           } // 确保只处理一次销毁操作

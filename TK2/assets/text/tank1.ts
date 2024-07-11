@@ -21,7 +21,11 @@ const Direction = {
 export class PlayerController1 extends Component {
     
     @property
-    public magnification: number =5;
+    public speed: number =5;
+
+    @property
+    tanklife: number = 5;
+
 
     @property(RigidBody2D)
     rigidBody: RigidBody2D = null;
@@ -50,16 +54,12 @@ export class PlayerController1 extends Component {
     @property(SpriteFrame)
     private leftanddownSpriteFrame: SpriteFrame | null = null;
 
-    
-    moveSpeed: number = 5; // 调整移动速度
-
 
 
     private direction: Vec2 = new Vec2(0, 0);
      currentDirection: Vec2 = Vec2.ZERO;
     private pressedKeys: Set<number> = new Set<number>();
-    tanklife: number = 5;
-
+   
 
     start() {
         input.on(Input.EventType.KEY_DOWN, this.onKeyDown, this)
@@ -131,13 +131,12 @@ export class PlayerController1 extends Component {
 
     private updateVelocity() {
         // 计算归一化的速度方向向量
-        let velocity = this.currentDirection.clone().multiplyScalar(this.moveSpeed);
+        let velocity = this.currentDirection.clone().multiplyScalar(this.speed);
 
-
-        velocity.multiplyScalar(this.magnification);
         // 打印速度向量的值
-    
+
         //console.log("当前方向： ", this.direction);
+        //console.log(this.tanklife);
         if (this.rigidBody) {
             this.rigidBody.linearVelocity = velocity;
         }

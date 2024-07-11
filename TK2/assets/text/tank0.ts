@@ -27,7 +27,10 @@ export class PlayerController0 extends Component {
 
     //加速的倍率
     @property
-    public magnification: number =1;
+    public speed: number =1;
+
+    @property()
+    tanklife: number = 5;
 
     
 
@@ -58,14 +61,14 @@ export class PlayerController0 extends Component {
     @property(SpriteFrame)
     private leftanddownSpriteFrame: SpriteFrame | null = null;
 
-    moveSpeed: number = 5; // 调整移动速度
+    moveSpeed: number = 1; // 调整移动速度
 
 
     private direction: Vec2 = new Vec2(0, 0);
     private pressedKeys: Set<number> = new Set<number>();
     currentDirection: Vec2 = Vec2.ZERO;
     //坦克生命值
-    tanklife: number = 5;
+   
 
     //子弹发射的间隔
 
@@ -131,7 +134,7 @@ export class PlayerController0 extends Component {
         //计算归一化的速度方向向量
         let velocity = this.currentDirection.clone().multiplyScalar(this.moveSpeed);
 
-        velocity.multiplyScalar(this.magnification);
+        velocity.multiplyScalar(this.speed);
         if (this.rigidBody) {
             this.rigidBody.linearVelocity = velocity;
         }

@@ -2481,6 +2481,300 @@
         },
         "time": "2024-7-11 13:19:08",
         "dirty": false
+      },
+      "1720677526016": {
+        "type": "build",
+        "id": "1720677526016",
+        "progress": 1,
+        "state": "failure",
+        "stage": "build",
+        "message": "2024-7-11 13:59:39 build task failed! Error: run cmake failed \"cmake -S\"D:/TankFight/TK2/native/engine/win64\" -B\"D:/TankFight/TK2/build/demo2/proj\" -DRES_DIR=\"D:/TankFight/TK2/build/demo2\" -DAPP_NAME=\"HuNaoTank\" -DLAUNCH_TYPE=\"Release\"\", code: 1, signal: null\n    at ChildProcess.<anonymous> (C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\scripts\\native-pack-tool\\source\\utils.ts:484:28)\n    at ChildProcess.emit (events.js:315:20)\n    at maybeClose (internal/child_process.js:1048:16)\n    at Socket.<anonymous> (internal/child_process.js:439:11)\n    at Socket.emit (events.js:315:20)\n    at Pipe.<anonymous> (net.js:673:12)",
+        "detailMessage": "asset-db-hook-engine-extends-afterRefresh (368ms)\r",
+        "options": {
+          "name": "HuNaoTank",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "demo2",
+          "taskName": "windows-001",
+          "scenes": [
+            {
+              "url": "db://assets/map/alonemap0-difficult.scene",
+              "uuid": "1f299242-f13f-4393-9ad0-c3b2064c2606"
+            },
+            {
+              "url": "db://assets/map/alonemap0.scene",
+              "uuid": "1c6af74a-a8a3-47c1-8750-c97c5958c42f"
+            },
+            {
+              "url": "db://assets/map/doublemap0.scene",
+              "uuid": "6edb7132-96e2-4656-abd7-5ddc42a84e26"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/LoginScene.scene",
+              "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+            },
+            {
+              "url": "db://assets/Scenes/return.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            },
+            {
+              "url": "db://assets/Scenes/single1.scene",
+              "uuid": "03313355-9855-490d-98a2-49a0837a55c4"
+            },
+            {
+              "url": "db://assets/Scenes/victory.scene",
+              "uuid": "2be201f8-3f82-437d-b138-1947eaf8f5a2"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-11 13-58.log"
+        },
+        "time": "2024-7-11 13:58:46",
+        "dirty": false
+      },
+      "1720678312174": {
+        "type": "build",
+        "id": "1720678312174",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-7-11 14:12:41 build success in 49 s!",
+        "detailMessage": "Asset DB is resume!\r",
+        "options": {
+          "name": "HuNaoTank",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows-001",
+          "taskName": "windows-001",
+          "scenes": [
+            {
+              "url": "db://assets/map/alonemap0-difficult.scene",
+              "uuid": "1f299242-f13f-4393-9ad0-c3b2064c2606"
+            },
+            {
+              "url": "db://assets/map/alonemap0.scene",
+              "uuid": "1c6af74a-a8a3-47c1-8750-c97c5958c42f"
+            },
+            {
+              "url": "db://assets/map/alonemap2.scene",
+              "uuid": "36291188-d37d-4b4f-a128-588f20d16162"
+            },
+            {
+              "url": "db://assets/map/doublemap.scene",
+              "uuid": "56c94625-6c31-4bd5-90fe-90c9552fdc01"
+            },
+            {
+              "url": "db://assets/map/doublemap0.scene",
+              "uuid": "6edb7132-96e2-4656-abd7-5ddc42a84e26"
+            },
+            {
+              "url": "db://assets/map/test.scene",
+              "uuid": "d506c42d-a2d8-4de2-bff7-83bd68a68175"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/LoginScene.scene",
+              "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+            },
+            {
+              "url": "db://assets/Scenes/return.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            },
+            {
+              "url": "db://assets/Scenes/single1.scene",
+              "uuid": "03313355-9855-490d-98a2-49a0837a55c4"
+            },
+            {
+              "url": "db://assets/Scenes/victory.scene",
+              "uuid": "2be201f8-3f82-437d-b138-1947eaf8f5a2"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-11 14-11.log"
+        },
+        "time": "2024-7-11 14:11:52",
+        "dirty": false
+      },
+      "1720678402352": {
+        "type": "build",
+        "id": "1720678402352",
+        "progress": 1,
+        "state": "success",
+        "stage": "run",
+        "message": "2024-7-11 14:19:21 run package D:\\TankFight\\TK2\\build\\windows-002 success!",
+        "detailMessage": "asset-db-hook-engine-extends-afterRefresh (418ms)\r",
+        "options": {
+          "name": "HuNaoTank",
+          "server": "",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
+          "outputName": "windows-002",
+          "taskName": "windows-002",
+          "scenes": [
+            {
+              "url": "db://assets/map/alonemap0-difficult.scene",
+              "uuid": "1f299242-f13f-4393-9ad0-c3b2064c2606"
+            },
+            {
+              "url": "db://assets/map/alonemap0.scene",
+              "uuid": "1c6af74a-a8a3-47c1-8750-c97c5958c42f"
+            },
+            {
+              "url": "db://assets/map/doublemap0.scene",
+              "uuid": "6edb7132-96e2-4656-abd7-5ddc42a84e26"
+            },
+            {
+              "url": "db://assets/Scenes/LoadingScene.scene",
+              "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+            },
+            {
+              "url": "db://assets/Scenes/LoginScene.scene",
+              "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+            },
+            {
+              "url": "db://assets/Scenes/return.scene",
+              "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+            },
+            {
+              "url": "db://assets/Scenes/select.scene",
+              "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+            },
+            {
+              "url": "db://assets/Scenes/single.scene",
+              "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+            },
+            {
+              "url": "db://assets/Scenes/single1.scene",
+              "uuid": "03313355-9855-490d-98a2-49a0837a55c4"
+            },
+            {
+              "url": "db://assets/Scenes/victory.scene",
+              "uuid": "2be201f8-3f82-437d-b138-1947eaf8f5a2"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/windows2024-7-11 14-13.log"
+        },
+        "time": "2024-7-11 14:13:22",
+        "dirty": false
       }
     }
   }

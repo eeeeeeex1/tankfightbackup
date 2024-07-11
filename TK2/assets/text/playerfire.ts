@@ -9,7 +9,18 @@ export class playerfire extends Component {
     private shootAudio: AudioSource = null;
 
     @property
-    shootPower: number = 500;//�ӵ��ķ����ٶ�
+    shootPower:number=500;//子弹的发射速度
+
+    //子弹发射间隔
+    lastFireTime: number = 0; // 上次发射时间
+    @property
+    fireInterval: number = 1; // 发射间隔时间，单位秒
+
+    //地雷发射间隔
+    landminelastFireTime: number = 0; // 上次发射时间
+    @property
+    landminefireInterval: number = 2; // 发射间隔时间，单位秒
+
 
     @property(Prefab)
     bulletPrefab: Prefab = null;
@@ -21,15 +32,8 @@ export class playerfire extends Component {
     Carmera: Node = null;
 
     direction: Vec2 = new Vec2(0, 0);
-    currentiondirection: Vec2 = new Vec2(0, 0);
     lastdirection: Vec2 = new Vec2(0, -400);
     speed: Vec2 = new Vec2(0, 0);
-
-    lastFireTime: number = 0; // �ϴη���ʱ��
-    fireInterval: number = 0; // ������ʱ�䣬��λ��
-
-    landminelastFireTime: number = 0; // �ϴη���ʱ��
-    landminefireInterval: number = 2; // ������ʱ�䣬��λ��
 
     fireposition: Vec2 = new Vec2(0, 0);
 
@@ -93,8 +97,8 @@ export class playerfire extends Component {
         const rgd = bullet.getComponent(RigidBody2D);
         this.speed = new Vec2((this.fireposition.x - screenPosition.x), (this.fireposition.y - screenPosition.y));
         this.speed.normalize();
-        this.speed.x = this.speed.x * 100;
-        this.speed.y = this.speed.y * 100;
+        this.speed.x = this.speed.x * this.shootPower;
+        this.speed.y = this.speed.y * this.shootPower;
 
         if (this.speed.x !== 0 || this.speed.y !== 0) {
 
