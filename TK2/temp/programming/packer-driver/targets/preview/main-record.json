@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 5633.579700000584,
+      "mTimestamp": 6868.124899998307,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 6512739.338600002,
+      "mTimestamp": 450389.5525999963,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -427,7 +427,7 @@
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/HLB.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/HLB.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -436,12 +436,12 @@
             },
             "end": {
               "line": 5,
-              "column": 55
+              "column": 81
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/LB.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/LB.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
@@ -450,12 +450,12 @@
             },
             "end": {
               "line": 6,
-              "column": 54
+              "column": 80
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/Loading.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/Loading.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
@@ -464,12 +464,12 @@
             },
             "end": {
               "line": 7,
-              "column": 59
+              "column": 85
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/PassInf.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
@@ -478,12 +478,12 @@
             },
             "end": {
               "line": 8,
-              "column": 59
+              "column": 85
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/SLB.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/SLB.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
@@ -492,12 +492,12 @@
             },
             "end": {
               "line": 9,
-              "column": 55
+              "column": 81
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/change0.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/change0.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
@@ -506,12 +506,12 @@
             },
             "end": {
               "line": 10,
-              "column": 59
+              "column": 85
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/change1.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/change1.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
@@ -520,12 +520,12 @@
             },
             "end": {
               "line": 11,
-              "column": 59
+              "column": 85
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/double.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/double.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
@@ -534,12 +534,12 @@
             },
             "end": {
               "line": 12,
-              "column": 58
+              "column": 84
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/easy.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/easy.ts",
           "resolved": "__unresolved_9",
           "loc": {
             "start": {
@@ -548,12 +548,12 @@
             },
             "end": {
               "line": 13,
-              "column": 56
+              "column": 82
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/endgame.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/endgame.ts",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
@@ -562,12 +562,12 @@
             },
             "end": {
               "line": 14,
-              "column": 59
+              "column": 85
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/esc.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/esc.ts",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
@@ -576,12 +576,12 @@
             },
             "end": {
               "line": 15,
-              "column": 55
+              "column": 81
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/hard.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/hard.ts",
           "resolved": "__unresolved_12",
           "loc": {
             "start": {
@@ -590,12 +590,12 @@
             },
             "end": {
               "line": 16,
-              "column": 56
+              "column": 82
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/log.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/log.ts",
           "resolved": "__unresolved_13",
           "loc": {
             "start": {
@@ -604,12 +604,12 @@
             },
             "end": {
               "line": 17,
-              "column": 55
+              "column": 81
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/pause.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/pause.ts",
           "resolved": "__unresolved_14",
           "loc": {
             "start": {
@@ -618,12 +618,12 @@
             },
             "end": {
               "line": 18,
-              "column": 57
+              "column": 83
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/reStart.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/reStart.ts",
           "resolved": "__unresolved_15",
           "loc": {
             "start": {
@@ -632,12 +632,12 @@
             },
             "end": {
               "line": 19,
-              "column": 59
+              "column": 85
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/returnlog.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/returnlog.ts",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
@@ -646,12 +646,12 @@
             },
             "end": {
               "line": 20,
-              "column": 61
+              "column": 87
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/returnselect.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/returnselect.ts",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
@@ -660,12 +660,12 @@
             },
             "end": {
               "line": 21,
-              "column": 64
+              "column": 90
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/select.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/select.ts",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
@@ -674,12 +674,12 @@
             },
             "end": {
               "line": 22,
-              "column": 58
+              "column": 84
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/shut.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/shut.ts",
           "resolved": "__unresolved_19",
           "loc": {
             "start": {
@@ -688,12 +688,12 @@
             },
             "end": {
               "line": 23,
-              "column": 56
+              "column": 82
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/time01.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time01.ts",
           "resolved": "__unresolved_20",
           "loc": {
             "start": {
@@ -702,12 +702,12 @@
             },
             "end": {
               "line": 24,
-              "column": 58
+              "column": 84
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/time11.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time11.ts",
           "resolved": "__unresolved_21",
           "loc": {
             "start": {
@@ -716,12 +716,12 @@
             },
             "end": {
               "line": 25,
-              "column": 58
+              "column": 84
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/Scripts/welcome.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/welcome.ts",
           "resolved": "__unresolved_22",
           "loc": {
             "start": {
@@ -730,12 +730,12 @@
             },
             "end": {
               "line": 26,
-              "column": 59
+              "column": 85
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/AudioManeger.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/AudioManeger.ts",
           "resolved": "__unresolved_23",
           "loc": {
             "start": {
@@ -744,12 +744,12 @@
             },
             "end": {
               "line": 27,
-              "column": 61
+              "column": 87
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/background.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/background.ts",
           "resolved": "__unresolved_24",
           "loc": {
             "start": {
@@ -758,12 +758,12 @@
             },
             "end": {
               "line": 28,
-              "column": 59
+              "column": 85
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/bullet0.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/bullet0.ts",
           "resolved": "__unresolved_25",
           "loc": {
             "start": {
@@ -772,12 +772,12 @@
             },
             "end": {
               "line": 29,
-              "column": 56
+              "column": 82
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/bullet1.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/bullet1.ts",
           "resolved": "__unresolved_26",
           "loc": {
             "start": {
@@ -786,12 +786,12 @@
             },
             "end": {
               "line": 30,
-              "column": 56
+              "column": 82
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/cheat-test.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/cheat-test.ts",
           "resolved": "__unresolved_27",
           "loc": {
             "start": {
@@ -800,12 +800,12 @@
             },
             "end": {
               "line": 31,
-              "column": 59
+              "column": 85
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/enemybullet.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemybullet.ts",
           "resolved": "__unresolved_28",
           "loc": {
             "start": {
@@ -814,12 +814,12 @@
             },
             "end": {
               "line": 32,
-              "column": 60
+              "column": 86
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/enemylandmine.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemylandmine.ts",
           "resolved": "__unresolved_29",
           "loc": {
             "start": {
@@ -828,12 +828,12 @@
             },
             "end": {
               "line": 33,
-              "column": 62
+              "column": 88
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/enemytank-001/enemyfire.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/enemyfire.ts",
           "resolved": "__unresolved_30",
           "loc": {
             "start": {
@@ -842,12 +842,12 @@
             },
             "end": {
               "line": 34,
-              "column": 72
+              "column": 98
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/enemytank-001/enemytank-001.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/enemytank-001.ts",
           "resolved": "__unresolved_31",
           "loc": {
             "start": {
@@ -856,12 +856,12 @@
             },
             "end": {
               "line": 35,
-              "column": 76
+              "column": 102
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/enemytank-001/tietu.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/tietu.ts",
           "resolved": "__unresolved_32",
           "loc": {
             "start": {
@@ -870,12 +870,12 @@
             },
             "end": {
               "line": 36,
-              "column": 68
+              "column": 94
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/enemytank-002/enemyfire.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/enemyfire.ts",
           "resolved": "__unresolved_33",
           "loc": {
             "start": {
@@ -884,12 +884,12 @@
             },
             "end": {
               "line": 37,
-              "column": 72
+              "column": 98
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/enemytank-002/enemytank-002.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/enemytank-002.ts",
           "resolved": "__unresolved_34",
           "loc": {
             "start": {
@@ -898,12 +898,12 @@
             },
             "end": {
               "line": 38,
-              "column": 76
+              "column": 102
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/enemytank-002/tietu.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/tietu.ts",
           "resolved": "__unresolved_35",
           "loc": {
             "start": {
@@ -912,12 +912,12 @@
             },
             "end": {
               "line": 39,
-              "column": 68
+              "column": 94
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/enemytank/enemyfire.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank/enemyfire.ts",
           "resolved": "__unresolved_36",
           "loc": {
             "start": {
@@ -926,12 +926,12 @@
             },
             "end": {
               "line": 40,
-              "column": 68
+              "column": 94
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/enemytank/enemytank.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank/enemytank.ts",
           "resolved": "__unresolved_37",
           "loc": {
             "start": {
@@ -940,12 +940,12 @@
             },
             "end": {
               "line": 41,
-              "column": 68
+              "column": 94
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/fireaffect0.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fireaffect0.ts",
           "resolved": "__unresolved_38",
           "loc": {
             "start": {
@@ -954,12 +954,12 @@
             },
             "end": {
               "line": 42,
-              "column": 60
+              "column": 86
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/fireaffect1.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fireaffect1.ts",
           "resolved": "__unresolved_39",
           "loc": {
             "start": {
@@ -968,12 +968,12 @@
             },
             "end": {
               "line": 43,
-              "column": 60
+              "column": 86
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/firedirection0.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection0.ts",
           "resolved": "__unresolved_40",
           "loc": {
             "start": {
@@ -982,12 +982,12 @@
             },
             "end": {
               "line": 44,
-              "column": 63
+              "column": 89
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/firedirection1.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection1.ts",
           "resolved": "__unresolved_41",
           "loc": {
             "start": {
@@ -996,12 +996,12 @@
             },
             "end": {
               "line": 45,
-              "column": 63
+              "column": 89
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/fort.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fort.ts",
           "resolved": "__unresolved_42",
           "loc": {
             "start": {
@@ -1010,12 +1010,12 @@
             },
             "end": {
               "line": 46,
-              "column": 53
+              "column": 79
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/hp0.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/hp0.ts",
           "resolved": "__unresolved_43",
           "loc": {
             "start": {
@@ -1024,12 +1024,12 @@
             },
             "end": {
               "line": 47,
-              "column": 52
+              "column": 78
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/hp1.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/hp1.ts",
           "resolved": "__unresolved_44",
           "loc": {
             "start": {
@@ -1038,12 +1038,12 @@
             },
             "end": {
               "line": 48,
-              "column": 52
+              "column": 78
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/landmine0%20copy.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine0%20copy.ts",
           "resolved": "__unresolved_45",
           "loc": {
             "start": {
@@ -1052,12 +1052,12 @@
             },
             "end": {
               "line": 49,
-              "column": 65
+              "column": 91
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/landmine0.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine0.ts",
           "resolved": "__unresolved_46",
           "loc": {
             "start": {
@@ -1066,12 +1066,12 @@
             },
             "end": {
               "line": 50,
-              "column": 58
+              "column": 84
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/landmine1.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine1.ts",
           "resolved": "__unresolved_47",
           "loc": {
             "start": {
@@ -1080,12 +1080,12 @@
             },
             "end": {
               "line": 51,
-              "column": 58
+              "column": 84
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/normalwall.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/normalwall.ts",
           "resolved": "__unresolved_48",
           "loc": {
             "start": {
@@ -1094,12 +1094,12 @@
             },
             "end": {
               "line": 52,
-              "column": 59
+              "column": 85
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/obj-firefast.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/obj-firefast.ts",
           "resolved": "__unresolved_49",
           "loc": {
             "start": {
@@ -1108,12 +1108,12 @@
             },
             "end": {
               "line": 53,
-              "column": 61
+              "column": 87
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/obj-movefast.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/obj-movefast.ts",
           "resolved": "__unresolved_50",
           "loc": {
             "start": {
@@ -1122,12 +1122,12 @@
             },
             "end": {
               "line": 54,
-              "column": 61
+              "column": 87
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/playerfire.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/playerfire.ts",
           "resolved": "__unresolved_51",
           "loc": {
             "start": {
@@ -1136,12 +1136,12 @@
             },
             "end": {
               "line": 55,
-              "column": 59
+              "column": 85
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/specialwall.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/specialwall.ts",
           "resolved": "__unresolved_52",
           "loc": {
             "start": {
@@ -1150,12 +1150,12 @@
             },
             "end": {
               "line": 56,
-              "column": 60
+              "column": 86
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/speedaffect0.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/speedaffect0.ts",
           "resolved": "__unresolved_53",
           "loc": {
             "start": {
@@ -1164,12 +1164,12 @@
             },
             "end": {
               "line": 57,
-              "column": 61
+              "column": 87
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/speedaffect1.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/speedaffect1.ts",
           "resolved": "__unresolved_54",
           "loc": {
             "start": {
@@ -1178,12 +1178,12 @@
             },
             "end": {
               "line": 58,
-              "column": 61
+              "column": 87
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/tank0.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts",
           "resolved": "__unresolved_55",
           "loc": {
             "start": {
@@ -1192,12 +1192,12 @@
             },
             "end": {
               "line": 59,
-              "column": 54
+              "column": 80
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/tank1.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts",
           "resolved": "__unresolved_56",
           "loc": {
             "start": {
@@ -1206,12 +1206,12 @@
             },
             "end": {
               "line": 60,
-              "column": 54
+              "column": 80
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/tankdestroy.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tankdestroy.ts",
           "resolved": "__unresolved_57",
           "loc": {
             "start": {
@@ -1220,12 +1220,12 @@
             },
             "end": {
               "line": 61,
-              "column": 60
+              "column": 86
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/tietu.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tietu.ts",
           "resolved": "__unresolved_58",
           "loc": {
             "start": {
@@ -1234,12 +1234,12 @@
             },
             "end": {
               "line": 62,
-              "column": 54
+              "column": 80
             }
           }
         },
         {
-          "value": "file:///D:/TankFight/TK2/assets/text/victory.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/victory.ts",
           "resolved": "__unresolved_59",
           "loc": {
             "start": {
@@ -1248,7 +1248,7 @@
             },
             "end": {
               "line": 63,
-              "column": 56
+              "column": 82
             }
           }
         }
@@ -1265,413 +1265,413 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/HLB.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/HLB.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/LB.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/LB.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/Loading.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/Loading.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/PassInf.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/SLB.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/SLB.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/change0.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/change0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/change1.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/change1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/double.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/double.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/easy.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/easy.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/endgame.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/endgame.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/esc.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/esc.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/hard.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/hard.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/log.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/log.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/pause.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/pause.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/reStart.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/reStart.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/returnlog.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/returnlog.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/returnselect.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/returnselect.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/select.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/select.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/shut.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/shut.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/time01.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time01.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/time11.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time11.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/Scripts/welcome.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/welcome.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/AudioManeger.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/AudioManeger.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/background.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/background.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/bullet0.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/bullet0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/bullet1.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/bullet1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/cheat-test.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/cheat-test.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/enemybullet.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemybullet.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/enemylandmine.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemylandmine.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/enemytank-001/enemyfire.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/enemyfire.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/enemytank-001/enemytank-001.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/enemytank-001.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/enemytank-001/tietu.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/tietu.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/enemytank-002/enemyfire.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/enemyfire.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/enemytank-002/enemytank-002.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/enemytank-002.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/enemytank-002/tietu.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/tietu.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/enemytank/enemyfire.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank/enemyfire.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/enemytank/enemytank.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank/enemytank.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/fireaffect0.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fireaffect0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/fireaffect1.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fireaffect1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/firedirection0.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/firedirection1.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/fort.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fort.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/hp0.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/hp0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/hp1.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/hp1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/landmine0%20copy.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine0%20copy.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/landmine0.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/landmine1.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/normalwall.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/normalwall.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/obj-firefast.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/obj-firefast.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/obj-movefast.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/obj-movefast.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/playerfire.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/playerfire.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/specialwall.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/specialwall.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/speedaffect0.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/speedaffect0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/speedaffect1.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/speedaffect1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/tank0.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/tank1.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/tankdestroy.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tankdestroy.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/tietu.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tietu.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/TankFight/TK2/assets/text/victory.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/victory.ts"
           },
           "messages": []
         }
@@ -1938,7 +1938,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1720679806485,
+      "mTimestamp": 1720694249491,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -7394,6 +7394,4488 @@
           "resolved": {
             "type": "module",
             "url": "file:///D:/TankFight/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/HLB.ts": {
+      "mTimestamp": {
+        "mtime": 1720668537959.5945,
+        "uuid": "a3b84074-c707-4d6d-9eae-0dc158956fc4"
+      },
+      "chunkId": "163996210373c7cf440f2380bca044c978bfdfe8",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/LB.ts": {
+      "mTimestamp": {
+        "mtime": 1720661281131.9717,
+        "uuid": "022ad31a-5b4a-45fb-b36a-56722cc4d736"
+      },
+      "chunkId": "3fa8c7130e94c9393b264a7ce32f5474676f6187",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 80
+            },
+            "end": {
+              "line": 1,
+              "column": 84
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/Loading.ts": {
+      "mTimestamp": {
+        "mtime": 1720679653878.2666,
+        "uuid": "45e19a0e-19cd-47a7-91ff-efa5210f49f7"
+      },
+      "chunkId": "2cf4671fbceb6daaffc4bc64059321f1484b1336",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 67
+            },
+            "end": {
+              "line": 1,
+              "column": 71
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts": {
+      "mTimestamp": {
+        "mtime": 1720667519376.2036,
+        "uuid": "1fe4e814-6472-46a2-a93c-4141761759a6"
+      },
+      "chunkId": "6effc2048ee312d207d27495ab80489c13b29886",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/SLB.ts": {
+      "mTimestamp": {
+        "mtime": 1720668004115.0684,
+        "uuid": "b47f47d6-afa0-42be-b5ff-97d13b982902"
+      },
+      "chunkId": "2ed0aa1839a02c2d83fa09134af5114a9570ecf1",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 26
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/change0.ts": {
+      "mTimestamp": {
+        "mtime": 1720664463353.8616,
+        "uuid": "1719ec0a-1523-4149-84be-06f4ea4ac6d3"
+      },
+      "chunkId": "f97f73bcb70d42f150024c0f2b592257781e26dd",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 72
+            },
+            "end": {
+              "line": 1,
+              "column": 76
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/change1.ts": {
+      "mTimestamp": {
+        "mtime": 1720664621134.2166,
+        "uuid": "ce069bfa-3bbe-46f6-9c68-07c92c5a44db"
+      },
+      "chunkId": "f305075da1810cfa481bef618e823272f7a6da3a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 72
+            },
+            "end": {
+              "line": 1,
+              "column": 76
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/double.ts": {
+      "mTimestamp": {
+        "mtime": 1720670997898.67,
+        "uuid": "0370a831-3f9e-4fa3-b785-327282c5f9e8"
+      },
+      "chunkId": "f9ef8108184207a2a3ac8a4af16370e7cccdebfd",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/easy.ts": {
+      "mTimestamp": {
+        "mtime": 1720694698482.9504,
+        "uuid": "1c2aa0ab-07a1-4d07-9bdf-cb237e5f50b4"
+      },
+      "chunkId": "2293fa9ab01540ca40b9eaf4f350d7045e60f8e2",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/endgame.ts": {
+      "mTimestamp": {
+        "mtime": 1720233435339.955,
+        "uuid": "8abae688-1282-4103-be51-6c90b8514c81"
+      },
+      "chunkId": "10fc00572e6c8f6f7211e7b1d40709f7aae1789e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 64
+            },
+            "end": {
+              "line": 1,
+              "column": 68
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/esc.ts": {
+      "mTimestamp": {
+        "mtime": 1720572450872.6057,
+        "uuid": "37eb1a04-6317-47bf-bb42-ea3d421539b0"
+      },
+      "chunkId": "9e7f213547356e50b5cbb518e663112ef72ad361",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 100
+            },
+            "end": {
+              "line": 1,
+              "column": 104
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/hard.ts": {
+      "mTimestamp": {
+        "mtime": 1720668411474.173,
+        "uuid": "62e26f9a-508f-4ab8-8d7c-6de5471415bd"
+      },
+      "chunkId": "c45c38bb2ce35a2b17aaaa5a8b6504bbb2e042ac",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/log.ts": {
+      "mTimestamp": {
+        "mtime": 1720666578831.2944,
+        "uuid": "c0d874b8-7781-4364-a158-9e2bec11454a"
+      },
+      "chunkId": "2d4b72c861f41697deb32f2f75093b435a2d06fa",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 71
+            },
+            "end": {
+              "line": 1,
+              "column": 75
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/pause.ts": {
+      "mTimestamp": {
+        "mtime": 1720674341719.3364,
+        "uuid": "1be0ecb3-4616-4119-8f11-962e875d2220"
+      },
+      "chunkId": "3efe872ca08ed922e9d548ac300812b54a4d686f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 129
+            },
+            "end": {
+              "line": 1,
+              "column": 133
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/reStart.ts": {
+      "mTimestamp": {
+        "mtime": 1720674492941.8418,
+        "uuid": "6f9fcabe-e920-4453-95c6-2151b6e1006d"
+      },
+      "chunkId": "7b7060f8c2781355f8a414a6966812986d623666",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 60
+            },
+            "end": {
+              "line": 1,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/returnlog.ts": {
+      "mTimestamp": {
+        "mtime": 1720233468550.0186,
+        "uuid": "a189430a-0628-4266-acb3-0928040a9813"
+      },
+      "chunkId": "07f8bb379e39f4bd5df848e5495ce7f2a2fb7446",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/returnselect.ts": {
+      "mTimestamp": {
+        "mtime": 1720232896428.7542,
+        "uuid": "310575db-eb3c-4d6b-9e70-d39d9c2f83c4"
+      },
+      "chunkId": "d632ebeba1e0d67c2b9171e2d8b2791b328bf10e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/select.ts": {
+      "mTimestamp": {
+        "mtime": 1720668037907.8877,
+        "uuid": "9acb61b4-461b-40b5-beb5-680b75075740"
+      },
+      "chunkId": "aac31d343bfea844a1ba6f4d76edc9f36e9938db",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/shut.ts": {
+      "mTimestamp": {
+        "mtime": 1720663980638.6567,
+        "uuid": "eeb3c5fd-16a2-4efc-93d2-e772dde7fd72"
+      },
+      "chunkId": "3b85ed1652b9d44667fb5ef63f0711b2809b9bd0",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time01.ts": {
+      "mTimestamp": {
+        "mtime": 1720686310283.594,
+        "uuid": "6430be03-fcf3-4236-b9ed-af8e3ab624ce"
+      },
+      "chunkId": "e7640da30d025e5c8796b87e496fe8c04b518fa9",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 59
+            },
+            "end": {
+              "line": 1,
+              "column": 63
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time11.ts": {
+      "mTimestamp": {
+        "mtime": 1720686303686.5232,
+        "uuid": "078c8ab7-7e9b-4b36-91ad-f3feb82afc4d"
+      },
+      "chunkId": "dd4c130e8ccf203291080f0fa344bd2aa5e21961",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 58
+            },
+            "end": {
+              "line": 1,
+              "column": 62
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/welcome.ts": {
+      "mTimestamp": {
+        "mtime": 1720680068727.5244,
+        "uuid": "c4498d13-2555-4639-bb4a-f0fe9a14fb41"
+      },
+      "chunkId": "ba48c1bc3a60fabaddb1a0e0ec7ca9074e1ce976",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 83
+            },
+            "end": {
+              "line": 1,
+              "column": 87
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/AudioManeger.ts": {
+      "mTimestamp": {
+        "mtime": 1720578074067.4253,
+        "uuid": "b35888f9-f87e-4036-9abb-f2acbbbab28a"
+      },
+      "chunkId": "fddf01d3ea17c60dcff36d7e1a456051ac1a13aa",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/background.ts": {
+      "mTimestamp": {
+        "mtime": 1720164432000,
+        "uuid": "b50dccee-a23f-4bd3-aff8-f67067d0d69b"
+      },
+      "chunkId": "2c6a65c18edae598f3e2bec0e048ab9f0313ed3d",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 61
+            },
+            "end": {
+              "line": 1,
+              "column": 65
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/bullet0.ts": {
+      "mTimestamp": {
+        "mtime": 1720681433885.2815,
+        "uuid": "82eb8b8b-d44e-40ea-a107-a24ff1bfa5b0"
+      },
+      "chunkId": "48aab7253c5c5e84f1cd48ed2abbcc87c2d1f117",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 78
+            },
+            "end": {
+              "line": 1,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts": {
+      "mTimestamp": {
+        "mtime": 1720662045579.105,
+        "uuid": "20c591ef-2140-4806-bea8-a7519cd3af9d"
+      },
+      "chunkId": "c901d93c052257a31fbe2a9924f6e926148d46f8",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 194
+            },
+            "end": {
+              "line": 1,
+              "column": 198
+            }
+          }
+        },
+        {
+          "value": "./firedirection1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 21
+            },
+            "end": {
+              "line": 3,
+              "column": 25
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection1.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection1.ts": {
+      "mTimestamp": {
+        "mtime": 1720662329471.3848,
+        "uuid": "acf90797-a929-4d3d-8920-3d19cf3e3fe2"
+      },
+      "chunkId": "768bafa733be3256e32c3def74aa845427cbda00",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 171
+            },
+            "end": {
+              "line": 1,
+              "column": 175
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/bullet1.ts": {
+      "mTimestamp": {
+        "mtime": 1720683558840.6306,
+        "uuid": "f16fb09b-91b4-4c02-a6b3-6e460f7ab65c"
+      },
+      "chunkId": "8f31433e45c7043ba48a2d6870b0d7cec5a433b2",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 78
+            },
+            "end": {
+              "line": 1,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts": {
+      "mTimestamp": {
+        "mtime": 1720661870403.021,
+        "uuid": "3f68566e-2dce-4cb2-9ea6-e66931227e03"
+      },
+      "chunkId": "29c30c9840145cba6bc1566afee57815314c6b7e",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 178
+            },
+            "end": {
+              "line": 1,
+              "column": 182
+            }
+          }
+        },
+        {
+          "value": "./firedirection0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 21
+            },
+            "end": {
+              "line": 3,
+              "column": 25
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection0.ts": {
+      "mTimestamp": {
+        "mtime": 1720662210165.2134,
+        "uuid": "03b5b70c-f874-4daf-a3ab-5f8ecd787a7f"
+      },
+      "chunkId": "c1785c9a459ad6794f76476877efca01022166fd",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 171
+            },
+            "end": {
+              "line": 1,
+              "column": 175
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/cheat-test.ts": {
+      "mTimestamp": {
+        "mtime": 1720658053247.5054,
+        "uuid": "e5373e99-7c5d-4fae-8e0c-5e723ffc57e8"
+      },
+      "chunkId": "c1cd9da44ef9308ea43a797bcd3f5aac252ac83c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 116
+            },
+            "end": {
+              "line": 1,
+              "column": 120
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemybullet.ts": {
+      "mTimestamp": {
+        "mtime": 1720665677194.5457,
+        "uuid": "592eabdc-b225-428e-b0aa-17cb6505de82"
+      },
+      "chunkId": "14af3b859c0758052d18165131f6e3da01ad7a4c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 78
+            },
+            "end": {
+              "line": 1,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemylandmine.ts": {
+      "mTimestamp": {
+        "mtime": 1720599255049.6335,
+        "uuid": "d1cb891b-c74d-4c80-b9d7-f1985b3100ee"
+      },
+      "chunkId": "94321f4f1af9dbd4916d5ced4ebfac5ada8de0e2",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 132
+            },
+            "end": {
+              "line": 1,
+              "column": 136
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/enemyfire.ts": {
+      "mTimestamp": {
+        "mtime": 1720663048256.013,
+        "uuid": "1c89292b-0aa1-4687-aa50-51676c1a1590"
+      },
+      "chunkId": "156ac76656b133cdceb9676d8ab010ce63ceede8",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 158
+            },
+            "end": {
+              "line": 1,
+              "column": 162
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "./enemytank-001",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 30
+            },
+            "end": {
+              "line": 3,
+              "column": 47
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/enemytank-001.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/enemytank-001.ts": {
+      "mTimestamp": {
+        "mtime": 1720663176958.4417,
+        "uuid": "c6da3fe1-9208-4a9c-8a7f-b65375843509"
+      },
+      "chunkId": "5f58f7b34acfc58e28f168bedac8ca75d31a76d0",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 212
+            },
+            "end": {
+              "line": 1,
+              "column": 216
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/tietu.ts": {
+      "mTimestamp": {
+        "mtime": 1720598711750.1401,
+        "uuid": "3d4b6962-034e-4cbd-8bcf-0edbe86d0c82"
+      },
+      "chunkId": "d2548def85b5b90788a2a38be8c8598ba71e3a35",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 212
+            },
+            "end": {
+              "line": 1,
+              "column": 216
+            }
+          }
+        },
+        {
+          "value": "./enemyfire",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/enemyfire.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/enemyfire.ts": {
+      "mTimestamp": {
+        "mtime": 1720663135338.5334,
+        "uuid": "ef728298-d7c9-4679-824d-d28bbbd4f082"
+      },
+      "chunkId": "ce4b0c7074de12c694e8785a61958a06a0b87c91",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 158
+            },
+            "end": {
+              "line": 1,
+              "column": 162
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "./enemytank-002",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 30
+            },
+            "end": {
+              "line": 3,
+              "column": 47
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/enemytank-002.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/enemytank-002.ts": {
+      "mTimestamp": {
+        "mtime": 1720663171372.9556,
+        "uuid": "77557fef-f28d-42ba-b679-4e46d95edf1a"
+      },
+      "chunkId": "bdb4bec021b4f41e79fddf33f4d469fe2a2e3da4",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 212
+            },
+            "end": {
+              "line": 1,
+              "column": 216
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/tietu.ts": {
+      "mTimestamp": {
+        "mtime": 1720598333000.563,
+        "uuid": "4bdb173f-400a-4ff4-8c48-2671a91b3978"
+      },
+      "chunkId": "8a796688552d796e01f41291bec7752f368b4d7a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 212
+            },
+            "end": {
+              "line": 1,
+              "column": 216
+            }
+          }
+        },
+        {
+          "value": "./enemyfire",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/enemyfire.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank/enemyfire.ts": {
+      "mTimestamp": {
+        "mtime": 1720662901524.5735,
+        "uuid": "330896a6-c06b-4c52-893b-afaad8409291"
+      },
+      "chunkId": "2a7184acd35df755fa53d038a1761355de7c4bdd",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 158
+            },
+            "end": {
+              "line": 1,
+              "column": 162
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "./enemytank",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 26
+            },
+            "end": {
+              "line": 3,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank/enemytank.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank/enemytank.ts": {
+      "mTimestamp": {
+        "mtime": 1720663794155.4492,
+        "uuid": "d96d38fa-d13f-4da1-a6a2-26bdf7b737e3"
+      },
+      "chunkId": "224704c99e77461012f7fd6b6ffd305ca4ac92f0",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 206
+            },
+            "end": {
+              "line": 1,
+              "column": 210
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fireaffect0.ts": {
+      "mTimestamp": {
+        "mtime": 1720658086101.3342,
+        "uuid": "2ebc0a9f-5ad0-46e2-a4ae-2e5be51589e9"
+      },
+      "chunkId": "f2f6aa5f06f5f81f8105593540c24a24b61b9a3c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./firedirection0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fireaffect1.ts": {
+      "mTimestamp": {
+        "mtime": 1720234978000,
+        "uuid": "00014a5f-125d-4c64-972b-4d11412c78d8"
+      },
+      "chunkId": "27a8f37aa477c7259e80dac8ba761d9932f77293",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./firedirection1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fort.ts": {
+      "mTimestamp": {
+        "mtime": 1720664156486.8735,
+        "uuid": "a32db6d4-7793-4dc3-a694-fb8dc8ce3111"
+      },
+      "chunkId": "e81e9a16b403e865871843b6edbaf1f863850a91",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 244
+            },
+            "end": {
+              "line": 1,
+              "column": 248
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/hp0.ts": {
+      "mTimestamp": {
+        "mtime": 1720521335202.3047,
+        "uuid": "14976f41-8bb2-4b94-b7c1-fe380df4a35a"
+      },
+      "chunkId": "251c48f2cc3004bede1cb01ebfe057d7fb0c4627",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/hp1.ts": {
+      "mTimestamp": {
+        "mtime": 1720521392340.6301,
+        "uuid": "16f403da-6b9c-45ef-81f6-128d67a05bf0"
+      },
+      "chunkId": "bbafb926bd3bb69f42a995b3352eefc004f82b05",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine0%20copy.ts": {
+      "mTimestamp": {
+        "mtime": 1720258144000,
+        "uuid": "b1a54b12-fc79-4df3-a4f2-d20b3ec80ea8"
+      },
+      "chunkId": "efbc47a15e8f1ec86fca52e4c3e0ffe131972d6d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 132
+            },
+            "end": {
+              "line": 1,
+              "column": 136
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine0.ts": {
+      "mTimestamp": {
+        "mtime": 1720599089288.701,
+        "uuid": "88fa8d72-bb43-4827-ab04-7642facb86ee"
+      },
+      "chunkId": "81c8c8678fe95936d5149dd5a6f95fd194230c4d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 132
+            },
+            "end": {
+              "line": 1,
+              "column": 136
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine1.ts": {
+      "mTimestamp": {
+        "mtime": 1720258150000,
+        "uuid": "a45ae2c3-3e67-4bc5-b51a-4059dedf7c10"
+      },
+      "chunkId": "b5a3cb1bfa28802874cb7bb5fef8631039733854",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 132
+            },
+            "end": {
+              "line": 1,
+              "column": 136
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/normalwall.ts": {
+      "mTimestamp": {
+        "mtime": 1720164432000,
+        "uuid": "fbe250b1-87fa-4ae2-ad8d-019463cf0bec"
+      },
+      "chunkId": "d0b24a6a83405260d524a0781c5ac3b37ff3123b",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/obj-firefast.ts": {
+      "mTimestamp": {
+        "mtime": 1720694572563.8462,
+        "uuid": "16e0d0d3-919c-4e68-85ba-456f9c957156"
+      },
+      "chunkId": "073198205827371d30f242361c9e97e6587b9a79",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 96
+            },
+            "end": {
+              "line": 1,
+              "column": 100
+            }
+          }
+        },
+        {
+          "value": "./firedirection0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./firedirection1",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 31
+            },
+            "end": {
+              "line": 3,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./playerfire",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 27
+            },
+            "end": {
+              "line": 4,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection1.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/playerfire.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/playerfire.ts": {
+      "mTimestamp": {
+        "mtime": 1720663495086.8838,
+        "uuid": "b519287e-b6f9-4be4-af4e-c347858ca624"
+      },
+      "chunkId": "09c31c90c109741a1347daf574fc6834f6317a91",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 206
+            },
+            "end": {
+              "line": 1,
+              "column": 210
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/obj-movefast.ts": {
+      "mTimestamp": {
+        "mtime": 1720694552881.9624,
+        "uuid": "d97475ad-cfc1-4cd4-9610-adb598f10e24"
+      },
+      "chunkId": "cfef35fccd1666dbbf65fc98139fece6746bcd6d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 96
+            },
+            "end": {
+              "line": 1,
+              "column": 100
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/specialwall.ts": {
+      "mTimestamp": {
+        "mtime": 1720164432000,
+        "uuid": "acd0e859-2f9d-48e7-86ef-f0f36fff76b5"
+      },
+      "chunkId": "2d1addb569eda8cdb43a43caaf1d518ef09ad229",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 61
+            },
+            "end": {
+              "line": 1,
+              "column": 65
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/speedaffect0.ts": {
+      "mTimestamp": {
+        "mtime": 1720254176000,
+        "uuid": "b4a9900c-93e4-4dd4-aa75-7f8525854d2a"
+      },
+      "chunkId": "1fcb6ccd21d66cbe43845a51ba9b441e985e1709",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 52
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/speedaffect1.ts": {
+      "mTimestamp": {
+        "mtime": 1720235072000,
+        "uuid": "c2ec48c9-53e8-4388-aa60-71d8e5d0e67e"
+      },
+      "chunkId": "893f8e426d1663c7ffa75bf3f7889edac24d9b62",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tankdestroy.ts": {
+      "mTimestamp": {
+        "mtime": 1720257684000,
+        "uuid": "52691598-1f1c-4f3f-9f1d-07cfd092f215"
+      },
+      "chunkId": "f4b160259ae123c6943f05775b0182cb5d1c2f04",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tietu.ts": {
+      "mTimestamp": {
+        "mtime": 1720598687129.124,
+        "uuid": "da26308d-0534-4a7c-bf71-3ae5ea9ebaa1"
+      },
+      "chunkId": "64591ccd9c2df7a4c193da8e24a8a410dc34c1f1",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 212
+            },
+            "end": {
+              "line": 1,
+              "column": 216
+            }
+          }
+        },
+        {
+          "value": "./enemytank/enemyfire",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank/enemyfire.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/victory.ts": {
+      "mTimestamp": {
+        "mtime": 1720576932623.9253,
+        "uuid": "06ffd294-885b-4a68-b096-3a30290411f3"
+      },
+      "chunkId": "a79b85e4e569bc3b43467d5705ec4863e103a309",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 53
+            },
+            "end": {
+              "line": 1,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts"
           },
           "messages": []
         }

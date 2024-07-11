@@ -29,7 +29,7 @@ export class objectfirefast extends Component {
                 playercontroller1.fireInterval=0;
             }
             else if(playerfire0){
-                playercontroller1.fireInterval=0;
+                playerfire0.fireInterval=0;
             }
 
         }

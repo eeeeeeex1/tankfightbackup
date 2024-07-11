@@ -5,9 +5,9 @@
         "version": "Windows 10 Home China"
     },
     "sceneListMap": {
-        "36291188-d37d-4b4f-a128-588f20d16162": "D:\\TankFight\\TK2\\assets\\map\\doublemap0.scene",
         "1c6af74a-a8a3-47c1-8750-c97c5958c42f": "D:\\TankFight\\TK2\\assets\\map\\alonemap0.scene",
-        "1f299242-f13f-4393-9ad0-c3b2064c2606": "D:\\TankFight\\TK2\\assets\\map\\alonemap0-difficult.scene"
+        "1f299242-f13f-4393-9ad0-c3b2064c2606": "D:\\TankFight\\TK2\\assets\\map\\alonemap0-difficult.scene",
+        "36291188-d37d-4b4f-a128-588f20d16162": "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\map\\doublemap0.scene"
     },
     "deviceMd5": "21016482aa57b40cb78706676d50abc2"
 }
