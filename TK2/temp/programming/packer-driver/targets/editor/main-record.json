@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 6819.731100000441,
+      "mTimestamp": 6680.310300000012,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 450215.7843999937,
+      "mTimestamp": 1627595.889399998,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -658,7 +658,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/HLB.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/HLB.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -667,311 +667,451 @@
             },
             "end": {
               "line": 5,
-              "column": 257
+              "column": 227
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/LB.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/LB.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 5,
-              "column": 273
+              "column": 243
             },
             "end": {
               "line": 5,
-              "column": 346
+              "column": 286
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/Loading.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/Loading.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
               "line": 5,
-              "column": 362
+              "column": 302
             },
             "end": {
               "line": 5,
-              "column": 440
+              "column": 350
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/PassInf.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
               "line": 5,
-              "column": 456
+              "column": 366
             },
             "end": {
               "line": 5,
-              "column": 534
+              "column": 414
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/SLB.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/SLB.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
               "line": 5,
-              "column": 550
+              "column": 430
             },
             "end": {
               "line": 5,
-              "column": 624
+              "column": 474
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/change0.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/change0.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
               "line": 5,
-              "column": 640
+              "column": 490
             },
             "end": {
               "line": 5,
-              "column": 718
+              "column": 538
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/change1.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/change1.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
               "line": 5,
-              "column": 734
+              "column": 554
             },
             "end": {
               "line": 5,
-              "column": 812
+              "column": 602
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/double.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/double.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
               "line": 5,
-              "column": 828
+              "column": 618
             },
             "end": {
               "line": 5,
-              "column": 905
+              "column": 665
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/easy.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/easy.ts",
           "resolved": "__unresolved_9",
           "loc": {
             "start": {
               "line": 5,
-              "column": 921
+              "column": 681
             },
             "end": {
               "line": 5,
-              "column": 996
+              "column": 726
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/endgame.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/endgame.ts",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1012
+              "column": 742
             },
             "end": {
               "line": 5,
-              "column": 1090
+              "column": 790
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/esc.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/esc.ts",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1106
+              "column": 806
             },
             "end": {
               "line": 5,
-              "column": 1180
+              "column": 850
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/hard.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/hard.ts",
           "resolved": "__unresolved_12",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1196
+              "column": 866
             },
             "end": {
               "line": 5,
-              "column": 1271
+              "column": 911
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/log.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/log.ts",
           "resolved": "__unresolved_13",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1287
+              "column": 927
             },
             "end": {
               "line": 5,
-              "column": 1361
+              "column": 971
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/pause.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/pause.ts",
           "resolved": "__unresolved_14",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1377
+              "column": 987
             },
             "end": {
               "line": 5,
-              "column": 1453
+              "column": 1033
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/reStart.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/reStart.ts",
           "resolved": "__unresolved_15",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1469
+              "column": 1049
             },
             "end": {
               "line": 5,
-              "column": 1547
+              "column": 1097
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/returnlog.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/returnlog.ts",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1563
+              "column": 1113
             },
             "end": {
               "line": 5,
-              "column": 1643
+              "column": 1163
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/returnselect.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/returnselect.ts",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1659
+              "column": 1179
             },
             "end": {
               "line": 5,
-              "column": 1742
+              "column": 1232
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/select.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/select.ts",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1758
+              "column": 1248
             },
             "end": {
               "line": 5,
-              "column": 1835
+              "column": 1295
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/shut.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/shut.ts",
           "resolved": "__unresolved_19",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1851
+              "column": 1311
             },
             "end": {
               "line": 5,
-              "column": 1926
+              "column": 1356
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time01.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/time01.ts",
           "resolved": "__unresolved_20",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1942
+              "column": 1372
             },
             "end": {
               "line": 5,
-              "column": 2019
+              "column": 1419
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time11.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/time11.ts",
           "resolved": "__unresolved_21",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2035
+              "column": 1435
             },
             "end": {
               "line": 5,
-              "column": 2112
+              "column": 1482
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/welcome.ts",
+          "value": "file:///D:/demo3/TK2/assets/Scripts/welcome.ts",
           "resolved": "__unresolved_22",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2128
+              "column": 1498
             },
             "end": {
               "line": 5,
-              "column": 2206
+              "column": 1546
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/AudioManeger.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/AudioManeger.ts",
           "resolved": "__unresolved_23",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2222
+              "column": 1562
+            },
+            "end": {
+              "line": 5,
+              "column": 1612
+            }
+          }
+        },
+        {
+          "value": "file:///D:/demo3/TK2/assets/text/background.ts",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1628
+            },
+            "end": {
+              "line": 5,
+              "column": 1676
+            }
+          }
+        },
+        {
+          "value": "file:///D:/demo3/TK2/assets/text/bullet0.ts",
+          "resolved": "__unresolved_25",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1692
+            },
+            "end": {
+              "line": 5,
+              "column": 1737
+            }
+          }
+        },
+        {
+          "value": "file:///D:/demo3/TK2/assets/text/bullet1.ts",
+          "resolved": "__unresolved_26",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1753
+            },
+            "end": {
+              "line": 5,
+              "column": 1798
+            }
+          }
+        },
+        {
+          "value": "file:///D:/demo3/TK2/assets/text/cheat-test.ts",
+          "resolved": "__unresolved_27",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1814
+            },
+            "end": {
+              "line": 5,
+              "column": 1862
+            }
+          }
+        },
+        {
+          "value": "file:///D:/demo3/TK2/assets/text/enemybullet.ts",
+          "resolved": "__unresolved_28",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1878
+            },
+            "end": {
+              "line": 5,
+              "column": 1927
+            }
+          }
+        },
+        {
+          "value": "file:///D:/demo3/TK2/assets/text/enemylandmine.ts",
+          "resolved": "__unresolved_29",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1943
+            },
+            "end": {
+              "line": 5,
+              "column": 1994
+            }
+          }
+        },
+        {
+          "value": "file:///D:/demo3/TK2/assets/text/enemytank-001/enemyfire.ts",
+          "resolved": "__unresolved_30",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2010
+            },
+            "end": {
+              "line": 5,
+              "column": 2071
+            }
+          }
+        },
+        {
+          "value": "file:///D:/demo3/TK2/assets/text/enemytank-001/enemytank-001.ts",
+          "resolved": "__unresolved_31",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2087
+            },
+            "end": {
+              "line": 5,
+              "column": 2152
+            }
+          }
+        },
+        {
+          "value": "file:///D:/demo3/TK2/assets/text/enemytank-001/tietu.ts",
+          "resolved": "__unresolved_32",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2168
+            },
+            "end": {
+              "line": 5,
+              "column": 2225
+            }
+          }
+        },
+        {
+          "value": "file:///D:/demo3/TK2/assets/text/enemytank-002/enemyfire.ts",
+          "resolved": "__unresolved_33",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2241
             },
             "end": {
               "line": 5,
@@ -980,8 +1120,8 @@
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/background.ts",
-          "resolved": "__unresolved_24",
+          "value": "file:///D:/demo3/TK2/assets/text/enemytank-002/enemytank-002.ts",
+          "resolved": "__unresolved_34",
           "loc": {
             "start": {
               "line": 5,
@@ -989,497 +1129,357 @@
             },
             "end": {
               "line": 5,
-              "column": 2396
+              "column": 2383
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/bullet0.ts",
-          "resolved": "__unresolved_25",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 2412
-            },
-            "end": {
-              "line": 5,
-              "column": 2487
-            }
-          }
-        },
-        {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/bullet1.ts",
-          "resolved": "__unresolved_26",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 2503
-            },
-            "end": {
-              "line": 5,
-              "column": 2578
-            }
-          }
-        },
-        {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/cheat-test.ts",
-          "resolved": "__unresolved_27",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 2594
-            },
-            "end": {
-              "line": 5,
-              "column": 2672
-            }
-          }
-        },
-        {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemybullet.ts",
-          "resolved": "__unresolved_28",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 2688
-            },
-            "end": {
-              "line": 5,
-              "column": 2767
-            }
-          }
-        },
-        {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemylandmine.ts",
-          "resolved": "__unresolved_29",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 2783
-            },
-            "end": {
-              "line": 5,
-              "column": 2864
-            }
-          }
-        },
-        {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/enemyfire.ts",
-          "resolved": "__unresolved_30",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 2880
-            },
-            "end": {
-              "line": 5,
-              "column": 2971
-            }
-          }
-        },
-        {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/enemytank-001.ts",
-          "resolved": "__unresolved_31",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 2987
-            },
-            "end": {
-              "line": 5,
-              "column": 3082
-            }
-          }
-        },
-        {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/tietu.ts",
-          "resolved": "__unresolved_32",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 3098
-            },
-            "end": {
-              "line": 5,
-              "column": 3185
-            }
-          }
-        },
-        {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/enemyfire.ts",
-          "resolved": "__unresolved_33",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 3201
-            },
-            "end": {
-              "line": 5,
-              "column": 3292
-            }
-          }
-        },
-        {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/enemytank-002.ts",
-          "resolved": "__unresolved_34",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 3308
-            },
-            "end": {
-              "line": 5,
-              "column": 3403
-            }
-          }
-        },
-        {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/tietu.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/enemytank-002/tietu.ts",
           "resolved": "__unresolved_35",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3419
+              "column": 2399
             },
             "end": {
               "line": 5,
-              "column": 3506
+              "column": 2456
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank/enemyfire.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/enemytank/enemyfire.ts",
           "resolved": "__unresolved_36",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3522
+              "column": 2472
             },
             "end": {
               "line": 5,
-              "column": 3609
+              "column": 2529
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank/enemytank.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/enemytank/enemytank.ts",
           "resolved": "__unresolved_37",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3625
+              "column": 2545
             },
             "end": {
               "line": 5,
-              "column": 3712
+              "column": 2602
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fireaffect0.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/fireaffect0.ts",
           "resolved": "__unresolved_38",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3728
+              "column": 2618
             },
             "end": {
               "line": 5,
-              "column": 3807
+              "column": 2667
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fireaffect1.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/fireaffect1.ts",
           "resolved": "__unresolved_39",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3823
+              "column": 2683
             },
             "end": {
               "line": 5,
-              "column": 3902
+              "column": 2732
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection0.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/firedirection0.ts",
           "resolved": "__unresolved_40",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3918
+              "column": 2748
             },
             "end": {
               "line": 5,
-              "column": 4000
+              "column": 2800
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection1.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/firedirection1.ts",
           "resolved": "__unresolved_41",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4016
+              "column": 2816
             },
             "end": {
               "line": 5,
-              "column": 4098
+              "column": 2868
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fort.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/fort.ts",
           "resolved": "__unresolved_42",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4114
+              "column": 2884
             },
             "end": {
               "line": 5,
-              "column": 4186
+              "column": 2926
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/hp0.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/hp0.ts",
           "resolved": "__unresolved_43",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4202
+              "column": 2942
             },
             "end": {
               "line": 5,
-              "column": 4273
+              "column": 2983
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/hp1.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/hp1.ts",
           "resolved": "__unresolved_44",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4289
+              "column": 2999
             },
             "end": {
               "line": 5,
-              "column": 4360
+              "column": 3040
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine0%20copy.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/landmine0%20copy.ts",
           "resolved": "__unresolved_45",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4376
+              "column": 3056
             },
             "end": {
               "line": 5,
-              "column": 4460
+              "column": 3110
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine0.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/landmine0.ts",
           "resolved": "__unresolved_46",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4476
+              "column": 3126
             },
             "end": {
               "line": 5,
-              "column": 4553
+              "column": 3173
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine1.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/landmine1.ts",
           "resolved": "__unresolved_47",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4569
+              "column": 3189
             },
             "end": {
               "line": 5,
-              "column": 4646
+              "column": 3236
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/normalwall.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/normalwall.ts",
           "resolved": "__unresolved_48",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4662
+              "column": 3252
             },
             "end": {
               "line": 5,
-              "column": 4740
+              "column": 3300
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/obj-firefast.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/obj-firefast.ts",
           "resolved": "__unresolved_49",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4756
+              "column": 3316
             },
             "end": {
               "line": 5,
-              "column": 4836
+              "column": 3366
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/obj-movefast.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/obj-movefast.ts",
           "resolved": "__unresolved_50",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4852
+              "column": 3382
             },
             "end": {
               "line": 5,
-              "column": 4932
+              "column": 3432
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/playerfire.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/playerfire.ts",
           "resolved": "__unresolved_51",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4948
+              "column": 3448
             },
             "end": {
               "line": 5,
-              "column": 5026
+              "column": 3496
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/specialwall.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/specialwall.ts",
           "resolved": "__unresolved_52",
           "loc": {
             "start": {
               "line": 5,
-              "column": 5042
+              "column": 3512
             },
             "end": {
               "line": 5,
-              "column": 5121
+              "column": 3561
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/speedaffect0.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/speedaffect0.ts",
           "resolved": "__unresolved_53",
           "loc": {
             "start": {
               "line": 5,
-              "column": 5137
+              "column": 3577
             },
             "end": {
               "line": 5,
-              "column": 5217
+              "column": 3627
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/speedaffect1.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/speedaffect1.ts",
           "resolved": "__unresolved_54",
           "loc": {
             "start": {
               "line": 5,
-              "column": 5233
+              "column": 3643
             },
             "end": {
               "line": 5,
-              "column": 5313
+              "column": 3693
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/tank0.ts",
           "resolved": "__unresolved_55",
           "loc": {
             "start": {
               "line": 5,
-              "column": 5329
+              "column": 3709
             },
             "end": {
               "line": 5,
-              "column": 5402
+              "column": 3752
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/tank1.ts",
           "resolved": "__unresolved_56",
           "loc": {
             "start": {
               "line": 5,
-              "column": 5418
+              "column": 3768
             },
             "end": {
               "line": 5,
-              "column": 5491
+              "column": 3811
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tankdestroy.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/tankdestroy.ts",
           "resolved": "__unresolved_57",
           "loc": {
             "start": {
               "line": 5,
-              "column": 5507
+              "column": 3827
             },
             "end": {
               "line": 5,
-              "column": 5586
+              "column": 3876
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tietu.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/tietu.ts",
           "resolved": "__unresolved_58",
           "loc": {
             "start": {
               "line": 5,
-              "column": 5602
+              "column": 3892
             },
             "end": {
               "line": 5,
-              "column": 5675
+              "column": 3935
             }
           }
         },
         {
-          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/victory.ts",
+          "value": "file:///D:/demo3/TK2/assets/text/victory.ts",
           "resolved": "__unresolved_59",
           "loc": {
             "start": {
               "line": 5,
-              "column": 5691
+              "column": 3951
             },
             "end": {
               "line": 5,
-              "column": 5766
+              "column": 3996
             }
           }
         }
@@ -1496,413 +1496,413 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/HLB.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/HLB.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/LB.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/LB.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/Loading.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/Loading.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/PassInf.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/SLB.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/SLB.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/change0.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/change0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/change1.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/change1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/double.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/double.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/easy.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/easy.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/endgame.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/endgame.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/esc.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/esc.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/hard.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/hard.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/log.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/log.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/pause.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/pause.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/reStart.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/reStart.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/returnlog.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/returnlog.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/returnselect.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/returnselect.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/select.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/select.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/shut.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/shut.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time01.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/time01.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time11.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/time11.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/welcome.ts"
+            "url": "file:///D:/demo3/TK2/assets/Scripts/welcome.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/AudioManeger.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/AudioManeger.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/background.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/background.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/bullet0.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/bullet0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/bullet1.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/bullet1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/cheat-test.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/cheat-test.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemybullet.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/enemybullet.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemylandmine.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/enemylandmine.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/enemyfire.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/enemytank-001/enemyfire.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/enemytank-001.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/enemytank-001/enemytank-001.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/tietu.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/enemytank-001/tietu.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/enemyfire.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/enemytank-002/enemyfire.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/enemytank-002.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/enemytank-002/enemytank-002.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/tietu.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/enemytank-002/tietu.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank/enemyfire.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/enemytank/enemyfire.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank/enemytank.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/enemytank/enemytank.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fireaffect0.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/fireaffect0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fireaffect1.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/fireaffect1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection0.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/firedirection0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection1.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/firedirection1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fort.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/fort.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/hp0.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/hp0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/hp1.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/hp1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine0%20copy.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/landmine0%20copy.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine0.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/landmine0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine1.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/landmine1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/normalwall.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/normalwall.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/obj-firefast.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/obj-firefast.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/obj-movefast.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/obj-movefast.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/playerfire.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/playerfire.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/specialwall.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/specialwall.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/speedaffect0.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/speedaffect0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/speedaffect1.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/speedaffect1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/tank0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/tank1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tankdestroy.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/tankdestroy.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tietu.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/tietu.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/victory.ts"
+            "url": "file:///D:/demo3/TK2/assets/text/victory.ts"
           },
           "messages": []
         }
@@ -2169,7 +2169,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1720694249491,
+      "mTimestamp": 1720696730801,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -12107,6 +12107,4488 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/HLB.ts": {
+      "mTimestamp": {
+        "mtime": 1720668537959.5945,
+        "uuid": "a3b84074-c707-4d6d-9eae-0dc158956fc4"
+      },
+      "chunkId": "3633b42c43d34ec77094ed9e97568b06860af0a7",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/LB.ts": {
+      "mTimestamp": {
+        "mtime": 1720661281131.9717,
+        "uuid": "022ad31a-5b4a-45fb-b36a-56722cc4d736"
+      },
+      "chunkId": "6bab29d3c4672b3f528eba3476ab16310290d106",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 80
+            },
+            "end": {
+              "line": 1,
+              "column": 84
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/Loading.ts": {
+      "mTimestamp": {
+        "mtime": 1720679653878.2666,
+        "uuid": "45e19a0e-19cd-47a7-91ff-efa5210f49f7"
+      },
+      "chunkId": "887ee2853f0feefbd162349cf42148b584bcc715",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 67
+            },
+            "end": {
+              "line": 1,
+              "column": 71
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/PassInf.ts": {
+      "mTimestamp": {
+        "mtime": 1720667519376.2036,
+        "uuid": "1fe4e814-6472-46a2-a93c-4141761759a6"
+      },
+      "chunkId": "a1ff6b32e6d5fdd4abff2ceb0cb62a390dd4a340",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/SLB.ts": {
+      "mTimestamp": {
+        "mtime": 1720668004115.0684,
+        "uuid": "b47f47d6-afa0-42be-b5ff-97d13b982902"
+      },
+      "chunkId": "63f23426a69a1b6cfc7fa3a1862e80cedf5282ed",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 26
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/change0.ts": {
+      "mTimestamp": {
+        "mtime": 1720664463353.8616,
+        "uuid": "1719ec0a-1523-4149-84be-06f4ea4ac6d3"
+      },
+      "chunkId": "45f19e64a511caebaaae0953695bd422ba7590c8",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 72
+            },
+            "end": {
+              "line": 1,
+              "column": 76
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/change1.ts": {
+      "mTimestamp": {
+        "mtime": 1720664621134.2166,
+        "uuid": "ce069bfa-3bbe-46f6-9c68-07c92c5a44db"
+      },
+      "chunkId": "a90425cda90b3e807c316b7cb6131586fa96219f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 72
+            },
+            "end": {
+              "line": 1,
+              "column": 76
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/double.ts": {
+      "mTimestamp": {
+        "mtime": 1720670997898.67,
+        "uuid": "0370a831-3f9e-4fa3-b785-327282c5f9e8"
+      },
+      "chunkId": "2662832d513a239e4ac19d773f2c66cc7f154403",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/easy.ts": {
+      "mTimestamp": {
+        "mtime": 1720694698482.9504,
+        "uuid": "1c2aa0ab-07a1-4d07-9bdf-cb237e5f50b4"
+      },
+      "chunkId": "32802c3643b40e25844e883ec8dc49d74effe57b",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/endgame.ts": {
+      "mTimestamp": {
+        "mtime": 1720233435339.955,
+        "uuid": "8abae688-1282-4103-be51-6c90b8514c81"
+      },
+      "chunkId": "95ee5a4cc7b92a980a51e2f692656e7eb7a4a347",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 64
+            },
+            "end": {
+              "line": 1,
+              "column": 68
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/esc.ts": {
+      "mTimestamp": {
+        "mtime": 1720572450872.6057,
+        "uuid": "37eb1a04-6317-47bf-bb42-ea3d421539b0"
+      },
+      "chunkId": "6db5f6bc39c43fac602708d8e42c21227eed6d16",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 100
+            },
+            "end": {
+              "line": 1,
+              "column": 104
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/hard.ts": {
+      "mTimestamp": {
+        "mtime": 1720668411474.173,
+        "uuid": "62e26f9a-508f-4ab8-8d7c-6de5471415bd"
+      },
+      "chunkId": "67dafabe0da139b78f64eb2587e789fcfe719366",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/log.ts": {
+      "mTimestamp": {
+        "mtime": 1720666578831.2944,
+        "uuid": "c0d874b8-7781-4364-a158-9e2bec11454a"
+      },
+      "chunkId": "fa117c72a9366a8ea33e95db8bc49af28eccf340",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 71
+            },
+            "end": {
+              "line": 1,
+              "column": 75
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/pause.ts": {
+      "mTimestamp": {
+        "mtime": 1720674341719.3364,
+        "uuid": "1be0ecb3-4616-4119-8f11-962e875d2220"
+      },
+      "chunkId": "cd33dc7914a4f15577972d3203662743036c226b",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 129
+            },
+            "end": {
+              "line": 1,
+              "column": 133
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/reStart.ts": {
+      "mTimestamp": {
+        "mtime": 1720674492941.8418,
+        "uuid": "6f9fcabe-e920-4453-95c6-2151b6e1006d"
+      },
+      "chunkId": "07e0b364b674504b9252684a44913a19a7988189",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 60
+            },
+            "end": {
+              "line": 1,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/returnlog.ts": {
+      "mTimestamp": {
+        "mtime": 1720233468550.0186,
+        "uuid": "a189430a-0628-4266-acb3-0928040a9813"
+      },
+      "chunkId": "727151fe690fc6978eb7afb911a45090fecfbe2d",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/returnselect.ts": {
+      "mTimestamp": {
+        "mtime": 1720232896428.7542,
+        "uuid": "310575db-eb3c-4d6b-9e70-d39d9c2f83c4"
+      },
+      "chunkId": "c8cba270b2983fa64dad76fef41d119212aa4a52",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/select.ts": {
+      "mTimestamp": {
+        "mtime": 1720668037907.8877,
+        "uuid": "9acb61b4-461b-40b5-beb5-680b75075740"
+      },
+      "chunkId": "6bb44e0f4a0774b8ee9c46bf5abe5b152afb1872",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/shut.ts": {
+      "mTimestamp": {
+        "mtime": 1720663980638.6567,
+        "uuid": "eeb3c5fd-16a2-4efc-93d2-e772dde7fd72"
+      },
+      "chunkId": "b6eaba5e9e240768f583fe35516e4af380792348",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/time01.ts": {
+      "mTimestamp": {
+        "mtime": 1720686310283.594,
+        "uuid": "6430be03-fcf3-4236-b9ed-af8e3ab624ce"
+      },
+      "chunkId": "1f3c399375a94de9d0a727dff4241a12885cbf6c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 59
+            },
+            "end": {
+              "line": 1,
+              "column": 63
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/time11.ts": {
+      "mTimestamp": {
+        "mtime": 1720686303686.5232,
+        "uuid": "078c8ab7-7e9b-4b36-91ad-f3feb82afc4d"
+      },
+      "chunkId": "02242b0ed92a2ad244fe4cb52a50560e2f49237a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 58
+            },
+            "end": {
+              "line": 1,
+              "column": 62
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/Scripts/welcome.ts": {
+      "mTimestamp": {
+        "mtime": 1720680068727.5244,
+        "uuid": "c4498d13-2555-4639-bb4a-f0fe9a14fb41"
+      },
+      "chunkId": "28fcffc11ea7bc490f5b30da0e17b5d014053e54",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 83
+            },
+            "end": {
+              "line": 1,
+              "column": 87
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/AudioManeger.ts": {
+      "mTimestamp": {
+        "mtime": 1720578074067.4253,
+        "uuid": "b35888f9-f87e-4036-9abb-f2acbbbab28a"
+      },
+      "chunkId": "a09550d88ab626d2c5b1ca0f3df3fe8a981a95d4",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/background.ts": {
+      "mTimestamp": {
+        "mtime": 1720164432000,
+        "uuid": "b50dccee-a23f-4bd3-aff8-f67067d0d69b"
+      },
+      "chunkId": "c9af5c5f2e32b56a315e8f8f92aff6fbe01f024f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 61
+            },
+            "end": {
+              "line": 1,
+              "column": 65
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/bullet0.ts": {
+      "mTimestamp": {
+        "mtime": 1720681433885.2815,
+        "uuid": "82eb8b8b-d44e-40ea-a107-a24ff1bfa5b0"
+      },
+      "chunkId": "9274b7d1c65ccfc9522cdfe1df5160b339ea227a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 78
+            },
+            "end": {
+              "line": 1,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/tank1.ts": {
+      "mTimestamp": {
+        "mtime": 1720662045579.105,
+        "uuid": "20c591ef-2140-4806-bea8-a7519cd3af9d"
+      },
+      "chunkId": "9d72bb51314e622ee4d6b1dcb0b7ced8f8b80cdb",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 194
+            },
+            "end": {
+              "line": 1,
+              "column": 198
+            }
+          }
+        },
+        {
+          "value": "./firedirection1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 21
+            },
+            "end": {
+              "line": 3,
+              "column": 25
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/firedirection1.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/firedirection1.ts": {
+      "mTimestamp": {
+        "mtime": 1720698356987.7205,
+        "uuid": "acf90797-a929-4d3d-8920-3d19cf3e3fe2"
+      },
+      "chunkId": "e75d2eef6ed95a63d84647fe149280536be7cb66",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 171
+            },
+            "end": {
+              "line": 1,
+              "column": 175
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/bullet1.ts": {
+      "mTimestamp": {
+        "mtime": 1720683558840.6306,
+        "uuid": "f16fb09b-91b4-4c02-a6b3-6e460f7ab65c"
+      },
+      "chunkId": "d694dfee0075d9eacf7d410b1dddf6c8fc21ef7b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 78
+            },
+            "end": {
+              "line": 1,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/tank0.ts": {
+      "mTimestamp": {
+        "mtime": 1720661870403.021,
+        "uuid": "3f68566e-2dce-4cb2-9ea6-e66931227e03"
+      },
+      "chunkId": "273ad91810631a8dc3c24195498d5d68c208fc81",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 178
+            },
+            "end": {
+              "line": 1,
+              "column": 182
+            }
+          }
+        },
+        {
+          "value": "./firedirection0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 21
+            },
+            "end": {
+              "line": 3,
+              "column": 25
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/firedirection0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/firedirection0.ts": {
+      "mTimestamp": {
+        "mtime": 1720662210165.2134,
+        "uuid": "03b5b70c-f874-4daf-a3ab-5f8ecd787a7f"
+      },
+      "chunkId": "75f09938cb1c2f2d6894443700057182735639ce",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 171
+            },
+            "end": {
+              "line": 1,
+              "column": 175
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/cheat-test.ts": {
+      "mTimestamp": {
+        "mtime": 1720658053247.5054,
+        "uuid": "e5373e99-7c5d-4fae-8e0c-5e723ffc57e8"
+      },
+      "chunkId": "484485cffb955f9e3b1cdbcdf30cee6ef288c3a6",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 116
+            },
+            "end": {
+              "line": 1,
+              "column": 120
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/enemybullet.ts": {
+      "mTimestamp": {
+        "mtime": 1720665677194.5457,
+        "uuid": "592eabdc-b225-428e-b0aa-17cb6505de82"
+      },
+      "chunkId": "b923885b41f1817fc5d3ef979991804a3e3d8bd3",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 78
+            },
+            "end": {
+              "line": 1,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/enemylandmine.ts": {
+      "mTimestamp": {
+        "mtime": 1720599255049.6335,
+        "uuid": "d1cb891b-c74d-4c80-b9d7-f1985b3100ee"
+      },
+      "chunkId": "26336fd721a12f42621e7850b25f4e992ef7e415",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 132
+            },
+            "end": {
+              "line": 1,
+              "column": 136
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/enemytank-001/enemyfire.ts": {
+      "mTimestamp": {
+        "mtime": 1720663048256.013,
+        "uuid": "1c89292b-0aa1-4687-aa50-51676c1a1590"
+      },
+      "chunkId": "ef4889370d4cfd3fc0855044086529d3f70fe7e0",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 158
+            },
+            "end": {
+              "line": 1,
+              "column": 162
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "./enemytank-001",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 30
+            },
+            "end": {
+              "line": 3,
+              "column": 47
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/enemytank-001/enemytank-001.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/enemytank-001/enemytank-001.ts": {
+      "mTimestamp": {
+        "mtime": 1720663176958.4417,
+        "uuid": "c6da3fe1-9208-4a9c-8a7f-b65375843509"
+      },
+      "chunkId": "3aa329499e5e948788a6bdc17982554cd189dade",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 212
+            },
+            "end": {
+              "line": 1,
+              "column": 216
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/enemytank-001/tietu.ts": {
+      "mTimestamp": {
+        "mtime": 1720598711750.1401,
+        "uuid": "3d4b6962-034e-4cbd-8bcf-0edbe86d0c82"
+      },
+      "chunkId": "b384ec28a4ebaf8617f2dd879e9921135eff902b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 212
+            },
+            "end": {
+              "line": 1,
+              "column": 216
+            }
+          }
+        },
+        {
+          "value": "./enemyfire",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/enemytank-001/enemyfire.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/enemytank-002/enemyfire.ts": {
+      "mTimestamp": {
+        "mtime": 1720663135338.5334,
+        "uuid": "ef728298-d7c9-4679-824d-d28bbbd4f082"
+      },
+      "chunkId": "f7a3feab12e2ec880515b500d3adf30727b05077",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 158
+            },
+            "end": {
+              "line": 1,
+              "column": 162
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "./enemytank-002",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 30
+            },
+            "end": {
+              "line": 3,
+              "column": 47
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/enemytank-002/enemytank-002.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/enemytank-002/enemytank-002.ts": {
+      "mTimestamp": {
+        "mtime": 1720663171372.9556,
+        "uuid": "77557fef-f28d-42ba-b679-4e46d95edf1a"
+      },
+      "chunkId": "65e8b544941175e51a9d80764f545b7ebbbadb96",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 212
+            },
+            "end": {
+              "line": 1,
+              "column": 216
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/enemytank-002/tietu.ts": {
+      "mTimestamp": {
+        "mtime": 1720598333000.563,
+        "uuid": "4bdb173f-400a-4ff4-8c48-2671a91b3978"
+      },
+      "chunkId": "5dfb8bf5c79f71f19f7d134bba8a3c9fff8d164a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 212
+            },
+            "end": {
+              "line": 1,
+              "column": 216
+            }
+          }
+        },
+        {
+          "value": "./enemyfire",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/enemytank-002/enemyfire.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/enemytank/enemyfire.ts": {
+      "mTimestamp": {
+        "mtime": 1720662901524.5735,
+        "uuid": "330896a6-c06b-4c52-893b-afaad8409291"
+      },
+      "chunkId": "29ae83262c0a9992a9f88e7e068f67d19f81a966",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 158
+            },
+            "end": {
+              "line": 1,
+              "column": 162
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "./enemytank",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 26
+            },
+            "end": {
+              "line": 3,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/enemytank/enemytank.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/enemytank/enemytank.ts": {
+      "mTimestamp": {
+        "mtime": 1720663794155.4492,
+        "uuid": "d96d38fa-d13f-4da1-a6a2-26bdf7b737e3"
+      },
+      "chunkId": "54be02f808a5136ec929974b9bb3917024c7ff1f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 206
+            },
+            "end": {
+              "line": 1,
+              "column": 210
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/fireaffect0.ts": {
+      "mTimestamp": {
+        "mtime": 1720658086101.3342,
+        "uuid": "2ebc0a9f-5ad0-46e2-a4ae-2e5be51589e9"
+      },
+      "chunkId": "1f8089572319c3cdb4e2b9e9ad8602fd5bbf6af7",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./firedirection0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/firedirection0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/fireaffect1.ts": {
+      "mTimestamp": {
+        "mtime": 1720234978000,
+        "uuid": "00014a5f-125d-4c64-972b-4d11412c78d8"
+      },
+      "chunkId": "e2151d17c97ad5ccbeec05c72b42ed60fd4c25d1",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./firedirection1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/firedirection1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/fort.ts": {
+      "mTimestamp": {
+        "mtime": 1720664156486.8735,
+        "uuid": "a32db6d4-7793-4dc3-a694-fb8dc8ce3111"
+      },
+      "chunkId": "f9510030dc0fac5f74e434f814d471c76c40f37c",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 244
+            },
+            "end": {
+              "line": 1,
+              "column": 248
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/hp0.ts": {
+      "mTimestamp": {
+        "mtime": 1720521335202.3047,
+        "uuid": "14976f41-8bb2-4b94-b7c1-fe380df4a35a"
+      },
+      "chunkId": "846b61504b5b4ffb15f706badd8670b460a4d2a3",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/hp1.ts": {
+      "mTimestamp": {
+        "mtime": 1720521392340.6301,
+        "uuid": "16f403da-6b9c-45ef-81f6-128d67a05bf0"
+      },
+      "chunkId": "a043c0a10f524bdee525b5ac00706eaf4db8398a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/landmine0%20copy.ts": {
+      "mTimestamp": {
+        "mtime": 1720258144000,
+        "uuid": "b1a54b12-fc79-4df3-a4f2-d20b3ec80ea8"
+      },
+      "chunkId": "e4118ebc7fdb5a0025f1c6e0ba1970ad6985e4dc",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 132
+            },
+            "end": {
+              "line": 1,
+              "column": 136
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/landmine0.ts": {
+      "mTimestamp": {
+        "mtime": 1720599089288.701,
+        "uuid": "88fa8d72-bb43-4827-ab04-7642facb86ee"
+      },
+      "chunkId": "d3516cf4d23132d3070a181eae4cdf6e37248519",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 132
+            },
+            "end": {
+              "line": 1,
+              "column": 136
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/landmine1.ts": {
+      "mTimestamp": {
+        "mtime": 1720258150000,
+        "uuid": "a45ae2c3-3e67-4bc5-b51a-4059dedf7c10"
+      },
+      "chunkId": "a5d9fcac2e9dbd5ab8ba41a4d71e94a6ba6759f0",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 132
+            },
+            "end": {
+              "line": 1,
+              "column": 136
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/normalwall.ts": {
+      "mTimestamp": {
+        "mtime": 1720164432000,
+        "uuid": "fbe250b1-87fa-4ae2-ad8d-019463cf0bec"
+      },
+      "chunkId": "dd1f568b871425ed855400437e5c52275d84466b",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/obj-firefast.ts": {
+      "mTimestamp": {
+        "mtime": 1720694572563.8462,
+        "uuid": "16e0d0d3-919c-4e68-85ba-456f9c957156"
+      },
+      "chunkId": "eb7a6cb824c9a1034f0c89f5b45fcc702ddc434d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 96
+            },
+            "end": {
+              "line": 1,
+              "column": 100
+            }
+          }
+        },
+        {
+          "value": "./firedirection0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./firedirection1",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 31
+            },
+            "end": {
+              "line": 3,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./playerfire",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 27
+            },
+            "end": {
+              "line": 4,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/firedirection0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/firedirection1.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/playerfire.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/playerfire.ts": {
+      "mTimestamp": {
+        "mtime": 1720663495086.8838,
+        "uuid": "b519287e-b6f9-4be4-af4e-c347858ca624"
+      },
+      "chunkId": "89706182f34ad1944d18c8361fd120bc26339798",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 206
+            },
+            "end": {
+              "line": 1,
+              "column": 210
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/obj-movefast.ts": {
+      "mTimestamp": {
+        "mtime": 1720694552881.9624,
+        "uuid": "d97475ad-cfc1-4cd4-9610-adb598f10e24"
+      },
+      "chunkId": "060cd0da93919934e408aa84aab81602db1a29fd",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 96
+            },
+            "end": {
+              "line": 1,
+              "column": 100
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/specialwall.ts": {
+      "mTimestamp": {
+        "mtime": 1720164432000,
+        "uuid": "acd0e859-2f9d-48e7-86ef-f0f36fff76b5"
+      },
+      "chunkId": "e175305bde1e131826cf5614aec9bc3ff76a0e2a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 61
+            },
+            "end": {
+              "line": 1,
+              "column": 65
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/speedaffect0.ts": {
+      "mTimestamp": {
+        "mtime": 1720698110268.2063,
+        "uuid": "b4a9900c-93e4-4dd4-aa75-7f8525854d2a"
+      },
+      "chunkId": "75517b44b690c0e2052d2346f84cacdd86d00a2e",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 52
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/speedaffect1.ts": {
+      "mTimestamp": {
+        "mtime": 1720698131848.6377,
+        "uuid": "c2ec48c9-53e8-4388-aa60-71d8e5d0e67e"
+      },
+      "chunkId": "389ff10fd17964cae4720faab1b7649d39cb0fc5",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/tankdestroy.ts": {
+      "mTimestamp": {
+        "mtime": 1720257684000,
+        "uuid": "52691598-1f1c-4f3f-9f1d-07cfd092f215"
+      },
+      "chunkId": "6aa005af7a81f7597e06eb44f015f8d291942cdc",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/tietu.ts": {
+      "mTimestamp": {
+        "mtime": 1720598687129.124,
+        "uuid": "da26308d-0534-4a7c-bf71-3ae5ea9ebaa1"
+      },
+      "chunkId": "862db194250d0e7a85337e4f4bfaa2c9b4c66abe",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 212
+            },
+            "end": {
+              "line": 1,
+              "column": 216
+            }
+          }
+        },
+        {
+          "value": "./enemytank/enemyfire",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/enemytank/enemyfire.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/demo3/TK2/assets/text/victory.ts": {
+      "mTimestamp": {
+        "mtime": 1720576932623.9253,
+        "uuid": "06ffd294-885b-4a68-b096-3a30290411f3"
+      },
+      "chunkId": "3bff6cba182185e06d0a8a00b402dcda02ab6ac6",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 53
+            },
+            "end": {
+              "line": 1,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/demo3/TK2/assets/text/tank1.ts"
           },
           "messages": []
         }

@@ -18,7 +18,7 @@
         },
         {
           "url": "db://assets/map/doublemap0.scene",
-          "uuid": "6edb7132-96e2-4656-abd7-5ddc42a84e26"
+          "uuid": "36291188-d37d-4b4f-a128-588f20d16162"
         },
         {
           "url": "db://assets/Scenes/LoadingScene.scene",
@@ -54,7 +54,7 @@
     },
     "options": {
       "windows": {
-        "executableName": "demo2",
+        "executableName": "demo3_final",
         "renderBackEnd": {
           "vulkan": true,
           "gles3": true,
@@ -420,6 +420,17 @@
       },
       "1720678402352": {
         "executableName": "demo2",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720696781340": {
+        "executableName": "demo3_final",
         "renderBackEnd": {
           "vulkan": true,
           "gles3": true,
