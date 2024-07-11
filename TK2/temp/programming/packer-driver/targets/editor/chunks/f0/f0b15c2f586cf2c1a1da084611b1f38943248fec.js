@@ -56,7 +56,7 @@ System.register(["cc"], function (_export, _context) {
               this.status = 1;
               director.pause();
             } else {
-              this.node.getChildByName('pause').destroy();
+              this.node.getChildByName('_pause').destroy();
               this.status = 0;
               director.resume();
             }

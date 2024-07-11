@@ -1,7 +1,6 @@
 import { _decorator, Component, Prefab, systemEvent, Input, input, EventMouse, SystemEvent, Node, EventKeyboard, macro, RigidBody2D, Vec3, instantiate ,AudioSource } from 'cc';
 import { Vec2 } from 'cc';
 import { PlayerController0 } from './tank0'; // 确保正确引入 PlayerController0 类
-import { BulletSoundManager } from './BulletSoundManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('firedirection0')
@@ -85,13 +84,13 @@ export class firedirection0 extends Component {
         //console.log(this.currentiondirection);
         //设置子弹实例的具体属性
         const rgd =bullet.getComponent(RigidBody2D);
-        this.speed = new Vec2(this.currentiondirection.x * 400, this.currentiondirection.y * 400);
+        this.speed = new Vec2(this.currentiondirection.x * 50, this.currentiondirection.y * 50);
 
         //console.log( 'this.speed ',this.speed );
         if(this.speed.x!==0||this.speed.y!==0){
             //console.log("修改",this.speed);
             this.lastdirection=this.speed;
-            console.log(this.lastdirection);
+
 
         }
         if(this.speed.x===0&&this.speed.y===0){
@@ -114,7 +113,6 @@ export class firedirection0 extends Component {
     }
 
     private putlandmine(){
-        console.log('放置地雷');
         const bullet = instantiate(this.landminePrefab);
         bullet.setParent(this.node);
         bullet.setPosition(this.node.position);

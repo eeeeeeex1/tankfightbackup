@@ -7,7 +7,6 @@ const { ccclass, property } = _decorator;
 export class firedirection1 extends Component {
     @property(AudioSource)
     private shootAudio: AudioSource = null;
-   
     @property
     shootPower:number=500;//子弹的发射速度
 
@@ -83,7 +82,7 @@ export class firedirection1 extends Component {
 
         //console.log(this.currentiondirection);
         const rgd =bullet.getComponent(RigidBody2D);
-        this.speed = new Vec2(this.currentiondirection.x * 400, this.currentiondirection.y * 400);
+        this.speed = new Vec2(this.currentiondirection.x * 50, this.currentiondirection.y * 50);
 
         if(this.speed.x!==0||this.speed.y!==0){
             this.lastdirection=this.speed;
@@ -109,7 +108,6 @@ export class firedirection1 extends Component {
     }
 
     private putlandmine(){
-        console.log('放置地雷');
         const bullet = instantiate(this.landminePrefab);
         bullet.setParent(this.node);
         bullet.setPosition(this.node.position);

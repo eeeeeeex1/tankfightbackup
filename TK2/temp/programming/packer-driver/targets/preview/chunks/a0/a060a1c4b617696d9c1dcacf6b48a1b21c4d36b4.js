@@ -72,7 +72,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           if (this.lastFireTime >= this.fireInterval) {
             // 调用发射子弹函数
-            console.log('发射子弹');
             this.fireBullet(); // 重置计时
 
             this.lastFireTime = 0;
@@ -80,7 +79,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           if (this.landminelastFireTime >= this.landminefireInterval) {
             // 调用发射子弹函数
-            console.log('放置地雷');
             this.putlandmine(); // 重置计时
 
             this.landminelastFireTime = 0;
@@ -90,23 +88,19 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         fireBullet() {
           var bullet = instantiate(this.bulletPrefab);
           bullet.setParent(this.node);
-          bullet.setPosition(this.node.position); //console.log(this.currentiondirection);
-          //设置子弹实例的具体属性
+          bullet.setPosition(this.node.position); //设置子弹实例的具体属性
 
           var tank = this.node.parent.getComponent(_crd && enemytank === void 0 ? (_reportPossibleCrUseOfenemytank({
             error: Error()
           }), enemytank) : enemytank);
           var rgd = bullet.getComponent(RigidBody2D);
-          this.speed = new Vec2(tank.currentspeed.x * 400, tank.currentspeed.y * 400); //console.log( 'this.speed ',this.speed );
+          this.speed = new Vec2(tank.currentspeed.x * this.shootPower, tank.currentspeed.y * this.shootPower);
 
           if (this.speed.x !== 0 || this.speed.y !== 0) {
-            //console.log("修改",this.speed);
             this.lastdirection = this.speed;
-            console.log(this.lastdirection);
           }
 
           if (this.speed.x === 0 && this.speed.y === 0) {
-            ;
             this.speed = this.lastdirection.clone();
           }
 
@@ -124,7 +118,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         putlandmine() {
-          console.log('放置地雷');
           var bullet = instantiate(this.landminePrefab);
           bullet.setParent(this.node);
           bullet.setPosition(this.node.position); //设置子弹实例的具体属性
@@ -135,7 +128,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         enumerable: true,
         writable: true,
         initializer: function initializer() {
-          return 500;
+          return 300;
         }
       }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "bulletPrefab", [_dec2], {
         configurable: true,

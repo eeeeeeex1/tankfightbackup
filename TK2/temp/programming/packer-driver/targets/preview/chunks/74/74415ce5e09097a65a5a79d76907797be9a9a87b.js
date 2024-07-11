@@ -90,7 +90,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               console.error('音频源组件或音频剪辑未定义');
             }
 
-            if (otherCollider && otherCollider.node.parent.name !== 'mapboundary' && otherCollider.node.name !== 'tank0') {
+            if (otherCollider && otherCollider.node.name !== 'normalwall' && otherCollider.node.name !== 'tank0') {
               otherCollider.node.destroy();
             } else if (otherCollider && otherCollider.node.name === 'tank0') {
               var playerController0 = otherCollider.node.getComponent(_crd && PlayerController0 === void 0 ? (_reportPossibleCrUseOfPlayerController({
@@ -105,7 +105,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
                 console.error("PlayerController0 or PlayerController1 component not found on 'tank1' node.");
               }
             }
-          }, 0.1); // 稍微增加延迟，确保事件处理完毕
+          }, 0.0001); // 稍微增加延迟，确保事件处理完毕
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "explosionAudio", [_dec2], {

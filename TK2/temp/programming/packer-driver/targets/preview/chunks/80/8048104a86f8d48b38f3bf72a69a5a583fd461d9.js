@@ -74,6 +74,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
                 console.error("PlayerController0 or PlayerController1 component not found on 'tank1' node.");
               }
             }
+
+            if (otherCollider && otherCollider.node.name === 'enemytank' || otherCollider && otherCollider.node.name === 'enemytank-001' || otherCollider && otherCollider.node.name === 'enemytank-002') {
+              otherCollider.node.destroy();
+            }
           }, 0.01); // 稍微增加延迟，确保事件处理完毕
         }
 

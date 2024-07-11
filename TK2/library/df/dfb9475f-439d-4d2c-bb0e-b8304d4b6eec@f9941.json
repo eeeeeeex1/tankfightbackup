@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mapzu0",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 802,
+      "height": 882
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 802,
+      "height": 882
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -401,
+        -441,
+        0,
+        401,
+        -441,
+        0,
+        -401,
+        441,
+        0,
+        401,
+        441,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        882,
+        802,
+        882,
+        0,
+        0,
+        802,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -401,
+        "y": -441,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 401,
+        "y": 441,
+        "z": 0
+      }
+    },
+    "texture": "dfb9475f-439d-4d2c-bb0e-b8304d4b6eec@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

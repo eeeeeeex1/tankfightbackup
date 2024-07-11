@@ -45,7 +45,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.Password = void 0;
           this.save = void 0;
           this.difficulty = void 0;
-          this.time = void 0;
+          this.d1time1 = void 0;
+          this.d1time2 = void 0;
+          this.d1time3 = void 0;
+          this.d1time = void 0;
+          this.d2time1 = void 0;
+          this.d2time2 = void 0;
+          this.d2time3 = void 0;
+          this.d2time = void 0;
+          this.d1time = 0;
+          this.d2time = 0;
         }
 
       };
@@ -81,21 +90,29 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           if (_account.length == 0 || _pwd.length == 0) return;
           console.log(_account);
-          var result = localStorage.getItem(_account); //检测是否存在账户
+          this.RegSet = Object.assign(new Array(), JSON.parse(localStorage.getItem('RegSet')));
+          var i;
+          var isFind = false;
 
-          if (result == null) {
+          for (i = 0; i < this.RegSet.length; i++) {
+            if (this.RegSet[i].Account == _account) {
+              isFind = true;
+              break;
+            }
+          } //let result:string=localStorage.getItem(_account);//检测是否存在账户
+
+
+          if (!isFind) {
             console.log("No Account!Create New Account");
             this.presentAccout = new user();
             this.presentAccout.Account = _account;
             this.presentAccout.Password = _pwd;
             this.presentAccout.save = 0;
-            this.presentAccout.difficulty = 0;
-            this.presentAccout.time = 0;
-            var json = JSON.stringify(this.presentAccout);
-            localStorage.setItem(_account, json); //不存在则创建新账户
+            this.presentAccout.difficulty = 0; // let json=JSON.stringify(this.presentAccout);
+            // localStorage.setItem(_account,json);//不存在则创建新账户
+            //this.RegSet=Object.assign(new Array(),JSON.parse(localStorage.getItem('RegSet')));
 
-            this.RegSet = Object.assign(new Array(), JSON.parse(localStorage.getItem('RegSet')));
-            this.RegSet.push(_account);
+            this.RegSet.push(this.presentAccout);
 
             var _json = JSON.stringify(this.RegSet);
 
@@ -107,23 +124,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
             director.loadScene('select');
           } else {
-            console.log("found!");
-            this.RegSet = Object.assign(new Array(), JSON.parse(localStorage.getItem('RegSet')));
-            var i;
+            console.log("found!"); //this.presentAccout =Object.assign(new user(),JSON.parse(result));
 
-            for (i = 0; i < this.RegSet.length; i++) {
-              if (this.RegSet[i] == _account) break;
-            }
-
-            if (i == this.RegSet.length) {
-              this.RegSet.push(_account);
-
-              var _json2 = JSON.stringify(this.RegSet);
-
-              localStorage.setItem('RegSet', _json2); //将账户加入注册表，防止账户遗漏
-            }
-
-            this.presentAccout = Object.assign(new user(), JSON.parse(result));
+            this.presentAccout = this.RegSet[i];
             if (this.presentAccout.Password != _pwd) console.log("Password Error!");else {
               console.log("Login Success!");
               director.getScene().getChildByName('PassNode').getComponent(_crd && PassInf === void 0 ? (_reportPossibleCrUseOfPassInf({

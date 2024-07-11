@@ -24,7 +24,7 @@ export class Bullet extends Component {
                 console.error('音频源组件或音频剪辑未定义');
             }
 
-        }, 5);
+        }, 3);
     }
 
     start() {
@@ -42,15 +42,14 @@ export class Bullet extends Component {
 
             selfCollider.node.destroy();
 
-            //检查音频源组件和音频剪辑是否已定义
+            // 检查音频源组件和音频剪辑是否已定义
             if (this.explosionAudio && this.explosionAudio.clip) {
                 // 播放音效
                 this.explosionAudio.playOneShot(this.explosionAudio.clip, 1);
             } else {
                 console.error('音频源组件或音频剪辑未定义');
             }
-
-            if (otherCollider && otherCollider.node.parent.name !== 'mapboundary'&&otherCollider.node.name!=='tank1' ) {
+            if (otherCollider && otherCollider.node.name !== 'normalwall' &&otherCollider.node.name!=='tank1' ) {
                 otherCollider.node.destroy();
             }
             else if (otherCollider && otherCollider.node.name === 'tank1') {
@@ -67,7 +66,7 @@ export class Bullet extends Component {
                 }
             }
 
-        }, 0.1); // 稍微增加延迟，确保事件处理完毕
+        }, 0.0001); // 稍微增加延迟，确保事件处理完毕
     }
 
     onDestroy() {

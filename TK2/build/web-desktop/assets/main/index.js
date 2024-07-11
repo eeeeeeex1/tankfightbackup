@@ -2307,6 +2307,7 @@ System.register("chunks:///_virtual/log.ts", ['./rollupPluginModLoBabelHelpers.j
           _initializerDefineProperty(_this, "account", _descriptor, _assertThisInitialized(_this));
           _initializerDefineProperty(_this, "password", _descriptor2, _assertThisInitialized(_this));
           _this.RegSet = new Array();
+          //注册索引表
           _this.presentAccout = void 0;
           return _this;
         }
@@ -2315,7 +2316,7 @@ System.register("chunks:///_virtual/log.ts", ['./rollupPluginModLoBabelHelpers.j
           if (localStorage.getItem('RegSet') == null) {
             var json = JSON.stringify(this.RegSet);
             localStorage.setItem('RegSet', json);
-          }
+          } //创建注册表
           this.node.on(Button.EventType.CLICK, this.checkAccount, this);
         };
         _proto.update = function update(deltaTime) {};
@@ -2340,7 +2341,7 @@ System.register("chunks:///_virtual/log.ts", ['./rollupPluginModLoBabelHelpers.j
             this.RegSet.push(_account);
             var _json = JSON.stringify(this.RegSet);
             localStorage.setItem('RegSet', _json); //将账户加入注册表
-            director.getScene().getChildByName('PassNode').getComponent(PassInf).CurrentUser = this.presentAccout; //储存用户信息到常驻节点
+            director.getScene().getChildByName('PassNode').getComponent(PassInf).CurrentUser = this.presentAccout; //储存当前用户信息到常驻节点
             director.loadScene('select');
           } else {
             console.log("found!");
@@ -2352,13 +2353,11 @@ System.register("chunks:///_virtual/log.ts", ['./rollupPluginModLoBabelHelpers.j
             if (i == this.RegSet.length) {
               this.RegSet.push(_account);
               var _json2 = JSON.stringify(this.RegSet);
-              localStorage.setItem('RegSet', _json2); //将账户加入注册表
+              localStorage.setItem('RegSet', _json2); //将账户加入注册表，防止账户遗漏
             }
 
             this.presentAccout = Object.assign(new user(), JSON.parse(result));
             if (this.presentAccout.Password != _pwd) console.log("Password Error!");else {
-              // this.presentAccout =Object.assign(new user(),JSON.parse(localStorage.getItem('wuxu')));
-              // console.log(this.presentAccout.Account);
               console.log("Login Success!");
               director.getScene().getChildByName('PassNode').getComponent(PassInf).CurrentUser = this.presentAccout;
               director.loadScene('select');

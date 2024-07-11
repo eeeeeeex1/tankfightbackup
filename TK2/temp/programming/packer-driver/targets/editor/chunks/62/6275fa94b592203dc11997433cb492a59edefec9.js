@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, systemEvent, SystemEventType, macro, PlayerController0, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, TankCheatController;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, systemEvent, SystemEventType, macro, input, Input, PlayerController0, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, TankCheatController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -26,6 +26,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       systemEvent = _cc.systemEvent;
       SystemEventType = _cc.SystemEventType;
       macro = _cc.macro;
+      input = _cc.input;
+      Input = _cc.Input;
     }, function (_unresolved_2) {
       PlayerController0 = _unresolved_2.PlayerController0;
     }],
@@ -34,7 +36,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _cclegacy._RF.push({}, "e53736ZfF1Pro4MXnI//Ffo", "cheat-test", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Node', 'Vec3', 'systemEvent', 'SystemEventType', 'EventKeyboard', 'macro']);
+      __checkObsolete__(['_decorator', 'Component', 'Node', 'Vec3', 'systemEvent', 'SystemEventType', 'EventKeyboard', 'macro', 'input', 'Input']);
 
       // 确保正确引入 PlayerController0 类
       ({
@@ -55,7 +57,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
         onLoad() {
           // 监听键盘事件
-          systemEvent.on(SystemEventType.KEY_DOWN, this.onKeyDown, this);
+          input.on(Input.KEY_DOWN, this.onKeyDown, this);
         }
 
         onDestroy() {

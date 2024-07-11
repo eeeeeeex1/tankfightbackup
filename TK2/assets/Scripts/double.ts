@@ -8,7 +8,7 @@ export class double extends Component {
     }
 
     loadDoublePlayerScene() {
-        director.loadScene('alonemap2');
+        director.loadScene('doublemap0');
     }
 
     update(deltaTime: number) {

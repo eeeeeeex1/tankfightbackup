@@ -1,7 +1,13 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Collider2D, Contact2DType, PlayerController1, PlayerController0, _dec, _class, _crd, ccclass, enemybullet;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Collider2D, Contact2DType, AudioSource, PlayerController1, PlayerController0, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, enemybullet;
+
+  function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
+
+  function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) { var desc = {}; Object.keys(descriptor).forEach(function (key) { desc[key] = descriptor[key]; }); desc.enumerable = !!desc.enumerable; desc.configurable = !!desc.configurable; if ('value' in desc || desc.initializer) { desc.writable = true; } desc = decorators.slice().reverse().reduce(function (desc, decorator) { return decorator(target, property, desc) || desc; }, desc); if (context && desc.initializer !== void 0) { desc.value = desc.initializer ? desc.initializer.call(context) : void 0; desc.initializer = undefined; } if (desc.initializer === void 0) { Object.defineProperty(target, property, desc); desc = null; } return desc; }
+
+  function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
 
   function _reportPossibleCrUseOfPlayerController(extras) {
     _reporterNs.report("PlayerController1", "./tank1", _context.meta, extras);
@@ -22,6 +28,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
       Component = _cc.Component;
       Collider2D = _cc.Collider2D;
       Contact2DType = _cc.Contact2DType;
+      AudioSource = _cc.AudioSource;
     }, function (_unresolved_2) {
       PlayerController1 = _unresolved_2.PlayerController1;
     }, function (_unresolved_3) {
@@ -32,13 +39,20 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
       _cclegacy._RF.push({}, "592eavcsiVCjrCqF8tlBd6C", "enemybullet", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Collider2D', 'Contact2DType']);
+      __checkObsolete__(['_decorator', 'Component', 'Collider2D', 'Contact2DType', 'AudioSource']);
 
       ({
-        ccclass
+        ccclass,
+        property
       } = _decorator);
 
-      _export("enemybullet", enemybullet = (_dec = ccclass('enemybullet'), _dec(_class = class enemybullet extends Component {
+      _export("enemybullet", enemybullet = (_dec = ccclass('enemybullet'), _dec2 = property(AudioSource), _dec(_class = (_class2 = class enemybullet extends Component {
+        constructor(...args) {
+          super(...args);
+
+          _initializerDefineProperty(this, "explosionAudio", _descriptor, this);
+        }
+
         onLoad() {
           // 调用定时销毁方法
           this.scheduleDestroy();
@@ -47,7 +61,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
         scheduleDestroy() {
           // 使用 scheduleOnce 方法，在 5 秒后销毁节点
           this.scheduleOnce(() => {
-            this.node.destroy();
+            this.node.destroy(); // 检查音频源组件和音频剪辑是否已定义
+
+            if (this.explosionAudio && this.explosionAudio.clip) {
+              // 播放音效
+              this.explosionAudio.playOneShot(this.explosionAudio.clip, 1);
+            } else {
+              console.error('音频源组件或音频剪辑未定义');
+            }
           }, 5);
         }
 
@@ -64,11 +85,22 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           this.scheduleOnce(() => {
             if (!selfCollider.isValid) return; // 防止已销毁的对象再次操作
 
-            selfCollider.node.destroy();
-            console.log('发射击中');
-            console.log('被击中的物体', otherCollider.node.name);
+            selfCollider.node.destroy(); //音效模块
+            // 检查音频源组件和音频剪辑是否已定义
 
-            if (otherCollider && otherCollider.node.parent.name !== 'mapboundary' && otherCollider.node.name !== 'tank1' && otherCollider.node.name !== 'tank0' && otherCollider.node.name !== 'enemytank') {
+            if (this.explosionAudio && this.explosionAudio.clip) {
+              // 播放音效
+              this.explosionAudio.playOneShot(this.explosionAudio.clip, 1);
+            } else {
+              console.error('音频源组件或音频剪辑未定义');
+            } //音效模块
+
+
+            if (!otherCollider.node.name) {
+              console.log("otherCollider.node.name");
+            }
+
+            if (otherCollider && otherCollider.node.name !== 'normalwall' && otherCollider.node.name !== 'tank1' && otherCollider.node.name !== 'tank0' && otherCollider.node.name !== 'playertank' && otherCollider.node.name !== 'enemytank') {
               otherCollider.node.destroy();
             } else if (otherCollider && otherCollider.node.name === 'tank1') {
               let playerController1 = otherCollider.node.getComponent(_crd && PlayerController1 === void 0 ? (_reportPossibleCrUseOfPlayerController({
@@ -82,7 +114,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
               } else {
                 console.error("PlayerController0 or PlayerController1 component not found on 'tank1' node.");
               }
-            } else if (otherCollider && otherCollider.node.name === 'tank0') {
+            } else if (otherCollider && otherCollider.node.name === 'tank0' || otherCollider && otherCollider.node.name === 'playertank') {
               let playerController0 = otherCollider.node.getComponent(_crd && PlayerController0 === void 0 ? (_reportPossibleCrUseOfPlayerController2({
                 error: Error()
               }), PlayerController0) : PlayerController0);
@@ -95,7 +127,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
                 console.error("PlayerController0 or PlayerController1 component not found on 'tank1' node.");
               }
             }
-          }, 0.1); // 稍微增加延迟，确保事件处理完毕
+          }, 0.0001); // 稍微增加延迟，确保事件处理完毕
         }
 
         onDestroy() {
@@ -106,7 +138,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           }
         }
 
-      }) || _class));
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "explosionAudio", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      })), _class2)) || _class));
 
       _cclegacy._RF.pop();
 

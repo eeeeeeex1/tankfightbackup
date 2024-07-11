@@ -3,11 +3,23 @@
   "builder": {
     "common": {
       "buildPath": "project://build",
-      "outputName": "demo1",
+      "outputName": "demo2",
       "mainBundleCompressionType": "merge_dep",
       "platform": "windows",
       "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
       "scenes": [
+        {
+          "url": "db://assets/map/alonemap0-difficult.scene",
+          "uuid": "1f299242-f13f-4393-9ad0-c3b2064c2606"
+        },
+        {
+          "url": "db://assets/map/alonemap0.scene",
+          "uuid": "1c6af74a-a8a3-47c1-8750-c97c5958c42f"
+        },
+        {
+          "url": "db://assets/map/doublemap0.scene",
+          "uuid": "6edb7132-96e2-4656-abd7-5ddc42a84e26"
+        },
         {
           "url": "db://assets/Scenes/LoadingScene.scene",
           "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
@@ -17,7 +29,7 @@
           "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
         },
         {
-          "url": "db://assets/Scenes/scene-2d-001.scene",
+          "url": "db://assets/Scenes/return.scene",
           "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
         },
         {
@@ -29,15 +41,20 @@
           "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
         },
         {
-          "url": "db://assets/Scenes/alonemap2.scene",
-          "uuid": "36291188-d37d-4b4f-a128-588f20d16162"
+          "url": "db://assets/Scenes/single1.scene",
+          "uuid": "03313355-9855-490d-98a2-49a0837a55c4"
+        },
+        {
+          "url": "db://assets/Scenes/victory.scene",
+          "uuid": "2be201f8-3f82-437d-b138-1947eaf8f5a2"
         }
       ],
-      "md5Cache": false
+      "md5Cache": false,
+      "name": "HuNaoTank"
     },
     "options": {
       "windows": {
-        "executableName": "demo1",
+        "executableName": "demo2",
         "renderBackEnd": {
           "vulkan": true,
           "gles3": true,
@@ -348,6 +365,28 @@
       },
       "1720375288561": {
         "executableName": "demo1",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720675066782": {
+        "executableName": "demo2",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720675148529": {
+        "executableName": "demo2",
         "renderBackEnd": {
           "vulkan": true,
           "gles3": true,

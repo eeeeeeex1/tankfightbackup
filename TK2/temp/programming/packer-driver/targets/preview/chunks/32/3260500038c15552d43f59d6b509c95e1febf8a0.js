@@ -29,7 +29,14 @@ System.register(["cc"], function (_export, _context) {
           this.Password = void 0;
           this.save = void 0;
           this.difficulty = void 0;
-          this.time = void 0;
+          this.d1time1 = 0;
+          this.d1time2 = 0;
+          this.d1time3 = 0;
+          this.d1time = 0;
+          this.d2time1 = 0;
+          this.d2time2 = 0;
+          this.d2time3 = 0;
+          this.d2time = 0;
         }
 
       };
@@ -44,7 +51,17 @@ System.register(["cc"], function (_export, _context) {
           director.addPersistRootNode(this.node); //设置常驻节点存放用户信息
         }
 
-        update(deltaTime) {}
+        update(deltaTime) {
+          if (this.CurrentUser != null) {
+            var RegSet = Object.assign(new Array(), JSON.parse(localStorage.getItem('RegSet')));
+
+            for (var item of RegSet) {
+              if (item.Account == this.CurrentUser.Account) {
+                this.CurrentUser = item;
+              }
+            }
+          }
+        }
 
       }) || _class2));
 

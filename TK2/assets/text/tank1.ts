@@ -51,7 +51,7 @@ export class PlayerController1 extends Component {
     private leftanddownSpriteFrame: SpriteFrame | null = null;
 
     
-    moveSpeed: number = 1; // 调整移动速度
+    moveSpeed: number = 5; // 调整移动速度
 
 
 

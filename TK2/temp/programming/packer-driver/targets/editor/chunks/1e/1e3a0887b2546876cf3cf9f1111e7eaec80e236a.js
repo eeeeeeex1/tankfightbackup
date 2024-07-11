@@ -68,10 +68,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             if (!selfCollider.isValid) return; // 防止已销毁的对象再次操作
 
             selfCollider.node.destroy();
-            console.log('地雷触发');
-            console.log('踩中地雷的物体', otherCollider.node.name);
 
-            if (otherCollider && otherCollider.node.parent.name !== 'mapboundary' && otherCollider.node.name !== 'tank1' && otherCollider.node.name !== 'tank0' && otherCollider.node.name !== 'enemytank') {
+            if (otherCollider && otherCollider.node.name !== 'normalwall' && otherCollider.node.name !== 'tank1' && otherCollider.node.name !== 'tank0' && otherCollider.node.name !== 'playertank' && otherCollider.node.name !== 'enemytank') {
               otherCollider.node.destroy();
             } else if (otherCollider && otherCollider.node.name === 'tank1') {
               let playerController1 = otherCollider.node.getComponent(_crd && PlayerController1 === void 0 ? (_reportPossibleCrUseOfPlayerController2({
@@ -85,7 +83,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
               } else {
                 console.error("PlayerController0 or PlayerController1 component not found on 'tank1' node.");
               }
-            } else if (otherCollider && otherCollider.node.name === 'tank0') {
+            } else if (otherCollider && otherCollider.node.name === 'tank0' || otherCollider && otherCollider.node.name === 'playertank') {
               let playerController0 = otherCollider.node.getComponent(_crd && PlayerController0 === void 0 ? (_reportPossibleCrUseOfPlayerController({
                 error: Error()
               }), PlayerController0) : PlayerController0);

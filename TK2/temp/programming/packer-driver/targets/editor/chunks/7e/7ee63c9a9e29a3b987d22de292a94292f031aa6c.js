@@ -38,7 +38,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.Password = void 0;
           this.save = void 0;
           this.difficulty = void 0;
-          this.time = void 0;
+          this.d1time1 = 0;
+          this.d1time2 = 0;
+          this.d1time3 = 0;
+          this.d1time = 0;
+          this.d2time1 = 0;
+          this.d2time2 = 0;
+          this.d2time3 = 0;
+          this.d2time = 0;
         }
 
       };
@@ -55,7 +62,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.RegSet = Object.assign(new Array(), JSON.parse(localStorage.getItem('RegSet')));
 
           for (const admin of this.RegSet) {
-            if (admin == 'nmmm') {
+            if (admin.Account == 'wuxu') {
               console.log('success!');
               break;
             }
@@ -68,8 +75,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         loadSinglePlayerScene() {
-          if (this.CurrentUser.save == 0) director.loadScene('single'); // 使用你的单人闯关场景名称
-          else director.loadScene('alonemap2');
+          if (this.CurrentUser.save != 0) director.loadScene('single'); // 使用你的单人闯关场景名称
+          else director.loadScene('single1');
         }
 
       }) || _class2));

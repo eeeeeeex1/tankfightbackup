@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, SpriteFrame, RigidBody2D, Vec3, Collider2D, Contact2DType, Vec2, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _crd, ccclass, property, Direction, Directions, enemytank;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, SpriteFrame, RigidBody2D, Vec3, Collider2D, Contact2DType, Vec2, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, Direction, Directions, enemytank;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -36,7 +36,10 @@ System.register(["cc"], function (_export, _context) {
       ({
         ccclass,
         property
-      } = _decorator); // 定义方向向量
+      } = _decorator); //可以实现tank的万向追踪和子弹的万向发射
+      //enemytank的0.0版
+      //困难的敌人
+      // 定义方向向量
 
       Direction = {
         LEFT: new Vec2(-1, 0),
@@ -54,7 +57,7 @@ System.register(["cc"], function (_export, _context) {
       new Vec2(0, -1) // DOWN
       ];
 
-      _export("enemytank", enemytank = (_dec = ccclass('enemytank'), _dec2 = property(RigidBody2D), _dec3 = property(SpriteFrame), _dec4 = property(SpriteFrame), _dec5 = property(SpriteFrame), _dec6 = property(SpriteFrame), _dec7 = property(SpriteFrame), _dec8 = property(SpriteFrame), _dec9 = property(SpriteFrame), _dec10 = property(SpriteFrame), _dec11 = property(SpriteFrame), _dec(_class = (_class2 = class enemytank extends Component {
+      _export("enemytank", enemytank = (_dec = ccclass('enemytank'), _dec2 = property(RigidBody2D), _dec3 = property(SpriteFrame), _dec(_class = (_class2 = class enemytank extends Component {
         constructor() {
           super(...arguments);
 
@@ -63,23 +66,7 @@ System.register(["cc"], function (_export, _context) {
 
           _initializerDefineProperty(this, "rigidBody", _descriptor2, this);
 
-          _initializerDefineProperty(this, "upSpriteFrame", _descriptor3, this);
-
-          _initializerDefineProperty(this, "downSpriteFrame", _descriptor4, this);
-
-          _initializerDefineProperty(this, "leftSpriteFrame", _descriptor5, this);
-
-          _initializerDefineProperty(this, "rightSpriteFrame", _descriptor6, this);
-
-          _initializerDefineProperty(this, "rightandupSpriteFrame", _descriptor7, this);
-
-          _initializerDefineProperty(this, "rightanddownSpriteFrame", _descriptor8, this);
-
-          _initializerDefineProperty(this, "leftandupSpriteFrame", _descriptor9, this);
-
-          _initializerDefineProperty(this, "leftanddownSpriteFrame", _descriptor10, this);
-
-          _initializerDefineProperty(this, "speed", _descriptor11, this);
+          _initializerDefineProperty(this, "speed", _descriptor3, this);
 
           this.direction = new Vec2(0, 0);
           //坦克生命值
@@ -95,8 +82,13 @@ System.register(["cc"], function (_export, _context) {
           this.pressedKeys = void 0;
           this.spreadspeed = new Vec2(0, 0);
           this.aitankspeed = void 0;
-          this.deltx = 0;
-          this.delty = 0;
+          this.lastspeed = new Vec2(0, 0);
+          this.sign = 0;
+          this.signtimer = 0;
+          this.speedmonitor = new Vec2(0, 0);
+          this.speedtime = 0;
+          this.speedtimer = 0;
+          this.speedtimermonitor = 0;
         }
 
         onLoad() {
@@ -115,107 +107,84 @@ System.register(["cc"], function (_export, _context) {
 
           if (collider) {
             collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
-          }
+          } // 初始化
+
+
+          this.speedtimer = 0;
+          this.speedmonitor = this.currentspeed; // 初始化监视速度
         }
 
         update(dt) {
           // 检测位置是否改变
-          var player = this.node.parent.getChildByName('tank0');
+          var player = this.node.parent.getChildByName('playertank');
 
-          if (Math.abs(this.node.position.x - player.position.x) < 100 || Math.abs(this.node.position.y - player.position.y) < 100) {
-            this.aitankspeed.x = player.position.x - this.node.position.x;
-            this.aitankspeed.y = player.position.y - this.node.position.y;
-            this.aitankspeed.normalize();
-            this.changeDirection(); // 调用函数
-          } else {
-            if (this.node.position.x - this.lastPosition.x > this.EPSILON || this.node.position.y - this.lastPosition.y > this.EPSILON) {
-              // console.log('位置改变');
-              this.lastPosition.set(this.node.position); // 更新记录的位置
-
-              this.lastChangeTime = Date.now(); // 更新位置改变的时间戳
-
-              this.timer = 0; // 重置计时器
+          if (player) {
+            if ((Math.abs(this.node.position.x - player.position.x) < 100 || Math.abs(this.node.position.y - player.position.y) < 100) && this.sign === 0) {
+              this.aitankspeed.x = player.position.x - this.node.position.x;
+              this.aitankspeed.y = player.position.y - this.node.position.y;
+              this.aitankspeed.normalize();
+              this.changeDirection(); // 调用函数
             } else {
-              this.timer += dt; // 检查是否超过2秒
+              if (this.node.position.x - this.lastPosition.x > this.EPSILON || this.node.position.y - this.lastPosition.y > this.EPSILON) {
+                // console.log('位置改变');
+                this.lastPosition.set(this.node.position); // 更新记录的位置
 
-              if (this.timer >= 3) {
+                this.lastChangeTime = Date.now(); // 更新位置改变的时间戳
+
                 this.timer = 0; // 重置计时器
+              } else {
+                this.timer += dt; // 检查是否超过2秒
 
-                this.changeDirection(); // 调用函数
+                if (this.timer >= 3) {
+                  this.timer = 0; // 重置计时器
+
+                  this.changeDirection(); // 调用函数
+                }
               }
+            }
+          } else {
+            console.log('失败');
+            this.node.destroy();
+          } //碰撞速度修改检测
+
+
+          if (this.sign === 1) {
+            this.signtimer += dt; // 检查是否超过2秒
+
+            if (this.signtimer >= 2) {
+              this.signtimer = 0; // 重置计时器
+
+              this.sign = 0;
+              this.changeDirection(); //console.log('调整完毕');
             }
           }
         }
 
         onBeginContact(selfCollider, otherCollider) {
-          ;
+          //console.log('碰撞');
+          this.sign = 1;
           this.changeDirection(); // 自定义方法，用于改变坦克的移动方向
         }
 
         changeDirection() {
           var newDirection = Math.floor(Math.random() * 4); // 假设有四个方向
 
-          while (this.currentspeed === Directions[newDirection]) {
+          while (this.lastspeed.x === Directions[newDirection].x && this.lastspeed.y === Directions[newDirection].y) {
             newDirection = Math.floor(Math.random() * 4);
           }
 
-          this.currentspeed = Directions[newDirection];
-          this.updateSpriteFrame();
+          if ((this.aitankspeed.x !== 0 || this.aitankspeed.y !== 0) && this.sign === 0) {
+            var newVelocity = this.aitankspeed.clone().multiplyScalar(this.speed); //给坦克赋值速度
 
-          if (this.aitankspeed.x !== 0 || this.aitankspeed.y !== 0) {
-            var newVelocity = this.aitankspeed.clone().multiplyScalar(this.speed);
-            this.rigidBody.linearVelocity = newVelocity;
+            this.rigidBody.linearVelocity = newVelocity; //传递速度到fire
+
             this.currentspeed = newVelocity;
           } else {
             var _newVelocity = Directions[newDirection].clone().multiplyScalar(this.speed);
 
             this.rigidBody.linearVelocity = _newVelocity;
             this.currentspeed = _newVelocity;
-          }
-        }
-
-        updateSpriteFrame() {
-          var spriteNode = this.node.getChildByName('RenderSprite0');
-          var sprite = spriteNode ? spriteNode.getComponent(cc.Sprite) : null;
-
-          if (sprite) {
-            switch (true) {
-              case this.currentspeed.equals(Direction.UP):
-                sprite.spriteFrame = this.upSpriteFrame;
-                break;
-
-              case this.currentspeed.equals(Direction.DOWN):
-                sprite.spriteFrame = this.downSpriteFrame;
-                break;
-
-              case this.currentspeed.equals(Direction.LEFT):
-                sprite.spriteFrame = this.leftSpriteFrame;
-                break;
-
-              case this.currentspeed.equals(Direction.RIGHT):
-                sprite.spriteFrame = this.rightSpriteFrame;
-                break;
-
-              case this.currentspeed.equals(Direction.DOWNRIGHT):
-                sprite.spriteFrame = this.rightanddownSpriteFrame;
-                break;
-
-              case this.currentspeed.equals(Direction.UPRIGHT):
-                sprite.spriteFrame = this.rightandupSpriteFrame;
-                break;
-
-              case this.currentspeed.equals(Direction.DOWNLEFT):
-                sprite.spriteFrame = this.leftanddownSpriteFrame;
-                break;
-
-              case this.currentspeed.equals(Direction.UPLEFT):
-                sprite.spriteFrame = this.leftandupSpriteFrame;
-                break;
-
-              default:
-                // 默认情况下，可以保持原状或设置为静止状态的纹理
-                break;
-            }
+            this.lastspeed = Directions[newDirection].clone();
           }
         }
 
@@ -233,63 +202,7 @@ System.register(["cc"], function (_export, _context) {
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "upSpriteFrame", [_dec3], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return null;
-        }
-      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "downSpriteFrame", [_dec4], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return null;
-        }
-      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "leftSpriteFrame", [_dec5], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return null;
-        }
-      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "rightSpriteFrame", [_dec6], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return null;
-        }
-      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "rightandupSpriteFrame", [_dec7], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return null;
-        }
-      }), _descriptor8 = _applyDecoratedDescriptor(_class2.prototype, "rightanddownSpriteFrame", [_dec8], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return null;
-        }
-      }), _descriptor9 = _applyDecoratedDescriptor(_class2.prototype, "leftandupSpriteFrame", [_dec9], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return null;
-        }
-      }), _descriptor10 = _applyDecoratedDescriptor(_class2.prototype, "leftanddownSpriteFrame", [_dec10], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return null;
-        }
-      }), _descriptor11 = _applyDecoratedDescriptor(_class2.prototype, "speed", [_dec11], {
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "speed", [_dec3], {
         configurable: true,
         enumerable: true,
         writable: true,
@@ -297,47 +210,6 @@ System.register(["cc"], function (_export, _context) {
           return 2;
         }
       })), _class2)) || _class));
-      /*
-      
-      当敌人与玩家的距离小于某个设定值的时候，敌人就能发现玩家，然后去攻击玩家。
-      cc.Class({
-          extends: cc.Component,
-      =
-          properties: {
-              player:cc.Node,//不建议直接用挂载的方式，建议在onLoad里拿节点
-          },
-      
-          // LIFE-CYCLE CALLBACKS:
-      
-          onLoad () {
-              this.initTime = 0;
-              //this.player = cc.Find("Canvas/Bg/tank");//建议使用这种方法拿到节点，
-          },
-      
-          start () {
-      
-          },
-      
-          update (dt) {
-              this.initTime++;
-              //判断player和enemy节点距离，并且60帧才进行一次实时朝向的判断
-              let playerPos = this.player.convertToWorldSpaceAR(cc.v2(0, 0));
-              let thisPos = this.node.convertToWorldSpaceAR(cc.v2(0, 0));
-              if((Math.abs(playerPos.x - thisPos.x) < 300 && Math.abs(playerPos.y - thisPos.y) < 300)&&this.initTime>60){
-                  let r = Math.atan2(playerPos.y - thisPos.y, playerPos.x - thisPos.x);
-                  let degree = r * 180 / Math.PI;
-                  degree = 360 - degree;
-                  degree = degree - 90;
-                  this.node.angle = -degree;
-                  this.initTime = 0;
-              }
-          	
-          },
-      });
-      
-      
-      */
-
 
       _cclegacy._RF.pop();
 

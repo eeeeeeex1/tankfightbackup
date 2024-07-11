@@ -49,11 +49,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
         // �仯��ʱ��
         start() {
-          var node0 = this.node.parent.getChildByName('firedirection'); // ��ȡ PlayerController0 �� firedirection0 ��ʵ��
-
+          var node0 = this.node.parent.getChildByName('firedirection');
           this.playercontroller0 = node0.getComponent(_crd && firedirection0 === void 0 ? (_reportPossibleCrUseOffiredirection({
             error: Error()
-          }), firedirection0) : firedirection0); // ��ʼ��¼��ǰ�� magnification ֵ
+          }), firedirection0) : firedirection0);
 
           if (this.playercontroller0) {
             this.originalMagnification = this.playercontroller0.fireInterval;
@@ -63,13 +62,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
         update(deltaTime) {
           if (this.playercontroller0) {
-            var currentMagnification = this.playercontroller0.fireInterval; // ��鵱ǰֵ�Ƿ���仯���ֵ��ͬ���Ҳ����ڱ仯״̬
+            var currentMagnification = this.playercontroller0.fireInterval;
 
             if (currentMagnification !== this.changedMagnification && !this.isChanging) {
-              // magnification �����˱仯����ʼ��ʱ
               this.isChanging = true;
               this.changeTimer = 0;
-              this.changedMagnification = currentMagnification; // ���±仯���ֵΪ��ǰֵ
+              this.changedMagnification = currentMagnification;
             } // ������ڱ仯״̬����ʱ���ۼ�
 
 

@@ -33,9 +33,7 @@ export class enemylandmine extends Component {
 
             selfCollider.node.destroy();
 
-            console.log('地雷触发');
-            console.log('踩中地雷的物体',otherCollider.node.name);
-            if (otherCollider && otherCollider.node.parent.name !== 'mapboundary'&&otherCollider.node.name!=='tank1'&& otherCollider.node.name!=='tank0'&& otherCollider.node.name!=='enemytank') {
+            if (otherCollider && otherCollider.node.name !== 'normalwall'&&otherCollider.node.name!=='tank1'&& otherCollider.node.name!=='tank0'&& otherCollider.node.name!=='playertank'&& otherCollider.node.name!=='enemytank') {
                 otherCollider.node.destroy();
             }
             else if (otherCollider && otherCollider.node.name === 'tank1') {
@@ -51,7 +49,7 @@ export class enemylandmine extends Component {
                     console.error("PlayerController0 or PlayerController1 component not found on 'tank1' node.");
                 }
             }
-            else if (otherCollider && otherCollider.node.name === 'tank0') {
+            else if ((otherCollider && otherCollider.node.name === 'tank0')||(otherCollider && otherCollider.node.name === 'playertank')) {
 
                 let playerController0 = otherCollider.node.getComponent(PlayerController0);
 

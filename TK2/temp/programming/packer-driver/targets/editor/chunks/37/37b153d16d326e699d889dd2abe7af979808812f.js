@@ -63,7 +63,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             } else {
               console.error('音频源组件或音频剪辑未定义');
             }
-          }, 5);
+          }, 3);
         }
 
         start() {
@@ -79,7 +79,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.scheduleOnce(() => {
             if (!selfCollider.isValid) return; // 防止已销毁的对象再次操作
 
-            selfCollider.node.destroy(); //检查音频源组件和音频剪辑是否已定义
+            selfCollider.node.destroy(); // 检查音频源组件和音频剪辑是否已定义
 
             if (this.explosionAudio && this.explosionAudio.clip) {
               // 播放音效
@@ -88,7 +88,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               console.error('音频源组件或音频剪辑未定义');
             }
 
-            if (otherCollider && otherCollider.node.parent.name !== 'mapboundary' && otherCollider.node.name !== 'tank1') {
+            if (otherCollider && otherCollider.node.name !== 'normalwall' && otherCollider.node.name !== 'tank1') {
               otherCollider.node.destroy();
             } else if (otherCollider && otherCollider.node.name === 'tank1') {
               let playerController1 = otherCollider.node.getComponent(_crd && PlayerController1 === void 0 ? (_reportPossibleCrUseOfPlayerController({
@@ -103,7 +103,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
                 console.error("PlayerController0 or PlayerController1 component not found on 'tank1' node.");
               }
             }
-          }, 0.1); // 稍微增加延迟，确保事件处理完毕
+          }, 0.0001); // 稍微增加延迟，确保事件处理完毕
         }
 
         onDestroy() {

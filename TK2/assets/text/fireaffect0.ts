@@ -1,5 +1,5 @@
 import { _decorator, Component, Node, Prefab } from 'cc';
-import { firedirection0 } from './firedirection0'; // È·±£ÕýÈ·ÒýÈë firedirection0 Àà
+import { firedirection0 } from './firedirection0'; // È·ï¿½ï¿½ï¿½ï¿½È·ï¿½ï¿½ï¿½ï¿½ firedirection0 ï¿½ï¿½
 const { ccclass, property } = _decorator;
 
 @ccclass('fireaffect0')
@@ -7,22 +7,21 @@ export class fireaffect0 extends Component {
 
     private playercontroller0: firedirection0 | null = null;
 
-    private originalMagnification: number = 0; // ³õÊ¼µÄ fireInterval Öµ
-    private changedMagnification: number = 0; // ±ä»¯ºóµÄ fireInterval Öµ
-    private isChanging: boolean = false; // ÊÇ·ñÕýÔÚ±ä»¯
-    private changeDuration: number = 5; // ±ä»¯³ÖÐøÊ±¼ä£¬µ¥Î»£ºÃë
-    private changeTimer: number = 0; // ±ä»¯¼ÆÊ±Æ÷
+    private originalMagnification: number = 0; // ï¿½ï¿½Ê¼ï¿½ï¿½ fireInterval Öµ
+    private changedMagnification: number = 0; // ï¿½ä»¯ï¿½ï¿½ï¿½ fireInterval Öµ
+    private isChanging: boolean = false; // ï¿½Ç·ï¿½ï¿½ï¿½ï¿½Ú±ä»¯
+    private changeDuration: number = 5; // ï¿½ä»¯ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ä£¬ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½
+    private changeTimer: number = 0; // ï¿½ä»¯ï¿½ï¿½Ê±ï¿½ï¿½
 
     start() {
         let node0 = this.node.parent.getChildByName('firedirection');
-        // »ñÈ¡ PlayerController0 ºÍ firedirection0 µÄÊµÀý
+    
 
         this.playercontroller0 = node0.getComponent(firedirection0);
 
-        // ³õÊ¼¼ÇÂ¼µ±Ç°µÄ magnification Öµ
         if (this.playercontroller0) {
             this.originalMagnification = this.playercontroller0.fireInterval;
-            this.changedMagnification = this.originalMagnification; // ³õÊ¼Ê±£¬±ä»¯ºóµÄÖµµÈÓÚÔ­Ê¼Öµ
+            this.changedMagnification = this.originalMagnification; // ï¿½ï¿½Ê¼Ê±ï¿½ï¿½ï¿½ä»¯ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½Ô­Ê¼Öµ
         }
     }
 
@@ -30,24 +29,24 @@ export class fireaffect0 extends Component {
         if (this.playercontroller0) {
             let currentMagnification = this.playercontroller0.fireInterval;
 
-            // ¼ì²éµ±Ç°ÖµÊÇ·ñÓë±ä»¯ºóµÄÖµ²»Í¬£¬ÇÒ²»´¦ÓÚ±ä»¯×´Ì¬
+           
             if (currentMagnification !== this.changedMagnification && !this.isChanging) {
                
-                // magnification ·¢ÉúÁË±ä»¯£¬¿ªÊ¼¼ÆÊ±
+               
                 this.isChanging = true;
                 this.changeTimer = 0;
-                this.changedMagnification = currentMagnification; // ¸üÐÂ±ä»¯ºóµÄÖµÎªµ±Ç°Öµ
+                this.changedMagnification = currentMagnification; 
             }
 
-            // Èç¹ûÕýÔÚ±ä»¯×´Ì¬£¬¼ÆÊ±Æ÷ÀÛ¼Ó
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú±ä»¯×´Ì¬ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½Û¼ï¿½
             if (this.isChanging) {
                 this.changeTimer += deltaTime;
 
-                // Èç¹û¼ÆÊ±´ïµ½Éè¶¨Ê±¼ä
+                // ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ïµ½ï¿½è¶¨Ê±ï¿½ï¿½
                 if (this.changeTimer >= this.changeDuration) {
-                    // ½« magnification »Ø¸´µ½Ô­Ê¼Öµ
+                    // ï¿½ï¿½ magnification ï¿½Ø¸ï¿½ï¿½ï¿½Ô­Ê¼Öµ
                     this.playercontroller0.fireInterval = this.originalMagnification;
-                    this.isChanging = false; // ±ä»¯½áÊø
+                    this.isChanging = false; // ï¿½ä»¯ï¿½ï¿½ï¿½ï¿½
                 }
             }
         }

@@ -23,7 +23,7 @@ export class pause extends Component {
             }
             else
             {
-            this.node.getChildByName('pause').destroy();
+            this.node.getChildByName('_pause').destroy();
             this.status=0;
             director.resume();
             }

@@ -51,10 +51,10 @@ export class Bullet extends Component {
                 console.error('音频源组件或音频剪辑未定义');
             }
 
-            if (otherCollider && otherCollider.node.parent.name !== 'mapboundary'&&otherCollider.node.name!=='tank0' ) {
+            if (otherCollider && otherCollider.node.name !== 'normalwall' &&otherCollider.node.name!=='tank0' ) {
                 otherCollider.node.destroy();
-
             }
+
             else if (otherCollider && otherCollider.node.name === 'tank0') {
                 let playerController0 = otherCollider.node.getComponent(PlayerController0);
 
@@ -68,7 +68,7 @@ export class Bullet extends Component {
                 }
             }
 
-        }, 0.1); // 稍微增加延迟，确保事件处理完毕
+        }, 0.0001); // 稍微增加延迟，确保事件处理完毕
     }
 
 }

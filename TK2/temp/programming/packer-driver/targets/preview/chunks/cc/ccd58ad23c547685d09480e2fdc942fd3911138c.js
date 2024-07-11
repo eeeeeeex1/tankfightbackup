@@ -83,7 +83,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           _initializerDefineProperty(this, "leftanddownSpriteFrame", _descriptor10, this);
 
-          this.moveSpeed = 1;
+          this.moveSpeed = 5;
           // 调整移动速度
           this.direction = new Vec2(0, 0);
           this.pressedKeys = new Set();

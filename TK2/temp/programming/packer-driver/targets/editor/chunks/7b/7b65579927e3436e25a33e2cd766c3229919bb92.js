@@ -120,7 +120,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           bullet.setPosition(this.node.position); //console.log(this.currentiondirection);
 
           const rgd = bullet.getComponent(RigidBody2D);
-          this.speed = new Vec2(this.currentiondirection.x * 400, this.currentiondirection.y * 400);
+          this.speed = new Vec2(this.currentiondirection.x * 50, this.currentiondirection.y * 50);
 
           if (this.speed.x !== 0 || this.speed.y !== 0) {
             this.lastdirection = this.speed;
@@ -146,7 +146,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         putlandmine() {
-          console.log('放置地雷');
           const bullet = instantiate(this.landminePrefab);
           bullet.setParent(this.node);
           bullet.setPosition(this.node.position); //设置子弹实例的具体属性

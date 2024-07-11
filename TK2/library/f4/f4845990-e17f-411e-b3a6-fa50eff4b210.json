@@ -655,19 +655,19 @@
       "__id__": 28
     },
     "upSpriteFrame": {
-      "__uuid__": "7effe23c-079c-410c-bcf4-006b38fc31cd@f9941",
+      "__uuid__": "bf055e14-f509-485e-a92e-f17525288a2a@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "downSpriteFrame": {
-      "__uuid__": "79060037-715c-435a-9aa1-9b588aed1ee4@f9941",
+      "__uuid__": "d647debd-4951-4c77-8089-c9f5102a9fea@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "leftSpriteFrame": {
-      "__uuid__": "31386f02-ee31-4e90-9b2d-3a9b00f42098@f9941",
+      "__uuid__": "4ef4360d-d12e-4d2c-98e7-e38d26f2b5e2@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "rightSpriteFrame": {
-      "__uuid__": "7c657c60-537b-4ff7-ba92-bcf29ba31d54@f9941",
+      "__uuid__": "08ecb9b4-b131-4f12-86a3-4f0c522ea2bd@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "rightandupSpriteFrame": {

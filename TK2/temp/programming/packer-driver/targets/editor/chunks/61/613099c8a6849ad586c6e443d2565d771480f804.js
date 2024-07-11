@@ -51,8 +51,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
         }
 
         onBeginContact(selfCollider, otherCollider) {
-          console.log("bbbb");
-
           if (otherCollider.node.name === "tank0" || otherCollider.node.name === "tank1") {
             const playercontroller0 = otherCollider.getComponent(_crd && PlayerController0 === void 0 ? (_reportPossibleCrUseOfPlayerController({
               error: Error()

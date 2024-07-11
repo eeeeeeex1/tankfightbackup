@@ -4,6 +4,9 @@ import { Vec2 } from 'cc';
 
 const { ccclass, property } = _decorator;
 
+//可以实现tank的万向追踪和子弹的万向发射
+//enemytank的0.0版
+//困难的敌人
 
 // 定义方向向量
 const Direction = {
@@ -35,31 +38,6 @@ export class enemytank extends Component {
     rigidBody: RigidBody2D = null;
 
     @property(SpriteFrame)
-    private upSpriteFrame: SpriteFrame | null = null;
-
-    @property(SpriteFrame)
-    private downSpriteFrame: SpriteFrame | null = null;
-
-    @property(SpriteFrame)
-    private leftSpriteFrame: SpriteFrame | null = null;
-
-    @property(SpriteFrame)
-    private rightSpriteFrame: SpriteFrame | null = null;
-
-    @property(SpriteFrame)
-    private rightandupSpriteFrame: SpriteFrame | null = null;
-
-    @property(SpriteFrame)
-    private rightanddownSpriteFrame: SpriteFrame | null = null;
-
-    @property(SpriteFrame)
-    private leftandupSpriteFrame: SpriteFrame | null = null;
-
-    @property(SpriteFrame)
-    private leftanddownSpriteFrame: SpriteFrame | null = null;
-
-
-    @property(SpriteFrame)
     private speed: number = 2;
 
 
@@ -79,8 +57,15 @@ export class enemytank extends Component {
     spreadspeed: Vec2 = new Vec2(0, 0);
     aitankspeed: Vec2;
 
-    deltx: number = 0;
-    delty: number = 0;
+    private lastspeed: Vec2 = new Vec2(0, 0);
+    sign: number = 0;
+    signtimer: number = 0;
+
+    speedmonitor : Vec2 = new Vec2(0,0);
+    speedtime : number = 0;
+    speedtimer : number = 0;
+    speedtimermonitor :number = 0;
+
 
 
     onLoad() {
@@ -98,42 +83,65 @@ export class enemytank extends Component {
         if (collider) {
             collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
         }
+
+        // 初始化
+        this.speedtimer = 0;
+        this.speedmonitor = this.currentspeed; // 初始化监视速度
     }
 
     update(dt: number) {
         // 检测位置是否改变
 
-        const player = this.node.parent.getChildByName('tank0');
-        if (Math.abs(this.node.position.x - player.position.x) < 100 || Math.abs(this.node.position.y - player.position.y) < 100) {
-            this.aitankspeed.x = player.position.x - this.node.position.x;
-            this.aitankspeed.y = player.position.y - this.node.position.y;
-            this.aitankspeed.normalize();
+        const player = this.node.parent.getChildByName('playertank');
+        if(player){
+            if((Math.abs(this.node.position.x - player.position.x) < 100 || Math.abs(this.node.position.y - player.position.y) < 100)&&this.sign===0) {
+                this.aitankspeed.x = player.position.x - this.node.position.x;
+                this.aitankspeed.y = player.position.y - this.node.position.y;
+                this.aitankspeed.normalize();
+                this.changeDirection(); // 调用函数
+            }
 
-            this.changeDirection(); // 调用函数
+            else {
+                if (this.node.position.x - this.lastPosition.x > this.EPSILON || this.node.position.y - this.lastPosition.y > this.EPSILON) {
+                    // console.log('位置改变');
+                    this.lastPosition.set(this.node.position); // 更新记录的位置
+                    this.lastChangeTime = Date.now(); // 更新位置改变的时间戳
+                    this.timer = 0; // 重置计时器
+                }
+                else {
+                    this.timer += dt;
+                    // 检查是否超过2秒
+                    if (this.timer >= 3) {
+                        this.timer = 0; // 重置计时器
+                        this.changeDirection(); // 调用函数
+                    }
+                }
+
+            }
         }
         else {
-            if (this.node.position.x - this.lastPosition.x > this.EPSILON || this.node.position.y - this.lastPosition.y > this.EPSILON) {
-                // console.log('位置改变');
-                this.lastPosition.set(this.node.position); // 更新记录的位置
-                this.lastChangeTime = Date.now(); // 更新位置改变的时间戳
-                this.timer = 0; // 重置计时器
-            }
-            else {
-                this.timer += dt;
-                // 检查是否超过2秒
-                if (this.timer >= 3) {
-                    this.timer = 0; // 重置计时器
-                    this.changeDirection(); // 调用函数
-                }
-            }
-
+            console.log('失败');
+            this.node.destroy();
         }
 
+
+        //碰撞速度修改检测
+        if (this.sign === 1) {
+            this.signtimer += dt;
+            // 检查是否超过2秒
+            if (this.signtimer >= 2) {
+                this.signtimer = 0; // 重置计时器
+                this.sign = 0; 
+                this.changeDirection() ;
+                //console.log('调整完毕');
+            }
+        }
 
     }
 
     onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D) {
-        ;
+        //console.log('碰撞');
+        this.sign = 1;
         this.changeDirection(); // 自定义方法，用于改变坦克的移动方向
 
     }
@@ -141,108 +149,26 @@ export class enemytank extends Component {
     changeDirection() {
 
         let newDirection = Math.floor(Math.random() * 4); // 假设有四个方向
-        while (this.currentspeed === Directions[newDirection]) {
+        while (this.lastspeed.x === Directions[newDirection].x && this.lastspeed.y === Directions[newDirection].y) {
             newDirection = Math.floor(Math.random() * 4);
         }
 
-        this.currentspeed = Directions[newDirection];
-        this.updateSpriteFrame();
-
-
-        if (this.aitankspeed.x !== 0 || this.aitankspeed.y !== 0) {
+        if ((this.aitankspeed.x !== 0 || this.aitankspeed.y !== 0) && this.sign===0) {
             let newVelocity = this.aitankspeed.clone().multiplyScalar(this.speed);
+            //给坦克赋值速度
             this.rigidBody.linearVelocity = newVelocity;
-            this.currentspeed=newVelocity;
+            //传递速度到fire
+            this.currentspeed = newVelocity;
 
         }
 
         else {
+
             let newVelocity = Directions[newDirection].clone().multiplyScalar(this.speed);
             this.rigidBody.linearVelocity = newVelocity;
-            this.currentspeed=newVelocity;
-        }
+            this.currentspeed = newVelocity;
 
-    }
-
-    private updateSpriteFrame(): void {
-        const spriteNode = this.node.getChildByName('RenderSprite0');
-        const sprite = spriteNode ? spriteNode.getComponent(cc.Sprite) as cc.Sprite : null;
-        if (sprite) {
-            switch (true) {
-                case this.currentspeed.equals(Direction.UP):
-                    sprite.spriteFrame = this.upSpriteFrame;
-                    break;
-                case this.currentspeed.equals(Direction.DOWN):
-                    sprite.spriteFrame = this.downSpriteFrame;
-                    break;
-                case this.currentspeed.equals(Direction.LEFT):
-                    sprite.spriteFrame = this.leftSpriteFrame;
-                    break;
-                case this.currentspeed.equals(Direction.RIGHT):
-                    sprite.spriteFrame = this.rightSpriteFrame;
-                    break;
-                case this.currentspeed.equals(Direction.DOWNRIGHT):
-                    sprite.spriteFrame = this.rightanddownSpriteFrame;
-                    break;
-                case this.currentspeed.equals(Direction.UPRIGHT):
-                    sprite.spriteFrame = this.rightandupSpriteFrame;
-                    break;
-                case this.currentspeed.equals(Direction.DOWNLEFT):
-                    sprite.spriteFrame = this.leftanddownSpriteFrame;
-                    break;
-                case this.currentspeed.equals(Direction.UPLEFT):
-                    sprite.spriteFrame = this.leftandupSpriteFrame;
-                    break;
-                default:
-                    // 默认情况下，可以保持原状或设置为静止状态的纹理
-                    break;
-            }
+            this.lastspeed = Directions[newDirection].clone();
         }
     }
-
 }
-
-
-/*
-
-当敌人与玩家的距离小于某个设定值的时候，敌人就能发现玩家，然后去攻击玩家。
-cc.Class({
-    extends: cc.Component,
-=
-    properties: {
-        player:cc.Node,//不建议直接用挂载的方式，建议在onLoad里拿节点
-    },
-
-    // LIFE-CYCLE CALLBACKS:
-
-    onLoad () {
-        this.initTime = 0;
-        //this.player = cc.Find("Canvas/Bg/tank");//建议使用这种方法拿到节点，
-    },
-
-    start () {
-
-    },
-
-    update (dt) {
-        this.initTime++;
-        //判断player和enemy节点距离，并且60帧才进行一次实时朝向的判断
-        let playerPos = this.player.convertToWorldSpaceAR(cc.v2(0, 0));
-        let thisPos = this.node.convertToWorldSpaceAR(cc.v2(0, 0));
-        if((Math.abs(playerPos.x - thisPos.x) < 300 && Math.abs(playerPos.y - thisPos.y) < 300)&&this.initTime>60){
-            let r = Math.atan2(playerPos.y - thisPos.y, playerPos.x - thisPos.x);
-            let degree = r * 180 / Math.PI;
-            degree = 360 - degree;
-            degree = degree - 90;
-            this.node.angle = -degree;
-            this.initTime = 0;
-        }
-    	
-    },
-});
-
-
-*/
-
-
-

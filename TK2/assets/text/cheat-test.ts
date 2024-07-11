@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Vec3, systemEvent, SystemEventType, EventKeyboard, macro } from 'cc';
+import { _decorator, Component, Node, Vec3, systemEvent, SystemEventType, EventKeyboard, macro, input, Input } from 'cc';
 import { PlayerController0 } from './tank0'; // 确保正确引入 PlayerController0 类
 const { ccclass, property } = _decorator;
 
@@ -13,7 +13,7 @@ export class TankCheatController extends Component {
 
     onLoad() {
         // 监听键盘事件
-        systemEvent.on(SystemEventType.KEY_DOWN, this.onKeyDown, this);
+        input.on(Input.KEY_DOWN, this.onKeyDown, this);
     }
 
     onDestroy() {

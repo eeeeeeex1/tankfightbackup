@@ -7,19 +7,26 @@ class user{
     Password:string;
     save:number;
     difficulty:number;
-    time:number;
+    d1time1:number=0;
+    d1time2:number=0;
+    d1time3:number=0;
+    d1time:number=0;
+    d2time1:number=0;
+    d2time2:number=0;
+    d2time3:number=0;
+    d2time:number=0;
 }
 
 @ccclass('SceneSwitcher')
 export class SceneSwitcher extends Component {
     CurrentUser:user;
-    RegSet:string[];
+    RegSet:user[];
     start() {
         // 绑定按钮点击事件,传递存档参数
         this.RegSet=Object.assign(new Array(),JSON.parse(localStorage.getItem('RegSet')));
         for(const admin of this.RegSet)
         {
-            if(admin=='nmmm')
+            if(admin.Account=='wuxu')
             {
                 console.log('success!')
                 break;
@@ -30,9 +37,9 @@ export class SceneSwitcher extends Component {
     }
 
     loadSinglePlayerScene() {
-        if(this.CurrentUser.save==0)
+        if(this.CurrentUser.save!=0)
         director.loadScene('single'); // 使用你的单人闯关场景名称
         else
-        director.loadScene('alonemap2');
+        director.loadScene('single1');
     }
 }

@@ -31,7 +31,7 @@ System.register(["cc"], function (_export, _context) {
         }
 
         loadDoublePlayerScene() {
-          director.loadScene('alonemap2');
+          director.loadScene('doublemap0');
         }
 
         update(deltaTime) {}

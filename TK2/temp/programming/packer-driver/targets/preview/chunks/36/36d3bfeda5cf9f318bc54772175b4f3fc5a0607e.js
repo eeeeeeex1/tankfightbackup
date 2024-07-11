@@ -122,12 +122,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           //设置子弹实例的具体属性
 
           var rgd = bullet.getComponent(RigidBody2D);
-          this.speed = new Vec2(this.currentiondirection.x * 400, this.currentiondirection.y * 400); //console.log( 'this.speed ',this.speed );
+          this.speed = new Vec2(this.currentiondirection.x * 50, this.currentiondirection.y * 50); //console.log( 'this.speed ',this.speed );
 
           if (this.speed.x !== 0 || this.speed.y !== 0) {
             //console.log("修改",this.speed);
             this.lastdirection = this.speed;
-            console.log(this.lastdirection);
           }
 
           if (this.speed.x === 0 && this.speed.y === 0) {
@@ -151,7 +150,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         putlandmine() {
-          console.log('放置地雷');
           var bullet = instantiate(this.landminePrefab);
           bullet.setParent(this.node);
           bullet.setPosition(this.node.position); //设置子弹实例的具体属性
