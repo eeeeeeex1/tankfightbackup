@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Button, director } from 'cc';
+import { _decorator, Component, Node, Button, director ,AudioSource} from 'cc';
 import { log } from './log';
 import { PassInf } from './PassInf';
 const { ccclass, property } = _decorator;
@@ -19,6 +19,9 @@ class user{
 
 @ccclass('SceneSwitcher')
 export class SceneSwitcher extends Component {
+    @property(AudioSource)
+    private clickAudio: AudioSource = null;
+
     CurrentUser:user;
     RegSet:user[];
     start() {
@@ -37,6 +40,7 @@ export class SceneSwitcher extends Component {
     }
 
     loadSinglePlayerScene() {
+        this.clickAudio.playOneShot(this.clickAudio.clip, 1);
         if(this.CurrentUser.save!=0)
         director.loadScene('single'); // 使用你的单人闯关场景名称
         else

@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Component, director, EditBox, instantiate, Prefab, PassInf, user, _dec, _dec2, _dec3, _dec4, _dec5, _class2, _class3, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, log;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Component, director, EditBox, instantiate, Prefab, AudioSource, PassInf, user, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class2, _class3, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _crd, ccclass, property, log;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -27,6 +27,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       EditBox = _cc.EditBox;
       instantiate = _cc.instantiate;
       Prefab = _cc.Prefab;
+      AudioSource = _cc.AudioSource;
     }, function (_unresolved_2) {
       PassInf = _unresolved_2.PassInf;
     }],
@@ -35,7 +36,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _cclegacy._RF.push({}, "c0d87S4d4FDZKFYnivsEUVK", "log", undefined);
 
-      __checkObsolete__(['_decorator', 'Button', 'Component', 'director', 'EditBox', 'instantiate', 'Node', 'Prefab']);
+      __checkObsolete__(['_decorator', 'Button', 'Component', 'director', 'EditBox', 'instantiate', 'Node', 'Prefab', 'AudioSource']);
 
       ({
         ccclass,
@@ -61,7 +62,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       };
 
-      _export("log", log = (_dec = ccclass('log'), _dec2 = property(EditBox), _dec3 = property(EditBox), _dec4 = property(Prefab), _dec5 = property(Prefab), _dec(_class2 = (_class3 = class log extends Component {
+      _export("log", log = (_dec = ccclass('log'), _dec2 = property(EditBox), _dec3 = property(EditBox), _dec4 = property(Prefab), _dec5 = property(Prefab), _dec6 = property(AudioSource), _dec(_class2 = (_class3 = class log extends Component {
         constructor(...args) {
           super(...args);
 
@@ -72,6 +73,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           _initializerDefineProperty(this, "NoAccount", _descriptor3, this);
 
           _initializerDefineProperty(this, "pwdError", _descriptor4, this);
+
+          _initializerDefineProperty(this, "clickAudio", _descriptor5, this);
 
           this.RegSet = new Array();
           //注册索引表
@@ -91,6 +94,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         update(deltaTime) {}
 
         checkAccount() {
+          this.clickAudio.playOneShot(this.clickAudio.clip, 1);
           let _account = this.account.string;
           let _pwd = this.password.string; //获取输入的账户和密码
 
@@ -157,6 +161,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         enumerable: true,
         writable: true,
         initializer: null
+      }), _descriptor5 = _applyDecoratedDescriptor(_class3.prototype, "clickAudio", [_dec6], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
       })), _class3)) || _class2));
 
       _cclegacy._RF.pop();

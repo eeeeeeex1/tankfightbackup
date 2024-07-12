@@ -3143,7 +3143,7 @@
       "time": 1720401024000
     },
     "D:\\demo3\\TK2\\assets\\Audio": {
-      "time": 1720696427123.271,
+      "time": 1720773522158.644,
       "uuid": "db6fd0b7-412a-438e-b7d4-2ba826312fe3"
     },
     "D:\\demo3\\TK2\\assets\\ImageSources": {
@@ -3179,7 +3179,7 @@
       "uuid": "24e58c7c-2683-40d5-9502-dd4e6427f24f"
     },
     "D:\\demo3\\TK2\\assets\\Scenes": {
-      "time": 1720696427874.9697,
+      "time": 1720774654747.0938,
       "uuid": "a653487f-1772-4ec6-a2d2-c0709e7648d0"
     },
     "D:\\demo3\\TK2\\assets\\Scripts": {
@@ -3191,7 +3191,7 @@
       "uuid": "615507b5-a435-4490-9d7f-c8fbd20dd710"
     },
     "D:\\demo3\\TK2\\assets\\Audio\\bulletAudio": {
-      "time": 1720696427136.7773,
+      "time": 1720773349276.7644,
       "uuid": "d82b8504-dd26-49e0-b41b-759e9956a030"
     },
     "D:\\demo3\\TK2\\assets\\photo\\ditu": {
@@ -3279,11 +3279,11 @@
       "uuid": "ce069bfa-3bbe-46f6-9c68-07c92c5a44db"
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\double.ts": {
-      "time": 1720670997898.67,
+      "time": 1720774538724.1729,
       "uuid": "0370a831-3f9e-4fa3-b785-327282c5f9e8"
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\easy.ts": {
-      "time": 1720694698482.9504,
+      "time": 1720775001185.13,
       "uuid": "1c2aa0ab-07a1-4d07-9bdf-cb237e5f50b4"
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\endgame.ts": {
@@ -3291,7 +3291,7 @@
       "uuid": "8abae688-1282-4103-be51-6c90b8514c81"
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\hard.ts": {
-      "time": 1720668411474.173,
+      "time": 1720775065455.0034,
       "uuid": "62e26f9a-508f-4ab8-8d7c-6de5471415bd"
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\HLB.ts": {
@@ -3299,7 +3299,7 @@
       "uuid": "a3b84074-c707-4d6d-9eae-0dc158956fc4"
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\LB.ts": {
-      "time": 1720661281131.9717,
+      "time": 1720774807422.3738,
       "uuid": "022ad31a-5b4a-45fb-b36a-56722cc4d736"
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\Loading.ts": {
@@ -3307,7 +3307,7 @@
       "uuid": "45e19a0e-19cd-47a7-91ff-efa5210f49f7"
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\log.ts": {
-      "time": 1720770103140.77,
+      "time": 1720774205680.047,
       "uuid": "c0d874b8-7781-4364-a158-9e2bec11454a"
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\PassInf.ts": {
@@ -3319,19 +3319,19 @@
       "uuid": "1be0ecb3-4616-4119-8f11-962e875d2220"
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\reStart.ts": {
-      "time": 1720674492941.8418,
+      "time": 1720774732171.3528,
       "uuid": "6f9fcabe-e920-4453-95c6-2151b6e1006d"
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\returnlog.ts": {
-      "time": 1720233468550.0186,
+      "time": 1720774615631.6914,
       "uuid": "a189430a-0628-4266-acb3-0928040a9813"
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\returnselect.ts": {
-      "time": 1720769804624.194,
+      "time": 1720774891837.2683,
       "uuid": "310575db-eb3c-4d6b-9e70-d39d9c2f83c4"
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\select.ts": {
-      "time": 1720668037907.8877,
+      "time": 1720774448827.937,
       "uuid": "9acb61b4-461b-40b5-beb5-680b75075740"
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\shut.ts": {
@@ -3833,7 +3833,7 @@
       "uuid": "1f299242-f13f-4393-9ad0-c3b2064c2606"
     },
     "D:\\demo3\\TK2\\assets\\map\\alonemap0.scene": {
-      "time": 1720754635585.4573,
+      "time": 1720775485513.508,
       "uuid": "1c6af74a-a8a3-47c1-8750-c97c5958c42f"
     },
     "D:\\demo3\\TK2\\assets\\map\\doublemap0.scene": {
@@ -3933,7 +3933,7 @@
       "uuid": "20d61344-99a4-436a-9888-23d50770a1d2"
     },
     "D:\\demo3\\TK2\\assets\\Prefabs\\_pause.prefab": {
-      "time": 1720769546141.63,
+      "time": 1720775217075.726,
       "uuid": "9f373299-47cd-4fb1-9fc3-616cf1e42465"
     },
     "D:\\demo3\\TK2\\assets\\Scenes\\LoadingScene.scene": {
@@ -3941,27 +3941,23 @@
       "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
     },
     "D:\\demo3\\TK2\\assets\\Scenes\\LoginScene.scene": {
-      "time": 1720768764847.7815,
+      "time": 1720774359301.2678,
       "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
     },
-    "D:\\demo3\\TK2\\assets\\Scenes\\return.scene": {
-      "time": 1720515691575.977,
-      "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
-    },
     "D:\\demo3\\TK2\\assets\\Scenes\\select.scene": {
-      "time": 1720587568587.1682,
+      "time": 1720774637963.1826,
       "uuid": "0554d124-5936-4455-9b17-a083050a9281"
     },
     "D:\\demo3\\TK2\\assets\\Scenes\\single.scene": {
-      "time": 1720669556781.4978,
+      "time": 1720774899713.2786,
       "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
     },
     "D:\\demo3\\TK2\\assets\\Scenes\\single1.scene": {
-      "time": 1720684582878.327,
+      "time": 1720775126285.7712,
       "uuid": "03313355-9855-490d-98a2-49a0837a55c4"
     },
     "D:\\demo3\\TK2\\assets\\Scenes\\victory.scene": {
-      "time": 1720576918170.1448,
+      "time": 1720774936919.3354,
       "uuid": "2be201f8-3f82-437d-b138-1947eaf8f5a2"
     },
     "D:\\demo3\\TK2\\assets\\Audio\\bulletAudio\\bulletSound.mp3": {
@@ -3971,10 +3967,6 @@
     "D:\\demo3\\TK2\\assets\\Audio\\bulletAudio\\explosionSound.mp3": {
       "time": 1720685801794.6616,
       "uuid": "a4706635-d2b5-42d2-8ee6-81cb4eed1322"
-    },
-    "D:\\demo3\\TK2\\assets\\Audio\\bulletAudio\\shoot.mp3": {
-      "time": 1720581563366.4639,
-      "uuid": "a2103626-2617-47c9-9d3a-0de418cccfe8"
     },
     "D:\\demo3\\TK2\\assets\\photo\\ditu\\mapzu0.png": {
       "time": 1720508246000,
@@ -4437,9 +4429,6 @@
     "D:\\demo3\\TK2\\assets\\Scenes\\LoginScene.scene.meta": {
       "time": 1720229424271.238
     },
-    "D:\\demo3\\TK2\\assets\\Scenes\\return.scene.meta": {
-      "time": 1719987812000
-    },
     "D:\\demo3\\TK2\\assets\\Scenes\\select.scene.meta": {
       "time": 1719985766000
     },
@@ -4454,9 +4443,6 @@
     },
     "D:\\demo3\\TK2\\assets\\Audio\\bulletAudio\\bulletSound.mp3.meta": {
       "time": 1720423004000
-    },
-    "D:\\demo3\\TK2\\assets\\Audio\\bulletAudio\\shoot.mp3.meta": {
-      "time": 1720581636992.7708
     },
     "D:\\demo3\\TK2\\assets\\Audio\\bulletAudio\\explosionSound.mp3.meta": {
       "time": 1720685971049.466
@@ -4714,7 +4700,7 @@
       "time": 1720753215927.0374
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\_continue.ts": {
-      "time": 1720769660386.6753,
+      "time": 1720775466800.3513,
       "uuid": "319e3f78-27f4-41b9-b48d-b4a3581fd3fa"
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\_pause.ts.meta": {
@@ -4735,7 +4721,7 @@
       "time": 1720755833199.558
     },
     "D:\\demo3\\TK2\\assets\\Scripts\\Reg.ts": {
-      "time": 1720768287869.7383,
+      "time": 1720774247473.7114,
       "uuid": "1e5f289b-a1b3-40f6-82b2-7f9915e1ec6a"
     },
     "D:\\demo3\\TK2\\assets\\Login\\Reg2.png.meta": {
@@ -4765,6 +4751,20 @@
     "D:\\demo3\\TK2\\assets\\Prefabs\\AccountExist.prefab": {
       "time": 1720767616494.1062,
       "uuid": "ec65f6e6-9170-4d45-b571-edfb00f163a7"
+    },
+    "D:\\demo3\\TK2\\assets\\Audio\\clickAudio.meta": {
+      "time": 1720773522164.1472
+    },
+    "D:\\demo3\\TK2\\assets\\Audio\\clickAudio": {
+      "time": 1720773550274.8604,
+      "uuid": "258065a5-6b20-4429-a25f-83176dff1450"
+    },
+    "D:\\demo3\\TK2\\assets\\Audio\\clickAudio\\ring.MP3.meta": {
+      "time": 1720773550336.423
+    },
+    "D:\\demo3\\TK2\\assets\\Audio\\clickAudio\\ring.MP3": {
+      "time": 1720773499605.6836,
+      "uuid": "8749f6eb-7b24-41de-8240-4cfb945aa6cd"
     }
   },
   "missing": {
@@ -4864,9 +4864,9 @@
       "removeTime": 1720015293906
     },
     "bda4619b-1bc8-442d-90ee-6b04df2eccd8": {
-      "path": "D:\\TankFight\\TK2\\assets\\Scenes\\scene-2d-001.scene",
-      "time": 1720234236825.4863,
-      "removeTime": 1720515691568
+      "path": "D:\\demo3\\TK2\\assets\\Scenes\\return.scene",
+      "time": 1720515691575.977,
+      "removeTime": 1720774654790
     },
     "92142e2b-b72a-4a04-b821-7456d1f29736": {
       "path": "D:\\TankFight\\TK2\\assets\\graund",
@@ -5127,6 +5127,11 @@
       "path": "D:\\demo3\\TK2\\assets\\Prefabs\\AccountExist.prefab",
       "time": 1720766734288.5747,
       "removeTime": 1720767613177
+    },
+    "a2103626-2617-47c9-9d3a-0de418cccfe8": {
+      "path": "D:\\demo3\\TK2\\assets\\Audio\\bulletAudio\\shoot.mp3",
+      "time": 1720581563366.4639,
+      "removeTime": 1720773349301
     }
   }
 }

@@ -459,6 +459,7 @@
         "b9b0fce6-d144-4637-8f7b-c8b0c724ec99",
         "94cd8c68-8da7-4137-a69e-5958d623d086@f9941",
         "45828f25-b50d-4c52-a591-e19491a62b8c@f9941",
+        "8749f6eb-7b24-41de-8240-4cfb945aa6cd",
         "1b563b92-0169-4b09-8e57-dda755953bb9"
       ],
       "dependScripts": [
@@ -471,17 +472,7 @@
   },
   "bda4619b-1bc8-442d-90ee-6b04df2eccd8": {
     "url": "db://assets/Scenes/return.scene",
-    "value": {
-      "depends": [
-        "bda4619b-1bc8-442d-90ee-6b04df2eccd8",
-        "881826d6-8f48-40ed-a396-64d19a659184@f9941",
-        "45828f25-b50d-4c52-a591-e19491a62b8c@f9941"
-      ],
-      "dependScripts": [
-        "8abae688-1282-4103-be51-6c90b8514c81",
-        "310575db-eb3c-4d6b-9e70-d39d9c2f83c4"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "0554d124-5936-4455-9b17-a083050a9281": {
@@ -490,7 +481,8 @@
       "depends": [
         "0554d124-5936-4455-9b17-a083050a9281",
         "5085c870-c46f-4f09-a997-f06a6dfdab4b@f9941",
-        "45828f25-b50d-4c52-a591-e19491a62b8c@f9941"
+        "45828f25-b50d-4c52-a591-e19491a62b8c@f9941",
+        "8749f6eb-7b24-41de-8240-4cfb945aa6cd"
       ],
       "dependScripts": [
         "9acb61b4-461b-40b5-beb5-680b75075740",
@@ -622,6 +614,7 @@
         "dcdd32c2-929f-4be7-ad33-f343996f3007@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
         "ec65f6e6-9170-4d45-b571-edfb00f163a7",
+        "8749f6eb-7b24-41de-8240-4cfb945aa6cd",
         "5e0d2318-ec2b-4094-84fb-c40e40bda6fb@f9941",
         "a2b7a645-9451-40d6-ac71-0d79a77dea04@f9941",
         "e79146fd-161e-4298-8ce9-c16c528fd353@f9941",
@@ -2963,7 +2956,8 @@
         "2be201f8-3f82-437d-b138-1947eaf8f5a2",
         "595f68a5-dd18-4d35-8ac2-086c56a91c73@f9941",
         "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941",
-        "45828f25-b50d-4c52-a591-e19491a62b8c@f9941"
+        "45828f25-b50d-4c52-a591-e19491a62b8c@f9941",
+        "8749f6eb-7b24-41de-8240-4cfb945aa6cd"
       ],
       "dependScripts": [
         "8abae688-1282-4103-be51-6c90b8514c81",
@@ -3024,9 +3018,7 @@
   },
   "a2103626-2617-47c9-9d3a-0de418cccfe8": {
     "url": "db://assets/Audio/bulletAudio/shoot.mp3",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "6cbf002f-ef20-4d67-99c1-d00fcf9f25e3": {
@@ -3111,6 +3103,7 @@
         "03313355-9855-490d-98a2-49a0837a55c4",
         "94cd8c68-8da7-4137-a69e-5958d623d086@f9941",
         "45828f25-b50d-4c52-a591-e19491a62b8c@f9941",
+        "8749f6eb-7b24-41de-8240-4cfb945aa6cd",
         "1b563b92-0169-4b09-8e57-dda755953bb9"
       ],
       "dependScripts": [
@@ -3753,6 +3746,7 @@
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "8749f6eb-7b24-41de-8240-4cfb945aa6cd",
         "447a007f-12a9-4394-a721-31916bfd1d8e@f9941"
       ],
       "dependScripts": [
@@ -3981,6 +3975,18 @@
         "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
       ],
       "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "258065a5-6b20-4429-a25f-83176dff1450": {
+    "url": "db://assets/Audio/clickAudio",
+    "value": {},
+    "versionCode": 1
+  },
+  "8749f6eb-7b24-41de-8240-4cfb945aa6cd": {
+    "url": "db://assets/Audio/clickAudio/ring.MP3",
+    "value": {
+      "depends": []
     },
     "versionCode": 1
   }

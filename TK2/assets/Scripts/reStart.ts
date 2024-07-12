@@ -1,4 +1,4 @@
-import { _decorator, Component, Node ,Button,director} from 'cc';
+import { _decorator, Component, Node ,Button,director,AudioSource} from 'cc';
 import { PassInf } from './PassInf';
 const { ccclass, property } = _decorator;
 class user{
@@ -18,6 +18,8 @@ class user{
 
 @ccclass('reStart')
 export class reStart extends Component {
+    @property(AudioSource)
+    private clickAudio: AudioSource = null;
     start() {
         this.node.on(Button.EventType.CLICK, this.restart, this);
     }
@@ -26,6 +28,7 @@ export class reStart extends Component {
         
     }
     restart(){
+        this.clickAudio.playOneShot(this.clickAudio.clip, 1);
         let Account=director.getScene().getChildByName('PassNode').getComponent(PassInf).CurrentUser.Account;
         let RegSet:user[]=Object.assign(new Array(),JSON.parse(localStorage.getItem('RegSet')));
         for(const item of RegSet)

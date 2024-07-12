@@ -1,4 +1,4 @@
-import { _decorator, Component, Node,Button ,EditBox,director, Prefab, instantiate} from 'cc';
+import { _decorator, Component, Node,Button ,EditBox,director, Prefab, instantiate,AudioSource} from 'cc';
 import { log } from './log';
 import { PassInf } from './PassInf';
 const { ccclass, property } = _decorator;
@@ -28,6 +28,8 @@ export class Reg extends Component {
     password:EditBox;
     @property(Prefab)
     AccountExist:Prefab;
+    @property(AudioSource)
+    private clickAudio: AudioSource = null;
 
     newAccount:user
     start() {
@@ -38,6 +40,7 @@ export class Reg extends Component {
         
     }
     reg(){
+        this.clickAudio.playOneShot(this.clickAudio.clip, 1);
         let _account=this.account.string;
         let _pwd=this.password.string;//获取输入的账户和密码
         if(_account.length==0||_pwd.length==0)

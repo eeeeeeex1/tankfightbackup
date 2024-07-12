@@ -1,8 +1,8 @@
 {
   "__type__": "cc.AudioClip",
-  "_name": "shoot",
+  "_name": "ring",
   "_objFlags": 0,
   "__editorExtras__": {},
   "_native": ".mp3",
-  "_duration": 0.474833
+  "_duration": 0.548563
 }
