@@ -19,14 +19,14 @@ export class speedaffect0 extends Component {
         this.playercontroller0 = this.node.parent.getComponent(PlayerController0);
         // ��ʼ��¼��ǰ�� magnification ֵ
         if (this.playercontroller0) {
-            this.originalMagnification = this.playercontroller0.speed;
+            this.originalMagnification = this.playercontroller0.magnification;
             this.changedMagnification = this.originalMagnification; // ��ʼʱ���仯���ֵ����ԭʼֵ
         }
     }
 
     update(deltaTime: number) {
         if (this.playercontroller0) {
-            let currentMagnification = this.playercontroller0.speed;
+            let currentMagnification = this.playercontroller0.magnification;
 
             // ��鵱ǰֵ�Ƿ���仯���ֵ��ͬ���Ҳ����ڱ仯״̬
             if (currentMagnification !== this.changedMagnification && !this.isChanging) {
@@ -43,7 +43,7 @@ export class speedaffect0 extends Component {
                 // �����ʱ�ﵽ�趨ʱ��
                 if (this.changeTimer >= this.changeDuration) {
                     // �� magnification �ظ���ԭʼֵ
-                    this.playercontroller0.speed = this.originalMagnification;
+                    this.playercontroller0.magnification = this.originalMagnification;
                     this.isChanging = false; // �仯����
                 }
             }

@@ -5,55 +5,18 @@
       "polyfills": {
         "asyncFunctions": true
       },
-      "buildPath": "project://build",
-      "outputName": "web-desktop",
-      "mainBundleCompressionType": "merge_dep",
-      "platform": "web-desktop",
-      "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
-      "bundleConfigs": [],
+      "name": "TankFight",
+      "md5Cache": true,
+      "debug": true,
       "scenes": [
         {
-          "url": "db://assets/map/alonemap2.scene",
-          "uuid": "36291188-d37d-4b4f-a128-588f20d16162"
-        },
-        {
-          "url": "db://assets/Scenes/LoadingScene.scene",
-          "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
-        },
-        {
-          "url": "db://assets/Scenes/LoginScene.scene",
-          "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
-        },
-        {
-          "url": "db://assets/Scenes/single.scene",
-          "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
-        },
-        {
-          "url": "db://assets/Scenes/select.scene",
-          "uuid": "0554d124-5936-4455-9b17-a083050a9281"
-        },
-        {
-          "url": "db://assets/Scenes/scene-2d-001.scene",
-          "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+          "url": "db://assets/scene-2d.scene",
+          "uuid": "d506c42d-a2d8-4de2-bff7-83bd68a68175"
         }
       ]
     },
     "taskOptionsMap": {
-      "1720155568858": {
-        "resolution": {
-          "designWidth": 1280,
-          "designHeight": 960
-        },
-        "__version__": "1.0.1"
-      },
-      "1720384834688": {
-        "resolution": {
-          "designWidth": 1280,
-          "designHeight": 960
-        },
-        "__version__": "1.0.1"
-      },
-      "1720403938619": {
+      "1719905968700": {
         "resolution": {
           "designWidth": 1280,
           "designHeight": 960

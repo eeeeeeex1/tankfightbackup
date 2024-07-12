@@ -14,7 +14,7 @@ export class objectmovefast extends Component {
     }
 
     onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D) {
-        if(otherCollider.node.name==="tank0"||otherCollider.node.name==="tank1"||otherCollider.node.name==="playertank"){
+        if(otherCollider.node.name==="tank0"||otherCollider.node.name==="tank1"){
             const playercontroller0: PlayerController0 = otherCollider.getComponent(PlayerController0);
             const playercontroller1: PlayerController1 = otherCollider.getComponent(PlayerController1);
             if(playercontroller0){

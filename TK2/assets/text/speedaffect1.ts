@@ -1,5 +1,5 @@
 import { _decorator, Component, Node, Prefab } from 'cc';
-import { PlayerController1 } from './tank1'; // È·ï¿½ï¿½ï¿½ï¿½È·ï¿½ï¿½ï¿½ï¿½ PlayerController0 ï¿½ï¿½
+import { PlayerController1 } from './tank1'; // È·±£ÕýÈ·ÒýÈë PlayerController0 Àà
 const { ccclass, property } = _decorator;
 
 @ccclass('speedaffect1')
@@ -7,43 +7,43 @@ export class speedaffect1 extends Component {
 
     private playercontroller1: PlayerController1 | null = null;
 
-    private originalMagnification: number = 0; // ï¿½ï¿½Ê¼ï¿½ï¿½ magnification Öµ
-    private changedMagnification: number = 0; // ï¿½ä»¯ï¿½ï¿½ï¿½ magnification Öµ
-    private isChanging: boolean = false; // ï¿½Ç·ï¿½ï¿½ï¿½ï¿½Ú±ä»¯
-    private changeDuration: number = 5; // ï¿½ä»¯ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ä£¬ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½
-    private changeTimer: number = 0; // ï¿½ä»¯ï¿½ï¿½Ê±ï¿½ï¿½
+    private originalMagnification: number = 0; // ³õÊ¼µÄ magnification Öµ
+    private changedMagnification: number = 0; // ±ä»¯ºóµÄ magnification Öµ
+    private isChanging: boolean = false; // ÊÇ·ñÕýÔÚ±ä»¯
+    private changeDuration: number = 5; // ±ä»¯³ÖÐøÊ±¼ä£¬µ¥Î»£ºÃë
+    private changeTimer: number = 0; // ±ä»¯¼ÆÊ±Æ÷
 
     start() {
-        // ï¿½ï¿½È¡ PlayerController0 ï¿½ï¿½ firedirection0 ï¿½ï¿½Êµï¿½ï¿½
+        // »ñÈ¡ PlayerController0 ºÍ firedirection0 µÄÊµÀý
         this.playercontroller1 = this.node.parent.getComponent(PlayerController1);
 
-        // ï¿½ï¿½Ê¼ï¿½ï¿½Â¼ï¿½ï¿½Ç°ï¿½ï¿½ magnification Öµ
+        // ³õÊ¼¼ÇÂ¼µ±Ç°µÄ magnification Öµ
         if (this.playercontroller1) {
-            this.originalMagnification = this.playercontroller1.speed;
-            this.changedMagnification = this.originalMagnification; // ï¿½ï¿½Ê¼Ê±ï¿½ï¿½ï¿½ä»¯ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½Ô­Ê¼Öµ
+            this.originalMagnification = this.playercontroller1.magnification;
+            this.changedMagnification = this.originalMagnification; // ³õÊ¼Ê±£¬±ä»¯ºóµÄÖµµÈÓÚÔ­Ê¼Öµ
         }
     }
 
     update(deltaTime: number) {
         if (this.playercontroller1) {
-            let currentMagnification = this.playercontroller1.speed;
-            // ï¿½ï¿½éµ±Ç°Öµï¿½Ç·ï¿½ï¿½ï¿½ä»¯ï¿½ï¿½ï¿½Öµï¿½ï¿½Í¬ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½Ú±ä»¯×´Ì¬
+            let currentMagnification = this.playercontroller1.magnification;
+            // ¼ì²éµ±Ç°ÖµÊÇ·ñÓë±ä»¯ºóµÄÖµ²»Í¬£¬ÇÒ²»´¦ÓÚ±ä»¯×´Ì¬
             if (currentMagnification !== this.changedMagnification && !this.isChanging) {
-                // magnification ï¿½ï¿½ï¿½ï¿½ï¿½Ë±ä»¯ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½Ê±
+                // magnification ·¢ÉúÁË±ä»¯£¬¿ªÊ¼¼ÆÊ±
                 this.isChanging = true;
                 this.changeTimer = 0;
-                this.changedMagnification = currentMagnification; // ï¿½ï¿½ï¿½Â±ä»¯ï¿½ï¿½ï¿½ÖµÎªï¿½ï¿½Ç°Öµ
+                this.changedMagnification = currentMagnification; // ¸üÐÂ±ä»¯ºóµÄÖµÎªµ±Ç°Öµ
             }
 
-            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú±ä»¯×´Ì¬ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½Û¼ï¿½
+            // Èç¹ûÕýÔÚ±ä»¯×´Ì¬£¬¼ÆÊ±Æ÷ÀÛ¼Ó
             if (this.isChanging) {
                 this.changeTimer += deltaTime;
 
-                // ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ïµ½ï¿½è¶¨Ê±ï¿½ï¿½
+                // Èç¹û¼ÆÊ±´ïµ½Éè¶¨Ê±¼ä
                 if (this.changeTimer >= this.changeDuration) {
-                    // ï¿½ï¿½ magnification ï¿½Ø¸ï¿½ï¿½ï¿½Ô­Ê¼Öµ
-                    this.playercontroller1.speed = this.originalMagnification;
-                    this.isChanging = false; // ï¿½ä»¯ï¿½ï¿½ï¿½ï¿½
+                    // ½« magnification »Ø¸´µ½Ô­Ê¼Öµ
+                    this.playercontroller1.magnification = this.originalMagnification;
+                    this.isChanging = false; // ±ä»¯½áÊø
                 }
             }
         }

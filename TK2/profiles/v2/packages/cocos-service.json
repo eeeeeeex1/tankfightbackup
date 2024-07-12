@@ -3,205 +3,13 @@
   "builder": {
     "options": {
       "web-desktop": {
-        "configID": "bbddf8",
-        "services": []
-      },
-      "windows": {
-        "configID": "bbddf8",
-        "services": []
-      },
-      "openharmony": {
-        "configID": "bbddf8",
+        "configID": "69001e",
         "services": []
       }
     },
     "taskOptionsMap": {
-      "1720151685213": {
-        "configID": "bbddf8",
-        "services": []
-      },
-      "1720152395510": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720155568858": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720161158063": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720164697424": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720164967350": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720169081757": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720169275100": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720194361622": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720196048570": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720199530405": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720222416440": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720222821715": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720223299452": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720225481937": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720227060288": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720227751831": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720228239635": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720228686512": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720229087906": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720229489675": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720230201242": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720230566203": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720231316643": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720232159354": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720233889544": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720239327253": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720239727442": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720375288561": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720384834688": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720403938619": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720675066782": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720675148529": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720677526016": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720678312174": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720678402352": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720696781340": {
-        "configID": "bbddf8",
-        "services": [],
-        "__version__": "3.0.7"
-      },
-      "1720698743994": {
-        "configID": "bbddf8",
+      "1719905968700": {
+        "configID": "69001e",
         "services": [],
         "__version__": "3.0.7"
       }
@@ -209,7 +17,7 @@
     "__version__": "1.3.8"
   },
   "builder-options": {
-    "configID": "bbddf8",
+    "configID": "69001e",
     "services": [],
     "__version__": "3.0.7"
   }
