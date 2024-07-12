@@ -3212,6 +3212,7 @@
     "value": {},
     "versionCode": 1
   },
+<<<<<<< HEAD
   "52f1596b-962e-40c5-a197-ec9ec83c012d": {
     "url": "db://assets/photo/cogs.png",
     "value": {
@@ -3259,5 +3260,11 @@
       ]
     },
     "versionCode": 1
+=======
+  "261ed9d0-446d-4c81-a47f-1ab092220a19": {
+    "url": "db://assets/text",
+    "value": {},
+    "versionCode": 1
+>>>>>>> bcb461001e53c18e4593c369d3a615e1a9d4b37f
   }
 }

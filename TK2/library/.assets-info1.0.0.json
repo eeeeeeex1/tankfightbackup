@@ -11,8 +11,298 @@
     "C:\\cocoscreater\\NewProject_1\\assets\\photo.meta": {
       "time": 1719817358518.189
     },
+<<<<<<< HEAD
     "C:\\cocoscreater\\NewProject_1\\assets\\photo": {
       "time": 1719890825755.9626,
+=======
+    "D:\\TankFight\\TK2\\assets\\Scripts": {
+      "time": 1720668827995.5518,
+      "uuid": "61dd0dd4-ee37-473b-ab6e-de382665ab06"
+    },
+    "D:\\TankFight\\TK2\\assets\\Scenes\\LoadingScene.scene.meta": {
+      "time": 1719973998150.7976
+    },
+    "D:\\TankFight\\TK2\\assets\\Scenes\\LoadingScene.scene": {
+      "time": 1720679373200.5542,
+      "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+    },
+    "D:\\TankFight\\TK2\\assets\\Login.meta": {
+      "time": 1719906840505.0002
+    },
+    "D:\\TankFight\\TK2\\assets\\Login": {
+      "time": 1720518128306.7205,
+      "uuid": "92c6e6f8-d140-48f0-8a02-849daa2e9a9d"
+    },
+    "D:\\TankFight\\TK2\\assets\\Login\\admin.png.meta": {
+      "time": 1719943926978.7441
+    },
+    "D:\\TankFight\\TK2\\assets\\Login\\admin.png": {
+      "time": 1719943778014.926,
+      "uuid": "05f0b5b7-86b9-46c9-a7a7-0bc0bc1e4c85"
+    },
+    "D:\\TankFight\\TK2\\assets\\Login\\login1.png.meta": {
+      "time": 1719938559599.8906
+    },
+    "D:\\TankFight\\TK2\\assets\\Login\\login1.png": {
+      "time": 1719938330683.4106,
+      "uuid": "a2b7a645-9451-40d6-ac71-0d79a77dea04"
+    },
+    "D:\\TankFight\\TK2\\assets\\Login\\logbk.jpg.meta": {
+      "time": 1719936339006.11
+    },
+    "D:\\TankFight\\TK2\\assets\\Login\\logbk.jpg": {
+      "time": 1719936254347.603,
+      "uuid": "08166d65-3493-4bf2-93bd-35364d6778d4"
+    },
+    "D:\\TankFight\\TK2\\assets\\Login\\BK.jpg.meta": {
+      "time": 1719909041559.1746
+    },
+    "D:\\TankFight\\TK2\\assets\\Login\\BK.jpg": {
+      "time": 1719937405099.1133,
+      "uuid": "2d532167-c7e5-47ad-8bfa-b5947dfea2b6"
+    },
+    "D:\\TankFight\\TK2\\assets\\Login\\password.png.meta": {
+      "time": 1719944235126.0579
+    },
+    "D:\\TankFight\\TK2\\assets\\Login\\password.png": {
+      "time": 1719944196900.548,
+      "uuid": "e877adff-26df-406d-984d-1c87f5f87e74"
+    },
+    "D:\\TankFight\\TK2\\assets\\Login\\login3.png.meta": {
+      "time": 1719938782471.0898
+    },
+    "D:\\TankFight\\TK2\\assets\\Login\\login3.png": {
+      "time": 1719938755967.8547,
+      "uuid": "e79146fd-161e-4298-8ce9-c16c528fd353"
+    },
+    "D:\\TankFight\\TK2\\assets\\Login\\login2.png.meta": {
+      "time": 1719938778221.0132
+    },
+    "D:\\TankFight\\TK2\\assets\\Login\\login2.png": {
+      "time": 1719938707421.1594,
+      "uuid": "5e0d2318-ec2b-4094-84fb-c40e40bda6fb"
+    },
+    "D:\\TankFight\\TK2\\assets\\Loading.meta": {
+      "time": 1719975886876.4324
+    },
+    "D:\\TankFight\\TK2\\assets\\Loading": {
+      "time": 1720521058377.3914,
+      "uuid": "ad7f17ee-85c6-47c1-b91a-8bd938e32892"
+    },
+    "D:\\TankFight\\TK2\\assets\\Loading\\loadbk.jpg.meta": {
+      "time": 1719974198402.3584
+    },
+    "D:\\TankFight\\TK2\\assets\\Loading\\loadbk.jpg": {
+      "time": 1719974144979.8733,
+      "uuid": "6fc4704c-1349-444a-a3d7-e7103b5224a6"
+    },
+    "D:\\TankFight\\TK2\\assets\\Loading\\loadingbk.png.meta": {
+      "time": 1719976725345.007
+    },
+    "D:\\TankFight\\TK2\\assets\\Loading\\loadingbk.png": {
+      "time": 1719975750347.6218,
+      "uuid": "fb86ef27-a878-4b8e-ab5a-8f4f80e451ac"
+    },
+    "D:\\TankFight\\TK2\\assets\\Scripts\\Loading.ts.meta": {
+      "time": 1719977267845.4502
+    },
+    "D:\\TankFight\\TK2\\assets\\Scripts\\Loading.ts": {
+      "time": 1720679653878.2666,
+      "uuid": "45e19a0e-19cd-47a7-91ff-efa5210f49f7"
+    },
+    "D:\\TankFight\\TK2\\assets\\Scripts\\welcome.ts.meta": {
+      "time": 1719979298626.9253
+    },
+    "D:\\TankFight\\TK2\\assets\\Scripts\\welcome.ts": {
+      "time": 1720680068727.5244,
+      "uuid": "c4498d13-2555-4639-bb4a-f0fe9a14fb41"
+    },
+    "D:\\TankFight\\TK2\\assets\\Prefab.meta": {
+      "time": 1719977933130.9316
+    },
+    "D:\\TankFight\\TK2\\assets\\Prefab": {
+      "time": 1720518128504.9155,
+      "uuid": "642d7763-8173-4283-9fc5-5d7f54c8eaa0"
+    },
+    "D:\\TankFight\\TK2\\assets\\Prefab\\loadingbk.prefab.meta": {
+      "time": 1719977592222.5103
+    },
+    "D:\\TankFight\\TK2\\assets\\Prefab\\loadingbk.prefab": {
+      "time": 1720002241670.0515,
+      "uuid": "5afedcf2-6924-4038-8c6b-265ac1e54bce"
+    },
+    "D:\\TankFight\\TK2\\assets\\resources.meta": {
+      "time": 1720009624040.207
+    },
+    "D:\\TankFight\\TK2\\assets\\Scenes\\select.scene.meta": {
+      "time": 1719985766000
+    },
+    "D:\\TankFight\\TK2\\assets\\Scenes\\select.scene": {
+      "time": 1720587568587.1682,
+      "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+    },
+    "D:\\TankFight\\TK2\\assets\\Scenes\\single.scene.meta": {
+      "time": 1719986546000
+    },
+    "D:\\TankFight\\TK2\\assets\\Scenes\\single.scene": {
+      "time": 1720669556781.4978,
+      "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+    },
+    "D:\\TankFight\\TK2\\assets\\Scripts\\select.ts.meta": {
+      "time": 1719991030000
+    },
+    "D:\\TankFight\\TK2\\assets\\Scripts\\select.ts": {
+      "time": 1720668037907.8877,
+      "uuid": "9acb61b4-461b-40b5-beb5-680b75075740"
+    },
+    "D:\\TankFight\\TK2\\assets\\ImageSources.meta": {
+      "time": 1720016291373.5742
+    },
+    "D:\\TankFight\\TK2\\assets\\ImageSources": {
+      "time": 1720518128282.7046,
+      "uuid": "426f5b3f-b16b-498c-9b25-0aad0bbeea00"
+    },
+    "D:\\TankFight\\TK2\\assets\\ImageSources\\Single.webp.meta": {
+      "time": 1720016215224.0986
+    },
+    "D:\\TankFight\\TK2\\assets\\ImageSources\\Single.webp": {
+      "time": 1719987312000,
+      "uuid": "94cd8c68-8da7-4137-a69e-5958d623d086"
+    },
+    "D:\\TankFight\\TK2\\assets\\ImageSources\\select.webp.meta": {
+      "time": 1720016315469.166
+    },
+    "D:\\TankFight\\TK2\\assets\\ImageSources\\select.webp": {
+      "time": 1719977316000,
+      "uuid": "5085c870-c46f-4f09-a997-f06a6dfdab4b"
+    },
+    "D:\\TankFight\\TK2\\assets\\ImageSources\\return.webp.meta": {
+      "time": 1720016940623.947
+    },
+    "D:\\TankFight\\TK2\\assets\\ImageSources\\return.webp": {
+      "time": 1720016896751.0337,
+      "uuid": "881826d6-8f48-40ed-a396-64d19a659184"
+    },
+    "D:\\TankFight\\TK2\\assets\\Scenes\\LoginScene.scene.meta": {
+      "time": 1720229424271.238
+    },
+    "D:\\TankFight\\TK2\\assets\\Scenes\\LoginScene.scene": {
+      "time": 1720588907332.8435,
+      "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+    },
+    "D:\\TankFight\\TK2\\assets\\Scripts\\log.ts.meta": {
+      "time": 1720230406308.2332
+    },
+    "D:\\TankFight\\TK2\\assets\\Scripts\\log.ts": {
+      "time": 1720666578831.2944,
+      "uuid": "c0d874b8-7781-4364-a158-9e2bec11454a"
+    },
+    "D:\\TankFight\\TK2\\assets\\Scripts\\returnselect.ts.meta": {
+      "time": 1720232853854.4917
+    },
+    "D:\\TankFight\\TK2\\assets\\Scripts\\returnselect.ts": {
+      "time": 1720232896428.7542,
+      "uuid": "310575db-eb3c-4d6b-9e70-d39d9c2f83c4"
+    },
+    "D:\\TankFight\\TK2\\assets\\Scripts\\returnlog.ts.meta": {
+      "time": 1720232981447.1497
+    },
+    "D:\\TankFight\\TK2\\assets\\Scripts\\returnlog.ts": {
+      "time": 1720233468550.0186,
+      "uuid": "a189430a-0628-4266-acb3-0928040a9813"
+    },
+    "D:\\TankFight\\TK2\\assets\\Scripts\\endgame.ts.meta": {
+      "time": 1720233197195.3547
+    },
+    "D:\\TankFight\\TK2\\assets\\Scripts\\endgame.ts": {
+      "time": 1720233435339.955,
+      "uuid": "8abae688-1282-4103-be51-6c90b8514c81"
+    },
+    "D:\\TankFight\\TK2\\assets\\map.meta": {
+      "time": 1720422326000
+    },
+    "D:\\TankFight\\TK2\\assets\\photo.meta": {
+      "time": 1720422326000
+    },
+    "D:\\TankFight\\TK2\\assets\\Prefabs.meta": {
+      "time": 1720422326000
+    },
+    "D:\\TankFight\\TK2\\assets\\text.meta": {
+      "time": 1720422326000
+    },
+    "D:\\TankFight\\TK2\\assets\\photo\\environment.meta": {
+      "time": 1720164430000
+    },
+    "D:\\TankFight\\TK2\\assets\\photo\\objectphoto.meta": {
+      "time": 1720227142000
+    },
+    "D:\\TankFight\\TK2\\assets\\photo\\qiangphoto.meta": {
+      "time": 1720164430000
+    },
+    "D:\\TankFight\\TK2\\assets\\photo\\tank0photo.meta": {
+      "time": 1720164430000
+    },
+    "D:\\TankFight\\TK2\\assets\\photo\\tank1photo.meta": {
+      "time": 1720164430000
+    },
+    "D:\\TankFight\\TK2\\assets\\Prefabs\\gameobject.meta": {
+      "time": 1720164432000
+    },
+    "D:\\TankFight\\TK2\\assets\\text\\background.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\TankFight\\TK2\\assets\\text\\bullet0.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\TankFight\\TK2\\assets\\text\\bullet1.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\TankFight\\TK2\\assets\\text\\cheat-test.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\TankFight\\TK2\\assets\\text\\fireaffect0.ts.meta": {
+      "time": 1720234906000
+    },
+    "D:\\TankFight\\TK2\\assets\\text\\fireaffect1.ts.meta": {
+      "time": 1720234922000
+    },
+    "D:\\TankFight\\TK2\\assets\\text\\firedirection0.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\TankFight\\TK2\\assets\\text\\firedirection1.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\TankFight\\TK2\\assets\\text\\normalwall.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\TankFight\\TK2\\assets\\text\\obj-firefast.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\TankFight\\TK2\\assets\\text\\obj-movefast.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\TankFight\\TK2\\assets\\text\\specialwall.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\TankFight\\TK2\\assets\\text\\speedaffect0.ts.meta": {
+      "time": 1720235018000
+    },
+    "D:\\TankFight\\TK2\\assets\\text\\speedaffect1.ts.meta": {
+      "time": 1720235032000
+    },
+    "D:\\TankFight\\TK2\\assets\\text\\tank0.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\TankFight\\TK2\\assets\\text\\tank1.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\TankFight\\TK2\\assets\\map": {
+      "time": 1720683774768.999,
+      "uuid": "2f042a5a-a82b-4598-aa7c-1a66cd590fa9"
+    },
+    "D:\\TankFight\\TK2\\assets\\photo": {
+      "time": 1720683774795.5308,
+>>>>>>> bcb461001e53c18e4593c369d3a615e1a9d4b37f
       "uuid": "2e86899f-ecc6-4cda-aa60-a277ed418bf9"
     },
     "C:\\cocoscreater\\NewProject_1\\assets\\photo\\488e4cc1b6afa99548db30556b924aeb.prefab.meta": {
@@ -4571,12 +4861,25 @@
       "time": 1720593669427.7175,
       "uuid": "f17a33e8-fcc1-487f-b5b7-019231f92fcb"
     },
+<<<<<<< HEAD
     "C:\\Users\\lenovo\\Desktop\\tank7.11.11\\assets\\text": {
       "time": 1720659544515.4297,
       "uuid": "da66a686-fdaf-4c0f-a9b8-793763f22bcd"
     },
     "C:\\Users\\lenovo\\Desktop\\tank7.11.11\\assets\\Audio\\bulletAudio": {
       "time": 1720578236114.037,
+=======
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Scenes": {
+      "time": 1720686504660.6736,
+      "uuid": "a653487f-1772-4ec6-a2d2-c0709e7648d0"
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Scripts": {
+      "time": 1720686504871.4192,
+      "uuid": "61dd0dd4-ee37-473b-ab6e-de382665ab06"
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Audio\\bulletAudio": {
+      "time": 1720686501821.9343,
+>>>>>>> bcb461001e53c18e4593c369d3a615e1a9d4b37f
       "uuid": "d82b8504-dd26-49e0-b41b-759e9956a030"
     },
     "C:\\Users\\lenovo\\Desktop\\tank7.11.11\\assets\\photo\\ditu": {
@@ -5384,7 +5687,1563 @@
     "C:\\Users\\lenovo\\Desktop\\tank7.11.11\\assets\\map\\alonemap0.scene.meta": {
       "time": 1720497018000
     },
+<<<<<<< HEAD
     "C:\\Users\\lenovo\\Desktop\\tank7.11.11\\assets\\map\\alonemap0-difficult.scene.meta": {
+=======
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\map\\doublemap0.scene.meta": {
+      "time": 1720164430000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\map\\test.scene.meta": {
+      "time": 1720164430000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefab\\loadingbk.prefab.meta": {
+      "time": 1719977592222.5103
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\bulletnode0.prefab.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\chicken.png.meta": {
+      "time": 1720667077793.3281
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\basketball.png.meta": {
+      "time": 1720667038300.638
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\ikun.png.meta": {
+      "time": 1720666591683.4807
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\bulletnode1.prefab.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\屏幕截图 2024-07-08 161827.png.meta": {
+      "time": 1720426724000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\enemybullet.prefab.meta": {
+      "time": 1720410716000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\enemylandmine.prefab.meta": {
+      "time": 1720410706000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\enemytank-001.prefab.meta": {
+      "time": 1720593667282.9702
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\enemytank-002.prefab.meta": {
+      "time": 1720593669452.9827
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\enemytank.prefab.meta": {
+      "time": 1720253062000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\HardLeaderBoard.prefab.meta": {
+      "time": 1720663866266.7815
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\landmine1.prefab.meta": {
+      "time": 1720256852000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\landmine0.prefab.meta": {
+      "time": 1720255052000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\normalwall.prefab.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\playertank.prefab.meta": {
+      "time": 1720573668000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\SimpleLeaderBoard.prefab.meta": {
+      "time": 1720660263066.8965
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\tank0.prefab.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\specialwall.prefab.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\test.prefab.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\tank1.prefab.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\_pause.prefab.meta": {
+      "time": 1720674303679.7273
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Scenes\\LoadingScene.scene.meta": {
+      "time": 1719973998150.7976
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Scenes\\return.scene.meta": {
+      "time": 1719987812000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Scenes\\LoginScene.scene.meta": {
+      "time": 1720229424271.238
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Scenes\\select.scene.meta": {
+      "time": 1719985766000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Scenes\\single.scene.meta": {
+      "time": 1719986546000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Scenes\\victory.scene.meta": {
+      "time": 1720426838000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Scenes\\single1.scene.meta": {
+      "time": 1720659304773.7976
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Audio\\bulletAudio\\bulletSound.mp3.meta": {
+      "time": 1720423004000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Audio\\bulletAudio\\explosionSound.mp3.meta": {
+      "time": 1720685971049.466
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Audio\\bulletAudio\\shoot.mp3.meta": {
+      "time": 1720581636992.7708
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\ditu\\mapzu1.png.meta": {
+      "time": 1720508362000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\ditu\\mapzu0.png.meta": {
+      "time": 1720508352000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\enemytankphoto\\enemytankleft.png.meta": {
+      "time": 1720425086000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\enemytankphoto\\enemytankdown.png.meta": {
+      "time": 1720425204000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\enemytankphoto\\enemytankleftandup.png.meta": {
+      "time": 1720425340000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\enemytankphoto\\enemytankright.png.meta": {
+      "time": 1720425190000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\enemytankphoto\\enemytankleftanddown.png.meta": {
+      "time": 1720425318000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\environment\\groud.png.meta": {
+      "time": 1720164430000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\environment\\grass.png.meta": {
+      "time": 1720164430000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\enemytankphoto\\enemytankup.png.meta": {
+      "time": 1720425166000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\enemytankphoto\\enemytankrightandup.png.meta": {
+      "time": 1720425366000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\enemytankphoto\\enemytankrightanddown.png.meta": {
+      "time": 1720425066000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\environment\\water.png.meta": {
+      "time": 1720164430000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\qiangphoto\\hulan.png.meta": {
+      "time": 1720168652000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\objectphoto\\movefaster.jpg.meta": {
+      "time": 1720227154000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\objectphoto\\centetrgiftphoto.png.meta": {
+      "time": 1720231574000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\qiangphoto\\qiang0.png.meta": {
+      "time": 1720594338000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\qiangphoto\\qiang1.png.meta": {
+      "time": 1720164622000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\qiangphoto\\qiang2.png.meta": {
+      "time": 1720164630000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\qiangphoto\\qiang3.png.meta": {
+      "time": 1720164638000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\environment\\屏幕截图 2024-07-09 151844.png.meta": {
+      "time": 1720509576000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\qiangphoto\\qiang4.png.meta": {
+      "time": 1720164646000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\qiangphoto\\qiang6.png.meta": {
+      "time": 1720164662000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\qiangphoto\\qiang5.png.meta": {
+      "time": 1720164654000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\qiangphoto\\qiang7.png.meta": {
+      "time": 1720164684000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\qiangphoto\\wallbaba.png.meta": {
+      "time": 1720164430000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\down.png.meta": {
+      "time": 1720658769948.2837
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\downleft.png.meta": {
+      "time": 1720658816367.6963
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\downright.png.meta": {
+      "time": 1720658869965.5723
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\left.png.meta": {
+      "time": 1720658801275.579
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\paotai.png.meta": {
+      "time": 1720659102176.5232
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\right.png.meta": {
+      "time": 1720658836766.2827
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\tank0down.png.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\tank0left.png.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\tank0leftanddown.png.meta": {
+      "time": 1720400206000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\tank0leftandup.png.meta": {
+      "time": 1720400728000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\tank0right.png.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\tank0rightanddown.png.meta": {
+      "time": 1720400206000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\tank0up.png.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\tank0rightandup.png.meta": {
+      "time": 1720400206000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\upleft.png.meta": {
+      "time": 1720658825325.94
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\up.png.meta": {
+      "time": 1720658997957.5708
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank0photo\\upright.png.meta": {
+      "time": 1720658855712.35
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank1photo\\tank1down.png.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank1photo\\tank1left.png.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank1photo\\tank1leftandup.png.meta": {
+      "time": 1720424380000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank1photo\\tank1leftanddown.png.meta": {
+      "time": 1720424468000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank1photo\\tank1right.png.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank1photo\\tank1rightanddown.png.meta": {
+      "time": 1720424360000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank1photo\\tank1rightandup.png.meta": {
+      "time": 1720424300000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\gameobject\\firefastobject.prefab.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\tank1photo\\tank1up.png.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\gameobject\\movefastobject.prefab.meta": {
+      "time": 1720164432000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\子弹爆炸特效\\子弹爆炸特效1.jpg.meta": {
+      "time": 1720257050000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\子弹爆炸特效\\子弹爆炸特效2.jpg.meta": {
+      "time": 1720257050000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\子弹爆炸特效\\子弹爆炸特效3.jpg.meta": {
+      "time": 1720257050000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Prefabs\\gameobject\\pause.prefab.meta": {
+      "time": 1720250436384.6123
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\environment\\grass.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\environment\\water.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\environment\\groud.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\objectphoto\\movefaster.jpg.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\objectphoto\\centetrgiftphoto.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\qiangphoto\\hulan.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang0.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang1.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang2.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang3.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang4.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang6.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang5.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang7.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\qiangphoto\\wallbaba.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\tank0photo\\tank0down.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\tank0photo\\tank0right.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\tank0photo\\tank0left.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\tank0photo\\tank0up.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\tank1photo\\tank1down.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\tank1photo\\tank1left.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\tank1photo\\tank1right.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\tank1photo\\tank1up.png.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\子弹爆炸特效\\子弹爆炸特效1.jpg.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\子弹爆炸特效\\子弹爆炸特效2.jpg.meta": {
+      "time": 1720401024000
+    },
+    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\photo\\photo\\子弹爆炸特效\\子弹爆炸特效3.jpg.meta": {
+      "time": 1720401024000
+    },
+    "D:\\demo3\\TK2\\assets\\Audio": {
+      "time": 1720696427123.271,
+      "uuid": "db6fd0b7-412a-438e-b7d4-2ba826312fe3"
+    },
+    "D:\\demo3\\TK2\\assets\\ImageSources": {
+      "time": 1720696427161.7915,
+      "uuid": "426f5b3f-b16b-498c-9b25-0aad0bbeea00"
+    },
+    "D:\\demo3\\TK2\\assets\\Loading": {
+      "time": 1720696427180.8052,
+      "uuid": "ad7f17ee-85c6-47c1-b91a-8bd938e32892"
+    },
+    "D:\\demo3\\TK2\\assets\\Login": {
+      "time": 1720696427214.3262,
+      "uuid": "92c6e6f8-d140-48f0-8a02-849daa2e9a9d"
+    },
+    "D:\\demo3\\TK2\\assets\\map": {
+      "time": 1720696427237.4175,
+      "uuid": "2f042a5a-a82b-4598-aa7c-1a66cd590fa9"
+    },
+    "D:\\demo3\\TK2\\assets\\photo": {
+      "time": 1720696427703.8833,
+      "uuid": "2e86899f-ecc6-4cda-aa60-a277ed418bf9"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefab": {
+      "time": 1720696427727.8977,
+      "uuid": "642d7763-8173-4283-9fc5-5d7f54c8eaa0"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs": {
+      "time": 1720696427820.8691,
+      "uuid": "f17a33e8-fcc1-487f-b5b7-019231f92fcb"
+    },
+    "D:\\demo3\\TK2\\assets\\Scenes": {
+      "time": 1720696427874.9697,
+      "uuid": "a653487f-1772-4ec6-a2d2-c0709e7648d0"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts": {
+      "time": 1720696427967.5405,
+      "uuid": "61dd0dd4-ee37-473b-ab6e-de382665ab06"
+    },
+    "D:\\demo3\\TK2\\assets\\Audio\\bulletAudio": {
+      "time": 1720696427136.7773,
+      "uuid": "d82b8504-dd26-49e0-b41b-759e9956a030"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\ditu": {
+      "time": 1720696427292.9524,
+      "uuid": "6667a1e9-b53e-4bad-afaa-9aa909b7f18e"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\enemytankphoto": {
+      "time": 1720696427331.9775,
+      "uuid": "0ecb5657-3e58-41ee-8520-08600a0cbc24"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\environment": {
+      "time": 1720696427355.991,
+      "uuid": "c8953662-c0c0-4642-827f-53ea78dd426c"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\objectphoto": {
+      "time": 1720696427370.4976,
+      "uuid": "aed2a077-68ad-4840-9983-b8d414650891"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo": {
+      "time": 1720696427519.6975,
+      "uuid": "9759a45f-4791-4f96-9aa2-0e87c3d493f8"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\qiangphoto": {
+      "time": 1720696427582.7373,
+      "uuid": "0ba798e7-1fa6-4f52-92a2-9e090392f8ac"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo": {
+      "time": 1720696427660.8557,
+      "uuid": "2ae6cb9a-9146-448a-95b9-bde68093adae"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank1photo": {
+      "time": 1720696427697.88,
+      "uuid": "cd0a8e24-d866-4f31-a827-d59216a0c652"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\子弹爆炸特效": {
+      "time": 1720696427716.391,
+      "uuid": "0b6ff5c7-351d-449b-91c7-f42c2e16751c"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\gameobject": {
+      "time": 1720696427834.4421,
+      "uuid": "6f9e6cba-3236-4aef-bf44-5e64592d1def"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank": {
+      "time": 1720696428108.2532,
+      "uuid": "a63d0176-73f8-4847-a0fa-fdaf77fb18b4"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank-001": {
+      "time": 1720696428125.7595,
+      "uuid": "bbbe1e21-7398-4893-816f-7e3a31fa861c"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank-002": {
+      "time": 1720696428144.7737,
+      "uuid": "447e55da-b931-4e62-9c6b-3ac805041f84"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\environment": {
+      "time": 1720696427405.5232,
+      "uuid": "f0cf898f-23a1-4df0-a6d3-ee969ab31e07"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\objectphoto": {
+      "time": 1720696427421.0293,
+      "uuid": "a533e336-2722-4b3e-8092-967369171370"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\qiangphoto": {
+      "time": 1720696427467.166,
+      "uuid": "85dd1987-2ca2-47b8-acab-2103ecf1a405"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\tank0photo": {
+      "time": 1720696427490.1824,
+      "uuid": "59373079-3b77-4f0e-90dd-2085dfe839fd"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\tank1photo": {
+      "time": 1720696427513.1948,
+      "uuid": "18d96037-1fc3-4f1e-834a-79ab6686aea3"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\子弹爆炸特效": {
+      "time": 1720696427533.2078,
+      "uuid": "37ec205d-46f9-470a-876f-46741a917c01"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\change0.ts": {
+      "time": 1720664463353.8616,
+      "uuid": "1719ec0a-1523-4149-84be-06f4ea4ac6d3"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\change1.ts": {
+      "time": 1720664621134.2166,
+      "uuid": "ce069bfa-3bbe-46f6-9c68-07c92c5a44db"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\double.ts": {
+      "time": 1720670997898.67,
+      "uuid": "0370a831-3f9e-4fa3-b785-327282c5f9e8"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\easy.ts": {
+      "time": 1720694698482.9504,
+      "uuid": "1c2aa0ab-07a1-4d07-9bdf-cb237e5f50b4"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\endgame.ts": {
+      "time": 1720233435339.955,
+      "uuid": "8abae688-1282-4103-be51-6c90b8514c81"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\esc.ts": {
+      "time": 1720572450872.6057,
+      "uuid": "37eb1a04-6317-47bf-bb42-ea3d421539b0"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\hard.ts": {
+      "time": 1720668411474.173,
+      "uuid": "62e26f9a-508f-4ab8-8d7c-6de5471415bd"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\HLB.ts": {
+      "time": 1720668537959.5945,
+      "uuid": "a3b84074-c707-4d6d-9eae-0dc158956fc4"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\LB.ts": {
+      "time": 1720661281131.9717,
+      "uuid": "022ad31a-5b4a-45fb-b36a-56722cc4d736"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\Loading.ts": {
+      "time": 1720679653878.2666,
+      "uuid": "45e19a0e-19cd-47a7-91ff-efa5210f49f7"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\log.ts": {
+      "time": 1720666578831.2944,
+      "uuid": "c0d874b8-7781-4364-a158-9e2bec11454a"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\PassInf.ts": {
+      "time": 1720667519376.2036,
+      "uuid": "1fe4e814-6472-46a2-a93c-4141761759a6"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\pause.ts": {
+      "time": 1720674341719.3364,
+      "uuid": "1be0ecb3-4616-4119-8f11-962e875d2220"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\reStart.ts": {
+      "time": 1720674492941.8418,
+      "uuid": "6f9fcabe-e920-4453-95c6-2151b6e1006d"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\returnlog.ts": {
+      "time": 1720233468550.0186,
+      "uuid": "a189430a-0628-4266-acb3-0928040a9813"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\returnselect.ts": {
+      "time": 1720232896428.7542,
+      "uuid": "310575db-eb3c-4d6b-9e70-d39d9c2f83c4"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\select.ts": {
+      "time": 1720668037907.8877,
+      "uuid": "9acb61b4-461b-40b5-beb5-680b75075740"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\shut.ts": {
+      "time": 1720663980638.6567,
+      "uuid": "eeb3c5fd-16a2-4efc-93d2-e772dde7fd72"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\SLB.ts": {
+      "time": 1720668004115.0684,
+      "uuid": "b47f47d6-afa0-42be-b5ff-97d13b982902"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\time01.ts": {
+      "time": 1720686310283.594,
+      "uuid": "6430be03-fcf3-4236-b9ed-af8e3ab624ce"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\time11.ts": {
+      "time": 1720686303686.5232,
+      "uuid": "078c8ab7-7e9b-4b36-91ad-f3feb82afc4d"
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\welcome.ts": {
+      "time": 1720680068727.5244,
+      "uuid": "c4498d13-2555-4639-bb4a-f0fe9a14fb41"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\AudioManeger.ts": {
+      "time": 1720578074067.4253,
+      "uuid": "b35888f9-f87e-4036-9abb-f2acbbbab28a"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\background.ts": {
+      "time": 1720164432000,
+      "uuid": "b50dccee-a23f-4bd3-aff8-f67067d0d69b"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\bullet0.ts": {
+      "time": 1720681433885.2815,
+      "uuid": "82eb8b8b-d44e-40ea-a107-a24ff1bfa5b0"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\bullet1.ts": {
+      "time": 1720683558840.6306,
+      "uuid": "f16fb09b-91b4-4c02-a6b3-6e460f7ab65c"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\cheat-test.ts": {
+      "time": 1720658053247.5054,
+      "uuid": "e5373e99-7c5d-4fae-8e0c-5e723ffc57e8"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemybullet.ts": {
+      "time": 1720665677194.5457,
+      "uuid": "592eabdc-b225-428e-b0aa-17cb6505de82"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemylandmine.ts": {
+      "time": 1720599255049.6335,
+      "uuid": "d1cb891b-c74d-4c80-b9d7-f1985b3100ee"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\fireaffect0.ts": {
+      "time": 1720658086101.3342,
+      "uuid": "2ebc0a9f-5ad0-46e2-a4ae-2e5be51589e9"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\fireaffect1.ts": {
+      "time": 1720234978000,
+      "uuid": "00014a5f-125d-4c64-972b-4d11412c78d8"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\firedirection0.ts": {
+      "time": 1720662210165.2134,
+      "uuid": "03b5b70c-f874-4daf-a3ab-5f8ecd787a7f"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\firedirection1.ts": {
+      "time": 1720698356987.7205,
+      "uuid": "acf90797-a929-4d3d-8920-3d19cf3e3fe2"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\fort.ts": {
+      "time": 1720664156486.8735,
+      "uuid": "a32db6d4-7793-4dc3-a694-fb8dc8ce3111"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\hp0.ts": {
+      "time": 1720521335202.3047,
+      "uuid": "14976f41-8bb2-4b94-b7c1-fe380df4a35a"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\hp1.ts": {
+      "time": 1720521392340.6301,
+      "uuid": "16f403da-6b9c-45ef-81f6-128d67a05bf0"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\landmine0 copy.ts": {
+      "time": 1720258144000,
+      "uuid": "b1a54b12-fc79-4df3-a4f2-d20b3ec80ea8"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\landmine0.ts": {
+      "time": 1720599089288.701,
+      "uuid": "88fa8d72-bb43-4827-ab04-7642facb86ee"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\landmine1.ts": {
+      "time": 1720258150000,
+      "uuid": "a45ae2c3-3e67-4bc5-b51a-4059dedf7c10"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\normalwall.ts": {
+      "time": 1720164432000,
+      "uuid": "fbe250b1-87fa-4ae2-ad8d-019463cf0bec"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\obj-firefast.ts": {
+      "time": 1720694572563.8462,
+      "uuid": "16e0d0d3-919c-4e68-85ba-456f9c957156"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\obj-movefast.ts": {
+      "time": 1720694552881.9624,
+      "uuid": "d97475ad-cfc1-4cd4-9610-adb598f10e24"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\playerfire.ts": {
+      "time": 1720663495086.8838,
+      "uuid": "b519287e-b6f9-4be4-af4e-c347858ca624"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\specialwall.ts": {
+      "time": 1720164432000,
+      "uuid": "acd0e859-2f9d-48e7-86ef-f0f36fff76b5"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\speedaffect0.ts": {
+      "time": 1720698110268.2063,
+      "uuid": "b4a9900c-93e4-4dd4-aa75-7f8525854d2a"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\speedaffect1.ts": {
+      "time": 1720698131848.6377,
+      "uuid": "c2ec48c9-53e8-4388-aa60-71d8e5d0e67e"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\tank0.ts": {
+      "time": 1720661870403.021,
+      "uuid": "3f68566e-2dce-4cb2-9ea6-e66931227e03"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\tank1.ts": {
+      "time": 1720662045579.105,
+      "uuid": "20c591ef-2140-4806-bea8-a7519cd3af9d"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\tankdestroy.ts": {
+      "time": 1720257684000,
+      "uuid": "52691598-1f1c-4f3f-9f1d-07cfd092f215"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\tietu.ts": {
+      "time": 1720598687129.124,
+      "uuid": "da26308d-0534-4a7c-bf71-3ae5ea9ebaa1"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\victory.ts": {
+      "time": 1720576932623.9253,
+      "uuid": "06ffd294-885b-4a68-b096-3a30290411f3"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank\\enemyfire.ts": {
+      "time": 1720662901524.5735,
+      "uuid": "330896a6-c06b-4c52-893b-afaad8409291"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank\\enemytank.ts": {
+      "time": 1720663794155.4492,
+      "uuid": "d96d38fa-d13f-4da1-a6a2-26bdf7b737e3"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank-001\\enemyfire.ts": {
+      "time": 1720663048256.013,
+      "uuid": "1c89292b-0aa1-4687-aa50-51676c1a1590"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank-001\\enemytank-001.ts": {
+      "time": 1720663176958.4417,
+      "uuid": "c6da3fe1-9208-4a9c-8a7f-b65375843509"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank-001\\tietu.ts": {
+      "time": 1720598711750.1401,
+      "uuid": "3d4b6962-034e-4cbd-8bcf-0edbe86d0c82"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank-002\\enemyfire.ts": {
+      "time": 1720663135338.5334,
+      "uuid": "ef728298-d7c9-4679-824d-d28bbbd4f082"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank-002\\enemytank-002.ts": {
+      "time": 1720663171372.9556,
+      "uuid": "77557fef-f28d-42ba-b679-4e46d95edf1a"
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank-002\\tietu.ts": {
+      "time": 1720598333000.563,
+      "uuid": "4bdb173f-400a-4ff4-8c48-2671a91b3978"
+    },
+    "D:\\demo3\\TK2\\assets\\Audio.meta": {
+      "time": 1720422978000
+    },
+    "D:\\demo3\\TK2\\assets\\ImageSources.meta": {
+      "time": 1720016291373.5742
+    },
+    "D:\\demo3\\TK2\\assets\\Loading.meta": {
+      "time": 1719975886876.4324
+    },
+    "D:\\demo3\\TK2\\assets\\Login.meta": {
+      "time": 1719906840505.0002
+    },
+    "D:\\demo3\\TK2\\assets\\map.meta": {
+      "time": 1720422326000
+    },
+    "D:\\demo3\\TK2\\assets\\photo.meta": {
+      "time": 1720422326000
+    },
+    "D:\\demo3\\TK2\\assets\\Prefab.meta": {
+      "time": 1719977933130.9316
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs.meta": {
+      "time": 1720422326000
+    },
+    "D:\\demo3\\TK2\\assets\\resources.meta": {
+      "time": 1720009624040.207
+    },
+    "D:\\demo3\\TK2\\assets\\Scenes.meta": {
+      "time": 1719905214199.1382
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts.meta": {
+      "time": 1719969094346.4465
+    },
+    "D:\\demo3\\TK2\\assets\\text.meta": {
+      "time": 1720694256148.6099
+    },
+    "D:\\demo3\\TK2\\assets\\Audio\\bulletAudio.meta": {
+      "time": 1720422994000
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\ditu.meta": {
+      "time": 1720508342000
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\enemytankphoto.meta": {
+      "time": 1720425012000
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\environment.meta": {
+      "time": 1720164430000
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\objectphoto.meta": {
+      "time": 1720227142000
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo.meta": {
+      "time": 1720401022000
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\qiangphoto.meta": {
+      "time": 1720164430000
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo.meta": {
+      "time": 1720164430000
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank1photo.meta": {
+      "time": 1720164430000
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\子弹爆炸特效.meta": {
+      "time": 1720257050000
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\gameobject.meta": {
+      "time": 1720164432000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank.meta": {
+      "time": 1720597534185.3152
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank-001.meta": {
+      "time": 1720600806148.3108
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank-002.meta": {
+      "time": 1720600806149.3108
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\environment.meta": {
+      "time": 1720401022000
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\objectphoto.meta": {
+      "time": 1720401022000
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\qiangphoto.meta": {
+      "time": 1720401022000
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\tank0photo.meta": {
+      "time": 1720401022000
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\tank1photo.meta": {
+      "time": 1720401022000
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\子弹爆炸特效.meta": {
+      "time": 1720401022000
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\change0.ts.meta": {
+      "time": 1720664101182.267
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\change1.ts.meta": {
+      "time": 1720664109980.5476
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\double.ts.meta": {
+      "time": 1720239179833.0752
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\easy.ts.meta": {
+      "time": 1720668235153.4316
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\endgame.ts.meta": {
+      "time": 1720233197195.3547
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\esc.ts.meta": {
+      "time": 1720237566226.296
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\hard.ts.meta": {
+      "time": 1720668341640.437
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\HLB.ts.meta": {
+      "time": 1720663898068.9312
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\LB.ts.meta": {
+      "time": 1720660422395.9836
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\Loading.ts.meta": {
+      "time": 1719977267845.4502
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\log.ts.meta": {
+      "time": 1720230406308.2332
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\PassInf.ts.meta": {
+      "time": 1720583367231.4194
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\pause.ts.meta": {
+      "time": 1720250486001.4324
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\reStart.ts.meta": {
+      "time": 1720668827999.5505
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\returnlog.ts.meta": {
+      "time": 1720232981447.1497
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\returnselect.ts.meta": {
+      "time": 1720232853854.4917
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\select.ts.meta": {
+      "time": 1719991030000
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\shut.ts.meta": {
+      "time": 1720663300482.7412
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\SLB.ts.meta": {
+      "time": 1720661596782.3313
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\time01.ts.meta": {
+      "time": 1720665527194.489
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\time11.ts.meta": {
+      "time": 1720668585429.4475
+    },
+    "D:\\demo3\\TK2\\assets\\Scripts\\welcome.ts.meta": {
+      "time": 1719979298626.9253
+    },
+    "D:\\demo3\\TK2\\assets\\text\\AudioManeger.ts.meta": {
+      "time": 1720578074073.4417
+    },
+    "D:\\demo3\\TK2\\assets\\text\\background.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\bullet0.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\bullet1.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\cheat-test.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemybullet.ts.meta": {
+      "time": 1720409008000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemylandmine.ts.meta": {
+      "time": 1720409018000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\fireaffect0.ts.meta": {
+      "time": 1720234906000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\fireaffect1.ts.meta": {
+      "time": 1720234922000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\firedirection0.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\firedirection1.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\fort.ts.meta": {
+      "time": 1720659544539.3818
+    },
+    "D:\\demo3\\TK2\\assets\\text\\hp0.ts.meta": {
+      "time": 1720521214398.869
+    },
+    "D:\\demo3\\TK2\\assets\\text\\hp1.ts.meta": {
+      "time": 1720521359959.6536
+    },
+    "D:\\demo3\\TK2\\assets\\text\\landmine0 copy.ts.meta": {
+      "time": 1720420334000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\landmine0.ts.meta": {
+      "time": 1720253238000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\landmine1.ts.meta": {
+      "time": 1720253934000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\normalwall.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\obj-firefast.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\obj-movefast.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\playerfire.ts.meta": {
+      "time": 1720573658000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\specialwall.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\speedaffect0.ts.meta": {
+      "time": 1720235018000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\speedaffect1.ts.meta": {
+      "time": 1720235032000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\tank0.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\tank1.ts.meta": {
+      "time": 1720164432000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\tankdestroy.ts.meta": {
+      "time": 1720256146000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\tietu.ts.meta": {
+      "time": 1720490014000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\victory.ts.meta": {
+      "time": 1720425856000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank\\enemyfire.ts.meta": {
+      "time": 1720408784000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank\\enemytank.ts.meta": {
+      "time": 1720408718000
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank-001\\enemyfire.ts.meta": {
+      "time": 1720595531549.755
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank-001\\enemytank-001.ts.meta": {
+      "time": 1720593705151.4985
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank-001\\tietu.ts.meta": {
+      "time": 1720598189177.2922
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank-002\\enemyfire.ts.meta": {
+      "time": 1720595538207.8115
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank-002\\enemytank-002.ts.meta": {
+      "time": 1720593717253.3135
+    },
+    "D:\\demo3\\TK2\\assets\\text\\enemytank-002\\tietu.ts.meta": {
+      "time": 1720598196656.3804
+    },
+    "D:\\demo3\\TK2\\assets\\ImageSources\\return.webp": {
+      "time": 1720016896751.0337,
+      "uuid": "881826d6-8f48-40ed-a396-64d19a659184"
+    },
+    "D:\\demo3\\TK2\\assets\\ImageSources\\select.webp": {
+      "time": 1719977316000,
+      "uuid": "5085c870-c46f-4f09-a997-f06a6dfdab4b"
+    },
+    "D:\\demo3\\TK2\\assets\\ImageSources\\Single.webp": {
+      "time": 1719987312000,
+      "uuid": "94cd8c68-8da7-4137-a69e-5958d623d086"
+    },
+    "D:\\demo3\\TK2\\assets\\ImageSources\\vectory.png": {
+      "time": 1720254486000,
+      "uuid": "595f68a5-dd18-4d35-8ac2-086c56a91c73"
+    },
+    "D:\\demo3\\TK2\\assets\\Loading\\loadbk.jpg": {
+      "time": 1719974144979.8733,
+      "uuid": "6fc4704c-1349-444a-a3d7-e7103b5224a6"
+    },
+    "D:\\demo3\\TK2\\assets\\Loading\\loadingbk.png": {
+      "time": 1719975750347.6218,
+      "uuid": "fb86ef27-a878-4b8e-ab5a-8f4f80e451ac"
+    },
+    "D:\\demo3\\TK2\\assets\\Loading\\loading_or_hp.jpg": {
+      "time": 1719975659706.0803,
+      "uuid": "21297a03-2ff3-45b0-b039-292b1f665553"
+    },
+    "D:\\demo3\\TK2\\assets\\Login\\admin.png": {
+      "time": 1719943778014.926,
+      "uuid": "05f0b5b7-86b9-46c9-a7a7-0bc0bc1e4c85"
+    },
+    "D:\\demo3\\TK2\\assets\\Login\\BK.jpg": {
+      "time": 1719937405099.1133,
+      "uuid": "2d532167-c7e5-47ad-8bfa-b5947dfea2b6"
+    },
+    "D:\\demo3\\TK2\\assets\\Login\\logbk.jpg": {
+      "time": 1719936254347.603,
+      "uuid": "08166d65-3493-4bf2-93bd-35364d6778d4"
+    },
+    "D:\\demo3\\TK2\\assets\\Login\\login1.png": {
+      "time": 1719938330683.4106,
+      "uuid": "a2b7a645-9451-40d6-ac71-0d79a77dea04"
+    },
+    "D:\\demo3\\TK2\\assets\\Login\\login2.png": {
+      "time": 1719938707421.1594,
+      "uuid": "5e0d2318-ec2b-4094-84fb-c40e40bda6fb"
+    },
+    "D:\\demo3\\TK2\\assets\\Login\\login3.png": {
+      "time": 1719938755967.8547,
+      "uuid": "e79146fd-161e-4298-8ce9-c16c528fd353"
+    },
+    "D:\\demo3\\TK2\\assets\\Login\\password.png": {
+      "time": 1719944196900.548,
+      "uuid": "e877adff-26df-406d-984d-1c87f5f87e74"
+    },
+    "D:\\demo3\\TK2\\assets\\map\\alonemap0-difficult.scene": {
+      "time": 1720695180151.4248,
+      "uuid": "1f299242-f13f-4393-9ad0-c3b2064c2606"
+    },
+    "D:\\demo3\\TK2\\assets\\map\\alonemap0.scene": {
+      "time": 1720695018910.0403,
+      "uuid": "1c6af74a-a8a3-47c1-8750-c97c5958c42f"
+    },
+    "D:\\demo3\\TK2\\assets\\map\\doublemap0.scene": {
+      "time": 1720698498954.8313,
+      "uuid": "36291188-d37d-4b4f-a128-588f20d16162"
+    },
+    "D:\\demo3\\TK2\\assets\\map\\test.scene": {
+      "time": 1720665385573.5,
+      "uuid": "d506c42d-a2d8-4de2-bff7-83bd68a68175"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\basketball.png": {
+      "time": 1720666778352.5754,
+      "uuid": "e6016939-e8e1-41e4-9b04-567ecca243b2"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\chicken.png": {
+      "time": 1720667068138.1497,
+      "uuid": "0dcc69fc-5a9e-4c78-879f-ea6bcda53ac9"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\ikun.png": {
+      "time": 1720666469374.318,
+      "uuid": "03ab5b9e-4668-4a14-a37c-abe6785d8df4"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\屏幕截图 2024-07-08 161827.png": {
+      "time": 1720426708000,
+      "uuid": "38475cb6-b7f5-4a6f-bfb9-17034caaa876"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefab\\loadingbk.prefab": {
+      "time": 1720002241670.0515,
+      "uuid": "5afedcf2-6924-4038-8c6b-265ac1e54bce"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\bulletnode0.prefab": {
+      "time": 1720600936433.2236,
+      "uuid": "ba9b86be-3ecc-48ba-a83b-02ca9cefad71"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\bulletnode1.prefab": {
+      "time": 1720698391066.913,
+      "uuid": "380ca9d3-3ed1-4bb4-a284-ff95f9508893"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\enemybullet.prefab": {
+      "time": 1720600917290.2056,
+      "uuid": "282a2781-49d8-4c56-8812-c52f130e262b"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\enemylandmine.prefab": {
+      "time": 1720681694531.464,
+      "uuid": "23d4dcab-e845-40fe-b1fe-739086423db7"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\enemytank-001.prefab": {
+      "time": 1720663184696.3145,
+      "uuid": "aad9c9fa-8a6b-4db8-9e8a-76b3158b8bd4"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\enemytank-002.prefab": {
+      "time": 1720663221900.4648,
+      "uuid": "f6b6ea05-27a1-4a5d-9d4b-df6ef2eadf12"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\enemytank.prefab": {
+      "time": 1720664471101.3638,
+      "uuid": "2244bed9-46f7-44cb-8624-7d38d8ef36df"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\HardLeaderBoard.prefab": {
+      "time": 1720664713794.1438,
+      "uuid": "285e0e0b-d379-456d-bf07-60f18f9ea848"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\landmine0.prefab": {
+      "time": 1720667065115.7493,
+      "uuid": "ca692069-a166-4ff1-9f42-9e4dcdad9071"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\landmine1.prefab": {
+      "time": 1720667092203.4314,
+      "uuid": "8548f677-485e-4ce5-86b7-1b3a12b03c21"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\normalwall.prefab": {
+      "time": 1720681068050.3882,
+      "uuid": "e60f8133-d0ce-45d5-be91-de2e4ceed063"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\playertank.prefab": {
+      "time": 1720681862425.3376,
+      "uuid": "e04c4f40-5874-49af-867d-ee76c8b95b77"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\SimpleLeaderBoard.prefab": {
+      "time": 1720664481026.4219,
+      "uuid": "1b563b92-0169-4b09-8e57-dda755953bb9"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\specialwall.prefab": {
+      "time": 1720508568000,
+      "uuid": "6ca093f6-d9c8-4da3-b662-26605666a6b4"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\tank0.prefab": {
+      "time": 1720662650741.4521,
+      "uuid": "f4845990-e17f-411e-b3a6-fa50eff4b210"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\tank1.prefab": {
+      "time": 1720662345268.9434,
+      "uuid": "44ea65dd-dcbb-4c3b-8483-488681b996e9"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\test.prefab": {
+      "time": 1720683574180.37,
+      "uuid": "20d61344-99a4-436a-9888-23d50770a1d2"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\_pause.prefab": {
+      "time": 1720674303677.7295,
+      "uuid": "9f373299-47cd-4fb1-9fc3-616cf1e42465"
+    },
+    "D:\\demo3\\TK2\\assets\\Scenes\\LoadingScene.scene": {
+      "time": 1720679373200.5542,
+      "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+    },
+    "D:\\demo3\\TK2\\assets\\Scenes\\LoginScene.scene": {
+      "time": 1720588907332.8435,
+      "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+    },
+    "D:\\demo3\\TK2\\assets\\Scenes\\return.scene": {
+      "time": 1720515691575.977,
+      "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+    },
+    "D:\\demo3\\TK2\\assets\\Scenes\\select.scene": {
+      "time": 1720587568587.1682,
+      "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+    },
+    "D:\\demo3\\TK2\\assets\\Scenes\\single.scene": {
+      "time": 1720669556781.4978,
+      "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+    },
+    "D:\\demo3\\TK2\\assets\\Scenes\\single1.scene": {
+      "time": 1720684582878.327,
+      "uuid": "03313355-9855-490d-98a2-49a0837a55c4"
+    },
+    "D:\\demo3\\TK2\\assets\\Scenes\\victory.scene": {
+      "time": 1720576918170.1448,
+      "uuid": "2be201f8-3f82-437d-b138-1947eaf8f5a2"
+    },
+    "D:\\demo3\\TK2\\assets\\Audio\\bulletAudio\\bulletSound.mp3": {
+      "time": 1720685805703.141,
+      "uuid": "81bb44f1-6abc-4780-b65a-90f88bc7bb8e"
+    },
+    "D:\\demo3\\TK2\\assets\\Audio\\bulletAudio\\explosionSound.mp3": {
+      "time": 1720685801794.6616,
+      "uuid": "a4706635-d2b5-42d2-8ee6-81cb4eed1322"
+    },
+    "D:\\demo3\\TK2\\assets\\Audio\\bulletAudio\\shoot.mp3": {
+      "time": 1720581563366.4639,
+      "uuid": "a2103626-2617-47c9-9d3a-0de418cccfe8"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\ditu\\mapzu0.png": {
+      "time": 1720508246000,
+      "uuid": "dfb9475f-439d-4d2c-bb0e-b8304d4b6eec"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\ditu\\mapzu1.png": {
+      "time": 1720508286000,
+      "uuid": "97fa5e1e-15bd-4b06-b9d8-4378cc2ef8cd"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\enemytankphoto\\enemytankdown.png": {
+      "time": 1720425194000,
+      "uuid": "f3d0a3e1-6714-4f16-b9e1-ebea7aea6180"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\enemytankphoto\\enemytankleft.png": {
+      "time": 1720425210000,
+      "uuid": "04445d75-f706-4a1a-b7f8-b731a90bedd8"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\enemytankphoto\\enemytankleftanddown.png": {
+      "time": 1720425308000,
+      "uuid": "5994b3e2-8be6-4afe-8b42-287049b5f588"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\enemytankphoto\\enemytankleftandup.png": {
+      "time": 1720425326000,
+      "uuid": "c999cf08-1f2b-4335-800b-f59fe47961b3"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\enemytankphoto\\enemytankright.png": {
+      "time": 1720425186000,
+      "uuid": "96fb5fb2-aacc-4cbe-9473-215b528fca7f"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\enemytankphoto\\enemytankrightanddown.png": {
+      "time": 1720424962000,
+      "uuid": "b86bd58b-f3df-46e7-92d1-a92ac4832f86"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\enemytankphoto\\enemytankrightandup.png": {
+      "time": 1720425348000,
+      "uuid": "f1a0acb9-822e-4b47-9290-f256529f1fa2"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\enemytankphoto\\enemytankup.png": {
+      "time": 1720425148000,
+      "uuid": "04110ddf-1cb8-41f0-81fd-55729b4c0d31"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\environment\\grass.png": {
+      "time": 1720164430000,
+      "uuid": "61e3633d-584e-4df2-aef3-3905031527a3"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\environment\\groud.png": {
+      "time": 1720164430000,
+      "uuid": "c4a35f7a-917c-4a35-a54a-75bf6a994f27"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\environment\\water.png": {
+      "time": 1720164430000,
+      "uuid": "0adc66f2-57eb-4925-b1e0-dc201377601e"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\environment\\屏幕截图 2024-07-09 151844.png": {
+      "time": 1720509526000,
+      "uuid": "ad9d369d-2de4-4d6e-b0a4-f3d8558bd625"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\objectphoto\\centetrgiftphoto.png": {
+      "time": 1720231504000,
+      "uuid": "9b3f4111-8479-4df3-8531-73941e65732f"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\objectphoto\\movefaster.jpg": {
+      "time": 1720227100000,
+      "uuid": "4e4e1504-cbfe-4eb7-9fef-fb072da58778"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\qiangphoto\\hulan.png": {
+      "time": 1720168596000,
+      "uuid": "643c4e21-d3e2-4873-a78d-934dbbed0ded"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\qiangphoto\\qiang0.png": {
+      "time": 1720594336000,
+      "uuid": "6c51f436-0e09-4c71-b9b2-aa7bf331791e"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\qiangphoto\\qiang1.png": {
+      "time": 1720164432000,
+      "uuid": "9fd26fef-3a67-4141-ab86-76d327ccb0a7"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\qiangphoto\\qiang2.png": {
+      "time": 1720164432000,
+      "uuid": "0c0d9845-1ca8-47b5-adc3-af07310cc0fe"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\qiangphoto\\qiang3.png": {
+      "time": 1720164432000,
+      "uuid": "8a610c28-8779-4bd6-b80f-b5de6be1735f"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\qiangphoto\\qiang4.png": {
+      "time": 1720164432000,
+      "uuid": "bcf59bb8-034f-48a8-bf23-04fceb7ed2f7"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\qiangphoto\\qiang5.png": {
+      "time": 1720164432000,
+      "uuid": "d7aeb0eb-4295-4242-b8a6-9d70b4f75f96"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\qiangphoto\\qiang6.png": {
+      "time": 1720164432000,
+      "uuid": "f36a79e0-34c3-4f97-83a7-0b9e92ed4169"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\qiangphoto\\qiang7.png": {
+      "time": 1720164432000,
+      "uuid": "bd81fa4a-9eae-4f0c-9685-82ddedcc0a04"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\qiangphoto\\wallbaba.png": {
+      "time": 1720164430000,
+      "uuid": "6f4407e3-d16b-4e87-9232-1a78c16d56d3"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\down.png": {
+      "time": 1720658665641.2058,
+      "uuid": "8e10267e-a2f7-4d3b-95ae-62ad5a73c8a2"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\downleft.png": {
+      "time": 1720658680283.8296,
+      "uuid": "eea883c4-da66-4b66-839d-9b4759b172ef"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\downright.png": {
+      "time": 1720658858381.797,
+      "uuid": "c38b86e6-d2e1-4d5c-a4cb-0524e1e4af02"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\left.png": {
+      "time": 1720658671518.502,
+      "uuid": "c7ebd63b-a588-4568-a758-e16e366ea838"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\paotai.png": {
+      "time": 1720659070855.3723,
+      "uuid": "83d31fc4-6c40-4107-8680-1741a71bd493"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\right.png": {
+      "time": 1720658682845.2502,
+      "uuid": "604eae07-ffef-4ab7-9826-8ce04248919f"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\tank0down.png": {
+      "time": 1720164432000,
+      "uuid": "79060037-715c-435a-9aa1-9b588aed1ee4"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\tank0left.png": {
+      "time": 1720164432000,
+      "uuid": "31386f02-ee31-4e90-9b2d-3a9b00f42098"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\tank0leftanddown.png": {
+      "time": 1720400188000,
+      "uuid": "b233dd95-e414-4b76-bb5f-886354bb41aa"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\tank0leftandup.png": {
+      "time": 1720400714000,
+      "uuid": "342d274a-9b1d-4d7f-8768-69dadbc1052b"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\tank0right.png": {
+      "time": 1720164432000,
+      "uuid": "7c657c60-537b-4ff7-ba92-bcf29ba31d54"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\tank0rightanddown.png": {
+      "time": 1720400168000,
+      "uuid": "2f20f932-d1e7-4f24-8946-443c518e493e"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\tank0rightandup.png": {
+      "time": 1720400746000,
+      "uuid": "76eaa90b-df82-473f-9050-6da709f90249"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\tank0up.png": {
+      "time": 1720164432000,
+      "uuid": "7effe23c-079c-410c-bcf4-006b38fc31cd"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\up.png": {
+      "time": 1720658929097.0264,
+      "uuid": "bf055e14-f509-485e-a92e-f17525288a2a"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\upleft.png": {
+      "time": 1720658676983.1067,
+      "uuid": "8e85c480-cbd7-439f-b592-41a1710792dc"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank0photo\\upright.png": {
+      "time": 1720658842950.696,
+      "uuid": "a6b9059f-0078-4915-8bb5-9fdb9f8278d1"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank1photo\\tank1down.png": {
+      "time": 1720164432000,
+      "uuid": "86942f5b-6f21-4bc4-a831-312a83475ce8"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank1photo\\tank1left.png": {
+      "time": 1720164432000,
+      "uuid": "11990de5-ac55-4db1-afae-991f63f38914"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank1photo\\tank1leftanddown.png": {
+      "time": 1720424458000,
+      "uuid": "29857b01-6802-4b81-afb7-61e06489cd72"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank1photo\\tank1leftandup.png": {
+      "time": 1720424378000,
+      "uuid": "f0ef4190-1153-462e-a246-209a2ec0b799"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank1photo\\tank1right.png": {
+      "time": 1720164432000,
+      "uuid": "81abb380-8484-47bc-8779-c0836099d153"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank1photo\\tank1rightanddown.png": {
+      "time": 1720424320000,
+      "uuid": "9804f4ee-bf2e-4618-9f5b-0242310d5fa8"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank1photo\\tank1rightandup.png": {
+      "time": 1720424436000,
+      "uuid": "f38d069b-a9d0-418e-8599-ee757a07beb3"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\tank1photo\\tank1up.png": {
+      "time": 1720164432000,
+      "uuid": "9ae0bd82-2d48-4a71-868b-f06d9956cfdf"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\子弹爆炸特效\\子弹爆炸特效1.jpg": {
+      "time": 1720256954000,
+      "uuid": "79291de9-9934-41bf-aa87-ea8d334f31b9"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\子弹爆炸特效\\子弹爆炸特效2.jpg": {
+      "time": 1720256958000,
+      "uuid": "34b1eac4-ac9b-4a91-bbb7-4f760235d23e"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\子弹爆炸特效\\子弹爆炸特效3.jpg": {
+      "time": 1720256964000,
+      "uuid": "2993db37-312e-499a-9028-7159f11de172"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\gameobject\\firefastobject.prefab": {
+      "time": 1720164432000,
+      "uuid": "32792995-a6b9-4857-9271-dd77472da8b6"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\gameobject\\movefastobject.prefab": {
+      "time": 1720235588000,
+      "uuid": "389042f7-6033-4238-aab8-7bd1e05b2b3c"
+    },
+    "D:\\demo3\\TK2\\assets\\Prefabs\\gameobject\\pause.prefab": {
+      "time": 1720250436382.3418,
+      "uuid": "eb309b38-cbe5-4e90-9b61-4d24c209757f"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\environment\\grass.png": {
+      "time": 1720164430000,
+      "uuid": "63abb444-9cd4-416b-a35f-234c0c062be5"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\environment\\groud.png": {
+      "time": 1720164430000,
+      "uuid": "447a007f-12a9-4394-a721-31916bfd1d8e"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\environment\\water.png": {
+      "time": 1720164430000,
+      "uuid": "eb1cda05-2021-4415-a33f-0389864c06cd"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\objectphoto\\centetrgiftphoto.png": {
+      "time": 1720231504000,
+      "uuid": "991106b4-1856-42e2-8f5e-4ec24f5ef04e"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\objectphoto\\movefaster.jpg": {
+      "time": 1720227100000,
+      "uuid": "83eba687-e688-4ef2-9585-6fc16330515c"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\qiangphoto\\hulan.png": {
+      "time": 1720168596000,
+      "uuid": "1cdbd77e-1dcb-4ff6-8531-9a68ab1f85b7"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang0.png": {
+      "time": 1720164432000,
+      "uuid": "3a7b5201-de88-41c7-ab21-d83c0a5a5b00"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang1.png": {
+      "time": 1720164432000,
+      "uuid": "cedd4326-858a-46c4-8bd0-b4761f46db9f"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang2.png": {
+      "time": 1720164432000,
+      "uuid": "8d8afa54-fc25-4a50-98e5-020ea209c6f5"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang3.png": {
+      "time": 1720164432000,
+      "uuid": "aee43a19-ae09-48a9-be21-52101b8042e2"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang4.png": {
+      "time": 1720164432000,
+      "uuid": "80881537-4289-4441-9b49-15f9426fc96f"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang5.png": {
+      "time": 1720164432000,
+      "uuid": "d81b0124-0eaf-43db-9baf-1b0c89e1f72e"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang6.png": {
+      "time": 1720164432000,
+      "uuid": "734f1e3f-1189-4339-834c-c5febe7a89c4"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang7.png": {
+      "time": 1720164432000,
+      "uuid": "71789e76-d556-463f-8210-e683c4b9bdde"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\qiangphoto\\wallbaba.png": {
+      "time": 1720164430000,
+      "uuid": "e27c7b2e-b82a-4167-a8d0-0dc00297ab1e"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\tank0photo\\tank0down.png": {
+      "time": 1720164432000,
+      "uuid": "d647debd-4951-4c77-8089-c9f5102a9fea"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\tank0photo\\tank0left.png": {
+      "time": 1720164432000,
+      "uuid": "4ef4360d-d12e-4d2c-98e7-e38d26f2b5e2"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\tank0photo\\tank0right.png": {
+      "time": 1720164432000,
+      "uuid": "08ecb9b4-b131-4f12-86a3-4f0c522ea2bd"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\tank0photo\\tank0up.png": {
+      "time": 1720164432000,
+      "uuid": "02c7a7c0-6c9a-4d4f-aced-f38fc00526d0"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\tank1photo\\tank1down.png": {
+      "time": 1720164432000,
+      "uuid": "03c9ef0d-0c11-4dc8-b87a-324441d9c1e2"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\tank1photo\\tank1left.png": {
+      "time": 1720164432000,
+      "uuid": "926cf158-0e16-4961-9f5d-ef562ea1a470"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\tank1photo\\tank1right.png": {
+      "time": 1720164432000,
+      "uuid": "80f4af8c-1b71-4789-8a2b-9fe283aa4b90"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\tank1photo\\tank1up.png": {
+      "time": 1720164432000,
+      "uuid": "ed950b98-4ea1-4c57-8e4a-939aa791ed56"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\子弹爆炸特效\\子弹爆炸特效1.jpg": {
+      "time": 1720256954000,
+      "uuid": "78663cbc-4c9b-45e1-a110-560ccf8a08a2"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\子弹爆炸特效\\子弹爆炸特效2.jpg": {
+      "time": 1720256958000,
+      "uuid": "a2738083-2f2d-4bf7-b376-e9ac88efa274"
+    },
+    "D:\\demo3\\TK2\\assets\\photo\\photo\\子弹爆炸特效\\子弹爆炸特效3.jpg": {
+      "time": 1720256964000,
+      "uuid": "e0f6bf34-a622-4486-85c8-a6aca1b72413"
+    },
+    "D:\\demo3\\TK2\\assets\\ImageSources\\vectory.png.meta": {
+      "time": 1720427604000
+    },
+    "D:\\demo3\\TK2\\assets\\Loading\\loadbk.jpg.meta": {
+      "time": 1719974198402.3584
+    },
+    "D:\\demo3\\TK2\\assets\\ImageSources\\select.webp.meta": {
+      "time": 1720016315469.166
+    },
+    "D:\\demo3\\TK2\\assets\\ImageSources\\return.webp.meta": {
+      "time": 1720016940623.947
+    },
+    "D:\\demo3\\TK2\\assets\\ImageSources\\Single.webp.meta": {
+      "time": 1720016215224.0986
+    },
+    "D:\\demo3\\TK2\\assets\\Login\\admin.png.meta": {
+      "time": 1719943926978.7441
+    },
+    "D:\\demo3\\TK2\\assets\\Loading\\loadingbk.png.meta": {
+      "time": 1719976725345.007
+    },
+    "D:\\demo3\\TK2\\assets\\Loading\\loading_or_hp.jpg.meta": {
+      "time": 1720521058396.906
+    },
+    "D:\\demo3\\TK2\\assets\\Login\\logbk.jpg.meta": {
+      "time": 1719936339006.11
+    },
+    "D:\\demo3\\TK2\\assets\\Login\\BK.jpg.meta": {
+      "time": 1719909041559.1746
+    },
+    "D:\\demo3\\TK2\\assets\\Login\\login2.png.meta": {
+      "time": 1719938778221.0132
+    },
+    "D:\\demo3\\TK2\\assets\\map\\alonemap0-difficult.scene.meta": {
+>>>>>>> bcb461001e53c18e4593c369d3a615e1a9d4b37f
       "time": 1720660495809.4407
     },
     "C:\\Users\\lenovo\\Desktop\\tank7.11.11\\assets\\map\\doublemap0.scene.meta": {
@@ -5696,12 +7555,1582 @@
     "C:\\Users\\lenovo\\Desktop\\tank7.11.11\\assets\\photo\\photo\\子弹爆炸特效\\子弹爆炸特效3.jpg.meta": {
       "time": 1720401024000
     },
+<<<<<<< HEAD
     "C:\\Users\\lenovo\\Desktop\\tank7.11.11\\assets\\photo\\cogs.png.meta": {
       "time": 1720685016932.1812
     },
     "C:\\Users\\lenovo\\Desktop\\tank7.11.11\\assets\\photo\\cogs.png": {
       "time": 1720684963566.7705,
       "uuid": "52f1596b-962e-40c5-a197-ec9ec83c012d"
+=======
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Audio": {
+      "time": 1720747684167.1228,
+      "uuid": "db6fd0b7-412a-438e-b7d4-2ba826312fe3"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\ImageSources": {
+      "time": 1720747684197.021,
+      "uuid": "426f5b3f-b16b-498c-9b25-0aad0bbeea00"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Loading": {
+      "time": 1720747684210.4995,
+      "uuid": "ad7f17ee-85c6-47c1-b91a-8bd938e32892"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Login": {
+      "time": 1720747684233.2434,
+      "uuid": "92c6e6f8-d140-48f0-8a02-849daa2e9a9d"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\map": {
+      "time": 1720747684249.6753,
+      "uuid": "2f042a5a-a82b-4598-aa7c-1a66cd590fa9"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo": {
+      "time": 1720747684563.7524,
+      "uuid": "2e86899f-ecc6-4cda-aa60-a277ed418bf9"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefab": {
+      "time": 1720747684582,
+      "uuid": "642d7763-8173-4283-9fc5-5d7f54c8eaa0"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs": {
+      "time": 1720747684637.7322,
+      "uuid": "f17a33e8-fcc1-487f-b5b7-019231f92fcb"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scenes": {
+      "time": 1720747684674.4382,
+      "uuid": "a653487f-1772-4ec6-a2d2-c0709e7648d0"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts": {
+      "time": 1720747684727.157,
+      "uuid": "61dd0dd4-ee37-473b-ab6e-de382665ab06"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text": {
+      "time": 1720747684832.7507,
+      "uuid": "261ed9d0-446d-4c81-a47f-1ab092220a19"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Audio\\bulletAudio": {
+      "time": 1720747684175.3,
+      "uuid": "d82b8504-dd26-49e0-b41b-759e9956a030"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\ditu": {
+      "time": 1720747684283.0542,
+      "uuid": "6667a1e9-b53e-4bad-afaa-9aa909b7f18e"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto": {
+      "time": 1720747684316.2966,
+      "uuid": "0ecb5657-3e58-41ee-8520-08600a0cbc24"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\environment": {
+      "time": 1720747684333.0745,
+      "uuid": "c8953662-c0c0-4642-827f-53ea78dd426c"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\objectphoto": {
+      "time": 1720747684343.4841,
+      "uuid": "aed2a077-68ad-4840-9983-b8d414650891"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo": {
+      "time": 1720747684439.6995,
+      "uuid": "9759a45f-4791-4f96-9aa2-0e87c3d493f8"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto": {
+      "time": 1720747684485.6992,
+      "uuid": "0ba798e7-1fa6-4f52-92a2-9e090392f8ac"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo": {
+      "time": 1720747684540.2834,
+      "uuid": "2ae6cb9a-9146-448a-95b9-bde68093adae"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo": {
+      "time": 1720747684563.7524,
+      "uuid": "cd0a8e24-d866-4f31-a827-d59216a0c652"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\子弹爆炸特效": {
+      "time": 1720747684579.9104,
+      "uuid": "0b6ff5c7-351d-449b-91c7-f42c2e16751c"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\gameobject": {
+      "time": 1720747684645.9646,
+      "uuid": "6f9e6cba-3236-4aef-bf44-5e64592d1def"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank": {
+      "time": 1720747684823.6145,
+      "uuid": "a63d0176-73f8-4847-a0fa-fdaf77fb18b4"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank-001": {
+      "time": 1720747684832.7507,
+      "uuid": "bbbe1e21-7398-4893-816f-7e3a31fa861c"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank-002": {
+      "time": 1720747684840.7495,
+      "uuid": "447e55da-b931-4e62-9c6b-3ac805041f84"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\environment": {
+      "time": 1720747684369.0024,
+      "uuid": "f0cf898f-23a1-4df0-a6d3-ee969ab31e07"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\objectphoto": {
+      "time": 1720747684374.6394,
+      "uuid": "a533e336-2722-4b3e-8092-967369171370"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto": {
+      "time": 1720747684410.4832,
+      "uuid": "85dd1987-2ca2-47b8-acab-2103ecf1a405"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank0photo": {
+      "time": 1720747684424.9204,
+      "uuid": "59373079-3b77-4f0e-90dd-2085dfe839fd"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank1photo": {
+      "time": 1720747684433.0518,
+      "uuid": "18d96037-1fc3-4f1e-834a-79ab6686aea3"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\子弹爆炸特效": {
+      "time": 1720747684447.8513,
+      "uuid": "37ec205d-46f9-470a-876f-46741a917c01"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\change0.ts": {
+      "time": 1720747253588.7676,
+      "uuid": "1719ec0a-1523-4149-84be-06f4ea4ac6d3"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\change1.ts": {
+      "time": 1720747253588.7676,
+      "uuid": "ce069bfa-3bbe-46f6-9c68-07c92c5a44db"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\double.ts": {
+      "time": 1720747253588.7676,
+      "uuid": "0370a831-3f9e-4fa3-b785-327282c5f9e8"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\easy.ts": {
+      "time": 1720747253590.7876,
+      "uuid": "1c2aa0ab-07a1-4d07-9bdf-cb237e5f50b4"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\endgame.ts": {
+      "time": 1720747253590.7876,
+      "uuid": "8abae688-1282-4103-be51-6c90b8514c81"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\esc.ts": {
+      "time": 1720747253590.7876,
+      "uuid": "37eb1a04-6317-47bf-bb42-ea3d421539b0"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\hard.ts": {
+      "time": 1720747253590.7876,
+      "uuid": "62e26f9a-508f-4ab8-8d7c-6de5471415bd"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\HLB.ts": {
+      "time": 1720747253585.3857,
+      "uuid": "a3b84074-c707-4d6d-9eae-0dc158956fc4"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\LB.ts": {
+      "time": 1720747253585.3857,
+      "uuid": "022ad31a-5b4a-45fb-b36a-56722cc4d736"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\Loading.ts": {
+      "time": 1720747253585.3857,
+      "uuid": "45e19a0e-19cd-47a7-91ff-efa5210f49f7"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\log.ts": {
+      "time": 1720747253590.7876,
+      "uuid": "c0d874b8-7781-4364-a158-9e2bec11454a"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\PassInf.ts": {
+      "time": 1720747253585.3857,
+      "uuid": "1fe4e814-6472-46a2-a93c-4141761759a6"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\pause.ts": {
+      "time": 1720747253590.7876,
+      "uuid": "1be0ecb3-4616-4119-8f11-962e875d2220"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\reStart.ts": {
+      "time": 1720747253590.7876,
+      "uuid": "6f9fcabe-e920-4453-95c6-2151b6e1006d"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\returnlog.ts": {
+      "time": 1720747253595.036,
+      "uuid": "a189430a-0628-4266-acb3-0928040a9813"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\returnselect.ts": {
+      "time": 1720747253595.036,
+      "uuid": "310575db-eb3c-4d6b-9e70-d39d9c2f83c4"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\select.ts": {
+      "time": 1720747253596.0405,
+      "uuid": "9acb61b4-461b-40b5-beb5-680b75075740"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\shut.ts": {
+      "time": 1720747253596.5312,
+      "uuid": "eeb3c5fd-16a2-4efc-93d2-e772dde7fd72"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\SLB.ts": {
+      "time": 1720747253585.3857,
+      "uuid": "b47f47d6-afa0-42be-b5ff-97d13b982902"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\time01.ts": {
+      "time": 1720747253597.9172,
+      "uuid": "6430be03-fcf3-4236-b9ed-af8e3ab624ce"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\time11.ts": {
+      "time": 1720747253598.9543,
+      "uuid": "078c8ab7-7e9b-4b36-91ad-f3feb82afc4d"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\welcome.ts": {
+      "time": 1720747253598.9543,
+      "uuid": "c4498d13-2555-4639-bb4a-f0fe9a14fb41"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\AudioManeger.ts": {
+      "time": 1720747253875.07,
+      "uuid": "b35888f9-f87e-4036-9abb-f2acbbbab28a"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\background.ts": {
+      "time": 1720747253879.456,
+      "uuid": "b50dccee-a23f-4bd3-aff8-f67067d0d69b"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\bullet0.ts": {
+      "time": 1720747253879.456,
+      "uuid": "82eb8b8b-d44e-40ea-a107-a24ff1bfa5b0"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\bullet1.ts": {
+      "time": 1720747253881.4595,
+      "uuid": "f16fb09b-91b4-4c02-a6b3-6e460f7ab65c"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\cheat-test.ts": {
+      "time": 1720747253881.4595,
+      "uuid": "e5373e99-7c5d-4fae-8e0c-5e723ffc57e8"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemybullet.ts": {
+      "time": 1720747253882.9202,
+      "uuid": "592eabdc-b225-428e-b0aa-17cb6505de82"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemylandmine.ts": {
+      "time": 1720747253882.9202,
+      "uuid": "d1cb891b-c74d-4c80-b9d7-f1985b3100ee"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\fireaffect0.ts": {
+      "time": 1720747253891.3274,
+      "uuid": "2ebc0a9f-5ad0-46e2-a4ae-2e5be51589e9"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\fireaffect1.ts": {
+      "time": 1720747253892.4067,
+      "uuid": "00014a5f-125d-4c64-972b-4d11412c78d8"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\firedirection0.ts": {
+      "time": 1720747253892.9553,
+      "uuid": "03b5b70c-f874-4daf-a3ab-5f8ecd787a7f"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\firedirection1.ts": {
+      "time": 1720747253892.9553,
+      "uuid": "acf90797-a929-4d3d-8920-3d19cf3e3fe2"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\fort.ts": {
+      "time": 1720747253894.1777,
+      "uuid": "a32db6d4-7793-4dc3-a694-fb8dc8ce3111"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\hp0.ts": {
+      "time": 1720747253894.1777,
+      "uuid": "14976f41-8bb2-4b94-b7c1-fe380df4a35a"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\hp1.ts": {
+      "time": 1720747253895.4067,
+      "uuid": "16f403da-6b9c-45ef-81f6-128d67a05bf0"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\landmine0 copy.ts": {
+      "time": 1720747253895.4067,
+      "uuid": "b1a54b12-fc79-4df3-a4f2-d20b3ec80ea8"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\landmine0.ts": {
+      "time": 1720747253895.4067,
+      "uuid": "88fa8d72-bb43-4827-ab04-7642facb86ee"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\landmine1.ts": {
+      "time": 1720747253897.911,
+      "uuid": "a45ae2c3-3e67-4bc5-b51a-4059dedf7c10"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\normalwall.ts": {
+      "time": 1720747253899.0708,
+      "uuid": "fbe250b1-87fa-4ae2-ad8d-019463cf0bec"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\obj-firefast.ts": {
+      "time": 1720747253899.0708,
+      "uuid": "16e0d0d3-919c-4e68-85ba-456f9c957156"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\obj-movefast.ts": {
+      "time": 1720747253900.144,
+      "uuid": "d97475ad-cfc1-4cd4-9610-adb598f10e24"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\playerfire.ts": {
+      "time": 1720747253900.6716,
+      "uuid": "b519287e-b6f9-4be4-af4e-c347858ca624"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\specialwall.ts": {
+      "time": 1720747253900.6716,
+      "uuid": "acd0e859-2f9d-48e7-86ef-f0f36fff76b5"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\speedaffect0.ts": {
+      "time": 1720747253900.6716,
+      "uuid": "b4a9900c-93e4-4dd4-aa75-7f8525854d2a"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\speedaffect1.ts": {
+      "time": 1720747253900.6716,
+      "uuid": "c2ec48c9-53e8-4388-aa60-71d8e5d0e67e"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\tank0.ts": {
+      "time": 1720747253900.6716,
+      "uuid": "3f68566e-2dce-4cb2-9ea6-e66931227e03"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\tank1.ts": {
+      "time": 1720747253900.6716,
+      "uuid": "20c591ef-2140-4806-bea8-a7519cd3af9d"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\tankdestroy.ts": {
+      "time": 1720747253900.6716,
+      "uuid": "52691598-1f1c-4f3f-9f1d-07cfd092f215"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\tietu.ts": {
+      "time": 1720747253900.6716,
+      "uuid": "da26308d-0534-4a7c-bf71-3ae5ea9ebaa1"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\victory.ts": {
+      "time": 1720747253905.93,
+      "uuid": "06ffd294-885b-4a68-b096-3a30290411f3"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank\\enemyfire.ts": {
+      "time": 1720747253889.8105,
+      "uuid": "330896a6-c06b-4c52-893b-afaad8409291"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank\\enemytank.ts": {
+      "time": 1720747253890.744,
+      "uuid": "d96d38fa-d13f-4da1-a6a2-26bdf7b737e3"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank-001\\enemyfire.ts": {
+      "time": 1720747253884.7737,
+      "uuid": "1c89292b-0aa1-4687-aa50-51676c1a1590"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank-001\\enemytank-001.ts": {
+      "time": 1720747253885.4097,
+      "uuid": "c6da3fe1-9208-4a9c-8a7f-b65375843509"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank-001\\tietu.ts": {
+      "time": 1720747253886.0742,
+      "uuid": "3d4b6962-034e-4cbd-8bcf-0edbe86d0c82"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank-002\\enemyfire.ts": {
+      "time": 1720747253886.0742,
+      "uuid": "ef728298-d7c9-4679-824d-d28bbbd4f082"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank-002\\enemytank-002.ts": {
+      "time": 1720747253888.3064,
+      "uuid": "77557fef-f28d-42ba-b679-4e46d95edf1a"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank-002\\tietu.ts": {
+      "time": 1720747253888.3064,
+      "uuid": "4bdb173f-400a-4ff4-8c48-2671a91b3978"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Audio.meta": {
+      "time": 1720747253497.8782
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\ImageSources.meta": {
+      "time": 1720747253514.0227
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Loading.meta": {
+      "time": 1720747253531.6135
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Login.meta": {
+      "time": 1720747253547.956
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\map.meta": {
+      "time": 1720747253598.9543
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo.meta": {
+      "time": 1720747253621.4758
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefab.meta": {
+      "time": 1720747253560.2363
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs.meta": {
+      "time": 1720747253561.77
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scenes.meta": {
+      "time": 1720747253572.7744
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts.meta": {
+      "time": 1720747253585.3857
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text.meta": {
+      "time": 1720748087664.6133
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Audio\\bulletAudio.meta": {
+      "time": 1720747253497.8782
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\ditu.meta": {
+      "time": 1720747253629.1123
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto.meta": {
+      "time": 1720747253637.5127
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\environment.meta": {
+      "time": 1720747253668.3464
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\objectphoto.meta": {
+      "time": 1720747253727.9707
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo.meta": {
+      "time": 1720747253745.0095
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto.meta": {
+      "time": 1720747253825.759
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo.meta": {
+      "time": 1720747253832.3098
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo.meta": {
+      "time": 1720747253861.0278
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\子弹爆炸特效.meta": {
+      "time": 1720747253870.485
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\gameobject.meta": {
+      "time": 1720747253567.7146
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank.meta": {
+      "time": 1720747253889.8105
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank-001.meta": {
+      "time": 1720747253884.2705
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank-002.meta": {
+      "time": 1720747253886.0742
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\environment.meta": {
+      "time": 1720747253745.0095
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\objectphoto.meta": {
+      "time": 1720747253745.0095
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto.meta": {
+      "time": 1720747253752.0962
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank0photo.meta": {
+      "time": 1720747253808.7688
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank1photo.meta": {
+      "time": 1720747253818.0059
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\子弹爆炸特效.meta": {
+      "time": 1720747253824.509
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\change0.ts.meta": {
+      "time": 1720747253588.7676
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\change1.ts.meta": {
+      "time": 1720747253588.7676
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\double.ts.meta": {
+      "time": 1720747253588.7676
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\easy.ts.meta": {
+      "time": 1720747253590.7876
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\endgame.ts.meta": {
+      "time": 1720747253590.7876
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\esc.ts.meta": {
+      "time": 1720747253590.7876
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\hard.ts.meta": {
+      "time": 1720747253590.7876
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\HLB.ts.meta": {
+      "time": 1720747253585.3857
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\LB.ts.meta": {
+      "time": 1720747253585.3857
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\Loading.ts.meta": {
+      "time": 1720747253585.3857
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\log.ts.meta": {
+      "time": 1720747253590.7876
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\PassInf.ts.meta": {
+      "time": 1720747253585.3857
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\pause.ts.meta": {
+      "time": 1720747253590.7876
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\reStart.ts.meta": {
+      "time": 1720747253594.7925
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\returnlog.ts.meta": {
+      "time": 1720747253595.036
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\returnselect.ts.meta": {
+      "time": 1720747253595.036
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\select.ts.meta": {
+      "time": 1720747253596.5312
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\shut.ts.meta": {
+      "time": 1720747253597.9172
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\SLB.ts.meta": {
+      "time": 1720747253588.7676
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\time01.ts.meta": {
+      "time": 1720747253597.9172
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\time11.ts.meta": {
+      "time": 1720747253598.9543
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scripts\\welcome.ts.meta": {
+      "time": 1720747253598.9543
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\AudioManeger.ts.meta": {
+      "time": 1720747253875.07
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\background.ts.meta": {
+      "time": 1720747253879.456
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\bullet0.ts.meta": {
+      "time": 1720747253881.4595
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\bullet1.ts.meta": {
+      "time": 1720747253881.4595
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\cheat-test.ts.meta": {
+      "time": 1720747253882.9202
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemybullet.ts.meta": {
+      "time": 1720747253882.9202
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemylandmine.ts.meta": {
+      "time": 1720747253884.2705
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\fireaffect0.ts.meta": {
+      "time": 1720747253891.3274
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\fireaffect1.ts.meta": {
+      "time": 1720747253892.4067
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\firedirection0.ts.meta": {
+      "time": 1720747253892.9553
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\firedirection1.ts.meta": {
+      "time": 1720747253892.9553
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\fort.ts.meta": {
+      "time": 1720747253894.1777
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\hp0.ts.meta": {
+      "time": 1720747253894.1777
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\hp1.ts.meta": {
+      "time": 1720747253895.4067
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\landmine0 copy.ts.meta": {
+      "time": 1720747253895.4067
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\landmine0.ts.meta": {
+      "time": 1720747253895.4067
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\landmine1.ts.meta": {
+      "time": 1720747253897.911
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\normalwall.ts.meta": {
+      "time": 1720747253899.0708
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\obj-firefast.ts.meta": {
+      "time": 1720747253899.0708
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\obj-movefast.ts.meta": {
+      "time": 1720747253900.144
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\playerfire.ts.meta": {
+      "time": 1720747253900.6716
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\specialwall.ts.meta": {
+      "time": 1720747253900.6716
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\speedaffect0.ts.meta": {
+      "time": 1720747253900.6716
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\speedaffect1.ts.meta": {
+      "time": 1720747253900.6716
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\tank0.ts.meta": {
+      "time": 1720747253900.6716
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\tank1.ts.meta": {
+      "time": 1720747253900.6716
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\tankdestroy.ts.meta": {
+      "time": 1720747253900.6716
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\tietu.ts.meta": {
+      "time": 1720747253900.6716
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\victory.ts.meta": {
+      "time": 1720747253905.93
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank\\enemyfire.ts.meta": {
+      "time": 1720747253890.744
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank\\enemytank.ts.meta": {
+      "time": 1720747253891.3274
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank-001\\enemyfire.ts.meta": {
+      "time": 1720747253885.4097
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank-001\\enemytank-001.ts.meta": {
+      "time": 1720747253886.0742
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank-001\\tietu.ts.meta": {
+      "time": 1720747253886.0742
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank-002\\enemyfire.ts.meta": {
+      "time": 1720747253886.0742
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank-002\\enemytank-002.ts.meta": {
+      "time": 1720747253888.3064
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\text\\enemytank-002\\tietu.ts.meta": {
+      "time": 1720747253888.3064
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\ImageSources\\return.webp": {
+      "time": 1720747253522.4211,
+      "uuid": "881826d6-8f48-40ed-a396-64d19a659184"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\ImageSources\\select.webp": {
+      "time": 1720747253522.4211,
+      "uuid": "5085c870-c46f-4f09-a997-f06a6dfdab4b"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\ImageSources\\Single.webp": {
+      "time": 1720747253517.9153,
+      "uuid": "94cd8c68-8da7-4137-a69e-5958d623d086"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\ImageSources\\vectory.png": {
+      "time": 1720747253531.6135,
+      "uuid": "595f68a5-dd18-4d35-8ac2-086c56a91c73"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Loading\\loadbk.jpg": {
+      "time": 1720747253540.2446,
+      "uuid": "6fc4704c-1349-444a-a3d7-e7103b5224a6"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Loading\\loadingbk.png": {
+      "time": 1720747253547.956,
+      "uuid": "fb86ef27-a878-4b8e-ab5a-8f4f80e451ac"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Loading\\loading_or_hp.jpg": {
+      "time": 1720747253540.2446,
+      "uuid": "21297a03-2ff3-45b0-b039-292b1f665553"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Login\\admin.png": {
+      "time": 1720747253551.1396,
+      "uuid": "05f0b5b7-86b9-46c9-a7a7-0bc0bc1e4c85"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Login\\BK.jpg": {
+      "time": 1720747253551.1396,
+      "uuid": "2d532167-c7e5-47ad-8bfa-b5947dfea2b6"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Login\\logbk.jpg": {
+      "time": 1720747253553.3037,
+      "uuid": "08166d65-3493-4bf2-93bd-35364d6778d4"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Login\\login1.png": {
+      "time": 1720747253555.8918,
+      "uuid": "a2b7a645-9451-40d6-ac71-0d79a77dea04"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Login\\login2.png": {
+      "time": 1720747253555.8918,
+      "uuid": "5e0d2318-ec2b-4094-84fb-c40e40bda6fb"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Login\\login3.png": {
+      "time": 1720747253555.8918,
+      "uuid": "e79146fd-161e-4298-8ce9-c16c528fd353"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Login\\password.png": {
+      "time": 1720747253560.2363,
+      "uuid": "e877adff-26df-406d-984d-1c87f5f87e74"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\map\\alonemap0-difficult.scene": {
+      "time": 1720747253604.583,
+      "uuid": "1f299242-f13f-4393-9ad0-c3b2064c2606"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\map\\alonemap0.scene": {
+      "time": 1720747253607.4854,
+      "uuid": "1c6af74a-a8a3-47c1-8750-c97c5958c42f"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\map\\doublemap0.scene": {
+      "time": 1720747253618.9666,
+      "uuid": "36291188-d37d-4b4f-a128-588f20d16162"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\map\\test.scene": {
+      "time": 1720747253621.4758,
+      "uuid": "d506c42d-a2d8-4de2-bff7-83bd68a68175"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\basketball.png": {
+      "time": 1720747253623.033,
+      "uuid": "e6016939-e8e1-41e4-9b04-567ecca243b2"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\chicken.png": {
+      "time": 1720747253623.033,
+      "uuid": "0dcc69fc-5a9e-4c78-879f-ea6bcda53ac9"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\ikun.png": {
+      "time": 1720747253727.9707,
+      "uuid": "03ab5b9e-4668-4a14-a37c-abe6785d8df4"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\屏幕截图 2024-07-08 161827.png": {
+      "time": 1720747253875.07,
+      "uuid": "38475cb6-b7f5-4a6f-bfb9-17034caaa876"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefab\\loadingbk.prefab": {
+      "time": 1720747253561.2397,
+      "uuid": "5afedcf2-6924-4038-8c6b-265ac1e54bce"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\bulletnode0.prefab": {
+      "time": 1720747253564.2852,
+      "uuid": "ba9b86be-3ecc-48ba-a83b-02ca9cefad71"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\bulletnode1.prefab": {
+      "time": 1720747253564.2852,
+      "uuid": "380ca9d3-3ed1-4bb4-a284-ff95f9508893"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\enemybullet.prefab": {
+      "time": 1720747253566.255,
+      "uuid": "282a2781-49d8-4c56-8812-c52f130e262b"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\enemylandmine.prefab": {
+      "time": 1720747253566.255,
+      "uuid": "23d4dcab-e845-40fe-b1fe-739086423db7"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\enemytank-001.prefab": {
+      "time": 1720747253567.7146,
+      "uuid": "aad9c9fa-8a6b-4db8-9e8a-76b3158b8bd4"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\enemytank-002.prefab": {
+      "time": 1720747253567.7146,
+      "uuid": "f6b6ea05-27a1-4a5d-9d4b-df6ef2eadf12"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\enemytank.prefab": {
+      "time": 1720747253567.7146,
+      "uuid": "2244bed9-46f7-44cb-8624-7d38d8ef36df"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\HardLeaderBoard.prefab": {
+      "time": 1720747253562.283,
+      "uuid": "285e0e0b-d379-456d-bf07-60f18f9ea848"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\landmine0.prefab": {
+      "time": 1720747253572.7744,
+      "uuid": "ca692069-a166-4ff1-9f42-9e4dcdad9071"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\landmine1.prefab": {
+      "time": 1720747253572.7744,
+      "uuid": "8548f677-485e-4ce5-86b7-1b3a12b03c21"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\normalwall.prefab": {
+      "time": 1720747253572.7744,
+      "uuid": "e60f8133-d0ce-45d5-be91-de2e4ceed063"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\playertank.prefab": {
+      "time": 1720747253572.7744,
+      "uuid": "e04c4f40-5874-49af-867d-ee76c8b95b77"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\SimpleLeaderBoard.prefab": {
+      "time": 1720747253562.283,
+      "uuid": "1b563b92-0169-4b09-8e57-dda755953bb9"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\specialwall.prefab": {
+      "time": 1720747253572.7744,
+      "uuid": "6ca093f6-d9c8-4da3-b662-26605666a6b4"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\tank0.prefab": {
+      "time": 1720747253572.7744,
+      "uuid": "f4845990-e17f-411e-b3a6-fa50eff4b210"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\tank1.prefab": {
+      "time": 1720747253572.7744,
+      "uuid": "44ea65dd-dcbb-4c3b-8483-488681b996e9"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\test.prefab": {
+      "time": 1720747253572.7744,
+      "uuid": "20d61344-99a4-436a-9888-23d50770a1d2"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\_pause.prefab": {
+      "time": 1720747253562.283,
+      "uuid": "9f373299-47cd-4fb1-9fc3-616cf1e42465"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scenes\\LoadingScene.scene": {
+      "time": 1720747253572.7744,
+      "uuid": "7af63cc6-90a2-42ce-bfb5-42897472820c"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scenes\\LoginScene.scene": {
+      "time": 1720747253580.3037,
+      "uuid": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scenes\\return.scene": {
+      "time": 1720747253581.8103,
+      "uuid": "bda4619b-1bc8-442d-90ee-6b04df2eccd8"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scenes\\select.scene": {
+      "time": 1720747253581.8103,
+      "uuid": "0554d124-5936-4455-9b17-a083050a9281"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scenes\\single.scene": {
+      "time": 1720747253583.0854,
+      "uuid": "b9b0fce6-d144-4637-8f7b-c8b0c724ec99"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scenes\\single1.scene": {
+      "time": 1720747253584.0886,
+      "uuid": "03313355-9855-490d-98a2-49a0837a55c4"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scenes\\victory.scene": {
+      "time": 1720747253584.4905,
+      "uuid": "2be201f8-3f82-437d-b138-1947eaf8f5a2"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Audio\\bulletAudio\\bulletSound.mp3": {
+      "time": 1720747253497.8782,
+      "uuid": "81bb44f1-6abc-4780-b65a-90f88bc7bb8e"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Audio\\bulletAudio\\explosionSound.mp3": {
+      "time": 1720747253512.3875,
+      "uuid": "a4706635-d2b5-42d2-8ee6-81cb4eed1322"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Audio\\bulletAudio\\shoot.mp3": {
+      "time": 1720747253514.0227,
+      "uuid": "a2103626-2617-47c9-9d3a-0de418cccfe8"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\ditu\\mapzu0.png": {
+      "time": 1720747253630.936,
+      "uuid": "dfb9475f-439d-4d2c-bb0e-b8304d4b6eec"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\ditu\\mapzu1.png": {
+      "time": 1720747253637.5127,
+      "uuid": "97fa5e1e-15bd-4b06-b9d8-4378cc2ef8cd"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto\\enemytankdown.png": {
+      "time": 1720747253640.0215,
+      "uuid": "f3d0a3e1-6714-4f16-b9e1-ebea7aea6180"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto\\enemytankleft.png": {
+      "time": 1720747253642.0457,
+      "uuid": "04445d75-f706-4a1a-b7f8-b731a90bedd8"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto\\enemytankleftanddown.png": {
+      "time": 1720747253648.4578,
+      "uuid": "5994b3e2-8be6-4afe-8b42-287049b5f588"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto\\enemytankleftandup.png": {
+      "time": 1720747253648.4578,
+      "uuid": "c999cf08-1f2b-4335-800b-f59fe47961b3"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto\\enemytankright.png": {
+      "time": 1720747253654.8345,
+      "uuid": "96fb5fb2-aacc-4cbe-9473-215b528fca7f"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto\\enemytankrightanddown.png": {
+      "time": 1720747253656.7905,
+      "uuid": "b86bd58b-f3df-46e7-92d1-a92ac4832f86"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto\\enemytankrightandup.png": {
+      "time": 1720747253662.2969,
+      "uuid": "f1a0acb9-822e-4b47-9290-f256529f1fa2"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto\\enemytankup.png": {
+      "time": 1720747253667.3418,
+      "uuid": "04110ddf-1cb8-41f0-81fd-55729b4c0d31"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\environment\\grass.png": {
+      "time": 1720747253668.3464,
+      "uuid": "61e3633d-584e-4df2-aef3-3905031527a3"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\environment\\groud.png": {
+      "time": 1720747253668.3464,
+      "uuid": "c4a35f7a-917c-4a35-a54a-75bf6a994f27"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\environment\\water.png": {
+      "time": 1720747253676.6091,
+      "uuid": "0adc66f2-57eb-4925-b1e0-dc201377601e"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\environment\\屏幕截图 2024-07-09 151844.png": {
+      "time": 1720747253720.9666,
+      "uuid": "ad9d369d-2de4-4d6e-b0a4-f3d8558bd625"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\objectphoto\\centetrgiftphoto.png": {
+      "time": 1720747253736.0571,
+      "uuid": "9b3f4111-8479-4df3-8531-73941e65732f"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\objectphoto\\movefaster.jpg": {
+      "time": 1720747253745.0095,
+      "uuid": "4e4e1504-cbfe-4eb7-9fef-fb072da58778"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\hulan.png": {
+      "time": 1720747253825.759,
+      "uuid": "643c4e21-d3e2-4873-a78d-934dbbed0ded"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\qiang0.png": {
+      "time": 1720747253825.759,
+      "uuid": "6c51f436-0e09-4c71-b9b2-aa7bf331791e"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\qiang1.png": {
+      "time": 1720747253825.759,
+      "uuid": "9fd26fef-3a67-4141-ab86-76d327ccb0a7"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\qiang2.png": {
+      "time": 1720747253825.759,
+      "uuid": "0c0d9845-1ca8-47b5-adc3-af07310cc0fe"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\qiang3.png": {
+      "time": 1720747253825.759,
+      "uuid": "8a610c28-8779-4bd6-b80f-b5de6be1735f"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\qiang4.png": {
+      "time": 1720747253832.3098,
+      "uuid": "bcf59bb8-034f-48a8-bf23-04fceb7ed2f7"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\qiang5.png": {
+      "time": 1720747253832.3098,
+      "uuid": "d7aeb0eb-4295-4242-b8a6-9d70b4f75f96"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\qiang6.png": {
+      "time": 1720747253832.3098,
+      "uuid": "f36a79e0-34c3-4f97-83a7-0b9e92ed4169"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\qiang7.png": {
+      "time": 1720747253832.3098,
+      "uuid": "bd81fa4a-9eae-4f0c-9685-82ddedcc0a04"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\wallbaba.png": {
+      "time": 1720747253832.3098,
+      "uuid": "6f4407e3-d16b-4e87-9232-1a78c16d56d3"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\down.png": {
+      "time": 1720747253840.4482,
+      "uuid": "8e10267e-a2f7-4d3b-95ae-62ad5a73c8a2"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\downleft.png": {
+      "time": 1720747253841.566,
+      "uuid": "eea883c4-da66-4b66-839d-9b4759b172ef"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\downright.png": {
+      "time": 1720747253841.566,
+      "uuid": "c38b86e6-d2e1-4d5c-a4cb-0524e1e4af02"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\left.png": {
+      "time": 1720747253841.566,
+      "uuid": "c7ebd63b-a588-4568-a758-e16e366ea838"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\paotai.png": {
+      "time": 1720747253841.566,
+      "uuid": "83d31fc4-6c40-4107-8680-1741a71bd493"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\right.png": {
+      "time": 1720747253841.566,
+      "uuid": "604eae07-ffef-4ab7-9826-8ce04248919f"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\tank0down.png": {
+      "time": 1720747253847,
+      "uuid": "79060037-715c-435a-9aa1-9b588aed1ee4"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\tank0left.png": {
+      "time": 1720747253848.712,
+      "uuid": "31386f02-ee31-4e90-9b2d-3a9b00f42098"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\tank0leftanddown.png": {
+      "time": 1720747253849.6326,
+      "uuid": "b233dd95-e414-4b76-bb5f-886354bb41aa"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\tank0leftandup.png": {
+      "time": 1720747253850.635,
+      "uuid": "342d274a-9b1d-4d7f-8768-69dadbc1052b"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\tank0right.png": {
+      "time": 1720747253852.8066,
+      "uuid": "7c657c60-537b-4ff7-ba92-bcf29ba31d54"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\tank0rightanddown.png": {
+      "time": 1720747253853.6396,
+      "uuid": "2f20f932-d1e7-4f24-8946-443c518e493e"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\tank0rightandup.png": {
+      "time": 1720747253855.1467,
+      "uuid": "76eaa90b-df82-473f-9050-6da709f90249"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\tank0up.png": {
+      "time": 1720747253857.1504,
+      "uuid": "7effe23c-079c-410c-bcf4-006b38fc31cd"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\up.png": {
+      "time": 1720747253858.0444,
+      "uuid": "bf055e14-f509-485e-a92e-f17525288a2a"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\upleft.png": {
+      "time": 1720747253861.0278,
+      "uuid": "8e85c480-cbd7-439f-b592-41a1710792dc"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\upright.png": {
+      "time": 1720747253861.0278,
+      "uuid": "a6b9059f-0078-4915-8bb5-9fdb9f8278d1"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo\\tank1down.png": {
+      "time": 1720747253863.1619,
+      "uuid": "86942f5b-6f21-4bc4-a831-312a83475ce8"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo\\tank1left.png": {
+      "time": 1720747253865.1646,
+      "uuid": "11990de5-ac55-4db1-afae-991f63f38914"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo\\tank1leftanddown.png": {
+      "time": 1720747253866.3557,
+      "uuid": "29857b01-6802-4b81-afb7-61e06489cd72"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo\\tank1leftandup.png": {
+      "time": 1720747253867.584,
+      "uuid": "f0ef4190-1153-462e-a246-209a2ec0b799"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo\\tank1right.png": {
+      "time": 1720747253867.584,
+      "uuid": "81abb380-8484-47bc-8779-c0836099d153"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo\\tank1rightanddown.png": {
+      "time": 1720747253869.4111,
+      "uuid": "9804f4ee-bf2e-4618-9f5b-0242310d5fa8"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo\\tank1rightandup.png": {
+      "time": 1720747253870.485,
+      "uuid": "f38d069b-a9d0-418e-8599-ee757a07beb3"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo\\tank1up.png": {
+      "time": 1720747253870.485,
+      "uuid": "9ae0bd82-2d48-4a71-868b-f06d9956cfdf"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\子弹爆炸特效\\子弹爆炸特效1.jpg": {
+      "time": 1720747253870.485,
+      "uuid": "79291de9-9934-41bf-aa87-ea8d334f31b9"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\子弹爆炸特效\\子弹爆炸特效2.jpg": {
+      "time": 1720747253870.485,
+      "uuid": "34b1eac4-ac9b-4a91-bbb7-4f760235d23e"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\子弹爆炸特效\\子弹爆炸特效3.jpg": {
+      "time": 1720747253873.3123,
+      "uuid": "2993db37-312e-499a-9028-7159f11de172"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\gameobject\\firefastobject.prefab": {
+      "time": 1720747253567.7146,
+      "uuid": "32792995-a6b9-4857-9271-dd77472da8b6"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\gameobject\\movefastobject.prefab": {
+      "time": 1720747253567.7146,
+      "uuid": "389042f7-6033-4238-aab8-7bd1e05b2b3c"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\gameobject\\pause.prefab": {
+      "time": 1720747253572.2183,
+      "uuid": "eb309b38-cbe5-4e90-9b61-4d24c209757f"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\environment\\grass.png": {
+      "time": 1720747253745.0095,
+      "uuid": "63abb444-9cd4-416b-a35f-234c0c062be5"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\environment\\groud.png": {
+      "time": 1720747253745.0095,
+      "uuid": "447a007f-12a9-4394-a721-31916bfd1d8e"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\environment\\water.png": {
+      "time": 1720747253745.0095,
+      "uuid": "eb1cda05-2021-4415-a33f-0389864c06cd"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\objectphoto\\centetrgiftphoto.png": {
+      "time": 1720747253752.0962,
+      "uuid": "991106b4-1856-42e2-8f5e-4ec24f5ef04e"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\objectphoto\\movefaster.jpg": {
+      "time": 1720747253752.0962,
+      "uuid": "83eba687-e688-4ef2-9585-6fc16330515c"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\hulan.png": {
+      "time": 1720747253752.0962,
+      "uuid": "1cdbd77e-1dcb-4ff6-8531-9a68ab1f85b7"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang0.png": {
+      "time": 1720747253752.0962,
+      "uuid": "3a7b5201-de88-41c7-ab21-d83c0a5a5b00"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang1.png": {
+      "time": 1720747253760.1843,
+      "uuid": "cedd4326-858a-46c4-8bd0-b4761f46db9f"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang2.png": {
+      "time": 1720747253760.1843,
+      "uuid": "8d8afa54-fc25-4a50-98e5-020ea209c6f5"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang3.png": {
+      "time": 1720747253760.1843,
+      "uuid": "aee43a19-ae09-48a9-be21-52101b8042e2"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang4.png": {
+      "time": 1720747253760.1843,
+      "uuid": "80881537-4289-4441-9b49-15f9426fc96f"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang5.png": {
+      "time": 1720747253760.1843,
+      "uuid": "d81b0124-0eaf-43db-9baf-1b0c89e1f72e"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang6.png": {
+      "time": 1720747253760.1843,
+      "uuid": "734f1e3f-1189-4339-834c-c5febe7a89c4"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang7.png": {
+      "time": 1720747253760.1843,
+      "uuid": "71789e76-d556-463f-8210-e683c4b9bdde"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\wallbaba.png": {
+      "time": 1720747253808.7688,
+      "uuid": "e27c7b2e-b82a-4167-a8d0-0dc00297ab1e"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank0photo\\tank0down.png": {
+      "time": 1720747253808.7688,
+      "uuid": "d647debd-4951-4c77-8089-c9f5102a9fea"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank0photo\\tank0left.png": {
+      "time": 1720747253818.0059,
+      "uuid": "4ef4360d-d12e-4d2c-98e7-e38d26f2b5e2"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank0photo\\tank0right.png": {
+      "time": 1720747253818.0059,
+      "uuid": "08ecb9b4-b131-4f12-86a3-4f0c522ea2bd"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank0photo\\tank0up.png": {
+      "time": 1720747253818.0059,
+      "uuid": "02c7a7c0-6c9a-4d4f-aced-f38fc00526d0"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank1photo\\tank1down.png": {
+      "time": 1720747253818.0059,
+      "uuid": "03c9ef0d-0c11-4dc8-b87a-324441d9c1e2"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank1photo\\tank1left.png": {
+      "time": 1720747253818.0059,
+      "uuid": "926cf158-0e16-4961-9f5d-ef562ea1a470"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank1photo\\tank1right.png": {
+      "time": 1720747253818.0059,
+      "uuid": "80f4af8c-1b71-4789-8a2b-9fe283aa4b90"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank1photo\\tank1up.png": {
+      "time": 1720747253824.509,
+      "uuid": "ed950b98-4ea1-4c57-8e4a-939aa791ed56"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\子弹爆炸特效\\子弹爆炸特效1.jpg": {
+      "time": 1720747253824.509,
+      "uuid": "78663cbc-4c9b-45e1-a110-560ccf8a08a2"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\子弹爆炸特效\\子弹爆炸特效2.jpg": {
+      "time": 1720747253825.759,
+      "uuid": "a2738083-2f2d-4bf7-b376-e9ac88efa274"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\子弹爆炸特效\\子弹爆炸特效3.jpg": {
+      "time": 1720747253825.759,
+      "uuid": "e0f6bf34-a622-4486-85c8-a6aca1b72413"
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\ImageSources\\vectory.png.meta": {
+      "time": 1720747253531.6135
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\ImageSources\\select.webp.meta": {
+      "time": 1720747253522.4211
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Loading\\loadbk.jpg.meta": {
+      "time": 1720747253540.2446
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\ImageSources\\Single.webp.meta": {
+      "time": 1720747253517.9153
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\ImageSources\\return.webp.meta": {
+      "time": 1720747253522.4211
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Loading\\loadingbk.png.meta": {
+      "time": 1720747253547.956
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Loading\\loading_or_hp.jpg.meta": {
+      "time": 1720747253540.2446
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Login\\admin.png.meta": {
+      "time": 1720747253552.6477
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Login\\BK.jpg.meta": {
+      "time": 1720747253551.1396
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Login\\logbk.jpg.meta": {
+      "time": 1720747253553.3037
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Login\\login1.png.meta": {
+      "time": 1720747253555.8918
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Login\\login2.png.meta": {
+      "time": 1720747253555.8918
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\map\\alonemap0-difficult.scene.meta": {
+      "time": 1720747253604.583
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Login\\login3.png.meta": {
+      "time": 1720747253555.8918
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Login\\password.png.meta": {
+      "time": 1720747253560.2363
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\map\\alonemap0.scene.meta": {
+      "time": 1720747253613.0234
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\map\\test.scene.meta": {
+      "time": 1720747253621.4758
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\map\\doublemap0.scene.meta": {
+      "time": 1720747253618.9666
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefab\\loadingbk.prefab.meta": {
+      "time": 1720747253561.2397
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\chicken.png.meta": {
+      "time": 1720747253629.1123
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\basketball.png.meta": {
+      "time": 1720747253623.033
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\bulletnode0.prefab.meta": {
+      "time": 1720747253564.2852
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\ikun.png.meta": {
+      "time": 1720747253727.9707
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\bulletnode1.prefab.meta": {
+      "time": 1720747253566.255
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\屏幕截图 2024-07-08 161827.png.meta": {
+      "time": 1720747253875.07
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\enemybullet.prefab.meta": {
+      "time": 1720747253566.255
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\enemytank-001.prefab.meta": {
+      "time": 1720747253567.7146
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\enemylandmine.prefab.meta": {
+      "time": 1720747253567.7146
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\enemytank-002.prefab.meta": {
+      "time": 1720747253567.7146
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\HardLeaderBoard.prefab.meta": {
+      "time": 1720747253562.283
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\landmine0.prefab.meta": {
+      "time": 1720747253572.7744
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\enemytank.prefab.meta": {
+      "time": 1720747253567.7146
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\landmine1.prefab.meta": {
+      "time": 1720747253572.7744
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\SimpleLeaderBoard.prefab.meta": {
+      "time": 1720747253562.283
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\specialwall.prefab.meta": {
+      "time": 1720747253572.7744
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\normalwall.prefab.meta": {
+      "time": 1720747253572.7744
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\playertank.prefab.meta": {
+      "time": 1720747253572.7744
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\_pause.prefab.meta": {
+      "time": 1720747253564.2852
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\tank0.prefab.meta": {
+      "time": 1720747253572.7744
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\test.prefab.meta": {
+      "time": 1720747253572.7744
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\tank1.prefab.meta": {
+      "time": 1720747253572.7744
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scenes\\select.scene.meta": {
+      "time": 1720747253583.0854
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scenes\\LoginScene.scene.meta": {
+      "time": 1720747253581.2307
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scenes\\LoadingScene.scene.meta": {
+      "time": 1720747253572.7744
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scenes\\return.scene.meta": {
+      "time": 1720747253581.8103
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scenes\\single1.scene.meta": {
+      "time": 1720747253584.4905
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scenes\\single.scene.meta": {
+      "time": 1720747253583.0854
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Scenes\\victory.scene.meta": {
+      "time": 1720747253584.4905
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Audio\\bulletAudio\\bulletSound.mp3.meta": {
+      "time": 1720747253505.8813
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Audio\\bulletAudio\\explosionSound.mp3.meta": {
+      "time": 1720747253512.3875
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Audio\\bulletAudio\\shoot.mp3.meta": {
+      "time": 1720747253514.0227
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto\\enemytankleft.png.meta": {
+      "time": 1720747253642.0457
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\ditu\\mapzu0.png.meta": {
+      "time": 1720747253630.936
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto\\enemytankdown.png.meta": {
+      "time": 1720747253640.0215
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\ditu\\mapzu1.png.meta": {
+      "time": 1720747253637.5127
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto\\enemytankleftanddown.png.meta": {
+      "time": 1720747253648.4578
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto\\enemytankright.png.meta": {
+      "time": 1720747253654.8345
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto\\enemytankrightanddown.png.meta": {
+      "time": 1720747253656.7905
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto\\enemytankleftandup.png.meta": {
+      "time": 1720747253653.9607
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto\\enemytankrightandup.png.meta": {
+      "time": 1720747253662.2969
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\enemytankphoto\\enemytankup.png.meta": {
+      "time": 1720747253667.3418
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\environment\\grass.png.meta": {
+      "time": 1720747253668.3464
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\environment\\water.png.meta": {
+      "time": 1720747253676.6091
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\environment\\groud.png.meta": {
+      "time": 1720747253676.6091
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\qiang0.png.meta": {
+      "time": 1720747253825.759
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\objectphoto\\movefaster.jpg.meta": {
+      "time": 1720747253745.0095
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\objectphoto\\centetrgiftphoto.png.meta": {
+      "time": 1720747253736.0571
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\hulan.png.meta": {
+      "time": 1720747253825.759
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\qiang1.png.meta": {
+      "time": 1720747253825.759
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\qiang3.png.meta": {
+      "time": 1720747253825.759
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\qiang2.png.meta": {
+      "time": 1720747253825.759
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\qiang4.png.meta": {
+      "time": 1720747253832.3098
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\qiang7.png.meta": {
+      "time": 1720747253832.3098
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\qiang6.png.meta": {
+      "time": 1720747253832.3098
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\qiang5.png.meta": {
+      "time": 1720747253832.3098
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\environment\\屏幕截图 2024-07-09 151844.png.meta": {
+      "time": 1720747253727.9707
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\qiangphoto\\wallbaba.png.meta": {
+      "time": 1720747253832.3098
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\downleft.png.meta": {
+      "time": 1720747253841.566
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\downright.png.meta": {
+      "time": 1720747253841.566
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\down.png.meta": {
+      "time": 1720747253840.4482
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\paotai.png.meta": {
+      "time": 1720747253841.566
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\left.png.meta": {
+      "time": 1720747253841.566
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\tank0left.png.meta": {
+      "time": 1720747253848.712
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\right.png.meta": {
+      "time": 1720747253846.1587
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\tank0down.png.meta": {
+      "time": 1720747253847
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\tank0leftanddown.png.meta": {
+      "time": 1720747253850.635
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\tank0leftandup.png.meta": {
+      "time": 1720747253850.635
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\tank0rightanddown.png.meta": {
+      "time": 1720747253853.6396
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\tank0right.png.meta": {
+      "time": 1720747253852.8066
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\tank0rightandup.png.meta": {
+      "time": 1720747253855.1467
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\tank0up.png.meta": {
+      "time": 1720747253857.1504
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\upright.png.meta": {
+      "time": 1720747253861.0278
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\upleft.png.meta": {
+      "time": 1720747253861.0278
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank0photo\\up.png.meta": {
+      "time": 1720747253858.0444
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo\\tank1down.png.meta": {
+      "time": 1720747253863.1619
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo\\tank1left.png.meta": {
+      "time": 1720747253865.1646
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo\\tank1leftandup.png.meta": {
+      "time": 1720747253867.584
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo\\tank1rightanddown.png.meta": {
+      "time": 1720747253869.4111
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo\\tank1leftanddown.png.meta": {
+      "time": 1720747253866.3557
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo\\tank1right.png.meta": {
+      "time": 1720747253868.7068
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo\\tank1rightandup.png.meta": {
+      "time": 1720747253870.485
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\子弹爆炸特效\\子弹爆炸特效2.jpg.meta": {
+      "time": 1720747253873.3123
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\子弹爆炸特效\\子弹爆炸特效1.jpg.meta": {
+      "time": 1720747253870.485
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\tank1photo\\tank1up.png.meta": {
+      "time": 1720747253870.485
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\子弹爆炸特效\\子弹爆炸特效3.jpg.meta": {
+      "time": 1720747253874.2473
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\gameobject\\firefastobject.prefab.meta": {
+      "time": 1720747253567.7146
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\gameobject\\pause.prefab.meta": {
+      "time": 1720747253572.7744
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\Prefabs\\gameobject\\movefastobject.prefab.meta": {
+      "time": 1720747253567.7146
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\environment\\grass.png.meta": {
+      "time": 1720747253745.0095
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\environment\\groud.png.meta": {
+      "time": 1720747253745.0095
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\environment\\water.png.meta": {
+      "time": 1720747253745.0095
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\objectphoto\\movefaster.jpg.meta": {
+      "time": 1720747253752.0962
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\hulan.png.meta": {
+      "time": 1720747253752.0962
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang1.png.meta": {
+      "time": 1720747253760.1843
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang0.png.meta": {
+      "time": 1720747253752.0962
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\objectphoto\\centetrgiftphoto.png.meta": {
+      "time": 1720747253752.0962
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang2.png.meta": {
+      "time": 1720747253760.1843
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang4.png.meta": {
+      "time": 1720747253760.1843
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang3.png.meta": {
+      "time": 1720747253760.1843
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang5.png.meta": {
+      "time": 1720747253760.1843
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang6.png.meta": {
+      "time": 1720747253760.1843
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\qiang7.png.meta": {
+      "time": 1720747253760.1843
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank0photo\\tank0down.png.meta": {
+      "time": 1720747253808.7688
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank0photo\\tank0right.png.meta": {
+      "time": 1720747253818.0059
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank0photo\\tank0left.png.meta": {
+      "time": 1720747253818.0059
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank0photo\\tank0up.png.meta": {
+      "time": 1720747253818.0059
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\qiangphoto\\wallbaba.png.meta": {
+      "time": 1720747253808.7688
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank1photo\\tank1left.png.meta": {
+      "time": 1720747253818.0059
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank1photo\\tank1down.png.meta": {
+      "time": 1720747253818.0059
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank1photo\\tank1right.png.meta": {
+      "time": 1720747253818.0059
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\tank1photo\\tank1up.png.meta": {
+      "time": 1720747253824.509
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\子弹爆炸特效\\子弹爆炸特效1.jpg.meta": {
+      "time": 1720747253825.759
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\子弹爆炸特效\\子弹爆炸特效3.jpg.meta": {
+      "time": 1720747253825.759
+    },
+    "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\photo\\photo\\子弹爆炸特效\\子弹爆炸特效2.jpg.meta": {
+      "time": 1720747253825.759
+>>>>>>> bcb461001e53c18e4593c369d3a615e1a9d4b37f
     }
   },
   "missing": {
@@ -5760,6 +9189,7 @@
       "time": 1720508087269.5088,
       "removeTime": 1720661236582
     },
+<<<<<<< HEAD
     "2018a3af-cb7d-4e17-9c8c-49264b55f149": {
       "path": "C:\\cocoscreater\\NewProject_1\\assets\\uisence.scene",
       "time": 1719815400927.6416,
@@ -6269,6 +9699,22 @@
       "path": "C:\\Users\\lenovo\\Desktop\\tank7.11.11\\assets\\photo\\e1a10dad2995cf66e323c22e6a59a39.png",
       "time": 1720685386624.353,
       "removeTime": 1720685532896
+=======
+    "da66a686-fdaf-4c0f-a9b8-793763f22bcd": {
+      "path": "D:\\TankFight\\TK2\\assets\\text",
+      "time": 1720661312441.0884,
+      "removeTime": 1720694261857
+    },
+    "24e58c7c-2683-40d5-9502-dd4e6427f24f": {
+      "path": "D:\\demo3\\TK2\\assets\\resources",
+      "time": 1720009624032.6794,
+      "removeTime": 1720748096907
+    },
+    "615507b5-a435-4490-9d7f-c8fbd20dd710": {
+      "path": "D:\\demo3\\TK2\\assets\\text",
+      "time": 1720696428131.267,
+      "removeTime": 1720748096907
+>>>>>>> bcb461001e53c18e4593c369d3a615e1a9d4b37f
     }
   }
 }
