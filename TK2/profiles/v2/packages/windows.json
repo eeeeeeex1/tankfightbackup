@@ -2,8 +2,8 @@
   "__version__": "1.0.1",
   "builder": {
     "common": {
-      "buildPath": "project://build",
-      "outputName": "demo2",
+      "buildPath": "D:\\Release",
+      "outputName": "demo3",
       "mainBundleCompressionType": "merge_dep",
       "platform": "windows",
       "startScene": "7af63cc6-90a2-42ce-bfb5-42897472820c",
@@ -430,6 +430,17 @@
         "vsData": ""
       },
       "1720696781340": {
+        "executableName": "demo3_final",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1720698743994": {
         "executableName": "demo3_final",
         "renderBackEnd": {
           "vulkan": true,
