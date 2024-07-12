@@ -1,17 +1,6 @@
 {
   "__version__": "1.0.6",
   "physics": {
-    "collisionMatrix": {
-      "0": 0,
-      "1": 500,
-      "2": 490,
-      "3": 436,
-      "4": 426,
-      "5": 414,
-      "6": 6,
-      "7": 190,
-      "8": 62
-    },
     "collisionGroups": [
       {
         "index": 1,
@@ -44,8 +33,28 @@
       {
         "index": 8,
         "name": "enemybullet"
+      },
+      {
+        "index": 9,
+        "name": "landmine0"
+      },
+      {
+        "index": 10,
+        "name": "landmine1"
       }
-    ]
-  },
-  "custom_joint_texture_layouts": []
+    ],
+    "collisionMatrix": {
+      "0": 33,
+      "1": 1524,
+      "2": 1002,
+      "3": 436,
+      "4": 426,
+      "5": 415,
+      "6": 134,
+      "7": 1662,
+      "8": 62,
+      "9": 132,
+      "10": 130
+    }
+  }
 }

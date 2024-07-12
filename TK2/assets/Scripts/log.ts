@@ -1,4 +1,4 @@
-import { _decorator, Button, Component, director, EditBox, Node } from 'cc';
+import { _decorator, Button, Component, director, EditBox, instantiate, Node, Prefab } from 'cc';
 import { PassInf } from './PassInf';
 const { ccclass, property } = _decorator;
 
@@ -26,7 +26,12 @@ export class log extends Component {
     account:EditBox;
     @property(EditBox)
     password:EditBox;
-    private RegSet: user[]=new Array;//注册索引表
+    @property(Prefab)
+    NoAccount:Prefab;
+    @property(Prefab)
+    pwdError:Prefab;
+
+    RegSet: user[]=new Array;//注册索引表
     presentAccout:user;
     start() {
         if(localStorage.getItem('RegSet')==null)
@@ -58,24 +63,15 @@ export class log extends Component {
                 break;
             }
         }
-        //let result:string=localStorage.getItem(_account);//检测是否存在账户
         
         if(!isFind)
         {
-            console.log("No Account!Create New Account");
-            this.presentAccout=new user();
-            this.presentAccout.Account=_account;
-            this.presentAccout.Password=_pwd;
-            this.presentAccout.save=0;
-            this.presentAccout.difficulty=0;
-            // let json=JSON.stringify(this.presentAccout);
-            // localStorage.setItem(_account,json);//不存在则创建新账户
-            //this.RegSet=Object.assign(new Array(),JSON.parse(localStorage.getItem('RegSet')));
-            this.RegSet.push(this.presentAccout);
-            let _json=JSON.stringify(this.RegSet);
-            localStorage.setItem('RegSet',_json);//将账户加入注册表
-            director.getScene().getChildByName('PassNode').getComponent(PassInf).CurrentUser=this.presentAccout;//储存当前用户信息到常驻节点
-            director.loadScene('select');
+            console.log("No Account!Please Create New Account");
+            let NoAccount=instantiate(this.NoAccount);
+            this.node.addChild(NoAccount);
+            this.scheduleOnce(() => {
+                this.node.getChildByName('NoAccount').destroy();
+            }, 3);
         }
         else
         {
@@ -83,7 +79,14 @@ export class log extends Component {
             //this.presentAccout =Object.assign(new user(),JSON.parse(result));
             this.presentAccout=this.RegSet[i];
             if(this.presentAccout.Password!=_pwd)
+            {
+                let pwdError=instantiate(this.pwdError);
+                this.node.addChild(pwdError);
+                this.scheduleOnce(() => {
+                    this.node.getChildByName('pwdError').destroy();
+                }, 3);
                 console.log("Password Error!");
+            }
             else
             {
                 console.log("Login Success!");

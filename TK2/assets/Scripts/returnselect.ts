@@ -12,6 +12,7 @@ export class returnselect extends Component {
     }
     loadSinglePlayerScene()
     {
+        director.resume();
         director.loadScene('select');
     }
 }

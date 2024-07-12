@@ -8,22 +8,16 @@
   "appConfigMaps": [
     {
       "app_id": "UNKNOW",
-      "config_id": "69001e"
+      "config_id": "bbddf8"
     }
   ],
   "configs": [
     {
       "app_id": "UNKNOW",
-      "config_id": "69001e",
+      "config_id": "bbddf8",
       "config_name": "Default",
       "config_remarks": "",
-      "services": [
-        {
-          "service_id": "550",
-          "enable": false,
-          "param": {}
-        }
-      ]
+      "services": []
     }
   ]
 }

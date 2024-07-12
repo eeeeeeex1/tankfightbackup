@@ -20,6 +20,7 @@ export class firedirection1 extends Component {
     @property
     landminefireInterval: number = 2; // 发射间隔时间，单位秒
 
+    @property(Prefab)
     bulletPrefab:Prefab=null;
 
     @property(Prefab)

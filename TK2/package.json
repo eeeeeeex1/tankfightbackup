@@ -1,7 +1,14 @@
 {
-  "name": "NewProject_1",
-  "uuid": "708966f3-3258-49a2-983e-e59f0d450b9c",
+  "name": "TK2",
+  "uuid": "d8f993cd-a9c0-452e-9bc7-978a9051619f",
   "creator": {
     "version": "3.8.3"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9"
   }
 }

@@ -19,14 +19,13 @@ export class pause extends Component {
                 let stop=instantiate(this.pausePrefab);
                 this.node.addChild(stop);
                 this.status=1;
-                director.pause();
-            }
+            }//调用并挂载暂停预制体，并记录暂停状态
             else
             {
-            this.node.getChildByName('_pause').destroy();
-            this.status=0;
-            director.resume();
-            }
+                this.status=0;
+                director.resume();
+                this.node.getChildByName('_pause').destroy();
+            }//恢复
         }
     }
     update(deltaTime: number) {

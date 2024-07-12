@@ -6,8 +6,8 @@
     "strict": true,
     "types": [
       "./temp/declarations/cc.custom-macro",
-      "./temp/declarations/jsb",
       "./temp/declarations/cc",
+      "./temp/declarations/jsb",
       "./temp/declarations/cc.env"
     ],
     "paths": {
@@ -15,11 +15,7 @@
         "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\*"
       ],
       "db://assets/*": [
-<<<<<<< HEAD
-        "C:\\Users\\lenovo\\Desktop\\tank7.11.11\\assets\\*"
-=======
-        "C:\\Users\\HUAWEI\\Desktop\\TK2\\assets\\*"
->>>>>>> bcb461001e53c18e4593c369d3a615e1a9d4b37f
+        "D:\\demo3\\TK2\\assets\\*"
       ]
     },
     "experimentalDecorators": true,
