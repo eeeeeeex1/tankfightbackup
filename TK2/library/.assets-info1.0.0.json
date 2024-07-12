@@ -633,10 +633,6 @@
     "D:\\TankFight\\TK2\\assets\\Scripts\\esc.ts.meta": {
       "time": 1720237566226.296
     },
-    "D:\\TankFight\\TK2\\assets\\Scripts\\esc.ts": {
-      "time": 1720572450872.6057,
-      "uuid": "37eb1a04-6317-47bf-bb42-ea3d421539b0"
-    },
     "D:\\TankFight\\TK2\\assets\\Scripts\\pause.ts.meta": {
       "time": 1720250486001.4324
     },
@@ -1722,10 +1718,6 @@
     "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Scripts\\endgame.ts": {
       "time": 1720233435339.955,
       "uuid": "8abae688-1282-4103-be51-6c90b8514c81"
-    },
-    "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Scripts\\esc.ts": {
-      "time": 1720572450872.6057,
-      "uuid": "37eb1a04-6317-47bf-bb42-ea3d421539b0"
     },
     "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Scripts\\hard.ts": {
       "time": 1720668411474.173,
@@ -4952,9 +4944,9 @@
       "removeTime": 1720250429894
     },
     "37eb1a04-6317-47bf-bb42-ea3d421539b0": {
-      "path": "D:\\demo3\\TK2\\assets\\Scripts\\esc.ts",
+      "path": "C:\\Users\\53190\\Desktop\\tankfightbackup\\TK2\\assets\\Scripts\\esc.ts",
       "time": 1720572450872.6057,
-      "removeTime": 1720752841334
+      "removeTime": 1720771842803
     },
     "1be0ecb3-4616-4119-8f11-962e875d2220": {
       "path": "D:\\TankFight\\TK2\\assets\\text\\pause.ts",
