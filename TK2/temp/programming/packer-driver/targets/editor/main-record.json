@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 5854.785300001502,
+      "mTimestamp": 30878.622299969196,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 7393.282099999487,
+      "mTimestamp": 41220.727400004864,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -658,7 +658,7 @@
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/HLB.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/HLB.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -667,59 +667,45 @@
             },
             "end": {
               "line": 5,
-              "column": 227
+              "column": 242
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/LB.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 5,
-              "column": 243
+              "column": 258
             },
             "end": {
               "line": 5,
-              "column": 286
+              "column": 316
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/Loading.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Loading.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
               "line": 5,
-              "column": 302
+              "column": 332
             },
             "end": {
               "line": 5,
-              "column": 350
+              "column": 395
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/PassInf.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
               "line": 5,
-              "column": 366
-            },
-            "end": {
-              "line": 5,
-              "column": 414
-            }
-          }
-        },
-        {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/SLB.ts",
-          "resolved": "__unresolved_5",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 430
+              "column": 411
             },
             "end": {
               "line": 5,
@@ -728,8 +714,8 @@
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/change0.ts",
-          "resolved": "__unresolved_6",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/SLB.ts",
+          "resolved": "__unresolved_5",
           "loc": {
             "start": {
               "line": 5,
@@ -737,749 +723,763 @@
             },
             "end": {
               "line": 5,
-              "column": 538
+              "column": 549
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/change1.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change0.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 565
+            },
+            "end": {
+              "line": 5,
+              "column": 628
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change1.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
               "line": 5,
-              "column": 554
+              "column": 644
             },
             "end": {
               "line": 5,
-              "column": 602
+              "column": 707
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/double.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
               "line": 5,
-              "column": 618
+              "column": 723
             },
             "end": {
               "line": 5,
-              "column": 665
+              "column": 785
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/easy.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts",
           "resolved": "__unresolved_9",
           "loc": {
             "start": {
               "line": 5,
-              "column": 681
+              "column": 801
             },
             "end": {
               "line": 5,
-              "column": 726
+              "column": 861
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/endgame.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/endgame.ts",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
               "line": 5,
-              "column": 742
+              "column": 877
             },
             "end": {
               "line": 5,
-              "column": 790
+              "column": 940
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/esc.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/esc.ts",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
               "line": 5,
-              "column": 806
+              "column": 956
             },
             "end": {
               "line": 5,
-              "column": 850
+              "column": 1015
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/hard.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts",
           "resolved": "__unresolved_12",
           "loc": {
             "start": {
               "line": 5,
-              "column": 866
+              "column": 1031
             },
             "end": {
               "line": 5,
-              "column": 911
+              "column": 1091
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/log.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts",
           "resolved": "__unresolved_13",
           "loc": {
             "start": {
               "line": 5,
-              "column": 927
+              "column": 1107
             },
             "end": {
               "line": 5,
-              "column": 971
+              "column": 1166
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/pause.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts",
           "resolved": "__unresolved_14",
           "loc": {
             "start": {
               "line": 5,
-              "column": 987
+              "column": 1182
             },
             "end": {
               "line": 5,
-              "column": 1033
+              "column": 1243
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/reStart.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts",
           "resolved": "__unresolved_15",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1049
+              "column": 1259
             },
             "end": {
               "line": 5,
-              "column": 1097
+              "column": 1322
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/returnlog.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1113
+              "column": 1338
             },
             "end": {
               "line": 5,
-              "column": 1163
+              "column": 1403
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/returnselect.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1179
+              "column": 1419
             },
             "end": {
               "line": 5,
-              "column": 1232
+              "column": 1487
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/select.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1248
+              "column": 1503
             },
             "end": {
               "line": 5,
-              "column": 1295
+              "column": 1565
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/shut.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/shut.ts",
           "resolved": "__unresolved_19",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1311
+              "column": 1581
             },
             "end": {
               "line": 5,
-              "column": 1356
+              "column": 1641
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/time01.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time01.ts",
           "resolved": "__unresolved_20",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1372
+              "column": 1657
             },
             "end": {
               "line": 5,
-              "column": 1419
+              "column": 1719
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/time11.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time11.ts",
           "resolved": "__unresolved_21",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1435
+              "column": 1735
             },
             "end": {
               "line": 5,
-              "column": 1482
+              "column": 1797
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/Scripts/welcome.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/welcome.ts",
           "resolved": "__unresolved_22",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1498
+              "column": 1813
             },
             "end": {
               "line": 5,
-              "column": 1546
+              "column": 1876
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/AudioManeger.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/AudioManeger.ts",
           "resolved": "__unresolved_23",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1562
+              "column": 1892
             },
             "end": {
               "line": 5,
-              "column": 1612
+              "column": 1957
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/background.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/background.ts",
           "resolved": "__unresolved_24",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1628
+              "column": 1973
             },
             "end": {
               "line": 5,
-              "column": 1676
+              "column": 2036
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/bullet0.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet0.ts",
           "resolved": "__unresolved_25",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1692
+              "column": 2052
             },
             "end": {
               "line": 5,
-              "column": 1737
+              "column": 2112
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/bullet1.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet1.ts",
           "resolved": "__unresolved_26",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1753
+              "column": 2128
             },
             "end": {
               "line": 5,
-              "column": 1798
+              "column": 2188
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/cheat-test.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts",
           "resolved": "__unresolved_27",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1814
+              "column": 2204
             },
             "end": {
               "line": 5,
-              "column": 1862
+              "column": 2267
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/enemybullet.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemybullet.ts",
           "resolved": "__unresolved_28",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1878
+              "column": 2283
             },
             "end": {
               "line": 5,
-              "column": 1927
+              "column": 2347
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/enemylandmine.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemylandmine.ts",
           "resolved": "__unresolved_29",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1943
+              "column": 2363
             },
             "end": {
               "line": 5,
-              "column": 1994
+              "column": 2429
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/enemytank-001/enemyfire.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts",
           "resolved": "__unresolved_30",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2010
+              "column": 2445
             },
             "end": {
               "line": 5,
-              "column": 2071
+              "column": 2521
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/enemytank-001/enemytank-001.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts",
           "resolved": "__unresolved_31",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2087
+              "column": 2537
             },
             "end": {
               "line": 5,
-              "column": 2152
+              "column": 2617
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/enemytank-001/tietu.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/tietu.ts",
           "resolved": "__unresolved_32",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2168
+              "column": 2633
             },
             "end": {
               "line": 5,
-              "column": 2225
+              "column": 2705
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/enemytank-002/enemyfire.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts",
           "resolved": "__unresolved_33",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2241
+              "column": 2721
             },
             "end": {
               "line": 5,
-              "column": 2302
+              "column": 2797
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/enemytank-002/enemytank-002.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts",
           "resolved": "__unresolved_34",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2318
+              "column": 2813
             },
             "end": {
               "line": 5,
-              "column": 2383
+              "column": 2893
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/enemytank-002/tietu.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/tietu.ts",
           "resolved": "__unresolved_35",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2399
+              "column": 2909
             },
             "end": {
               "line": 5,
-              "column": 2456
+              "column": 2981
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/enemytank/enemyfire.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemyfire.ts",
           "resolved": "__unresolved_36",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2472
+              "column": 2997
             },
             "end": {
               "line": 5,
-              "column": 2529
+              "column": 3069
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/enemytank/enemytank.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemytank.ts",
           "resolved": "__unresolved_37",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2545
+              "column": 3085
             },
             "end": {
               "line": 5,
-              "column": 2602
+              "column": 3157
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/fireaffect0.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect0.ts",
           "resolved": "__unresolved_38",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2618
+              "column": 3173
             },
             "end": {
               "line": 5,
-              "column": 2667
+              "column": 3237
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/fireaffect1.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect1.ts",
           "resolved": "__unresolved_39",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2683
+              "column": 3253
             },
             "end": {
               "line": 5,
-              "column": 2732
+              "column": 3317
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/firedirection0.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection0.ts",
           "resolved": "__unresolved_40",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2748
+              "column": 3333
             },
             "end": {
               "line": 5,
-              "column": 2800
+              "column": 3400
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/firedirection1.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection1.ts",
           "resolved": "__unresolved_41",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2816
+              "column": 3416
             },
             "end": {
               "line": 5,
-              "column": 2868
+              "column": 3483
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/fort.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fort.ts",
           "resolved": "__unresolved_42",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2884
+              "column": 3499
             },
             "end": {
               "line": 5,
-              "column": 2926
+              "column": 3556
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/hp0.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp0.ts",
           "resolved": "__unresolved_43",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2942
+              "column": 3572
             },
             "end": {
               "line": 5,
-              "column": 2983
+              "column": 3628
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/hp1.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp1.ts",
           "resolved": "__unresolved_44",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2999
+              "column": 3644
             },
             "end": {
               "line": 5,
-              "column": 3040
+              "column": 3700
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/landmine0%20copy.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0%20copy.ts",
           "resolved": "__unresolved_45",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3056
+              "column": 3716
             },
             "end": {
               "line": 5,
-              "column": 3110
+              "column": 3785
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/landmine0.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0.ts",
           "resolved": "__unresolved_46",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3126
+              "column": 3801
             },
             "end": {
               "line": 5,
-              "column": 3173
+              "column": 3863
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/landmine1.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine1.ts",
           "resolved": "__unresolved_47",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3189
+              "column": 3879
             },
             "end": {
               "line": 5,
-              "column": 3236
+              "column": 3941
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/normalwall.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/normalwall.ts",
           "resolved": "__unresolved_48",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3252
+              "column": 3957
             },
             "end": {
               "line": 5,
-              "column": 3300
+              "column": 4020
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/obj-firefast.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-firefast.ts",
           "resolved": "__unresolved_49",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3316
+              "column": 4036
             },
             "end": {
               "line": 5,
-              "column": 3366
+              "column": 4101
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/obj-movefast.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-movefast.ts",
           "resolved": "__unresolved_50",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3382
+              "column": 4117
             },
             "end": {
               "line": 5,
-              "column": 3432
+              "column": 4182
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/playerfire.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/playerfire.ts",
           "resolved": "__unresolved_51",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3448
+              "column": 4198
             },
             "end": {
               "line": 5,
-              "column": 3496
+              "column": 4261
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/specialwall.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/specialwall.ts",
           "resolved": "__unresolved_52",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3512
+              "column": 4277
             },
             "end": {
               "line": 5,
-              "column": 3561
+              "column": 4341
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/speedaffect0.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect0.ts",
           "resolved": "__unresolved_53",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3577
+              "column": 4357
             },
             "end": {
               "line": 5,
-              "column": 3627
+              "column": 4422
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/speedaffect1.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect1.ts",
           "resolved": "__unresolved_54",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3643
+              "column": 4438
             },
             "end": {
               "line": 5,
-              "column": 3693
+              "column": 4503
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/tank0.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts",
           "resolved": "__unresolved_55",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3709
+              "column": 4519
             },
             "end": {
               "line": 5,
-              "column": 3752
+              "column": 4577
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/tank1.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts",
           "resolved": "__unresolved_56",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3768
+              "column": 4593
             },
             "end": {
               "line": 5,
-              "column": 3811
+              "column": 4651
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/tankdestroy.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tankdestroy.ts",
           "resolved": "__unresolved_57",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3827
+              "column": 4667
             },
             "end": {
               "line": 5,
-              "column": 3876
+              "column": 4731
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/tietu.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tietu.ts",
           "resolved": "__unresolved_58",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3892
+              "column": 4747
             },
             "end": {
               "line": 5,
-              "column": 3935
+              "column": 4805
             }
           }
         },
         {
-          "value": "file:///D:/demo3/TK2/assets/text/victory.ts",
+          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/victory.ts",
           "resolved": "__unresolved_59",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3951
+              "column": 4821
             },
             "end": {
               "line": 5,
-              "column": 3996
+              "column": 4881
             }
           }
         }
@@ -1496,413 +1496,413 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/HLB.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/HLB.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/LB.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/Loading.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Loading.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/PassInf.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/SLB.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/SLB.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/change0.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/change1.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/double.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/easy.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/endgame.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/endgame.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/esc.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/esc.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/hard.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/log.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/pause.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/reStart.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/returnlog.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/returnselect.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/select.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/shut.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/shut.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/time01.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time01.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/time11.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time11.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/Scripts/welcome.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/welcome.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/AudioManeger.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/AudioManeger.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/background.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/background.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/bullet0.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/bullet1.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/cheat-test.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/enemybullet.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemybullet.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/enemylandmine.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemylandmine.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/enemytank-001/enemyfire.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/enemytank-001/enemytank-001.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/enemytank-001/tietu.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/tietu.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/enemytank-002/enemyfire.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/enemytank-002/enemytank-002.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/enemytank-002/tietu.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/tietu.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/enemytank/enemyfire.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemyfire.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/enemytank/enemytank.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemytank.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/fireaffect0.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/fireaffect1.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/firedirection0.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/firedirection1.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/fort.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fort.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/hp0.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/hp1.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/landmine0%20copy.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0%20copy.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/landmine0.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/landmine1.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/normalwall.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/normalwall.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/obj-firefast.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-firefast.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/obj-movefast.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-movefast.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/playerfire.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/playerfire.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/specialwall.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/specialwall.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/speedaffect0.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/speedaffect1.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/tank0.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/tank1.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/tankdestroy.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tankdestroy.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/tietu.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tietu.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/demo3/TK2/assets/text/victory.ts"
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/victory.ts"
           },
           "messages": []
         }
@@ -1910,7 +1910,7 @@
     },
     "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
       "mTimestamp": {
-        "mtime": 1720677402583.198,
+        "mtime": 1719805901638.912,
         "uuid": "b2bd1fa7-8d7c-49c5-a158-df29a6d3a594"
       },
       "chunkId": "c8b6a709c03b1f3a3069932b4b22bfbc5834b962",
@@ -2169,7 +2169,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1720698667843,
+      "mTimestamp": 1720748056920,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -16589,6 +16589,4488 @@
           "resolved": {
             "type": "module",
             "url": "file:///D:/demo3/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/HLB.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253585.3857,
+        "uuid": "a3b84074-c707-4d6d-9eae-0dc158956fc4"
+      },
+      "chunkId": "c311a1ec136adbd232f88eb11084ad071c7814fd",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253585.3857,
+        "uuid": "022ad31a-5b4a-45fb-b36a-56722cc4d736"
+      },
+      "chunkId": "461e3d4116c4ccec0c7ec0986705cb4badad788e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 80
+            },
+            "end": {
+              "line": 1,
+              "column": 84
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Loading.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253585.3857,
+        "uuid": "45e19a0e-19cd-47a7-91ff-efa5210f49f7"
+      },
+      "chunkId": "cee1715286e0e363dc4d64fb27a5f63e8083f065",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 67
+            },
+            "end": {
+              "line": 1,
+              "column": 71
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253585.3857,
+        "uuid": "1fe4e814-6472-46a2-a93c-4141761759a6"
+      },
+      "chunkId": "5bd03b5ed97e255139f2433dbe4cf10d03913e0a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/SLB.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253585.3857,
+        "uuid": "b47f47d6-afa0-42be-b5ff-97d13b982902"
+      },
+      "chunkId": "77f441b2fef7f2c65417400892298bb26589fc72",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 26
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change0.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253588.7676,
+        "uuid": "1719ec0a-1523-4149-84be-06f4ea4ac6d3"
+      },
+      "chunkId": "7b154a5ae9965a41b62fd18408a8794ee59afa84",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 72
+            },
+            "end": {
+              "line": 1,
+              "column": 76
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change1.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253588.7676,
+        "uuid": "ce069bfa-3bbe-46f6-9c68-07c92c5a44db"
+      },
+      "chunkId": "af2f7885356adc40006fc705b31411a1a8a7c666",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 72
+            },
+            "end": {
+              "line": 1,
+              "column": 76
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253588.7676,
+        "uuid": "0370a831-3f9e-4fa3-b785-327282c5f9e8"
+      },
+      "chunkId": "520a8a929b5ccff56cd2ab4cc99398dc992b01be",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253590.7876,
+        "uuid": "1c2aa0ab-07a1-4d07-9bdf-cb237e5f50b4"
+      },
+      "chunkId": "4394ddbff19ebbdfb8dcb70f426f7110e17c8c85",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/endgame.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253590.7876,
+        "uuid": "8abae688-1282-4103-be51-6c90b8514c81"
+      },
+      "chunkId": "4286aa4f6d2d0481f325c0ebf38573279b9438de",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 64
+            },
+            "end": {
+              "line": 1,
+              "column": 68
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/esc.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253590.7876,
+        "uuid": "37eb1a04-6317-47bf-bb42-ea3d421539b0"
+      },
+      "chunkId": "01b2b3ca7b2de28e1aa16272590025714091bbdc",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 100
+            },
+            "end": {
+              "line": 1,
+              "column": 104
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253590.7876,
+        "uuid": "62e26f9a-508f-4ab8-8d7c-6de5471415bd"
+      },
+      "chunkId": "98000517e89d28a83fd2aff19dd7420b61ac5e51",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253590.7876,
+        "uuid": "c0d874b8-7781-4364-a158-9e2bec11454a"
+      },
+      "chunkId": "82c62b73fcb50324ad75b45a186e88a91499d49b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 71
+            },
+            "end": {
+              "line": 1,
+              "column": 75
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253590.7876,
+        "uuid": "1be0ecb3-4616-4119-8f11-962e875d2220"
+      },
+      "chunkId": "057bfc23aac86075a96093bb82245b4309585d05",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 129
+            },
+            "end": {
+              "line": 1,
+              "column": 133
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253590.7876,
+        "uuid": "6f9fcabe-e920-4453-95c6-2151b6e1006d"
+      },
+      "chunkId": "6cf21e81582232dd2446393c126b03c349a6ed17",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 60
+            },
+            "end": {
+              "line": 1,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253595.036,
+        "uuid": "a189430a-0628-4266-acb3-0928040a9813"
+      },
+      "chunkId": "ffaf4b61ac8c2ee45c7e0b2e91b10569547cf751",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253595.036,
+        "uuid": "310575db-eb3c-4d6b-9e70-d39d9c2f83c4"
+      },
+      "chunkId": "4308ebe7e2b6cf0aae1e78ef68ad654fdd08fbd0",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253596.0405,
+        "uuid": "9acb61b4-461b-40b5-beb5-680b75075740"
+      },
+      "chunkId": "7bb01753d46d431c135108c45dac592bf8fdbab7",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/shut.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253596.5312,
+        "uuid": "eeb3c5fd-16a2-4efc-93d2-e772dde7fd72"
+      },
+      "chunkId": "84e88b19775db5004346f920b7cc60b9ddd2851f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time01.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253597.9172,
+        "uuid": "6430be03-fcf3-4236-b9ed-af8e3ab624ce"
+      },
+      "chunkId": "808f2e6bbb39b5fdaf1084775ac6ce5ceb99d794",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 59
+            },
+            "end": {
+              "line": 1,
+              "column": 63
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time11.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253598.9543,
+        "uuid": "078c8ab7-7e9b-4b36-91ad-f3feb82afc4d"
+      },
+      "chunkId": "d9a431204bc1222e1442367682f31d92dde2d592",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 58
+            },
+            "end": {
+              "line": 1,
+              "column": 62
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/welcome.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253598.9543,
+        "uuid": "c4498d13-2555-4639-bb4a-f0fe9a14fb41"
+      },
+      "chunkId": "18d6f81fafb735ff5165417629a8d7a574255e42",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 83
+            },
+            "end": {
+              "line": 1,
+              "column": 87
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/AudioManeger.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253875.07,
+        "uuid": "b35888f9-f87e-4036-9abb-f2acbbbab28a"
+      },
+      "chunkId": "9af76d9d2b15affa1a2f903add3816cb4ed31415",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/background.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253879.456,
+        "uuid": "b50dccee-a23f-4bd3-aff8-f67067d0d69b"
+      },
+      "chunkId": "4e4fb4326076109be4b4ef643f2ab368d7aed16d",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 61
+            },
+            "end": {
+              "line": 1,
+              "column": 65
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet0.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253879.456,
+        "uuid": "82eb8b8b-d44e-40ea-a107-a24ff1bfa5b0"
+      },
+      "chunkId": "4332a73e50ab84c0bf2c84f68a8b591ed4f5277e",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 78
+            },
+            "end": {
+              "line": 1,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253900.6716,
+        "uuid": "20c591ef-2140-4806-bea8-a7519cd3af9d"
+      },
+      "chunkId": "bf8fdfe83a75b46fc0b2199674d76f5403d8c268",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 194
+            },
+            "end": {
+              "line": 1,
+              "column": 198
+            }
+          }
+        },
+        {
+          "value": "./firedirection1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 21
+            },
+            "end": {
+              "line": 3,
+              "column": 25
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection1.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection1.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253892.9553,
+        "uuid": "acf90797-a929-4d3d-8920-3d19cf3e3fe2"
+      },
+      "chunkId": "5b38a83354cd7d72ecad4011cd3d8b602d2e3124",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 171
+            },
+            "end": {
+              "line": 1,
+              "column": 175
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet1.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253881.4595,
+        "uuid": "f16fb09b-91b4-4c02-a6b3-6e460f7ab65c"
+      },
+      "chunkId": "23539d9987f3f1c599c4987a24a128c5a5927cec",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 78
+            },
+            "end": {
+              "line": 1,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253900.6716,
+        "uuid": "3f68566e-2dce-4cb2-9ea6-e66931227e03"
+      },
+      "chunkId": "ebe67a809c67172727d963fb5fc5d9d04513eccf",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 178
+            },
+            "end": {
+              "line": 1,
+              "column": 182
+            }
+          }
+        },
+        {
+          "value": "./firedirection0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 21
+            },
+            "end": {
+              "line": 3,
+              "column": 25
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection0.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253892.9553,
+        "uuid": "03b5b70c-f874-4daf-a3ab-5f8ecd787a7f"
+      },
+      "chunkId": "b19399a85a9b54c1399a3c3fbb74bdb0023a7541",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 171
+            },
+            "end": {
+              "line": 1,
+              "column": 175
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253881.4595,
+        "uuid": "e5373e99-7c5d-4fae-8e0c-5e723ffc57e8"
+      },
+      "chunkId": "46239a80cdb1c7e5dbc09e7c6a00d002a9803e3e",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 116
+            },
+            "end": {
+              "line": 1,
+              "column": 120
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemybullet.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253882.9202,
+        "uuid": "592eabdc-b225-428e-b0aa-17cb6505de82"
+      },
+      "chunkId": "4b54b2976b5544e5c1ccad5ae5dcacb7881f42d3",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 78
+            },
+            "end": {
+              "line": 1,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemylandmine.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253882.9202,
+        "uuid": "d1cb891b-c74d-4c80-b9d7-f1985b3100ee"
+      },
+      "chunkId": "f41f8e0fe6f84de545cf8a67363e0687483c537a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 132
+            },
+            "end": {
+              "line": 1,
+              "column": 136
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253884.7737,
+        "uuid": "1c89292b-0aa1-4687-aa50-51676c1a1590"
+      },
+      "chunkId": "b48ce29e188eff380952fa93ed9248508a93208a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 158
+            },
+            "end": {
+              "line": 1,
+              "column": 162
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "./enemytank-001",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 30
+            },
+            "end": {
+              "line": 3,
+              "column": 47
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253885.4097,
+        "uuid": "c6da3fe1-9208-4a9c-8a7f-b65375843509"
+      },
+      "chunkId": "7e16650dd743bc50b622d9fd9ae3022430e21721",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 212
+            },
+            "end": {
+              "line": 1,
+              "column": 216
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/tietu.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253886.0742,
+        "uuid": "3d4b6962-034e-4cbd-8bcf-0edbe86d0c82"
+      },
+      "chunkId": "ffdf64ea1aaf21fad5facac0b60d068d09443a30",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 212
+            },
+            "end": {
+              "line": 1,
+              "column": 216
+            }
+          }
+        },
+        {
+          "value": "./enemyfire",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253886.0742,
+        "uuid": "ef728298-d7c9-4679-824d-d28bbbd4f082"
+      },
+      "chunkId": "b615068c3fb1ff36ef8d7bee6bf641097fd3e089",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 158
+            },
+            "end": {
+              "line": 1,
+              "column": 162
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "./enemytank-002",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 30
+            },
+            "end": {
+              "line": 3,
+              "column": 47
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253888.3064,
+        "uuid": "77557fef-f28d-42ba-b679-4e46d95edf1a"
+      },
+      "chunkId": "1bf63e7083ad6296ecb5e3e57b38311e81627d50",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 212
+            },
+            "end": {
+              "line": 1,
+              "column": 216
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/tietu.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253888.3064,
+        "uuid": "4bdb173f-400a-4ff4-8c48-2671a91b3978"
+      },
+      "chunkId": "8d88e73408238e9b8df97fb1bdc15012780e79c8",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 212
+            },
+            "end": {
+              "line": 1,
+              "column": 216
+            }
+          }
+        },
+        {
+          "value": "./enemyfire",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemyfire.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253889.8105,
+        "uuid": "330896a6-c06b-4c52-893b-afaad8409291"
+      },
+      "chunkId": "6990d3a85fa5b78e1f9f19ba3ccef30311e765d7",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 158
+            },
+            "end": {
+              "line": 1,
+              "column": 162
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "./enemytank",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 26
+            },
+            "end": {
+              "line": 3,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemytank.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemytank.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253890.744,
+        "uuid": "d96d38fa-d13f-4da1-a6a2-26bdf7b737e3"
+      },
+      "chunkId": "a5ec2d9826fb790f153b492b40de2b881489465c",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 206
+            },
+            "end": {
+              "line": 1,
+              "column": 210
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect0.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253891.3274,
+        "uuid": "2ebc0a9f-5ad0-46e2-a4ae-2e5be51589e9"
+      },
+      "chunkId": "364887c2bdfada2a6e617698ac7fed790a33331b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./firedirection0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect1.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253892.4067,
+        "uuid": "00014a5f-125d-4c64-972b-4d11412c78d8"
+      },
+      "chunkId": "99701bebea22da6a7b5f886ecdce4e27d87e4cd0",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./firedirection1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fort.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253894.1777,
+        "uuid": "a32db6d4-7793-4dc3-a694-fb8dc8ce3111"
+      },
+      "chunkId": "97222b96a601caeb4170c59184529e5aaf510d1b",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 244
+            },
+            "end": {
+              "line": 1,
+              "column": 248
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp0.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253894.1777,
+        "uuid": "14976f41-8bb2-4b94-b7c1-fe380df4a35a"
+      },
+      "chunkId": "d30ef6b0afd509ad00693b36d4f7a9cc54df7fca",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp1.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253895.4067,
+        "uuid": "16f403da-6b9c-45ef-81f6-128d67a05bf0"
+      },
+      "chunkId": "723f9734dbed06c497c025664a326483f65d0df7",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0%20copy.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253895.4067,
+        "uuid": "b1a54b12-fc79-4df3-a4f2-d20b3ec80ea8"
+      },
+      "chunkId": "3b4018321e6b3e2d43034e5417b7d4bf880a34b2",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 132
+            },
+            "end": {
+              "line": 1,
+              "column": 136
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253895.4067,
+        "uuid": "88fa8d72-bb43-4827-ab04-7642facb86ee"
+      },
+      "chunkId": "6b6aca1642621baa08adde6c0ba402f9049a8a6b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 132
+            },
+            "end": {
+              "line": 1,
+              "column": 136
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine1.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253897.911,
+        "uuid": "a45ae2c3-3e67-4bc5-b51a-4059dedf7c10"
+      },
+      "chunkId": "8fe7c5f088bdfabcbbf161f154e94e2c58976e55",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 132
+            },
+            "end": {
+              "line": 1,
+              "column": 136
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/normalwall.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253899.0708,
+        "uuid": "fbe250b1-87fa-4ae2-ad8d-019463cf0bec"
+      },
+      "chunkId": "9ece341ac2d1a49d69b4258930edf4f492a0e075",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-firefast.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253899.0708,
+        "uuid": "16e0d0d3-919c-4e68-85ba-456f9c957156"
+      },
+      "chunkId": "fe02ac398e2b83f63d66051682fdd9d970450301",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 96
+            },
+            "end": {
+              "line": 1,
+              "column": 100
+            }
+          }
+        },
+        {
+          "value": "./firedirection0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./firedirection1",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 31
+            },
+            "end": {
+              "line": 3,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./playerfire",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 27
+            },
+            "end": {
+              "line": 4,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection1.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/playerfire.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/playerfire.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253900.6716,
+        "uuid": "b519287e-b6f9-4be4-af4e-c347858ca624"
+      },
+      "chunkId": "a53a7aa5ffd3e2f72fd447b6e51475f30fd105e7",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 206
+            },
+            "end": {
+              "line": 1,
+              "column": 210
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-movefast.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253900.144,
+        "uuid": "d97475ad-cfc1-4cd4-9610-adb598f10e24"
+      },
+      "chunkId": "ba8d896a1b94dbc23e3f2cda634e72f737ef5028",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 96
+            },
+            "end": {
+              "line": 1,
+              "column": 100
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/specialwall.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253900.6716,
+        "uuid": "acd0e859-2f9d-48e7-86ef-f0f36fff76b5"
+      },
+      "chunkId": "ded639829886cb20eb7360bb2d9bba1a725585d9",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 61
+            },
+            "end": {
+              "line": 1,
+              "column": 65
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect0.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253900.6716,
+        "uuid": "b4a9900c-93e4-4dd4-aa75-7f8525854d2a"
+      },
+      "chunkId": "6ab9c264622c6acce6e9b42c67c47e354fe432a2",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 52
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect1.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253900.6716,
+        "uuid": "c2ec48c9-53e8-4388-aa60-71d8e5d0e67e"
+      },
+      "chunkId": "38f8780a00fb45d5cb4c58aed6f846821096aea6",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tankdestroy.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253900.6716,
+        "uuid": "52691598-1f1c-4f3f-9f1d-07cfd092f215"
+      },
+      "chunkId": "5f7467ad2757ea0b6ca3c7593c5d2bb4dc1bdfd6",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tietu.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253900.6716,
+        "uuid": "da26308d-0534-4a7c-bf71-3ae5ea9ebaa1"
+      },
+      "chunkId": "6c7757b16e9342b9c34ee750af3a6d6ad75ce6ef",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 212
+            },
+            "end": {
+              "line": 1,
+              "column": 216
+            }
+          }
+        },
+        {
+          "value": "./enemytank/enemyfire",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemyfire.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/victory.ts": {
+      "mTimestamp": {
+        "mtime": 1720747253905.93,
+        "uuid": "06ffd294-885b-4a68-b096-3a30290411f3"
+      },
+      "chunkId": "590727a67fa18b3a78f5c096a03e6944a723548f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 53
+            },
+            "end": {
+              "line": 1,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "./tank0",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./tank1",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts"
           },
           "messages": []
         }

@@ -1,0 +1,411 @@
+2024-7-12 09:34:15 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine
+2024-7-12 09:34:16 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+2024-7-12 09:34:16 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native
+2024-7-12 09:34:17 - log: Request namespace: device-list
+2024-7-12 09:34:57 - log: [Scene] meshopt wasm decoder initialized
+2024-7-12 09:34:57 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2024-7-12 09:34:57 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2024-7-12 09:34:57 - log: [Scene] [PHYSICS]: using builtin.
+2024-7-12 09:34:58 - log: [Scene] Cocos Creator v3.8.3
+2024-7-12 09:34:58 - info: [Scene] Forward render pipeline initialized.
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/01/01b2b3ca7b2de28e1aa16272590025714091bbdc.js:23:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/01/01b2b3ca7b2de28e1aa16272590025714091bbdc.js:23:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/5b/5b38a83354cd7d72ecad4011cd3d8b602d2e3124.js:40:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/5b/5b38a83354cd7d72ecad4011cd3d8b602d2e3124.js:40:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/bf/bf8fdfe83a75b46fc0b2199674d76f5403d8c268.js:39:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/bf/bf8fdfe83a75b46fc0b2199674d76f5403d8c268.js:39:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/b1/b19399a85a9b54c1399a3c3fbb74bdb0023a7541.js:40:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/b1/b19399a85a9b54c1399a3c3fbb74bdb0023a7541.js:40:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/eb/ebe67a809c67172727d963fb5fc5d9d04513eccf.js:39:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/eb/ebe67a809c67172727d963fb5fc5d9d04513eccf.js:39:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] You are explicitly specifying `undefined` type to cc property "tanklife" of cc class "PlayerController0".
+Is this intended? If not, this may indicate a circular reference.
+For example:
+
+ 
+// foo.ts
+import { _decorator } from 'cc';
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
+                              // When importing './bar', execution of './bar' is hung on to wait execution of 'foo.ts',
+                              // the `Bar` imported here is `undefined` until './bar' finish its execution.
+                              // It leads to that
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
+    public bar: Bar;          // To eliminate this error, either:
+                              // - Refactor your module structure(recommended), or
+                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
+}Error: [Scene] You are explicitly specifying `undefined` type to cc property "tanklife" of cc class "PlayerController0".
+Is this intended? If not, this may indicate a circular reference.
+For example:
+
+ 
+// foo.ts
+import { _decorator } from 'cc';
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
+    public bar: Bar;          // To eliminate this error, either:
+                              // - Refactor your module structure(recommended), or
+                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
+}
+    at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:487)
+    at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)
+    at console.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at parseAttributes (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:141172:7)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:140919:5)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:141083:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:141108:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272931:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/46/46239a80cdb1c7e5dbc09e7c6a00d002a9803e3e.js:39:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEventType' is deprecated since v3.3.0, please use 'Input.EventType' instead.Error: [Scene] 'SystemEventType' is deprecated since v3.3.0, please use 'Input.EventType' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/46/46239a80cdb1c7e5dbc09e7c6a00d002a9803e3e.js:39:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/7e/7e16650dd743bc50b622d9fd9ae3022430e21721.js:30:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/7e/7e16650dd743bc50b622d9fd9ae3022430e21721.js:30:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/b4/b48ce29e188eff380952fa93ed9248508a93208a.js:37:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/b4/b48ce29e188eff380952fa93ed9248508a93208a.js:37:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/ff/ffdf64ea1aaf21fad5facac0b60d068d09443a30.js:27:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/ff/ffdf64ea1aaf21fad5facac0b60d068d09443a30.js:27:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/1b/1bf63e7083ad6296ecb5e3e57b38311e81627d50.js:30:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/1b/1bf63e7083ad6296ecb5e3e57b38311e81627d50.js:30:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/b6/b615068c3fb1ff36ef8d7bee6bf641097fd3e089.js:37:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/b6/b615068c3fb1ff36ef8d7bee6bf641097fd3e089.js:37:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/8d/8d88e73408238e9b8df97fb1bdc15012780e79c8.js:27:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/8d/8d88e73408238e9b8df97fb1bdc15012780e79c8.js:27:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/a5/a5ec2d9826fb790f153b492b40de2b881489465c.js:30:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/a5/a5ec2d9826fb790f153b492b40de2b881489465c.js:30:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/69/6990d3a85fa5b78e1f9f19ba3ccef30311e765d7.js:37:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/69/6990d3a85fa5b78e1f9f19ba3ccef30311e765d7.js:37:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/97/97222b96a601caeb4170c59184529e5aaf510d1b.js:31:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/97/97222b96a601caeb4170c59184529e5aaf510d1b.js:31:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/a5/a53a7aa5ffd3e2f72fd447b6e51475f30fd105e7.js:41:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/a5/a53a7aa5ffd3e2f72fd447b6e51475f30fd105e7.js:41:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/6c/6c7757b16e9342b9c34ee750af3a6d6ad75ce6ef.js:27:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
+    at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
+    at Object.execute (file:///C:/Users/HUAWEI/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/6c/6c7757b16e9342b9c34ee750af3a6d6ad75ce6ef.js:27:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-7-12 09:34:58 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2024-7-12 09:35:29 - log: (Info) Hardware profile: None
+(Info) PVRVFrame version 10.8
+
+2024-7-12 09:35:29 - log: 09:35:27 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+09:35:27 [DEBUG]: WORKAREA WIDTH 1672.00, HEIGHT 1021.00
+09:35:27 [DEBUG]: FRAME SCALE = 1.00
+09:35:27 [DEBUG]: Project Config:
+09:35:27 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\simulator\Release\
+09:35:27 [DEBUG]:     writable path: $(PROJDIR)\
+09:35:27 [DEBUG]:     script file: $(PROJDIR)\main.js
+09:35:27 [DEBUG]:     frame size: 852 x 393
+09:35:27 [DEBUG]:     frame scale: 1.00
+09:35:27 [DEBUG]:     show console: NO
+09:35:27 [DEBUG]:     write debug log: NO ()
+09:35:27 [DEBUG]:     listen: 
+09:35:27 [DEBUG]:     debugger: none
+09:35:27 [DEBUG]:     add searching path:
+09:35:27 [DEBUG]: 
+
+
+09:35:27 [DEBUG]: [WARNING]:not find lang
+09:35:27 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+09:35:27 [DEBUG]: EGL context bounded to thread 90c0cab249c3f27
+09:35:27 [INFO]: GLES3 device initialized.
+09:35:27 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : Intel(R) Iris(R) Xe Graphics) (SDK Build: 18.1@5086772)
+09:35:27 [INFO]: VENDOR: Imagination Technologies (Host: Intel)
+09:35:27 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 - Build 31.0.101.4146)
+09:35:27 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+09:35:27 [INFO]: FRAMEBUFFER_FETCH: NONE
+09:35:27 [INFO]: MULTI_SAMPLE_RENDER_TO_TEXTURE: NONE
+09:35:27 [INFO]: Device validator enabled.
+09:35:27 [DEBUG]: D/ Initializing V8, version: 11.6.189.22
+
+09:35:27 [DEBUG]: D/ libuv version: 1.41.0
+
+09:35:27 [DEBUG]: D/ Number of interfaces: 6
+09:35:27 [DEBUG]: D/ Debugger listening..., visit [
+09:35:27 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+09:35:27 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=10.128.27.16:5086/00010002-0003-4004-8005-000600070008
+09:35:27 [DEBUG]: D/   ] in chrome browser to debug!
+09:35:27 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+09:35:27 [INFO]: JS: injectWebAssembly ...
+09:35:27 [DEBUG]: In the constructor of HttpClient!
+09:35:27 [DEBUG]: iShow!
+09:35:27 [DEBUG]: EventBus[Engine] has no listener found!
+09:35:28 [DEBUG]: JS: httpHandler: http://10.128.27.16:7456/scripting/x/chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js
+09:35:29 [WARN]: JS: Failed to set shading scale, pipelineSceneData is invalid.
+09:35:29 [WARN]: JS: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
+09:35:29 [DEBUG]: JS: [PHYSICS2D]: register box2d.
+09:35:29 [DEBUG]: EGL context bounded to thread adf9752563600ce9
+09:35:29 [INFO]: Device thread detached.
+09:35:29 [DEBUG]: HttpClient::destroyInstance begin
+09:35:29 [DEBUG]: HttpClient::destroyInstance() finished!
+09:35:29 [DEBUG]: D/ ScriptEngine::cleanup begin ...
+
+09:35:29 [DEBUG]: D/ GC begin ..., (js->native map) size: 32
+
+09:35:29 [DEBUG]: HttpClient destructor
+09:35:29 [DEBUG]: D/ XMLHttpRequest_finalize, 0000019F475A2050 ... 
+
+09:35:29 [DEBUG]: D/ XMLHttpRequest_finalize, 0000019FCA107C20 ... 
+
+09:35:29 [DEBUG]: D/ GC end ..., (js->native map) size: 29
+
+09:35:29 [DEBUG]: D/ GC begin ..., (js->native map) size: 29
+
+09:35:29 [DEBUG]: D/ GC end ..., (js->native map) size: 29
+
+09:35:29 [DEBUG]: D/ XMLHttpRequest_finalize, 0000019F47625D80 ... 
+
+09:35:29 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
+
+09:35:29 [DEBUG]: D/ GC end ..., (js->native map) size: 0
+
+09:35:29 [DEBUG]: D/ ScriptEngine::cleanup end ...
+
+09:35:29 [DEBUG]: EGL context bounded to thread adf9752563600ce9
+
+2024-7-12 09:36:21 - warn: [Scene] Can't add renderable component to this node because it already have one.Error: [Scene] Can't add renderable component to this node because it already have one.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at NodeUIProperties.set uiComp [as uiComp] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41745:13)
+    at Sprite.__preload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:96748:37)
+    at Sprite.__preload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:94470:17)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40444:171)
+    at UnsortedInvoker.eval [as _invoke] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38380:9)
