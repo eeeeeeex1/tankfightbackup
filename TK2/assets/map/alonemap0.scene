@@ -3053,7 +3053,7 @@
     "value": {
       "__type__": "cc.Size",
       "width": 30,
-      "height": 30
+      "height": 150
     }
   },
   {
@@ -18753,7 +18753,7 @@
     "value": {
       "__type__": "cc.Size",
       "width": 30,
-      "height": 30
+      "height": 150
     }
   },
   {
@@ -47702,7 +47702,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "normalwall-019"
+    "value": "normalwall"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -47907,7 +47907,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "normalwall-020"
+    "value": "normalwall"
   },
   {
     "__type__": "cc.TargetInfo",

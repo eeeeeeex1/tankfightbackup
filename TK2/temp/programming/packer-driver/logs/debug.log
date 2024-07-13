@@ -3748,3 +3748,433 @@ Feature changed: false
 17:11:25 debug: Resolve file:///D:/demo3/TK2/assets/text/tietu.ts from cce:/internal/x/prerequisite-imports as file:///D:/demo3/TK2/assets/text/tietu.ts.
 17:11:25 debug: Resolve file:///D:/demo3/TK2/assets/text/victory.ts from cce:/internal/x/prerequisite-imports as file:///D:/demo3/TK2/assets/text/victory.ts.
 17:11:25 debug: Target(preview) ends with cost 141.84559999406338ms.
+11:46:11 debug: Dispatch build request for time accumulated 1 asset changes.
+11:46:11 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+11:46:11 debug: Target(editor) build started.
+11:46:11 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:23 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:42:14 GMT+0800 (中国标准时间)
+11:46:11 debug: Inspect cce:/internal/x/prerequisite-imports
+11:46:13 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:46:13 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/HLB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/HLB.ts.
+11:46:13 debug: Dispatch build request for time accumulated 13 asset changes.
+11:46:13 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts.
+11:46:13 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@022ad31a-5b4a-45fb-b36a-56722cc4d736, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@022ad31a-5b4a-45fb-b36a-56722cc4d736
+11:46:13 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts
+11:46:13 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts as cce:/internal/x/cc.
+11:46:13 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts as cce:/internal/x/cc.
+11:46:13 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts as cce:/internal/x/cc.
+11:46:13 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Loading.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Loading.ts.
+11:46:13 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts.
+11:46:13 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts.
+11:46:13 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts
+11:46:13 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts as cce:/internal/code-quality/cr.mjs.
+11:46:13 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts as cce:/internal/x/cc.
+11:46:13 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts as cce:/internal/x/cc.
+11:46:13 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts as cce:/internal/x/cc.
+11:46:13 debug: Resolve ./PassInf from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts.
+11:46:13 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/SLB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/SLB.ts.
+11:46:13 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change0.ts.
+11:46:13 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change1.ts.
+11:46:13 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts.
+11:46:13 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@0370a831-3f9e-4fa3-b785-327282c5f9e8, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@0370a831-3f9e-4fa3-b785-327282c5f9e8
+11:46:13 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts
+11:46:14 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts as cce:/internal/x/cc.
+11:46:14 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts as cce:/internal/x/cc.
+11:46:14 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts as cce:/internal/x/cc.
+11:46:14 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts.
+11:46:14 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@1c2aa0ab-07a1-4d07-9bdf-cb237e5f50b4, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@1c2aa0ab-07a1-4d07-9bdf-cb237e5f50b4
+11:46:14 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts
+11:46:14 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts as cce:/internal/x/cc.
+11:46:14 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts as cce:/internal/x/cc.
+11:46:14 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts as cce:/internal/x/cc.
+11:46:14 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/endgame.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/endgame.ts.
+11:46:14 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/esc.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/esc.ts.
+11:46:14 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts.
+11:46:14 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@62e26f9a-508f-4ab8-8d7c-6de5471415bd, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@62e26f9a-508f-4ab8-8d7c-6de5471415bd
+11:46:14 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts
+11:46:14 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts as cce:/internal/x/cc.
+11:46:14 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts as cce:/internal/x/cc.
+11:46:14 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts as cce:/internal/x/cc.
+11:46:14 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts.
+11:46:14 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@c0d874b8-7781-4364-a158-9e2bec11454a, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@c0d874b8-7781-4364-a158-9e2bec11454a
+11:46:14 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts
+11:46:14 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts as cce:/internal/code-quality/cr.mjs.
+11:46:14 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts as cce:/internal/x/cc.
+11:46:14 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts as cce:/internal/x/cc.
+11:46:14 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts as cce:/internal/x/cc.
+11:46:14 debug: Resolve ./PassInf from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts.
+11:46:14 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts.
+11:46:14 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@1be0ecb3-4616-4119-8f11-962e875d2220, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@1be0ecb3-4616-4119-8f11-962e875d2220
+11:46:14 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts
+11:46:14 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts as cce:/internal/x/cc.
+11:46:14 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts as cce:/internal/x/cc.
+11:46:14 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts as cce:/internal/x/cc.
+11:46:14 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts.
+11:46:14 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@6f9fcabe-e920-4453-95c6-2151b6e1006d, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@6f9fcabe-e920-4453-95c6-2151b6e1006d
+11:46:14 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts
+11:46:15 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts as cce:/internal/code-quality/cr.mjs.
+11:46:15 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts as cce:/internal/x/cc.
+11:46:15 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts as cce:/internal/x/cc.
+11:46:15 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts as cce:/internal/x/cc.
+11:46:15 debug: Resolve ./PassInf from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts.
+11:46:15 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@a189430a-0628-4266-acb3-0928040a9813, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@a189430a-0628-4266-acb3-0928040a9813
+11:46:15 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts
+11:46:15 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts as cce:/internal/x/cc.
+11:46:15 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts as cce:/internal/x/cc.
+11:46:15 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts as cce:/internal/x/cc.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts.
+11:46:15 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@310575db-eb3c-4d6b-9e70-d39d9c2f83c4, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@310575db-eb3c-4d6b-9e70-d39d9c2f83c4
+11:46:15 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts
+11:46:15 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts as cce:/internal/x/cc.
+11:46:15 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts as cce:/internal/x/cc.
+11:46:15 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts as cce:/internal/x/cc.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts.
+11:46:15 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@9acb61b4-461b-40b5-beb5-680b75075740, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@9acb61b4-461b-40b5-beb5-680b75075740
+11:46:15 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts
+11:46:15 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts as cce:/internal/code-quality/cr.mjs.
+11:46:15 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts as cce:/internal/x/cc.
+11:46:15 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts as cce:/internal/x/cc.
+11:46:15 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts as cce:/internal/x/cc.
+11:46:15 debug: Resolve ./PassInf from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/shut.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/shut.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time01.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time01.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time11.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time11.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/welcome.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/welcome.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/AudioManeger.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/AudioManeger.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/background.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/background.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet0.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet1.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts.
+11:46:15 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts. Last mtime: Fri Jul 12 2024 10:24:38 GMT+0800 (中国标准时间)@e5373e99-7c5d-4fae-8e0c-5e723ffc57e8, Current mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@e5373e99-7c5d-4fae-8e0c-5e723ffc57e8
+11:46:15 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts
+11:46:15 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts as cce:/internal/code-quality/cr.mjs.
+11:46:15 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts as cce:/internal/x/cc.
+11:46:15 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts as cce:/internal/x/cc.
+11:46:15 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts as cce:/internal/x/cc.
+11:46:15 debug: Resolve ./tank0 from file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemybullet.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemybullet.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemylandmine.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemylandmine.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/tietu.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/tietu.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemyfire.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemytank.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemytank.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect0.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect1.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection0.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection1.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fort.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fort.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp0.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp1.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0%20copy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0%20copy.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine1.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/normalwall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/normalwall.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-firefast.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-firefast.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-movefast.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-movefast.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/playerfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/playerfire.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/specialwall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/specialwall.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect0.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect1.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tankdestroy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tankdestroy.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tietu.ts.
+11:46:15 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/victory.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/victory.ts.
+11:46:15 debug: Target(editor) ends with cost 3995.6669999957085ms.
+11:46:15 debug: Target(preview) build started.
+11:46:15 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:23 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:42:18 GMT+0800 (中国标准时间)
+11:46:15 debug: Inspect cce:/internal/x/prerequisite-imports
+11:46:16 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/HLB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/HLB.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts.
+11:46:16 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@022ad31a-5b4a-45fb-b36a-56722cc4d736, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@022ad31a-5b4a-45fb-b36a-56722cc4d736
+11:46:16 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Loading.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Loading.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts.
+11:46:16 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts
+11:46:16 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts as cce:/internal/code-quality/cr.mjs.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve ./PassInf from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/SLB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/SLB.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change0.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change1.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts.
+11:46:16 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@0370a831-3f9e-4fa3-b785-327282c5f9e8, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@0370a831-3f9e-4fa3-b785-327282c5f9e8
+11:46:16 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts.
+11:46:16 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@1c2aa0ab-07a1-4d07-9bdf-cb237e5f50b4, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@1c2aa0ab-07a1-4d07-9bdf-cb237e5f50b4
+11:46:16 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/endgame.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/endgame.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/esc.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/esc.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts.
+11:46:16 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@62e26f9a-508f-4ab8-8d7c-6de5471415bd, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@62e26f9a-508f-4ab8-8d7c-6de5471415bd
+11:46:16 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts.
+11:46:16 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@c0d874b8-7781-4364-a158-9e2bec11454a, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@c0d874b8-7781-4364-a158-9e2bec11454a
+11:46:16 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts
+11:46:16 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts as cce:/internal/code-quality/cr.mjs.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve ./PassInf from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts.
+11:46:16 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@1be0ecb3-4616-4119-8f11-962e875d2220, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@1be0ecb3-4616-4119-8f11-962e875d2220
+11:46:16 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts.
+11:46:16 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@6f9fcabe-e920-4453-95c6-2151b6e1006d, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@6f9fcabe-e920-4453-95c6-2151b6e1006d
+11:46:16 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts
+11:46:16 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts as cce:/internal/code-quality/cr.mjs.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve ./PassInf from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts.
+11:46:16 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@a189430a-0628-4266-acb3-0928040a9813, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@a189430a-0628-4266-acb3-0928040a9813
+11:46:16 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts.
+11:46:16 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@310575db-eb3c-4d6b-9e70-d39d9c2f83c4, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@310575db-eb3c-4d6b-9e70-d39d9c2f83c4
+11:46:16 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts.
+11:46:16 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts. Last mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@9acb61b4-461b-40b5-beb5-680b75075740, Current mtime: Sat Jul 13 2024 11:44:04 GMT+0800 (中国标准时间)@9acb61b4-461b-40b5-beb5-680b75075740
+11:46:16 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts
+11:46:16 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts as cce:/internal/code-quality/cr.mjs.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve ./PassInf from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/shut.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/shut.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time01.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time01.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time11.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time11.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/welcome.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/welcome.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/AudioManeger.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/AudioManeger.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/background.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/background.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet0.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet1.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts.
+11:46:16 debug: Detected change: file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts. Last mtime: Fri Jul 12 2024 10:24:38 GMT+0800 (中国标准时间)@e5373e99-7c5d-4fae-8e0c-5e723ffc57e8, Current mtime: Fri Jul 12 2024 09:20:53 GMT+0800 (中国标准时间)@e5373e99-7c5d-4fae-8e0c-5e723ffc57e8
+11:46:16 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts
+11:46:16 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts as cce:/internal/code-quality/cr.mjs.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve ./tank0 from file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemybullet.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemybullet.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemylandmine.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemylandmine.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/tietu.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/tietu.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemyfire.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemytank.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemytank.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect0.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect1.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection0.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection1.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fort.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fort.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp0.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp1.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0%20copy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0%20copy.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine1.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/normalwall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/normalwall.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-firefast.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-firefast.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-movefast.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-movefast.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/playerfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/playerfire.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/specialwall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/specialwall.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect0.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect1.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tankdestroy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tankdestroy.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tietu.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/victory.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/victory.ts.
+11:46:16 debug: Target(preview) ends with cost 926.5145000219345ms.
+11:46:16 debug: Build iteration starts.
+Number of accumulated asset changes: 13
+Feature changed: false
+11:46:16 debug: Target(editor) build started.
+11:46:16 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:42:14 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:42:19 GMT+0800 (中国标准时间)
+11:46:16 debug: Inspect cce:/internal/x/prerequisite-imports
+11:46:16 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/HLB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/HLB.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Loading.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Loading.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/SLB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/SLB.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts.
+11:46:16 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts
+11:46:16 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts as cce:/internal/code-quality/cr.mjs.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve ./pause from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_pause.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_pause.ts.
+11:46:16 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_pause.ts
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_pause.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_pause.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_pause.ts as cce:/internal/x/cc.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change0.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change1.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/endgame.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/endgame.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/esc.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/esc.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/shut.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/shut.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time01.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time01.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time11.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time11.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/welcome.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/welcome.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/AudioManeger.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/AudioManeger.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/background.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/background.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet0.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet1.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts.
+11:46:16 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemybullet.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemybullet.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemylandmine.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemylandmine.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/tietu.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/tietu.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemyfire.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemytank.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemytank.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect0.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect1.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection0.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection1.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fort.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fort.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp0.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp1.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0%20copy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0%20copy.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine1.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/normalwall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/normalwall.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-firefast.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-firefast.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-movefast.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-movefast.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/playerfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/playerfire.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/specialwall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/specialwall.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect0.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect1.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tankdestroy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tankdestroy.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tietu.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/victory.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/victory.ts.
+11:46:17 debug: Target(editor) ends with cost 190.89899998903275ms.
+11:46:17 debug: Target(preview) build started.
+11:46:17 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:42:18 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:42:19 GMT+0800 (中国标准时间)
+11:46:17 debug: Inspect cce:/internal/x/prerequisite-imports
+11:46:17 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/HLB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/HLB.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Loading.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Loading.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/SLB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/SLB.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts.
+11:46:17 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts
+11:46:17 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts as cce:/internal/code-quality/cr.mjs.
+11:46:17 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts as cce:/internal/x/cc.
+11:46:17 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts as cce:/internal/x/cc.
+11:46:17 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts as cce:/internal/x/cc.
+11:46:17 debug: Resolve ./pause from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_pause.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_pause.ts.
+11:46:17 debug: Inspect file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_pause.ts
+11:46:17 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_pause.ts as cce:/internal/x/cc.
+11:46:17 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_pause.ts as cce:/internal/x/cc.
+11:46:17 debug: Resolve cc from file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_pause.ts as cce:/internal/x/cc.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change0.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change1.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/endgame.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/endgame.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/esc.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/esc.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/shut.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/shut.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time01.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time01.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time11.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time11.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/welcome.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/welcome.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/AudioManeger.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/AudioManeger.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/background.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/background.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet0.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet1.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemybullet.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemybullet.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemylandmine.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemylandmine.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/tietu.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/tietu.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemyfire.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemytank.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemytank.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect0.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect1.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection0.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection1.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fort.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fort.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp0.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp1.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0%20copy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0%20copy.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine1.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/normalwall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/normalwall.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-firefast.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-firefast.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-movefast.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-movefast.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/playerfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/playerfire.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/specialwall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/specialwall.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect0.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect1.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tankdestroy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tankdestroy.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tietu.ts.
+11:46:17 debug: Resolve file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/victory.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/victory.ts.
+11:46:17 debug: Target(preview) ends with cost 252.65009999275208ms.
