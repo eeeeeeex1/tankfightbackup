@@ -21,14 +21,14 @@ export class time01 extends Component {
     startTime:number;
     endTime:number;
     start() {
-        this.startTime=Date.now();
+        this.startTime=Date.now();//记录开始时间
     }
 
     update(deltaTime: number) {
-        if((!find("Canvas/background/tank/enemytank"))&&find("Canvas/background/tank/playertank"))
+        if((!find("Canvas/background/tank/enemytank"))&&find("Canvas/background/tank/playertank"))//检测是否击杀所有敌人并存活
         {this.endTime=Date.now();
-            let time=this.endTime-this.startTime;
-            let Account=director.getScene().getChildByName('PassNode').getComponent(PassInf).CurrentUser.Account;
+            let time=this.endTime-this.startTime;//计算通关时间
+            let Account=director.getScene().getChildByName('PassNode').getComponent(PassInf).CurrentUser.Account;//获取当前用户
             let RegSet:user[]=Object.assign(new Array(),JSON.parse(localStorage.getItem('RegSet')));
             let i:number;
             for(i=0;i<RegSet.length;i++)
@@ -36,20 +36,16 @@ export class time01 extends Component {
                 if(RegSet[i].Account==Account)
                     break;
             }
-            if(RegSet[i].d1time==0)
-            RegSet[i].d1time=time/1000;
-            else
-            {
-                if(RegSet[i].d1time>(time/1000))
-                    RegSet[i].d1time=time/1000;
-            }
-            RegSet[i].save=1;
+            RegSet[i].d1time1=time/1000;
+            RegSet[i].save=1;//存储通关记录
             let json=JSON.stringify(RegSet);
             localStorage.setItem('RegSet',json);
-            director.loadScene('victory');
+            this.scheduleOnce(() => {
+                director.loadScene('alonemap1');
+            }, 3);
         }
 
-        if(!find("Canvas/background/tank/playertank"))
+        if(!find("Canvas/background/tank/playertank"))//若玩家被击杀则返回
                 director.loadScene('return');
             
     }

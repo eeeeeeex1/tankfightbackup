@@ -1,462 +1,0 @@
-2024-7-13 11:04:02-log: Cannot access game frame or container.
-2024-7-13 11:04:02-debug: asset-db:require-engine-code (699ms)
-2024-7-13 11:04:08-log: meshopt wasm decoder initialized
-2024-7-13 11:04:08-log: [bullet]:bullet wasm lib loaded.
-2024-7-13 11:04:08-log: [box2d]:box2d wasm lib loaded.
-2024-7-13 11:04:08-log: Cocos Creator v3.8.3
-2024-7-13 11:04:12-debug: [Assets Memory track]: asset-db-plugin-register: programming start:78.41MB, end 80.73MB, increase: 2.33MB
-2024-7-13 11:04:12-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:24.64MB, end 77.53MB, increase: 52.90MB
-2024-7-13 11:04:14-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:77.55MB, end 145.99MB, increase: 68.45MB
-2024-7-13 11:04:14-debug: [Assets Memory track]: asset-db-plugin-register: project start:78.28MB, end 145.97MB, increase: 67.70MB
-2024-7-13 11:04:14-debug: [Assets Memory track]: asset-db-plugin-register: builder start:80.75MB, end 150.81MB, increase: 70.06MB
-2024-7-13 11:04:14-debug: run package(im-plugin) handler(enable) start
-2024-7-13 11:04:14-debug: run package(blank-template) handler(enable) start
-2024-7-13 11:04:14-debug: run package(im-plugin) handler(enable) success!
-2024-7-13 11:04:14-debug: run package(placeholder) handler(enable) start
-2024-7-13 11:04:14-debug: run package(blank-template) handler(enable) success!
-2024-7-13 11:04:14-debug: run package(placeholder) handler(enable) success!
-2024-7-13 11:04:14-debug: asset-db:worker-init: initPlugin (1561ms)
-2024-7-13 11:04:14-debug: [Assets Memory track]: asset-db:worker-init start:24.63MB, end 146.14MB, increase: 121.50MB
-2024-7-13 11:04:14-debug: Run asset db hook programming:beforePreStart ...
-2024-7-13 11:04:14-debug: Run asset db hook programming:beforePreStart success!
-2024-7-13 11:04:14-debug: Run asset db hook engine-extends:beforePreStart ...
-2024-7-13 11:04:14-debug: Run asset db hook engine-extends:beforePreStart success!
-2024-7-13 11:04:15-debug: asset-db:worker-init (13669ms)
-2024-7-13 11:04:15-debug: asset-db-hook-engine-extends-beforePreStart (1693ms)
-2024-7-13 11:04:15-debug: asset-db-hook-programming-beforePreStart (1694ms)
-2024-7-13 11:04:17-debug: Preimport db internal success
-2024-7-13 11:04:17-debug: Preimport db assets success
-2024-7-13 11:04:17-debug: Run asset db hook programming:afterPreStart ...
-2024-7-13 11:04:17-debug: starting packer-driver...
-2024-7-13 11:04:18-debug: initialize scripting environment...
-2024-7-13 11:04:18-debug: Set detail map pack:///resolution-detail-map.json: {}
-2024-7-13 11:04:18-debug: Run asset db hook programming:afterPreStart success!
-2024-7-13 11:04:18-debug: Run asset db hook engine-extends:afterPreStart ...
-2024-7-13 11:04:18-debug: Run asset db hook engine-extends:afterPreStart success!
-2024-7-13 11:04:18-debug: [Assets Memory track]: asset-db:worker-init: preStart start:146.14MB, end 151.44MB, increase: 5.30MB
-2024-7-13 11:04:18-debug: Start up the 'internal' database...
-2024-7-13 11:04:19-debug: asset-db-hook-programming-afterPreStart (1876ms)
-2024-7-13 11:04:19-debug: asset-db:worker-effect-data-processing (1075ms)
-2024-7-13 11:04:19-debug: asset-db-hook-engine-extends-afterPreStart (1075ms)
-2024-7-13 11:04:19-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:146.19MB, end 160.13MB, increase: 13.93MB
-2024-7-13 11:04:19-debug: Start up the 'assets' database...
-2024-7-13 11:04:20-debug: asset-db:worker-startup-database[internal] (5971ms)
-2024-7-13 11:04:20-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:146.96MB, end 159.26MB, increase: 12.30MB
-2024-7-13 11:04:20-debug: lazy register asset handler text
-2024-7-13 11:04:20-debug: lazy register asset handler directory
-2024-7-13 11:04:20-debug: lazy register asset handler json
-2024-7-13 11:04:20-debug: lazy register asset handler spine-data
-2024-7-13 11:04:20-debug: lazy register asset handler dragonbones
-2024-7-13 11:04:20-debug: lazy register asset handler dragonbones-atlas
-2024-7-13 11:04:20-debug: lazy register asset handler terrain
-2024-7-13 11:04:20-debug: lazy register asset handler javascript
-2024-7-13 11:04:20-debug: [Assets Memory track]: asset-db:worker-init: startup start:151.44MB, end 159.27MB, increase: 7.83MB
-2024-7-13 11:04:20-debug: lazy register asset handler scene
-2024-7-13 11:04:20-debug: lazy register asset handler typescript
-2024-7-13 11:04:20-debug: lazy register asset handler prefab
-2024-7-13 11:04:20-debug: lazy register asset handler tiled-map
-2024-7-13 11:04:20-debug: lazy register asset handler sprite-frame
-2024-7-13 11:04:20-debug: lazy register asset handler image
-2024-7-13 11:04:20-debug: lazy register asset handler buffer
-2024-7-13 11:04:20-debug: lazy register asset handler sign-image
-2024-7-13 11:04:20-debug: lazy register asset handler alpha-image
-2024-7-13 11:04:20-debug: lazy register asset handler texture-cube
-2024-7-13 11:04:20-debug: lazy register asset handler erp-texture-cube
-2024-7-13 11:04:20-debug: lazy register asset handler texture
-2024-7-13 11:04:20-debug: lazy register asset handler render-texture
-2024-7-13 11:04:20-debug: lazy register asset handler texture-cube-face
-2024-7-13 11:04:20-debug: lazy register asset handler gltf
-2024-7-13 11:04:20-debug: lazy register asset handler gltf-animation
-2024-7-13 11:04:20-debug: lazy register asset handler gltf-mesh
-2024-7-13 11:04:20-debug: lazy register asset handler gltf-skeleton
-2024-7-13 11:04:20-debug: lazy register asset handler gltf-material
-2024-7-13 11:04:20-debug: lazy register asset handler gltf-scene
-2024-7-13 11:04:20-debug: lazy register asset handler gltf-embeded-image
-2024-7-13 11:04:20-debug: lazy register asset handler material
-2024-7-13 11:04:20-debug: lazy register asset handler fbx
-2024-7-13 11:04:20-debug: lazy register asset handler rt-sprite-frame
-2024-7-13 11:04:20-debug: lazy register asset handler physics-material
-2024-7-13 11:04:20-debug: lazy register asset handler effect-header
-2024-7-13 11:04:20-debug: lazy register asset handler effect
-2024-7-13 11:04:20-debug: lazy register asset handler animation-clip
-2024-7-13 11:04:20-debug: lazy register asset handler *
-2024-7-13 11:04:20-debug: lazy register asset handler audio-clip
-2024-7-13 11:04:20-debug: lazy register asset handler animation-graph-variant
-2024-7-13 11:04:20-debug: lazy register asset handler ttf-font
-2024-7-13 11:04:20-debug: lazy register asset handler particle
-2024-7-13 11:04:20-debug: lazy register asset handler bitmap-font
-2024-7-13 11:04:20-debug: lazy register asset handler sprite-atlas
-2024-7-13 11:04:20-debug: lazy register asset handler auto-atlas
-2024-7-13 11:04:20-debug: lazy register asset handler label-atlas
-2024-7-13 11:04:20-debug: lazy register asset handler render-pipeline
-2024-7-13 11:04:20-debug: lazy register asset handler render-stage
-2024-7-13 11:04:20-debug: lazy register asset handler instantiation-material
-2024-7-13 11:04:20-debug: lazy register asset handler render-flow
-2024-7-13 11:04:20-debug: lazy register asset handler animation-mask
-2024-7-13 11:04:20-debug: lazy register asset handler instantiation-mesh
-2024-7-13 11:04:20-debug: lazy register asset handler instantiation-skeleton
-2024-7-13 11:04:20-debug: lazy register asset handler video-clip
-2024-7-13 11:04:20-debug: lazy register asset handler instantiation-animation
-2024-7-13 11:04:20-debug: lazy register asset handler animation-graph
-2024-7-13 11:04:20-debug: asset-db:worker-startup-database[assets] (3325ms)
-2024-7-13 11:04:20-debug: asset-db:ready (21194ms)
-2024-7-13 11:04:20-debug: asset-db:start-database (6083ms)
-2024-7-13 11:04:20-debug: init worker message success
-2024-7-13 11:04:20-debug: programming:execute-script (5ms)
-2024-7-13 11:04:21-debug: [Build Memory track]: builder:worker-init start:163.04MB, end 171.50MB, increase: 8.46MB
-2024-7-13 11:04:21-debug: builder:worker-init (956ms)
-2024-7-13 11:04:48-debug: Query all assets info in project
-2024-7-13 11:04:48-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-7-13 11:04:48-debug: 查询 Asset Bundle start, progress: 0%
-2024-7-13 11:04:48-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-13 11:04:48-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-7-13 11:04:48-debug:   Number of all scripts: 60
-2024-7-13 11:04:48-debug:   Number of other assets: 657
-2024-7-13 11:04:48-debug:   Number of all scenes: 12
-2024-7-13 11:04:48-debug: // ---- build task 查询 Asset Bundle ---- (6ms)
-2024-7-13 11:04:48-debug: run build task 查询 Asset Bundle success in 6 ms√, progress: 5%
-2024-7-13 11:04:48-debug: [Build Memory track]: 查询 Asset Bundle start:163.45MB, end 163.44MB, increase: -7.78KB
-2024-7-13 11:04:48-debug: 查询 Asset Bundle start, progress: 5%
-2024-7-13 11:04:48-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-13 11:04:48-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
-2024-7-13 11:04:48-debug: [Build Memory track]: 查询 Asset Bundle start:163.45MB, end 162.75MB, increase: -723.13KB
-2024-7-13 11:04:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-13 11:04:48-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
-2024-7-13 11:04:48-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-7-13 11:04:48-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
-2024-7-13 11:04:48-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:162.76MB, end 162.77MB, increase: 12.17KB
-2024-7-13 11:04:48-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-7-13 11:04:48-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-7-13 11:04:48-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
-2024-7-13 11:04:48-debug: [Build Memory track]: 填充脚本数据到 settings.json start:162.79MB, end 162.81MB, increase: 17.20KB
-2024-7-13 11:04:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-13 11:04:48-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-7-13 11:04:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
-2024-7-13 11:04:48-debug: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 15%
-2024-7-13 11:04:48-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:162.82MB, end 162.96MB, increase: 137.98KB
-2024-7-13 11:05:34-debug: refresh db internal success
-2024-7-13 11:05:35-debug: refresh db assets success
-2024-7-13 11:05:35-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 11:05:35-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 11:05:35-debug: asset-db:refresh-all-database (382ms)
-2024-7-13 11:05:35-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-13 11:09:26-debug: refresh db internal success
-2024-7-13 11:09:26-debug: refresh db assets success
-2024-7-13 11:09:26-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 11:09:26-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 11:09:26-debug: asset-db:refresh-all-database (342ms)
-2024-7-13 11:09:26-debug: asset-db:worker-effect-data-processing (3ms)
-2024-7-13 11:09:26-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2024-7-13 11:13:25-debug: refresh db internal success
-2024-7-13 11:13:25-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\photo\qiangphoto\qiang12.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:13:25-debug: %cReImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\photo\qiangphoto\qiang12.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:13:25-debug: %cReImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\photo\qiangphoto\qiang12.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-13 11:13:25-debug: refresh db assets success
-2024-7-13 11:13:25-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 11:13:25-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 11:13:25-debug: asset-db:refresh-all-database (176ms)
-2024-7-13 11:13:25-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-13 11:13:25-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-13 11:13:36-debug: refresh db internal success
-2024-7-13 11:13:36-debug: refresh db assets success
-2024-7-13 11:13:36-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 11:13:36-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 11:13:36-debug: asset-db:refresh-all-database (112ms)
-2024-7-13 11:13:36-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-13 11:13:36-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-13 11:35:33-debug: refresh db internal success
-2024-7-13 11:35:33-debug: refresh db assets success
-2024-7-13 11:35:33-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 11:35:33-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 11:35:33-debug: asset-db:refresh-all-database (185ms)
-2024-7-13 11:35:33-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-13 11:35:33-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-13 11:39:06-debug: Query all assets info in project
-2024-7-13 11:39:06-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-7-13 11:39:06-debug: 查询 Asset Bundle start, progress: 0%
-2024-7-13 11:39:06-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-13 11:39:06-debug:   Number of all scenes: 12
-2024-7-13 11:39:06-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-7-13 11:39:06-debug:   Number of other assets: 657
-2024-7-13 11:39:06-debug:   Number of all scripts: 60
-2024-7-13 11:39:06-debug: // ---- build task 查询 Asset Bundle ---- (21ms)
-2024-7-13 11:39:06-debug: run build task 查询 Asset Bundle success in 21 ms√, progress: 5%
-2024-7-13 11:39:06-debug: 查询 Asset Bundle start, progress: 5%
-2024-7-13 11:39:06-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-13 11:39:06-debug: [Build Memory track]: 查询 Asset Bundle start:171.61MB, end 172.38MB, increase: 797.14KB
-2024-7-13 11:39:06-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
-2024-7-13 11:39:06-debug: run build task 查询 Asset Bundle success in 4 ms√, progress: 10%
-2024-7-13 11:39:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-13 11:39:06-debug: [Build Memory track]: 查询 Asset Bundle start:172.40MB, end 171.68MB, increase: -738.86KB
-2024-7-13 11:39:06-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-7-13 11:39:06-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:171.69MB, end 171.71MB, increase: 16.26KB
-2024-7-13 11:39:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
-2024-7-13 11:39:06-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
-2024-7-13 11:39:06-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-7-13 11:39:06-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-7-13 11:39:06-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
-2024-7-13 11:39:06-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
-2024-7-13 11:39:06-debug: [Build Memory track]: 填充脚本数据到 settings.json start:171.72MB, end 171.74MB, increase: 16.52KB
-2024-7-13 11:39:06-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-7-13 11:39:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-13 11:39:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (5ms)
-2024-7-13 11:39:06-debug: run build task 整理部分构建选项内数据到 settings.json success in 5 ms√, progress: 15%
-2024-7-13 11:39:06-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:171.75MB, end 171.88MB, increase: 126.12KB
-2024-7-13 11:46:11-debug: refresh db internal success
-2024-7-13 11:46:11-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scripts\Reg.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:11-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Audio\clickAudiobackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:11-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scripts\_pause.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:11-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scripts\_continue.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:11-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\AccountExist.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:11-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\NoAccount.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:11-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\pwdError.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:11-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Login\Reg.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:11-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Login\Reg2.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:11-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\textbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:11-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Audiobackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:11-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Audio\clickAudio\ring.MP3background: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:11-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Loginbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Prefabsbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scriptsbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\photo\photo\objectphoto\movefaster.jpgbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Login\Reg.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Login\Reg2.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Login\Reg2.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\map\alonemap0-difficult.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Login\Reg.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\photo\photo\objectphoto\movefaster.jpg@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\photo\photo\objectphoto\movefaster.jpg@f9941background: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\map\alonemap0.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\map\doublemap0.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\bulletnode1.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\bulletnode0.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\enemybullet.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\_pause.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scenes\LoginScene.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scenes\select.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scenes\single.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scenes\victory.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scripts\double.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scripts\easy.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scenes\single1.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scripts\hard.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scripts\LB.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scripts\log.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scripts\pause.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scripts\reStart.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scripts\returnlog.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scripts\returnselect.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Scripts\select.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\text\cheat-test.tsbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:12-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\photo\photo\objectphotobackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:13-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\gameobject\movefastobject.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:13-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\gameobject\firefastobject.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:46:13-debug: refresh db assets success
-2024-7-13 11:46:13-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 11:46:13-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 11:46:13-debug: asset-db:refresh-all-database (1607ms)
-2024-7-13 11:46:13-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-13 11:46:13-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-13 11:46:35-debug: Query all assets info in project
-2024-7-13 11:46:35-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-7-13 11:46:35-debug: 查询 Asset Bundle start, progress: 0%
-2024-7-13 11:46:35-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-13 11:46:35-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-7-13 11:46:35-debug:   Number of all scenes: 12
-2024-7-13 11:46:35-debug:   Number of other assets: 670
-2024-7-13 11:46:35-debug:   Number of all scripts: 63
-2024-7-13 11:46:35-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
-2024-7-13 11:46:35-debug: run build task 查询 Asset Bundle success in 7 ms√, progress: 5%
-2024-7-13 11:46:35-debug: [Build Memory track]: 查询 Asset Bundle start:173.01MB, end 173.85MB, increase: 854.77KB
-2024-7-13 11:46:35-debug: 查询 Asset Bundle start, progress: 5%
-2024-7-13 11:46:35-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-13 11:46:35-debug: // ---- build task 查询 Asset Bundle ---- (3ms)
-2024-7-13 11:46:35-debug: run build task 查询 Asset Bundle success in 3 ms√, progress: 10%
-2024-7-13 11:46:35-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-13 11:46:35-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-7-13 11:46:35-debug: [Build Memory track]: 查询 Asset Bundle start:173.86MB, end 173.99MB, increase: 136.18KB
-2024-7-13 11:46:35-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
-2024-7-13 11:46:35-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:174.01MB, end 174.03MB, increase: 17.53KB
-2024-7-13 11:46:35-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-7-13 11:46:35-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
-2024-7-13 11:46:35-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-7-13 11:46:35-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
-2024-7-13 11:46:35-debug: [Build Memory track]: 填充脚本数据到 settings.json start:174.04MB, end 174.05MB, increase: 12.70KB
-2024-7-13 11:46:35-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-7-13 11:46:35-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-13 11:46:35-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
-2024-7-13 11:46:35-debug: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 15%
-2024-7-13 11:46:35-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:174.07MB, end 174.19MB, increase: 128.03KB
-2024-7-13 11:48:06-debug: refresh db internal success
-2024-7-13 11:48:06-debug: refresh db assets success
-2024-7-13 11:48:06-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 11:48:06-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 11:48:06-debug: asset-db:refresh-all-database (288ms)
-2024-7-13 11:48:06-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-13 11:48:09-debug: Query all assets info in project
-2024-7-13 11:48:09-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-7-13 11:48:09-debug: 查询 Asset Bundle start, progress: 0%
-2024-7-13 11:48:09-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-13 11:48:09-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-7-13 11:48:09-debug:   Number of other assets: 670
-2024-7-13 11:48:09-debug:   Number of all scripts: 63
-2024-7-13 11:48:09-debug:   Number of all scenes: 12
-2024-7-13 11:48:09-debug: // ---- build task 查询 Asset Bundle ---- (11ms)
-2024-7-13 11:48:09-debug: [Build Memory track]: 查询 Asset Bundle start:171.60MB, end 171.51MB, increase: -91.45KB
-2024-7-13 11:48:09-debug: 查询 Asset Bundle start, progress: 5%
-2024-7-13 11:48:09-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-13 11:48:09-debug: run build task 查询 Asset Bundle success in 11 ms√, progress: 5%
-2024-7-13 11:48:09-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
-2024-7-13 11:48:09-debug: [Build Memory track]: 查询 Asset Bundle start:171.53MB, end 171.66MB, increase: 135.63KB
-2024-7-13 11:48:09-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-7-13 11:48:09-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
-2024-7-13 11:48:09-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-13 11:48:09-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
-2024-7-13 11:48:09-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-7-13 11:48:09-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:171.68MB, end 171.69MB, increase: 12.30KB
-2024-7-13 11:48:09-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-7-13 11:48:09-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
-2024-7-13 11:48:09-debug: [Build Memory track]: 填充脚本数据到 settings.json start:171.71MB, end 171.72MB, increase: 13.05KB
-2024-7-13 11:48:09-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-7-13 11:48:09-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-13 11:48:09-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (6ms)
-2024-7-13 11:48:09-debug: run build task 整理部分构建选项内数据到 settings.json success in 6 ms√, progress: 15%
-2024-7-13 11:48:09-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:171.73MB, end 171.99MB, increase: 266.45KB
-2024-7-13 11:48:28-debug: refresh db internal success
-2024-7-13 11:48:28-debug: refresh db assets success
-2024-7-13 11:48:28-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 11:48:28-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 11:48:28-debug: asset-db:refresh-all-database (258ms)
-2024-7-13 11:48:28-debug: asset-db:worker-effect-data-processing (45ms)
-2024-7-13 11:48:28-debug: asset-db-hook-engine-extends-afterRefresh (45ms)
-2024-7-13 11:48:28-debug: refresh db internal success
-2024-7-13 11:48:28-debug: refresh db assets success
-2024-7-13 11:48:28-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 11:48:28-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 11:48:28-debug: asset-db:refresh-all-database (126ms)
-2024-7-13 11:48:28-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-13 11:52:33-debug: refresh db internal success
-2024-7-13 11:52:34-debug: refresh db assets success
-2024-7-13 11:52:34-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 11:52:34-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 11:52:34-debug: asset-db:refresh-all-database (363ms)
-2024-7-13 11:52:34-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-13 11:52:34-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2024-7-13 11:54:43-debug: start refresh asset from C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\gameobject\firefastobject.prefab...
-2024-7-13 11:54:43-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\gameobject\firefastobject.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:54:43-debug: refresh asset C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\gameobject success
-2024-7-13 11:54:44-debug: refresh db internal success
-2024-7-13 11:54:44-debug: refresh db assets success
-2024-7-13 11:54:44-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 11:54:44-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 11:54:44-debug: asset-db:refresh-all-database (121ms)
-2024-7-13 11:54:44-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-13 11:54:44-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-13 11:55:04-debug: start refresh asset from C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\gameobject\movefastobject.prefab...
-2024-7-13 11:55:04-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\gameobject\movefastobject.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:55:04-debug: refresh asset C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\gameobject success
-2024-7-13 11:55:04-debug: refresh db internal success
-2024-7-13 11:55:04-debug: refresh db assets success
-2024-7-13 11:55:04-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 11:55:04-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 11:55:04-debug: asset-db:refresh-all-database (132ms)
-2024-7-13 11:55:04-debug: asset-db:worker-effect-data-processing (2ms)
-2024-7-13 11:55:04-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2024-7-13 11:55:21-debug: refresh db internal success
-2024-7-13 11:55:21-debug: refresh db assets success
-2024-7-13 11:55:21-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 11:55:21-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 11:55:21-debug: asset-db:refresh-all-database (134ms)
-2024-7-13 11:55:21-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-13 11:55:21-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-13 11:55:43-debug: start refresh asset from C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\bulletnode0.prefab...
-2024-7-13 11:55:43-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\bulletnode0.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:55:43-debug: refresh asset C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs success
-2024-7-13 11:55:43-debug: refresh db internal success
-2024-7-13 11:55:44-debug: refresh db assets success
-2024-7-13 11:55:44-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 11:55:44-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 11:55:44-debug: asset-db:refresh-all-database (147ms)
-2024-7-13 11:55:44-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-13 11:55:44-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-13 11:56:08-debug: start refresh asset from C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\bulletnode1.prefab...
-2024-7-13 11:56:08-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\bulletnode1.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:56:08-debug: refresh asset C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs success
-2024-7-13 11:56:08-debug: refresh db internal success
-2024-7-13 11:56:08-debug: refresh db assets success
-2024-7-13 11:56:08-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 11:56:08-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 11:56:08-debug: asset-db:refresh-all-database (127ms)
-2024-7-13 11:56:08-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-13 11:56:37-debug: start refresh asset from C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\enemybullet.prefab...
-2024-7-13 11:56:37-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs\enemybullet.prefabbackground: #aaff85; color: #000;color: #000;
-2024-7-13 11:56:37-debug: refresh asset C:\Users\HUAWEI\Desktop\TK2\assets\Prefabs success
-2024-7-13 11:56:37-debug: refresh db internal success
-2024-7-13 11:56:37-debug: refresh db assets success
-2024-7-13 11:56:37-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 11:56:37-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 11:56:37-debug: asset-db:refresh-all-database (124ms)
-2024-7-13 11:56:37-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-13 12:00:42-debug: start refresh asset from C:\Users\HUAWEI\Desktop\TK2\assets\map\alonemap1.scene...
-2024-7-13 12:00:43-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\map\alonemap1.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-13 12:00:43-debug: refresh asset C:\Users\HUAWEI\Desktop\TK2\assets\map success
-2024-7-13 12:00:43-debug: start refresh asset from C:\Users\HUAWEI\Desktop\TK2\assets\map\alonemap1.scene...
-2024-7-13 12:00:43-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\map\alonemap1.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-13 12:00:43-debug: refresh asset C:\Users\HUAWEI\Desktop\TK2\assets\map success
-2024-7-13 12:08:21-debug: refresh db internal success
-2024-7-13 12:08:21-debug: refresh db assets success
-2024-7-13 12:08:21-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 12:08:21-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 12:08:21-debug: asset-db:refresh-all-database (157ms)
-2024-7-13 12:08:21-debug: asset-db:worker-effect-data-processing (2ms)
-2024-7-13 12:08:21-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2024-7-13 12:15:10-debug: refresh db internal success
-2024-7-13 12:15:10-debug: refresh db assets success
-2024-7-13 12:15:10-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 12:15:10-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 12:15:10-debug: asset-db:refresh-all-database (161ms)
-2024-7-13 12:15:10-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-13 12:26:27-debug: start refresh asset from C:\Users\HUAWEI\Desktop\TK2\assets\map\alonemap1.scene...
-2024-7-13 12:26:27-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\map\alonemap1.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-13 12:26:27-debug: refresh asset C:\Users\HUAWEI\Desktop\TK2\assets\map success
-2024-7-13 12:27:20-debug: refresh db internal success
-2024-7-13 12:27:20-debug: refresh db assets success
-2024-7-13 12:27:20-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 12:27:20-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 12:27:20-debug: asset-db:refresh-all-database (173ms)
-2024-7-13 12:27:20-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-13 12:27:25-debug: start refresh asset from C:\Users\HUAWEI\Desktop\TK2\assets\map\alonemap0.scene...
-2024-7-13 12:27:25-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\map\alonemap0.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-13 12:27:25-log: 资源数据库已锁定，资源操作(bound autoRefreshAssetLazy)将会延迟响应，请稍侯
-2024-7-13 12:27:25-debug: refresh asset C:\Users\HUAWEI\Desktop\TK2\assets\map success
-2024-7-13 12:27:25-debug: refresh db internal success
-2024-7-13 12:27:25-debug: refresh db assets success
-2024-7-13 12:27:25-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 12:27:25-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 12:27:25-debug: asset-db:refresh-all-database (141ms)
-2024-7-13 12:27:25-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-13 12:27:25-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-13 12:28:11-debug: start refresh asset from C:\Users\HUAWEI\Desktop\TK2\assets\map\alonemap0.scene...
-2024-7-13 12:28:11-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\map\alonemap0.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-13 12:28:11-debug: refresh asset C:\Users\HUAWEI\Desktop\TK2\assets\map success
-2024-7-13 12:28:11-debug: refresh db internal success
-2024-7-13 12:28:11-debug: refresh db assets success
-2024-7-13 12:28:11-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 12:28:11-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 12:28:12-debug: asset-db:refresh-all-database (104ms)
-2024-7-13 12:28:12-debug: asset-db:worker-effect-data-processing (4ms)
-2024-7-13 12:28:12-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
-2024-7-13 12:29:41-debug: refresh db internal success
-2024-7-13 12:29:41-debug: refresh db assets success
-2024-7-13 12:29:41-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-13 12:29:41-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-13 12:29:41-debug: asset-db:refresh-all-database (77ms)
-2024-7-13 12:34:06-debug: start refresh asset from C:\Users\HUAWEI\Desktop\TK2\assets\map\alonemap1.scene...
-2024-7-13 12:34:06-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\map\alonemap1.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-13 12:34:06-debug: refresh asset C:\Users\HUAWEI\Desktop\TK2\assets\map success
-2024-7-13 12:38:29-debug: start refresh asset from C:\Users\HUAWEI\Desktop\TK2\assets\map\alonemap1.scene...
-2024-7-13 12:38:29-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\map\alonemap1.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-13 12:38:29-debug: refresh asset C:\Users\HUAWEI\Desktop\TK2\assets\map success
-2024-7-13 12:39:01-debug: start refresh asset from C:\Users\HUAWEI\Desktop\TK2\assets\map\doublemap0.scene...
-2024-7-13 12:39:01-debug: %cImport%c: C:\Users\HUAWEI\Desktop\TK2\assets\map\doublemap0.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-13 12:39:01-debug: refresh asset C:\Users\HUAWEI\Desktop\TK2\assets\map success

@@ -2,10 +2,10 @@
   "__version__": "1.0.1",
   "preview": {
     "current": {
-      "platform": "browser"
+      "platform": "simulator"
     }
   },
   "general": {
-    "start_scene": "9486f291-e0a6-47f7-ab5b-7440590026f7"
+    "start_scene": "2698b5f0-3f61-4865-a446-ba38cfbdfddc"
   }
 }

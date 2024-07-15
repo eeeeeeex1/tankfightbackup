@@ -55,14 +55,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           }), PlayerController1) : PlayerController1); // ��ʼ��¼��ǰ�� magnification ֵ
 
           if (this.playercontroller1) {
-            this.originalMagnification = this.playercontroller1.magnification;
+            this.originalMagnification = this.playercontroller1.speed;
             this.changedMagnification = this.originalMagnification; // ��ʼʱ���仯���ֵ����ԭʼֵ
           }
         }
 
         update(deltaTime) {
           if (this.playercontroller1) {
-            var currentMagnification = this.playercontroller1.magnification; // ��鵱ǰֵ�Ƿ���仯���ֵ��ͬ���Ҳ����ڱ仯״̬
+            var currentMagnification = this.playercontroller1.speed; // ��鵱ǰֵ�Ƿ���仯���ֵ��ͬ���Ҳ����ڱ仯״̬
 
             if (currentMagnification !== this.changedMagnification && !this.isChanging) {
               // magnification �����˱仯����ʼ��ʱ
@@ -77,7 +77,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
               if (this.changeTimer >= this.changeDuration) {
                 // �� magnification �ظ���ԭʼֵ
-                this.playercontroller1.magnification = this.originalMagnification;
+                this.playercontroller1.speed = this.originalMagnification;
                 this.isChanging = false; // �仯����
               }
             }

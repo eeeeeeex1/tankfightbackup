@@ -16,7 +16,13 @@ class user{
     d2time3:number;
     d2time:number;
     constructor(){
+        this.d1time1=0;
+        this.d1time2=0;
+        this.d1time3=0;
         this.d1time=0;
+        this.d2time1=0;
+        this.d2time2=0;
+        this.d2time3=0;
         this.d2time=0;
     }
 }

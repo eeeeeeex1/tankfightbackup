@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 19342.247600018978,
+      "mTimestamp": 15061.473199999891,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 2539723.606600046,
+      "mTimestamp": 2486205.1237999997,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -658,7 +658,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/HLB.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/HLB.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -667,73 +667,59 @@
             },
             "end": {
               "line": 5,
-              "column": 242
+              "column": 257
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/LB.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 5,
-              "column": 258
+              "column": 273
             },
             "end": {
               "line": 5,
-              "column": 316
+              "column": 346
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Loading.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/Loading.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
               "line": 5,
-              "column": 332
+              "column": 362
             },
             "end": {
               "line": 5,
-              "column": 395
+              "column": 440
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
               "line": 5,
-              "column": 411
+              "column": 456
             },
             "end": {
               "line": 5,
-              "column": 474
+              "column": 534
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/Reg.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
               "line": 5,
-              "column": 490
-            },
-            "end": {
-              "line": 5,
-              "column": 549
-            }
-          }
-        },
-        {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/SLB.ts",
-          "resolved": "__unresolved_6",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 565
+              "column": 550
             },
             "end": {
               "line": 5,
@@ -742,8 +728,8 @@
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts",
-          "resolved": "__unresolved_7",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/SLB.ts",
+          "resolved": "__unresolved_6",
           "loc": {
             "start": {
               "line": 5,
@@ -751,777 +737,819 @@
             },
             "end": {
               "line": 5,
-              "column": 705
+              "column": 714
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_pause.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/_continue.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 730
+            },
+            "end": {
+              "line": 5,
+              "column": 810
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/_pause.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
               "line": 5,
-              "column": 721
+              "column": 826
             },
             "end": {
               "line": 5,
-              "column": 783
+              "column": 903
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change0.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/change0.ts",
           "resolved": "__unresolved_9",
           "loc": {
             "start": {
               "line": 5,
-              "column": 799
+              "column": 919
             },
             "end": {
               "line": 5,
-              "column": 862
+              "column": 997
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change1.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/change1.ts",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
               "line": 5,
-              "column": 878
+              "column": 1013
             },
             "end": {
               "line": 5,
-              "column": 941
+              "column": 1091
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/continueGame.ts",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
               "line": 5,
-              "column": 957
+              "column": 1107
             },
             "end": {
               "line": 5,
-              "column": 1019
+              "column": 1190
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/double.ts",
           "resolved": "__unresolved_12",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1035
+              "column": 1206
             },
             "end": {
               "line": 5,
-              "column": 1095
+              "column": 1283
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/endgame.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/easy.ts",
           "resolved": "__unresolved_13",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1111
+              "column": 1299
             },
             "end": {
               "line": 5,
-              "column": 1174
+              "column": 1374
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/esc.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/endgame.ts",
           "resolved": "__unresolved_14",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1190
+              "column": 1390
             },
             "end": {
               "line": 5,
-              "column": 1249
+              "column": 1468
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/esc.ts",
           "resolved": "__unresolved_15",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1265
+              "column": 1484
             },
             "end": {
               "line": 5,
-              "column": 1325
+              "column": 1558
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/hard.ts",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1341
+              "column": 1574
             },
             "end": {
               "line": 5,
-              "column": 1400
+              "column": 1649
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/log.ts",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1416
+              "column": 1665
             },
             "end": {
               "line": 5,
-              "column": 1477
+              "column": 1739
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/pause.ts",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1493
+              "column": 1755
             },
             "end": {
               "line": 5,
-              "column": 1556
+              "column": 1831
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/reStart.ts",
           "resolved": "__unresolved_19",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1572
+              "column": 1847
             },
             "end": {
               "line": 5,
-              "column": 1637
+              "column": 1925
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/returnlog.ts",
           "resolved": "__unresolved_20",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1653
+              "column": 1941
             },
             "end": {
               "line": 5,
-              "column": 1721
+              "column": 2021
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/returnselect.ts",
           "resolved": "__unresolved_21",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1737
+              "column": 2037
             },
             "end": {
               "line": 5,
-              "column": 1799
+              "column": 2120
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/shut.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/select.ts",
           "resolved": "__unresolved_22",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1815
+              "column": 2136
             },
             "end": {
               "line": 5,
-              "column": 1875
+              "column": 2213
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time01.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/shut.ts",
           "resolved": "__unresolved_23",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1891
+              "column": 2229
             },
             "end": {
               "line": 5,
-              "column": 1953
+              "column": 2304
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time11.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time01.ts",
           "resolved": "__unresolved_24",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1969
+              "column": 2320
             },
             "end": {
               "line": 5,
-              "column": 2031
+              "column": 2397
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/welcome.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time02.ts",
           "resolved": "__unresolved_25",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2047
+              "column": 2413
             },
             "end": {
               "line": 5,
-              "column": 2110
+              "column": 2490
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/AudioManeger.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time11.ts",
           "resolved": "__unresolved_26",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2126
+              "column": 2506
             },
             "end": {
               "line": 5,
-              "column": 2191
+              "column": 2583
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/background.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/welcome.ts",
           "resolved": "__unresolved_27",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2207
+              "column": 2599
             },
             "end": {
               "line": 5,
-              "column": 2270
+              "column": 2677
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet0.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/AudioManeger.ts",
           "resolved": "__unresolved_28",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2286
+              "column": 2693
             },
             "end": {
               "line": 5,
-              "column": 2346
+              "column": 2773
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet1.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/background.ts",
           "resolved": "__unresolved_29",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2362
+              "column": 2789
             },
             "end": {
               "line": 5,
-              "column": 2422
+              "column": 2867
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/bullet0.ts",
           "resolved": "__unresolved_30",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2438
+              "column": 2883
             },
             "end": {
               "line": 5,
-              "column": 2501
+              "column": 2958
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemybullet.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/bullet1.ts",
           "resolved": "__unresolved_31",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2517
+              "column": 2974
             },
             "end": {
               "line": 5,
-              "column": 2581
+              "column": 3049
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemylandmine.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/cheat-test.ts",
           "resolved": "__unresolved_32",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2597
+              "column": 3065
             },
             "end": {
               "line": 5,
-              "column": 2663
+              "column": 3143
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemybullet.ts",
           "resolved": "__unresolved_33",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2679
+              "column": 3159
             },
             "end": {
               "line": 5,
-              "column": 2755
+              "column": 3238
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemylandmine.ts",
           "resolved": "__unresolved_34",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2771
+              "column": 3254
             },
             "end": {
               "line": 5,
-              "column": 2851
+              "column": 3335
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/tietu.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/enemyfire.ts",
           "resolved": "__unresolved_35",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2867
+              "column": 3351
             },
             "end": {
               "line": 5,
-              "column": 2939
+              "column": 3442
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/enemytank-001.ts",
           "resolved": "__unresolved_36",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2955
+              "column": 3458
             },
             "end": {
               "line": 5,
-              "column": 3031
+              "column": 3553
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/tietu.ts",
           "resolved": "__unresolved_37",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3047
+              "column": 3569
             },
             "end": {
               "line": 5,
-              "column": 3127
+              "column": 3656
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/tietu.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/enemyfire.ts",
           "resolved": "__unresolved_38",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3143
+              "column": 3672
             },
             "end": {
               "line": 5,
-              "column": 3215
+              "column": 3763
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemyfire.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/enemytank-002.ts",
           "resolved": "__unresolved_39",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3231
+              "column": 3779
             },
             "end": {
               "line": 5,
-              "column": 3303
+              "column": 3874
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemytank.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/tietu.ts",
           "resolved": "__unresolved_40",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3319
+              "column": 3890
             },
             "end": {
               "line": 5,
-              "column": 3391
+              "column": 3977
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect0.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank/enemyfire.ts",
           "resolved": "__unresolved_41",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3407
+              "column": 3993
             },
             "end": {
               "line": 5,
-              "column": 3471
+              "column": 4080
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect1.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank/enemytank.ts",
           "resolved": "__unresolved_42",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3487
+              "column": 4096
             },
             "end": {
               "line": 5,
-              "column": 3551
+              "column": 4183
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection0.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fireaffect0.ts",
           "resolved": "__unresolved_43",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3567
+              "column": 4199
             },
             "end": {
               "line": 5,
-              "column": 3634
+              "column": 4278
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection1.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fireaffect1.ts",
           "resolved": "__unresolved_44",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3650
+              "column": 4294
             },
             "end": {
               "line": 5,
-              "column": 3717
+              "column": 4373
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fort.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection0.ts",
           "resolved": "__unresolved_45",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3733
+              "column": 4389
             },
             "end": {
               "line": 5,
-              "column": 3790
+              "column": 4471
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp0.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection1.ts",
           "resolved": "__unresolved_46",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3806
+              "column": 4487
             },
             "end": {
               "line": 5,
-              "column": 3862
+              "column": 4569
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp1.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fort.ts",
           "resolved": "__unresolved_47",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3878
+              "column": 4585
             },
             "end": {
               "line": 5,
-              "column": 3934
+              "column": 4657
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0%20copy.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/hp0.ts",
           "resolved": "__unresolved_48",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3950
+              "column": 4673
             },
             "end": {
               "line": 5,
-              "column": 4019
+              "column": 4744
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/hp1.ts",
           "resolved": "__unresolved_49",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4035
+              "column": 4760
             },
             "end": {
               "line": 5,
-              "column": 4097
+              "column": 4831
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine1.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine0%20copy.ts",
           "resolved": "__unresolved_50",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4113
+              "column": 4847
             },
             "end": {
               "line": 5,
-              "column": 4175
+              "column": 4931
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/normalwall.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine0.ts",
           "resolved": "__unresolved_51",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4191
+              "column": 4947
             },
             "end": {
               "line": 5,
-              "column": 4254
+              "column": 5024
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-firefast.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine1.ts",
           "resolved": "__unresolved_52",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4270
+              "column": 5040
             },
             "end": {
               "line": 5,
-              "column": 4335
+              "column": 5117
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-movefast.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/normalwall.ts",
           "resolved": "__unresolved_53",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4351
+              "column": 5133
             },
             "end": {
               "line": 5,
-              "column": 4416
+              "column": 5211
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/playerfire.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/obj-firefast.ts",
           "resolved": "__unresolved_54",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4432
+              "column": 5227
             },
             "end": {
               "line": 5,
-              "column": 4495
+              "column": 5307
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/specialwall.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/obj-movefast.ts",
           "resolved": "__unresolved_55",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4511
+              "column": 5323
             },
             "end": {
               "line": 5,
-              "column": 4575
+              "column": 5403
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect0.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/playerfire.ts",
           "resolved": "__unresolved_56",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4591
+              "column": 5419
             },
             "end": {
               "line": 5,
-              "column": 4656
+              "column": 5497
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect1.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/specialwall.ts",
           "resolved": "__unresolved_57",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4672
+              "column": 5513
             },
             "end": {
               "line": 5,
-              "column": 4737
+              "column": 5592
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/speedaffect0.ts",
           "resolved": "__unresolved_58",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4753
+              "column": 5608
             },
             "end": {
               "line": 5,
-              "column": 4811
+              "column": 5688
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/speedaffect1.ts",
           "resolved": "__unresolved_59",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4827
+              "column": 5704
             },
             "end": {
               "line": 5,
-              "column": 4885
+              "column": 5784
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tankdestroy.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts",
           "resolved": "__unresolved_60",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4901
+              "column": 5800
             },
             "end": {
               "line": 5,
-              "column": 4965
+              "column": 5873
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tietu.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts",
           "resolved": "__unresolved_61",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4981
+              "column": 5889
             },
             "end": {
               "line": 5,
-              "column": 5039
+              "column": 5962
             }
           }
         },
         {
-          "value": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/victory.ts",
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tankdestroy.ts",
           "resolved": "__unresolved_62",
           "loc": {
             "start": {
               "line": 5,
-              "column": 5055
+              "column": 5978
             },
             "end": {
               "line": 5,
-              "column": 5115
+              "column": 6057
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tietu.ts",
+          "resolved": "__unresolved_63",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 6073
+            },
+            "end": {
+              "line": 5,
+              "column": 6146
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/victory.ts",
+          "resolved": "__unresolved_64",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 6162
+            },
+            "end": {
+              "line": 5,
+              "column": 6237
             }
           }
         }
@@ -1538,434 +1566,448 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/HLB.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/HLB.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/LB.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/LB.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Loading.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/Loading.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/PassInf.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/Reg.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/Reg.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/SLB.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/SLB.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_continue.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/_continue.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/_pause.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/_pause.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change0.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/change0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/change1.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/change1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/double.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/continueGame.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/easy.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/double.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/endgame.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/easy.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/esc.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/endgame.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/hard.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/esc.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/log.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/hard.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/pause.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/log.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/reStart.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/pause.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnlog.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/reStart.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/returnselect.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/returnlog.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/select.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/returnselect.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/shut.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/select.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time01.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/shut.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/time11.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time01.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/Scripts/welcome.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time02.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/AudioManeger.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time11.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/background.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/welcome.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet0.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/AudioManeger.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/bullet1.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/background.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/cheat-test.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/bullet0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemybullet.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/bullet1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemylandmine.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/cheat-test.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemybullet.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemylandmine.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-001/tietu.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/enemyfire.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/enemytank-001.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-001/tietu.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank-002/tietu.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/enemyfire.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemyfire.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/enemytank-002.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/enemytank/enemytank.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank-002/tietu.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect0.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank/enemyfire.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fireaffect1.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/enemytank/enemytank.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection0.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fireaffect0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/firedirection1.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fireaffect1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/fort.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp0.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/hp1.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/fort.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0%20copy.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/hp0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine0.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/hp1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/landmine1.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine0%20copy.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/normalwall.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-firefast.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/landmine1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/obj-movefast.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/normalwall.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/playerfire.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/obj-firefast.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/specialwall.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/obj-movefast.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect0.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/playerfire.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/speedaffect1.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/specialwall.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank0.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/speedaffect0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tank1.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/speedaffect1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tankdestroy.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank0.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/tietu.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tank1.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/HUAWEI/Desktop/TK2/assets/text/victory.ts"
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tankdestroy.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/tietu.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/victory.ts"
           },
           "messages": []
         }
@@ -1973,7 +2015,7 @@
     },
     "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
       "mTimestamp": {
-        "mtime": 1719805901638.912,
+        "mtime": 1720677402583.198,
         "uuid": "b2bd1fa7-8d7c-49c5-a158-df29a6d3a594"
       },
       "chunkId": "c8b6a709c03b1f3a3069932b4b22bfbc5834b962",
@@ -2232,7 +2274,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1720839838374,
+      "mTimestamp": 1721007316057,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -7747,7 +7789,7 @@
     },
     "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/LB.ts": {
       "mTimestamp": {
-        "mtime": 1720661281131.9717,
+        "mtime": 1720774807422.3738,
         "uuid": "022ad31a-5b4a-45fb-b36a-56722cc4d736"
       },
       "chunkId": "3fa8c7130e94c9393b264a7ce32f5474676f6187",
@@ -7763,11 +7805,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 80
+              "column": 98
             },
             "end": {
               "line": 1,
-              "column": 84
+              "column": 102
             }
           }
         }
@@ -7799,7 +7841,7 @@
     },
     "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/Loading.ts": {
       "mTimestamp": {
-        "mtime": 1720679653878.2666,
+        "mtime": 1721008124055.5105,
         "uuid": "45e19a0e-19cd-47a7-91ff-efa5210f49f7"
       },
       "chunkId": "2cf4671fbceb6daaffc4bc64059321f1484b1336",
@@ -8079,7 +8121,7 @@
     },
     "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/double.ts": {
       "mTimestamp": {
-        "mtime": 1720670997898.67,
+        "mtime": 1720774538724.1729,
         "uuid": "0370a831-3f9e-4fa3-b785-327282c5f9e8"
       },
       "chunkId": "f9ef8108184207a2a3ac8a4af16370e7cccdebfd",
@@ -8095,11 +8137,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 62
+              "column": 74
             },
             "end": {
               "line": 1,
-              "column": 66
+              "column": 78
             }
           }
         }
@@ -8131,11 +8173,15 @@
     },
     "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/easy.ts": {
       "mTimestamp": {
-        "mtime": 1720694698482.9504,
+        "mtime": 1721005177481.701,
         "uuid": "1c2aa0ab-07a1-4d07-9bdf-cb237e5f50b4"
       },
       "chunkId": "2293fa9ab01540ca40b9eaf4f350d7045e60f8e2",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -8147,11 +8193,25 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 62
+              "column": 74
             },
             "end": {
               "line": 1,
-              "column": 66
+              "column": 78
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 35
             }
           }
         }
@@ -8161,7 +8221,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -8176,6 +8236,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts"
           },
           "messages": []
         }
@@ -8235,7 +8309,7 @@
     },
     "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/esc.ts": {
       "mTimestamp": {
-        "mtime": 1720572450872.6057,
+        "mtime": 1720846098195.1008,
         "uuid": "37eb1a04-6317-47bf-bb42-ea3d421539b0"
       },
       "chunkId": "9e7f213547356e50b5cbb518e663112ef72ad361",
@@ -8287,11 +8361,15 @@
     },
     "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/hard.ts": {
       "mTimestamp": {
-        "mtime": 1720668411474.173,
+        "mtime": 1721005230359.9583,
         "uuid": "62e26f9a-508f-4ab8-8d7c-6de5471415bd"
       },
       "chunkId": "c45c38bb2ce35a2b17aaaa5a8b6504bbb2e042ac",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -8303,11 +8381,25 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 62
+              "column": 74
             },
             "end": {
               "line": 1,
-              "column": 66
+              "column": 78
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 35
             }
           }
         }
@@ -8317,7 +8409,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -8332,6 +8424,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts"
           },
           "messages": []
         }
@@ -8339,7 +8445,7 @@
     },
     "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/log.ts": {
       "mTimestamp": {
-        "mtime": 1720666578831.2944,
+        "mtime": 1721006438677.2852,
         "uuid": "c0d874b8-7781-4364-a158-9e2bec11454a"
       },
       "chunkId": "2d4b72c861f41697deb32f2f75093b435a2d06fa",
@@ -8359,11 +8465,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 71
+              "column": 104
             },
             "end": {
               "line": 1,
-              "column": 75
+              "column": 108
             }
           }
         },
@@ -8423,7 +8529,7 @@
     },
     "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/pause.ts": {
       "mTimestamp": {
-        "mtime": 1720674341719.3364,
+        "mtime": 1720770079689.292,
         "uuid": "1be0ecb3-4616-4119-8f11-962e875d2220"
       },
       "chunkId": "3efe872ca08ed922e9d548ac300812b54a4d686f",
@@ -8475,7 +8581,7 @@
     },
     "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/reStart.ts": {
       "mTimestamp": {
-        "mtime": 1720674492941.8418,
+        "mtime": 1720774732171.3528,
         "uuid": "6f9fcabe-e920-4453-95c6-2151b6e1006d"
       },
       "chunkId": "7b7060f8c2781355f8a414a6966812986d623666",
@@ -8495,11 +8601,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 60
+              "column": 72
             },
             "end": {
               "line": 1,
-              "column": 64
+              "column": 76
             }
           }
         },
@@ -8559,7 +8665,7 @@
     },
     "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/returnlog.ts": {
       "mTimestamp": {
-        "mtime": 1720233468550.0186,
+        "mtime": 1720774615631.6914,
         "uuid": "a189430a-0628-4266-acb3-0928040a9813"
       },
       "chunkId": "07f8bb379e39f4bd5df848e5495ce7f2a2fb7446",
@@ -8575,11 +8681,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 62
+              "column": 74
             },
             "end": {
               "line": 1,
-              "column": 66
+              "column": 78
             }
           }
         }
@@ -8611,7 +8717,7 @@
     },
     "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/returnselect.ts": {
       "mTimestamp": {
-        "mtime": 1720232896428.7542,
+        "mtime": 1720774891837.2683,
         "uuid": "310575db-eb3c-4d6b-9e70-d39d9c2f83c4"
       },
       "chunkId": "d632ebeba1e0d67c2b9171e2d8b2791b328bf10e",
@@ -8627,11 +8733,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 62
+              "column": 74
             },
             "end": {
               "line": 1,
-              "column": 66
+              "column": 78
             }
           }
         }
@@ -8663,7 +8769,7 @@
     },
     "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/select.ts": {
       "mTimestamp": {
-        "mtime": 1720668037907.8877,
+        "mtime": 1721005561718.6763,
         "uuid": "9acb61b4-461b-40b5-beb5-680b75075740"
       },
       "chunkId": "aac31d343bfea844a1ba6f4d76edc9f36e9938db",
@@ -8683,11 +8789,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 62
+              "column": 74
             },
             "end": {
               "line": 1,
-              "column": 66
+              "column": 78
             }
           }
         },
@@ -8799,7 +8905,7 @@
     },
     "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time01.ts": {
       "mTimestamp": {
-        "mtime": 1720686310283.594,
+        "mtime": 1721008019655.8135,
         "uuid": "6430be03-fcf3-4236-b9ed-af8e3ab624ce"
       },
       "chunkId": "e7640da30d025e5c8796b87e496fe8c04b518fa9",
@@ -9311,7 +9417,7 @@
     },
     "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/firedirection1.ts": {
       "mTimestamp": {
-        "mtime": 1720662329471.3848,
+        "mtime": 1720698356987.7205,
         "uuid": "acf90797-a929-4d3d-8920-3d19cf3e3fe2"
       },
       "chunkId": "768bafa733be3256e32c3def74aa845427cbda00",
@@ -11715,7 +11821,7 @@
     },
     "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/speedaffect0.ts": {
       "mTimestamp": {
-        "mtime": 1720254176000,
+        "mtime": 1720698110268.2063,
         "uuid": "b4a9900c-93e4-4dd4-aa75-7f8525854d2a"
       },
       "chunkId": "1fcb6ccd21d66cbe43845a51ba9b441e985e1709",
@@ -11799,7 +11905,7 @@
     },
     "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/text/speedaffect1.ts": {
       "mTimestamp": {
-        "mtime": 1720235072000,
+        "mtime": 1720698131848.6377,
         "uuid": "c2ec48c9-53e8-4388-aa60-71d8e5d0e67e"
       },
       "chunkId": "893f8e426d1663c7ffa75bf3f7889edac24d9b62",
@@ -21354,6 +21460,394 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/Reg.ts": {
+      "mTimestamp": {
+        "mtime": 1721006496055.4292,
+        "uuid": "1e5f289b-a1b3-40f6-82b2-7f9915e1ec6a"
+      },
+      "chunkId": "e015d3811a55f90f5a401bf93aa90eb76a424379",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 101
+            },
+            "end": {
+              "line": 1,
+              "column": 105
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/_continue.ts": {
+      "mTimestamp": {
+        "mtime": 1720775466800.3513,
+        "uuid": "319e3f78-27f4-41b9-b48d-b4a3581fd3fa"
+      },
+      "chunkId": "faaa1d2cf610d34962f1e604bfa36557af918b38",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 74
+            },
+            "end": {
+              "line": 1,
+              "column": 78
+            }
+          }
+        },
+        {
+          "value": "./pause",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/pause.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/_pause.ts": {
+      "mTimestamp": {
+        "mtime": 1720770022459.2288,
+        "uuid": "4c40cd08-3ff6-4625-b4e2-526558b9537f"
+      },
+      "chunkId": "2bf6eb265c2f7ada0a6c91b8ce48bb4d1aadd357",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/time02.ts": {
+      "mTimestamp": {
+        "mtime": 1721009800254.4993,
+        "uuid": "6f2e1ed3-17dd-4168-9cc8-348a3c34d43c"
+      },
+      "chunkId": "4fe22a3985cfb02c22c2a17d6de0e50bb4dbb51b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 70
+            },
+            "end": {
+              "line": 1,
+              "column": 74
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/continueGame.ts": {
+      "mTimestamp": {
+        "mtime": 1721007443098.0808,
+        "uuid": "5e7b4e30-0207-4af7-a4db-0a0a6362f42e"
+      },
+      "chunkId": "b9c038c9b0f3b6b1a522e6c83969e105617ad878",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 72
+            },
+            "end": {
+              "line": 1,
+              "column": 76
+            }
+          }
+        },
+        {
+          "value": "./PassInf",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/53190/Desktop/tankfightbackup/TK2/assets/Scripts/PassInf.ts"
           },
           "messages": []
         }

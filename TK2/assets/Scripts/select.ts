@@ -42,8 +42,8 @@ export class SceneSwitcher extends Component {
     loadSinglePlayerScene() {
         this.clickAudio.playOneShot(this.clickAudio.clip, 1);
         if(this.CurrentUser.save!=0)
-        director.loadScene('single'); // 使用你的单人闯关场景名称
+        director.loadScene('single'); //有存档则进入继续游戏界面
         else
-        director.loadScene('single1');
+        director.loadScene('single1');//没有则选择游戏模式
     }
 }

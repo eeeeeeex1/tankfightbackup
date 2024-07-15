@@ -463,6 +463,7 @@
         "1b563b92-0169-4b09-8e57-dda755953bb9"
       ],
       "dependScripts": [
+        "5e7b4e30-0207-4af7-a4db-0a0a6362f42e",
         "6f9fcabe-e920-4453-95c6-2151b6e1006d",
         "022ad31a-5b4a-45fb-b36a-56722cc4d736",
         "310575db-eb3c-4d6b-9e70-d39d9c2f83c4"
@@ -3876,13 +3877,19 @@
         "54d434b6-00f5-4d82-a32a-98c095f04df6@f9941",
         "e04c4f40-5874-49af-867d-ee76c8b95b77",
         "2244bed9-46f7-44cb-8624-7d38d8ef36df",
+        "21297a03-2ff3-45b0-b039-292b1f665553@f9941",
         "389042f7-6033-4238-aab8-7bd1e05b2b3c",
         "32792995-a6b9-4857-9271-dd77472da8b6",
         "1c574682-c601-446a-a679-317a155fab4a@f9941",
+        "9f373299-47cd-4fb1-9fc3-616cf1e42465",
+        "97757e68-bc97-431c-9cfb-47d23240e7b5",
         "6c51f436-0e09-4c71-b9b2-aa7bf331791e@f9941"
       ],
       "dependScripts": [
-        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "14976f41-8bb2-4b94-b7c1-fe380df4a35a",
+        "1be0ecb3-4616-4119-8f11-962e875d2220",
+        "6f2e1ed3-17dd-4168-9cc8-348a3c34d43c"
       ]
     },
     "versionCode": 1
@@ -4341,6 +4348,28 @@
       "depends": [
         "ec872238-e9c4-43e9-8fb1-472dbe821b4c@6c48a"
       ]
+    },
+    "versionCode": 1
+  },
+  "6f2e1ed3-17dd-4168-9cc8-348a3c34d43c": {
+    "url": "db://assets/Scripts/time02.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "5e7b4e30-0207-4af7-a4db-0a0a6362f42e": {
+    "url": "db://assets/Scripts/continueGame.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "1cc069d5-8424-4fe6-8c2a-05ab7149861b": {
+    "url": "db://assets/Audio/BGM",
+    "value": {},
+    "versionCode": 1
+  },
+  "97757e68-bc97-431c-9cfb-47d23240e7b5": {
+    "url": "db://assets/Audio/BGM/bgm.wav",
+    "value": {
+      "depends": []
     },
     "versionCode": 1
   }

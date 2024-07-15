@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Component, instantiate, Prefab, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, LB;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Component, find, instantiate, Prefab, AudioSource, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, LB;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -17,26 +17,30 @@ System.register(["cc"], function (_export, _context) {
       _decorator = _cc._decorator;
       Button = _cc.Button;
       Component = _cc.Component;
+      find = _cc.find;
       instantiate = _cc.instantiate;
       Prefab = _cc.Prefab;
+      AudioSource = _cc.AudioSource;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "022adMaW0pF+7NqVnIsxNc2", "LB", undefined);
 
-      __checkObsolete__(['_decorator', 'Button', 'Component', 'Input', 'instantiate', 'Node', 'Prefab']);
+      __checkObsolete__(['_decorator', 'Button', 'Component', 'find', 'Input', 'instantiate', 'Node', 'Prefab', 'AudioSource']);
 
       ({
         ccclass,
         property
       } = _decorator);
 
-      _export("LB", LB = (_dec = ccclass('LB'), _dec2 = property(Prefab), _dec(_class = (_class2 = class LB extends Component {
+      _export("LB", LB = (_dec = ccclass('LB'), _dec2 = property(AudioSource), _dec3 = property(Prefab), _dec(_class = (_class2 = class LB extends Component {
         constructor(...args) {
           super(...args);
 
-          _initializerDefineProperty(this, "SLB", _descriptor, this);
+          _initializerDefineProperty(this, "clickAudio", _descriptor, this);
+
+          _initializerDefineProperty(this, "SLB", _descriptor2, this);
         }
 
         start() {
@@ -46,11 +50,22 @@ System.register(["cc"], function (_export, _context) {
         update(deltaTime) {}
 
         LeaderBoard() {
-          let Board = instantiate(this.SLB);
-          this.node.parent.addChild(Board);
+          this.clickAudio.playOneShot(this.clickAudio.clip, 1);
+
+          if (!find('Canvas/SimpleLeaderBoard') && !find('Canvas/HardLeaderBoard')) {
+            let Board = instantiate(this.SLB);
+            this.node.parent.addChild(Board);
+          }
         }
 
-      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "SLB", [_dec2], {
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "clickAudio", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "SLB", [_dec3], {
         configurable: true,
         enumerable: true,
         writable: true,

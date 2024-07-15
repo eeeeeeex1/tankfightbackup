@@ -54,12 +54,13 @@ System.register(["cc"], function (_export, _context) {
               var stop = instantiate(this.pausePrefab);
               this.node.addChild(stop);
               this.status = 1;
-              director.pause();
-            } else {
-              this.node.getChildByName('_pause').destroy();
+            } //调用并挂载暂停预制体，并记录暂停状态
+            else {
               this.status = 0;
               director.resume();
-            }
+              this.node.getChildByName('_pause').destroy();
+            } //恢复
+
           }
         }
 
