@@ -1,0 +1,1100 @@
+16:05:45 debug: 2024/7/15下午4:05:45
+16:05:45 debug: Project: C:\Users\charon\Desktop\TK2
+16:05:45 debug: Targets: editor,preview
+16:05:45 debug: Incremental file seems great.
+16:05:45 debug: Engine path: D:\cocos creater\Creator\3.8.3\resources\resources\3d\engine
+16:05:45 debug: Initializing target [Editor]
+16:05:45 debug: Loading cache
+16:05:45 debug: Loading cache costs 39.152899999171495ms.
+16:05:45 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server,meshopt
+16:05:45 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+16:05:45 debug: Initializing target [Preview]
+16:05:45 debug: Loading cache
+16:05:45 debug: Loading cache costs 40.34179999958724ms.
+16:05:45 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+16:05:45 debug: Sync engine features: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview
+16:05:45 debug: Reset databases. Enumerated domains: [
+  {
+    "root": "db://internal/",
+    "physical": "D:\\cocos creater\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets"
+  },
+  {
+    "root": "db://assets/",
+    "physical": "C:\\Users\\charon\\Desktop\\TK2\\assets"
+  }
+]
+16:05:45 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///D:/cocos%20creater/Creator/3.8.3/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///C:/Users/charon/Desktop/TK2/assets/"
+  }
+}
+16:05:45 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///D:/cocos%20creater/Creator/3.8.3/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///C:/Users/charon/Desktop/TK2/assets/"
+  }
+}
+16:05:45 debug: Pulling asset-db.
+16:05:45 debug: Fetch asset-db cost: 11.95369999948889ms.
+16:05:45 debug: Build iteration starts.
+Number of accumulated asset changes: 65
+Feature changed: false
+16:05:45 debug: Target(editor) build started.
+16:05:45 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:19 GMT+0800 (GMT+08:00)
+16:05:45 debug: Inspect cce:/internal/x/cc
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+16:05:45 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+16:05:45 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:19 GMT+0800 (GMT+08:00)
+16:05:45 debug: Inspect cce:/internal/x/prerequisite-imports
+16:05:45 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/HLB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/HLB.ts.
+16:05:45 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/HLB.ts
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/HLB.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/HLB.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/HLB.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/LB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/LB.ts.
+16:05:45 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/LB.ts
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/LB.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/LB.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/LB.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Loading.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Loading.ts.
+16:05:45 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Loading.ts
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Loading.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Loading.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Loading.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:45 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts.
+16:05:45 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts
+16:05:45 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts as cce:/internal/code-quality/cr.mjs.
+16:05:45 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Jul 15 2024 14:49:19 GMT+0800 (GMT+08:00), Current mtime: Mon Jul 15 2024 16:05:25 GMT+0800 (GMT+08:00)
+16:05:45 debug: Inspect cce:/internal/code-quality/cr.mjs
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:45 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts.
+16:05:45 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts.
+16:05:45 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts
+16:05:45 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts as cce:/internal/code-quality/cr.mjs.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve ./pause from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts.
+16:05:45 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_pause.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_pause.ts.
+16:05:45 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_pause.ts
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_pause.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_pause.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_pause.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change0.ts.
+16:05:45 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change0.ts
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change0.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change0.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change0.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change1.ts.
+16:05:45 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change1.ts
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change1.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change1.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change1.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts.
+16:05:45 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts
+16:05:45 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts as cce:/internal/code-quality/cr.mjs.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:45 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/double.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/double.ts.
+16:05:45 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/double.ts
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/double.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/double.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/double.ts as cce:/internal/x/cc.
+16:05:45 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts.
+16:05:45 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts
+16:05:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts as cce:/internal/code-quality/cr.mjs.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/endgame.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/endgame.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/endgame.ts
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/endgame.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/endgame.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/endgame.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/esc.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/esc.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/esc.ts
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/esc.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/esc.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/esc.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts
+16:05:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts as cce:/internal/code-quality/cr.mjs.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts
+16:05:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts as cce:/internal/code-quality/cr.mjs.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts
+16:05:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts as cce:/internal/code-quality/cr.mjs.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnlog.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnlog.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnlog.ts
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnlog.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnlog.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnlog.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnselect.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnselect.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnselect.ts
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnselect.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnselect.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnselect.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts
+16:05:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts as cce:/internal/code-quality/cr.mjs.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/shut.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/shut.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/shut.ts
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/shut.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/shut.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/shut.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts
+16:05:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts as cce:/internal/code-quality/cr.mjs.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts
+16:05:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts as cce:/internal/code-quality/cr.mjs.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts
+16:05:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts as cce:/internal/code-quality/cr.mjs.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/welcome.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/welcome.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/welcome.ts
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/welcome.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/welcome.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/welcome.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/AudioManeger.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/AudioManeger.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/AudioManeger.ts
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/AudioManeger.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/AudioManeger.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/AudioManeger.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/background.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/background.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/background.ts
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/background.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/background.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/background.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts
+16:05:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts as cce:/internal/code-quality/cr.mjs.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts
+16:05:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts as cce:/internal/code-quality/cr.mjs.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve ./firedirection1 from file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts
+16:05:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts as cce:/internal/code-quality/cr.mjs.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts
+16:05:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts as cce:/internal/code-quality/cr.mjs.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts
+16:05:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts as cce:/internal/code-quality/cr.mjs.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve ./firedirection0 from file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts
+16:05:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts as cce:/internal/code-quality/cr.mjs.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:46 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts as cce:/internal/x/cc.
+16:05:46 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts.
+16:05:46 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts
+16:05:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts as cce:/internal/code-quality/cr.mjs.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts
+16:05:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts as cce:/internal/code-quality/cr.mjs.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:47 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts
+16:05:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts as cce:/internal/code-quality/cr.mjs.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:47 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts
+16:05:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts as cce:/internal/code-quality/cr.mjs.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve ./enemytank-001 from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts
+16:05:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts as cce:/internal/code-quality/cr.mjs.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve ./enemyfire from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts
+16:05:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts as cce:/internal/code-quality/cr.mjs.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve ./enemytank-002 from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts
+16:05:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts as cce:/internal/code-quality/cr.mjs.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve ./enemyfire from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts
+16:05:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts as cce:/internal/code-quality/cr.mjs.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve ./enemytank from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts
+16:05:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts as cce:/internal/code-quality/cr.mjs.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve ./firedirection0 from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts
+16:05:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts as cce:/internal/code-quality/cr.mjs.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve ./firedirection1 from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/fort.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/fort.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/fort.ts
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fort.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fort.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fort.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts
+16:05:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts as cce:/internal/code-quality/cr.mjs.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts
+16:05:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts as cce:/internal/code-quality/cr.mjs.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts
+16:05:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts as cce:/internal/code-quality/cr.mjs.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts
+16:05:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts as cce:/internal/code-quality/cr.mjs.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts
+16:05:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts as cce:/internal/code-quality/cr.mjs.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/normalwall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/normalwall.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/normalwall.ts
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/normalwall.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/normalwall.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/normalwall.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts
+16:05:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts as cce:/internal/code-quality/cr.mjs.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts as cce:/internal/x/cc.
+16:05:47 debug: Resolve ./firedirection0 from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts.
+16:05:47 debug: Resolve ./firedirection1 from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts.
+16:05:47 debug: Resolve ./playerfire from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts.
+16:05:47 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts
+16:05:48 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts as cce:/internal/code-quality/cr.mjs.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts
+16:05:48 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts as cce:/internal/code-quality/cr.mjs.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:48 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/specialwall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/specialwall.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/specialwall.ts
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/specialwall.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/specialwall.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/specialwall.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts
+16:05:48 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts as cce:/internal/code-quality/cr.mjs.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts
+16:05:48 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts as cce:/internal/code-quality/cr.mjs.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts
+16:05:48 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts as cce:/internal/code-quality/cr.mjs.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:48 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts
+16:05:48 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts as cce:/internal/code-quality/cr.mjs.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve ./enemytank/enemyfire from file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts
+16:05:48 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts as cce:/internal/code-quality/cr.mjs.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:48 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:48 debug: Resolve file:///D:/cocos%20creater/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos%20creater/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:05:48 debug: Resolve cc from file:///D:/cocos%20creater/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///D:/cocos%20creater/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///D:/cocos%20creater/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+16:05:48 debug: Target(editor) ends with cost 3113.780700000003ms.
+16:05:48 debug: Target(preview) build started.
+16:05:48 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:19 GMT+0800 (GMT+08:00)
+16:05:48 debug: Inspect cce:/internal/x/cc
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+16:05:48 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+16:05:48 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:19 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (GMT+08:00)
+16:05:48 debug: Inspect cce:/internal/x/prerequisite-imports
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/HLB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/HLB.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/HLB.ts
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/HLB.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/HLB.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/HLB.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/LB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/LB.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/LB.ts
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/LB.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/LB.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/LB.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Loading.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Loading.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Loading.ts
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Loading.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Loading.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Loading.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts
+16:05:48 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts as cce:/internal/code-quality/cr.mjs.
+16:05:48 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Jul 15 2024 14:49:19 GMT+0800 (GMT+08:00), Current mtime: Mon Jul 15 2024 16:05:25 GMT+0800 (GMT+08:00)
+16:05:48 debug: Inspect cce:/internal/code-quality/cr.mjs
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts
+16:05:48 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts as cce:/internal/code-quality/cr.mjs.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve ./pause from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_pause.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_pause.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_pause.ts
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_pause.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_pause.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_pause.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change0.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change0.ts
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change0.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change0.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change0.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change1.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change1.ts
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change1.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change1.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change1.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts
+16:05:48 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts as cce:/internal/code-quality/cr.mjs.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/double.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/double.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/double.ts
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/double.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/double.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/double.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts
+16:05:48 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts as cce:/internal/code-quality/cr.mjs.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/endgame.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/endgame.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/endgame.ts
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/endgame.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/endgame.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/endgame.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/esc.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/esc.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/esc.ts
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/esc.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/esc.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/esc.ts as cce:/internal/x/cc.
+16:05:48 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts.
+16:05:48 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnlog.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnlog.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnlog.ts
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnlog.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnlog.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnlog.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnselect.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnselect.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnselect.ts
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnselect.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnselect.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnselect.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/shut.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/shut.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/shut.ts
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/shut.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/shut.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/shut.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./PassInf from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/welcome.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/welcome.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/Scripts/welcome.ts
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/welcome.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/welcome.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/Scripts/welcome.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/AudioManeger.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/AudioManeger.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/AudioManeger.ts
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/AudioManeger.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/AudioManeger.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/AudioManeger.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/background.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/background.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/background.ts
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/background.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/background.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/background.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./firedirection1 from file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./firedirection0 from file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:49 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:49 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./enemytank-001 from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./enemyfire from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve ./enemytank-002 from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts.
+16:05:49 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts.
+16:05:49 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts
+16:05:49 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts as cce:/internal/code-quality/cr.mjs.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts as cce:/internal/x/cc.
+16:05:49 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve ./enemyfire from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts
+16:05:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts as cce:/internal/code-quality/cr.mjs.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve ./enemytank from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts
+16:05:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts as cce:/internal/code-quality/cr.mjs.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve ./firedirection0 from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts
+16:05:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts as cce:/internal/code-quality/cr.mjs.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve ./firedirection1 from file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/fort.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/fort.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/fort.ts
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fort.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fort.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/fort.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts
+16:05:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts as cce:/internal/code-quality/cr.mjs.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts
+16:05:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts as cce:/internal/code-quality/cr.mjs.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts
+16:05:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts as cce:/internal/code-quality/cr.mjs.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts
+16:05:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts as cce:/internal/code-quality/cr.mjs.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts
+16:05:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts as cce:/internal/code-quality/cr.mjs.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/normalwall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/normalwall.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/normalwall.ts
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/normalwall.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/normalwall.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/normalwall.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts
+16:05:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts as cce:/internal/code-quality/cr.mjs.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve ./firedirection0 from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts.
+16:05:50 debug: Resolve ./firedirection1 from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts.
+16:05:50 debug: Resolve ./playerfire from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts
+16:05:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts as cce:/internal/code-quality/cr.mjs.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts
+16:05:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts as cce:/internal/code-quality/cr.mjs.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:50 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/specialwall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/specialwall.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/specialwall.ts
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/specialwall.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/specialwall.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/specialwall.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts
+16:05:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts as cce:/internal/code-quality/cr.mjs.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts
+16:05:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts as cce:/internal/code-quality/cr.mjs.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts
+16:05:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts as cce:/internal/code-quality/cr.mjs.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:50 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts
+16:05:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts as cce:/internal/code-quality/cr.mjs.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve ./enemytank/enemyfire from file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts.
+16:05:50 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts.
+16:05:50 debug: Inspect file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts
+16:05:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts as cce:/internal/code-quality/cr.mjs.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve ./tank0 from file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:50 debug: Resolve ./tank1 from file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:50 debug: Resolve file:///D:/cocos%20creater/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos%20creater/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:05:50 debug: Resolve cc from file:///D:/cocos%20creater/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///D:/cocos%20creater/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+16:05:50 debug: Resolve cc from file:///D:/cocos%20creater/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+16:05:50 debug: Target(preview) ends with cost 2300.9188000001013ms.
+16:05:55 debug: Pulling asset-db.
+16:05:56 debug: Fetch asset-db cost: 1390.4360999995843ms.
+16:05:56 debug: Build iteration starts.
+Number of accumulated asset changes: 65
+Feature changed: false
+16:05:56 debug: Target(editor) build started.
+16:05:56 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:19 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:30 GMT+0800 (GMT+08:00)
+16:05:56 debug: Inspect cce:/internal/x/prerequisite-imports
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/HLB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/HLB.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/LB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/LB.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Loading.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Loading.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_pause.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_pause.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change0.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change1.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/double.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/double.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/endgame.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/endgame.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/esc.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/esc.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnlog.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnlog.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnselect.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnselect.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/shut.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/shut.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/welcome.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/welcome.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/AudioManeger.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/AudioManeger.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/background.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/background.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/fort.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/fort.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/normalwall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/normalwall.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts.
+16:05:56 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/specialwall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/specialwall.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts.
+16:05:57 debug: Resolve file:///D:/cocos%20creater/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos%20creater/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:05:57 debug: Target(editor) ends with cost 474.298599999398ms.
+16:05:57 debug: Target(preview) build started.
+16:05:57 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:31 GMT+0800 (GMT+08:00)
+16:05:57 debug: Inspect cce:/internal/x/prerequisite-imports
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/HLB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/HLB.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/LB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/LB.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Loading.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Loading.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/PassInf.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/Reg.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/SLB.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_continue.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_pause.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/_pause.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change0.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/change1.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/continueGame.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/double.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/double.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/easy.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/endgame.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/endgame.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/esc.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/esc.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/hard.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/log.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/pause.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/reStart.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnlog.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnlog.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnselect.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/returnselect.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/select.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/shut.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/shut.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time01.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time02.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/time11.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/Scripts/welcome.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/Scripts/welcome.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/AudioManeger.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/AudioManeger.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/background.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/background.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/bullet0.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/bullet1.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/cheat-test.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemybullet.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemylandmine.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemyfire.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/enemytank-001.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-001/tietu.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemyfire.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/enemytank-002.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank-002/tietu.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemyfire.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/enemytank/enemytank.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect0.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/fireaffect1.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection0.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/firedirection1.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/fort.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/fort.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/hp0.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/hp1.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0%20copy.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/landmine0.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/landmine1.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/normalwall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/normalwall.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/obj-firefast.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/obj-movefast.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/playerfire.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/specialwall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/specialwall.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect0.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/speedaffect1.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/tank0.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/tank1.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/tankdestroy.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/tietu.ts.
+16:05:57 debug: Resolve file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/charon/Desktop/TK2/assets/text/victory.ts.
+16:05:57 debug: Resolve file:///D:/cocos%20creater/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos%20creater/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:05:57 debug: Target(preview) ends with cost 151.9893000004813ms.
