@@ -6,6 +6,6 @@
     }
   },
   "general": {
-    "start_scene": "2698b5f0-3f61-4865-a446-ba38cfbdfddc"
+    "start_scene": "current_scene"
   }
 }
