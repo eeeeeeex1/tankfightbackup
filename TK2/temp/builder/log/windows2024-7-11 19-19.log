@@ -547,3 +547,620 @@
 2024-7-11 19:25:09 - debug: // ---- builder:run-build-stage-make ---- (139220ms)
 2024-7-11 19:25:09 - debug: [Build Memory track]: builder:build-stage-total make start:214.67MB, end 214.94MB, increase: 278.99KB
 2024-7-11 19:25:09 - log: [task:make]: success!
+2024-7-16 11:32:12 - debug: =================================== build Task (windows) Start ================================
+2024-7-16 11:32:12 - debug: Start build task, options:{"name":"HuNaoTank","server":"","platform":"windows","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"overwriteProjectSettings":{"macroConfig":{"cleanupImageCache":"inherit-project-setting"},"includeModules":{"physics":"inherit-project-setting","physics-2d":"inherit-project-setting","gfx-webgl2":"off"}},"nativeCodeBundleMode":"wasm","polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"7af63cc6-90a2-42ce-bfb5-42897472820c","outputName":"windows","taskName":"windows","scenes":[{"url":"db://assets/map/alonemap0-difficult.scene","uuid":"1f299242-f13f-4393-9ad0-c3b2064c2606"},{"url":"db://assets/map/alonemap0.scene","uuid":"1c6af74a-a8a3-47c1-8750-c97c5958c42f"},{"url":"db://assets/map/doublemap0.scene","uuid":"36291188-d37d-4b4f-a128-588f20d16162"},{"url":"db://assets/Scenes/LoadingScene.scene","uuid":"7af63cc6-90a2-42ce-bfb5-42897472820c"},{"url":"db://assets/Scenes/LoginScene.scene","uuid":"9486f291-e0a6-47f7-ab5b-7440590026f7"},{"url":"db://assets/Scenes/return.scene","uuid":"bda4619b-1bc8-442d-90ee-6b04df2eccd8"},{"url":"db://assets/Scenes/select.scene","uuid":"0554d124-5936-4455-9b17-a083050a9281"},{"url":"db://assets/Scenes/single.scene","uuid":"b9b0fce6-d144-4637-8f7b-c8b0c724ec99"},{"url":"db://assets/Scenes/single1.scene","uuid":"03313355-9855-490d-98a2-49a0837a55c4"},{"url":"db://assets/Scenes/victory.scene","uuid":"2be201f8-3f82-437d-b138-1947eaf8f5a2"}],"wasmCompressionMode":false,"packages":{"native":{"encrypted":false,"xxteaKey":"ed8JWTwmhF05FlbH","compressZip":false,"JobSystem":"none","__version__":"1.0.2"},"windows":{"executableName":"demo3_final","renderBackEnd":{"vulkan":true,"gles3":true,"gles2":true},"targetPlatform":"x64","__version__":"1.0.1","vsData":""},"cocos-service":{"configID":"bbddf8","services":[],"__version__":"3.0.7"}},"__version__":"1.3.8","buildMode":"normal","logDest":"project://temp/builder/log/windows2024-7-11 19-19.log"}
+2024-7-16 11:32:12 - debug: Build with Cocos Creator 3.8.3
+2024-7-16 11:32:12 - debug: native:(onBeforeBuild) start..., progress: 0%
+2024-7-16 11:32:12 - debug: // ---- build task native：onBeforeBuild ----
+2024-7-16 11:32:12 - debug: // ---- build task native：onBeforeBuild ---- (289ms)
+2024-7-16 11:32:12 - debug: native:(onBeforeBuild) in 289 ms ✓, progress: 2%
+2024-7-16 11:32:12 - debug: cocos-service:(onBeforeBuild) start..., progress: 2%
+2024-7-16 11:32:12 - debug: // ---- build task cocos-service：onBeforeBuild ----
+2024-7-16 11:32:13 - debug: // ---- build task cocos-service：onBeforeBuild ---- (977ms)
+2024-7-16 11:32:13 - debug: cocos-service:(onBeforeBuild) in 977 ms ✓, progress: 4%
+2024-7-16 11:32:13 - debug: scene:(onBeforeBuild) start..., progress: 4%
+2024-7-16 11:32:13 - debug: // ---- build task scene：onBeforeBuild ----
+2024-7-16 11:32:14 - debug: // ---- build task scene：onBeforeBuild ---- (888ms)
+2024-7-16 11:32:14 - debug: scene:(onBeforeBuild) in 888 ms ✓, progress: 5%
+2024-7-16 11:32:14 - debug: Start lock asset db..., progress: 5%
+2024-7-16 11:32:14 - log: Asset DB is paused with build!
+2024-7-16 11:32:14 - debug: Query all assets info in project
+2024-7-16 11:32:15 - debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-16 11:32:15 - debug: native:(onAfterInit) start..., progress: 5%
+2024-7-16 11:32:15 - debug: // ---- build task native：onAfterInit ----
+2024-7-16 11:32:15 - debug: Native engine root:C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native
+2024-7-16 11:32:15 - debug: // ---- build task native：onAfterInit ---- (319ms)
+2024-7-16 11:32:15 - debug: native:(onAfterInit) in 319 ms ✓, progress: 7%
+2024-7-16 11:32:15 - debug: windows:(onAfterInit) start..., progress: 7%
+2024-7-16 11:32:15 - debug: // ---- build task windows：onAfterInit ----
+2024-7-16 11:32:15 - debug: // ---- build task windows：onAfterInit ---- (557ms)
+2024-7-16 11:32:15 - debug: windows:(onAfterInit) in 557 ms ✓, progress: 9%
+2024-7-16 11:32:15 - debug: cocos-service:(onAfterInit) start..., progress: 9%
+2024-7-16 11:32:15 - debug: // ---- build task cocos-service：onAfterInit ----
+2024-7-16 11:32:17 - debug: // ---- build task cocos-service：onAfterInit ---- (1258ms)
+2024-7-16 11:32:17 - debug: cocos-service:(onAfterInit) in 1258 ms ✓, progress: 11%
+2024-7-16 11:32:17 - debug: engine:(onAfterInit) start..., progress: 11%
+2024-7-16 11:32:17 - debug: // ---- build task engine：onAfterInit ----
+2024-7-16 11:32:18 - debug: // ---- build task engine：onAfterInit ---- (882ms)
+2024-7-16 11:32:18 - debug: engine:(onAfterInit) in 882 ms ✓, progress: 13%
+2024-7-16 11:32:18 - debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 13%
+2024-7-16 11:32:18 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+2024-7-16 11:32:18 - debug: [adsense-h5g-plugin] remove script success
+2024-7-16 11:32:18 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (588ms)
+2024-7-16 11:32:18 - debug: adsense-h5g-plugin:(onBeforeBundleInit) in 588 ms ✓, progress: 13%
+2024-7-16 11:32:19 - debug: Init all bundles start..., progress: 13%
+2024-7-16 11:32:19 - debug: Num of bundles: 3..., progress: 13%
+2024-7-16 11:32:19 - debug: native:(onAfterBundleInit) start..., progress: 13%
+2024-7-16 11:32:19 - debug: // ---- build task native：onAfterBundleInit ----
+2024-7-16 11:32:20 - debug: // ---- build task native：onAfterBundleInit ---- (846ms)
+2024-7-16 11:32:20 - debug: native:(onAfterBundleInit) in 846 ms ✓, progress: 13%
+2024-7-16 11:32:20 - debug: windows:(onAfterBundleInit) start..., progress: 13%
+2024-7-16 11:32:20 - debug: // ---- build task windows：onAfterBundleInit ----
+2024-7-16 11:32:21 - debug: // ---- build task windows：onAfterBundleInit ---- (805ms)
+2024-7-16 11:32:21 - debug: windows:(onAfterBundleInit) in 805 ms ✓, progress: 13%
+2024-7-16 11:32:21 - debug: 查询 Asset Bundle start, progress: 13%
+2024-7-16 11:32:21 - debug: // ---- build task 查询 Asset Bundle ----
+2024-7-16 11:32:21 - debug: Init bundle root assets start..., progress: 13%
+2024-7-16 11:32:22 - debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-16 11:32:22 - debug:   Number of all scenes: 16
+2024-7-16 11:32:22 - debug:   Number of all scripts: 76
+2024-7-16 11:32:22 - debug:   Number of other assets: 690
+2024-7-16 11:32:22 - debug: Init bundle root assets success..., progress: 13%
+2024-7-16 11:32:22 - debug: reload all scripts.
+2024-7-16 11:32:22 - debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-7-16 11:32:22 - groupCollapsed: Invalidate all modules
+2024-7-16 11:32:22 - debug: Unregister DebugViewRuntimeControl
+2024-7-16 11:32:22 - debug: Unregister HLB
+2024-7-16 11:32:22 - debug: Unregister LB
+2024-7-16 11:32:22 - debug: Unregister Loading
+2024-7-16 11:32:22 - debug: Unregister PassInf
+2024-7-16 11:32:22 - debug: Unregister Reg
+2024-7-16 11:32:22 - debug: Unregister SLB
+2024-7-16 11:32:22 - debug: Unregister pause
+2024-7-16 11:32:22 - debug: Unregister _continue
+2024-7-16 11:32:22 - debug: Unregister _pause
+2024-7-16 11:32:22 - debug: Unregister adventure
+2024-7-16 11:32:22 - debug: Unregister change0
+2024-7-16 11:32:22 - debug: Unregister change1
+2024-7-16 11:32:22 - debug: Unregister continueGame
+2024-7-16 11:32:22 - debug: Unregister double
+2024-7-16 11:32:22 - debug: Unregister easy
+2024-7-16 11:32:22 - debug: Unregister endgame
+2024-7-16 11:32:22 - debug: Unregister esc
+2024-7-16 11:32:22 - debug: Unregister freemode
+2024-7-16 11:32:22 - debug: Unregister hard
+2024-7-16 11:32:22 - debug(6): Unregister l1e
+2024-7-16 11:32:22 - debug: Unregister log
+2024-7-16 11:32:22 - debug: Unregister reStart
+2024-7-16 11:32:22 - debug: Unregister returnlog
+2024-7-16 11:32:22 - debug: Unregister returnselect
+2024-7-16 11:32:22 - debug: Unregister SceneSwitcher
+2024-7-16 11:32:22 - debug: Unregister shut
+2024-7-16 11:32:22 - debug: Unregister time01
+2024-7-16 11:32:22 - debug: Unregister time02
+2024-7-16 11:32:22 - debug: Unregister time03
+2024-7-16 11:32:22 - debug: Unregister time11
+2024-7-16 11:32:22 - debug: Unregister time12
+2024-7-16 11:32:22 - debug: Unregister time13
+2024-7-16 11:32:22 - debug: Unregister welcome
+2024-7-16 11:32:22 - debug: Unregister AudioManeger
+2024-7-16 11:32:22 - debug: Unregister background
+2024-7-16 11:32:22 - debug: Unregister firedirection1
+2024-7-16 11:32:22 - debug: Unregister PlayerController1
+2024-7-16 11:32:22 - debug: Unregister Bullet
+2024-7-16 11:32:22 - debug: Unregister firedirection0
+2024-7-16 11:32:22 - debug: Unregister PlayerController0
+2024-7-16 11:32:22 - debug: Unregister Bullet
+2024-7-16 11:32:22 - debug: Unregister TankCheatController
+2024-7-16 11:32:22 - debug: Unregister enemybullet
+2024-7-16 11:32:22 - debug: Unregister enemylandmine
+2024-7-16 11:32:22 - debug: Unregister enemytank_001
+2024-7-16 11:32:22 - debug: Unregister enemyfire
+2024-7-16 11:32:22 - debug: Unregister sprite
+2024-7-16 11:32:22 - debug: Unregister enemytank_002
+2024-7-16 11:32:22 - debug: Unregister enemyfire
+2024-7-16 11:32:22 - debug: Unregister sprite
+2024-7-16 11:32:22 - debug: Unregister enemytank
+2024-7-16 11:32:22 - debug: Unregister enemyfire
+2024-7-16 11:32:22 - debug: Unregister fireaffect0
+2024-7-16 11:32:22 - debug: Unregister fireaffect1
+2024-7-16 11:32:22 - debug: Unregister fort
+2024-7-16 11:32:22 - debug: Unregister hp0
+2024-7-16 11:32:22 - debug: Unregister hp1
+2024-7-16 11:32:22 - debug(2): Unregister landmine0
+2024-7-16 11:32:22 - debug: Unregister landmine1
+2024-7-16 11:32:22 - debug: Unregister wallbox
+2024-7-16 11:32:22 - debug: Unregister playerfire
+2024-7-16 11:32:22 - debug: Unregister objectfirefast
+2024-7-16 11:32:22 - debug: Unregister objectmovefast
+2024-7-16 11:32:22 - debug: Unregister background
+2024-7-16 11:32:22 - debug: Unregister speedaffect0
+2024-7-16 11:32:22 - debug: Unregister speedaffect1
+2024-7-16 11:32:22 - debug: Unregister tankdestroy
+2024-7-16 11:32:22 - debug: Unregister sprite
+2024-7-16 11:32:22 - debug: Unregister tankdestroy
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/63/638a41546e5520d7d1c352cf5d8fc99ebd0254ca.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/2d/2da63302ee048af6c0f82a0d760f9979c73e1719.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/32/3233cd480d2ca910d279ea620420793c25c72039.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/8c/8c888454cc9cd65fa951f0c29cc3e3400f3f54b3.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/ef/ef007abda56006dc86686f56e54d6d17088807b1.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/78/782c5b9fd3e9296cfc9f4f2447a50a196c22a5a6.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/f1/f1b9ce00a80fc0c07833a54189da7b8a737a0bca.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/29/2937c1ce234cd43b02ffdd1631734622064c7b75.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/4d/4dda55f71d2b46878696f60bfab7b8f8d0f75921.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/86/861ee725b294d069fd697f9fcafd4c0767d3dcec.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/c2/c22416ce258bf506152f96f753d4701a77d5ae05.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/5f/5f517046dd181678beb49c1d067c00b563b772bb.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/de/de99df5388e3001faa0b2435259bc53d1f15e678.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/a8/a8c45e0c079714ffdcaa61f004351fcaf3190f75.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/d1/d1359497464b954af951bf29de7c2ad69ae7a474.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/09/098768ce9f2961282fd189166415acec90a95848.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/10/108fe786493403df76d709e8e36616221e8b1a9f.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/56/561fb2ec24ba17f81c62a994194fdd9486386110.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/b7/b799d70cdcaa9308b6e592ed7767535856e0b385.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/f2/f2337d916a89609d93786ccba130516451275982.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/f0/f0b2b4f6f5ce11d3d8b48f60b620cba4a80ad3d1.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/86/865ef9b00a1f18a106fa8c0e3018daefc9d4ec1a.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/fb/fb9d2dd52c7ac42565e8cb696e8d64ef0a24cf3e.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/a9/a95d6b4aa96afd376a2736c876a2e077de60d681.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/22/22b4775b9fdd764d073dba0f95da17c720e63722.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/ee/ee0e44312a866c1e55f6cebb12b159c36a97e3e4.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/1c/1c325fa7804c7a5a9f7db0b7bd1b84f6b64a8838.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/9a/9a886641c760c54424ba4213cc1f37ac6f53873c.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/49/49bb2b8db5b1e32fdc7120e21faab537b5893f9a.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/9a/9a135a67d02dc1e2ad30815a26de467b7f9c32fd.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/db/db251560b25b962e8fb4297f074efe4c6db999f6.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/fb/fb642317bf50f113d5e6b31360f8bd31feb6b4cb.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/15/158682a7de51c5a729c9106b65c2150ebb020ba1.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/1f/1f75658aea0b3942a0b43febfc4777832a413dee.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/ec/ec1f70e92938f955cc14e4eb88f2487d0d5ce12c.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/dd/dd3fc2252955a96acf111e8700af04d7d293a496.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/ec/ec4d90b279cab9afbc99a159349d46d01f902636.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/b5/b51c18b5f608ca501d40bdbc25d40f86801839e9.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/ab/ab3f9b01c0899c2ae742a9f4a73774bcb7157903.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/38/382660daedd8bc3b1ff708cb2219b8cbc14d3bae.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/53/5327e9066a0879e6e99f6952b59b5bf34838a752.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/14/1492a90b7df80e0a4511bdaa96e886af08a1f8ac.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/d6/d6d9719bfd0dfd14fe3f7d640e45cae0b8ee8bc8.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/3a/3adcdcc17dcbc125ec921b938769678becaff77e.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/00/003ab2187c680bbea441ba0632a608b31fa606aa.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/14/145352324dc90651ec195bf6d3a887f28a05f028.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/13/13669f8c592e1b3e63569264ae2410cae5684cdd.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/b0/b0df8f52b2f98f84e7f798f3fa4dad5e6a2a16ca.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/85/85736bae687500ed12bbe82349fe8a758967c3d9.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/47/47bf7232d7b38f93f447b1d61b23194b70bfbc60.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/d1/d12e516505b7094995e894959933d84bbadaed84.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/e5/e5f780770445628c1fd517ebfda20519801aa08d.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/2f/2f5c5d1fe1efb2029fabecfa018a4eada70c3f1b.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/f6/f6181b154a8c735727963e808ca20676b5c0f82b.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/d3/d3aa0b7eb56689ec18584239be58c02ea196d646.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/09/09954fb5950b82f4b47a5b3476f7f55567c41df6.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/ca/cacd00db61cdda87ee5127c0b3b12e5f99bdbc04.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/3a/3a23cf9839665a9576ecee83c99104521238c454.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/b4/b4a9c427ae2295de62decaf6145e68a726c1fffc.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/5a/5a7f361d44bdee39f48589ac94802aa554ad1cde.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/4f/4faa53579107686853832cbebc82cc967d199e9c.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/53/531f55a7568a779c5f2a4b3c6907fbf898ae6028.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/37/37c23abe68d230ce18de4fc5886505540f24f95d.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/b2/b28939a9540b76eb1010e50c73e1b59763c8df57.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/12/124b437a5dcd566df8b1132d6563d62d30e93d3d.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/d9/d9c864b005961085d7d3937efb5c2829cdf24e69.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/7a/7a02aa86158c790682e4ef50c99d33249679f9b1.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/09/09898b3261ca5fe4d1e3689a69548aa17bb95e47.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/82/82ba527f1a3d381121fdd24b478398e1581cd17d.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/ff/ff75748150f141970dc9f4a6d13905cf5f636951.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/ff/ff4b64016a470e529d7730d63c7b62531d47942d.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/41/41398af551fbf31cadcfa5aec20cb8932ee3b0db.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/42/42c367825cdcaba022864ba11180687ecebc7cf0.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/85/85a7ac11b409b26f63523c11d5034d73b04022f6.js'
+2024-7-16 11:32:22 - debug: Invalidating 'pack:///chunks/a2/a229e95230aad9e1eab8f598835d66076370a97d.js'
+2024-7-16 11:32:22 - groupEnd: Invalidate all modules
+2024-7-16 11:32:22 - groupCollapsed: Imports all modules
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register DebugViewRuntimeControl
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register HLB
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/63/638a41546e5520d7d1c352cf5d8fc99ebd0254ca.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register LB
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/2d/2da63302ee048af6c0f82a0d760f9979c73e1719.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register Loading
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/32/3233cd480d2ca910d279ea620420793c25c72039.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register PassInf
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/8c/8c888454cc9cd65fa951f0c29cc3e3400f3f54b3.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register Reg
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/ef/ef007abda56006dc86686f56e54d6d17088807b1.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register SLB
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/78/782c5b9fd3e9296cfc9f4f2447a50a196c22a5a6.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register pause
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/29/2937c1ce234cd43b02ffdd1631734622064c7b75.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register _continue
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/f1/f1b9ce00a80fc0c07833a54189da7b8a737a0bca.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register _pause
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/4d/4dda55f71d2b46878696f60bfab7b8f8d0f75921.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register adventure
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/86/861ee725b294d069fd697f9fcafd4c0767d3dcec.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register change0
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/c2/c22416ce258bf506152f96f753d4701a77d5ae05.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register change1
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/5f/5f517046dd181678beb49c1d067c00b563b772bb.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register continueGame
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/de/de99df5388e3001faa0b2435259bc53d1f15e678.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register double
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/a8/a8c45e0c079714ffdcaa61f004351fcaf3190f75.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register easy
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/d1/d1359497464b954af951bf29de7c2ad69ae7a474.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register endgame
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/09/098768ce9f2961282fd189166415acec90a95848.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register esc
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/10/108fe786493403df76d709e8e36616221e8b1a9f.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register freemode
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/56/561fb2ec24ba17f81c62a994194fdd9486386110.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register hard
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/b7/b799d70cdcaa9308b6e592ed7767535856e0b385.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register l1e
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/f2/f2337d916a89609d93786ccba130516451275982.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register l1e
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/f0/f0b2b4f6f5ce11d3d8b48f60b620cba4a80ad3d1.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register l1e
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/86/865ef9b00a1f18a106fa8c0e3018daefc9d4ec1a.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register l1e
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/fb/fb9d2dd52c7ac42565e8cb696e8d64ef0a24cf3e.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register l1e
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/a9/a95d6b4aa96afd376a2736c876a2e077de60d681.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register l1e
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/22/22b4775b9fdd764d073dba0f95da17c720e63722.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register log
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/ee/ee0e44312a866c1e55f6cebb12b159c36a97e3e4.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register reStart
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/1c/1c325fa7804c7a5a9f7db0b7bd1b84f6b64a8838.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register returnlog
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/9a/9a886641c760c54424ba4213cc1f37ac6f53873c.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register returnselect
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/49/49bb2b8db5b1e32fdc7120e21faab537b5893f9a.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register SceneSwitcher
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/9a/9a135a67d02dc1e2ad30815a26de467b7f9c32fd.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register shut
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/db/db251560b25b962e8fb4297f074efe4c6db999f6.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register time01
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/fb/fb642317bf50f113d5e6b31360f8bd31feb6b4cb.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register time02
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/15/158682a7de51c5a729c9106b65c2150ebb020ba1.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register time03
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/1f/1f75658aea0b3942a0b43febfc4777832a413dee.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register time11
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/ec/ec1f70e92938f955cc14e4eb88f2487d0d5ce12c.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register time12
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/dd/dd3fc2252955a96acf111e8700af04d7d293a496.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register time13
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/ec/ec4d90b279cab9afbc99a159349d46d01f902636.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register welcome
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/b5/b51c18b5f608ca501d40bdbc25d40f86801839e9.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register AudioManeger
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/ab/ab3f9b01c0899c2ae742a9f4a73774bcb7157903.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register background
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/38/382660daedd8bc3b1ff708cb2219b8cbc14d3bae.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register firedirection1
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/d6/d6d9719bfd0dfd14fe3f7d640e45cae0b8ee8bc8.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register PlayerController1
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/14/1492a90b7df80e0a4511bdaa96e886af08a1f8ac.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register Bullet
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/53/5327e9066a0879e6e99f6952b59b5bf34838a752.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register firedirection0
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/14/145352324dc90651ec195bf6d3a887f28a05f028.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register PlayerController0
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/00/003ab2187c680bbea441ba0632a608b31fa606aa.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register Bullet
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/3a/3adcdcc17dcbc125ec921b938769678becaff77e.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register TankCheatController
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/13/13669f8c592e1b3e63569264ae2410cae5684cdd.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register enemybullet
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/b0/b0df8f52b2f98f84e7f798f3fa4dad5e6a2a16ca.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register enemylandmine
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/85/85736bae687500ed12bbe82349fe8a758967c3d9.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register enemytank_001
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/d1/d12e516505b7094995e894959933d84bbadaed84.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register enemyfire
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/47/47bf7232d7b38f93f447b1d61b23194b70bfbc60.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register sprite
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/e5/e5f780770445628c1fd517ebfda20519801aa08d.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register enemytank_002
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/f6/f6181b154a8c735727963e808ca20676b5c0f82b.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register enemyfire
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/2f/2f5c5d1fe1efb2029fabecfa018a4eada70c3f1b.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register sprite
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/d3/d3aa0b7eb56689ec18584239be58c02ea196d646.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register enemytank
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/ca/cacd00db61cdda87ee5127c0b3b12e5f99bdbc04.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register enemyfire
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/09/09954fb5950b82f4b47a5b3476f7f55567c41df6.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register fireaffect0
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/3a/3a23cf9839665a9576ecee83c99104521238c454.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register fireaffect1
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/b4/b4a9c427ae2295de62decaf6145e68a726c1fffc.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register fort
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/5a/5a7f361d44bdee39f48589ac94802aa554ad1cde.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register hp0
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/4f/4faa53579107686853832cbebc82cc967d199e9c.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register hp1
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/53/531f55a7568a779c5f2a4b3c6907fbf898ae6028.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register landmine0
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/37/37c23abe68d230ce18de4fc5886505540f24f95d.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register landmine0
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/b2/b28939a9540b76eb1010e50c73e1b59763c8df57.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register landmine1
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/12/124b437a5dcd566df8b1132d6563d62d30e93d3d.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register wallbox
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/d9/d9c864b005961085d7d3937efb5c2829cdf24e69.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register playerfire
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/09/09898b3261ca5fe4d1e3689a69548aa17bb95e47.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register objectfirefast
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/7a/7a02aa86158c790682e4ef50c99d33249679f9b1.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register objectmovefast
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/82/82ba527f1a3d381121fdd24b478398e1581cd17d.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register background
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/ff/ff75748150f141970dc9f4a6d13905cf5f636951.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register speedaffect0
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/ff/ff4b64016a470e529d7730d63c7b62531d47942d.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register speedaffect1
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/41/41398af551fbf31cadcfa5aec20cb8932ee3b0db.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register tankdestroy
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/42/42c367825cdcaba022864ba11180687ecebc7cf0.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register sprite
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/85/85a7ac11b409b26f63523c11d5034d73b04022f6.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Register tankdestroy
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/a2/a229e95230aad9e1eab8f598835d66076370a97d.js" loaded.
+2024-7-16 11:32:22 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-7-16 11:32:22 - groupEnd: Imports all modules
+2024-7-16 11:32:22 - debug: Incremental keys: 
+2024-7-16 11:32:22 - debug: Init bundle share assets start..., progress: 13%
+2024-7-16 11:32:22 - debug: Init bundle share assets success..., progress: 13%
+2024-7-16 11:32:23 - warn: The SpriteFrame used by component "cc.Sprite" in scene "victory" is missing. Detailed information:Node path: "Canvas/vectory"Asset url: "db://assets/Scenes/victory"Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
+2024-7-16 11:32:23 - debug: handle json group in bundle internal
+2024-7-16 11:32:23 - debug: handle json group in bundle internal success
+2024-7-16 11:32:23 - debug: handle json group in bundle resources
+2024-7-16 11:32:23 - debug: handle json group in bundle resources success
+2024-7-16 11:32:23 - debug: handle json group in bundle main
+2024-7-16 11:32:23 - debug: init image compress task 0 in bundle internal
+2024-7-16 11:32:23 - debug: init image compress task 0 in bundle resources
+2024-7-16 11:32:23 - debug: [json-group] check self or raw asset, skip. 1b563b92-0169-4b09-8e57-dda755953bb9 depended by 285e0e0b-d379-456d-bf07-60f18f9ea848 has checked in raw asset 1b563b92-0169-4b09-8e57-dda755953bb9/bundle(main)}
+2024-7-16 11:32:23 - debug: [json-group] check self or raw asset, skip. 285e0e0b-d379-456d-bf07-60f18f9ea848 depended by 1b563b92-0169-4b09-8e57-dda755953bb9 has checked in raw asset 285e0e0b-d379-456d-bf07-60f18f9ea848/bundle(main)}
+2024-7-16 11:32:23 - debug: [json-group] check self or raw asset, skip. f4845990-e17f-411e-b3a6-fa50eff4b210 depended by f4845990-e17f-411e-b3a6-fa50eff4b210 has checked in raw asset 36291188-d37d-4b4f-a128-588f20d16162/bundle(main)}
+2024-7-16 11:32:23 - debug: [json-group] check self or raw asset, skip. 44ea65dd-dcbb-4c3b-8483-488681b996e9 depended by 44ea65dd-dcbb-4c3b-8483-488681b996e9 has checked in raw asset 36291188-d37d-4b4f-a128-588f20d16162/bundle(main)}
+2024-7-16 11:32:23 - debug: [json-group] check self or raw asset, skip. 44ea65dd-dcbb-4c3b-8483-488681b996e9 depended by 44ea65dd-dcbb-4c3b-8483-488681b996e9 has checked in raw asset 44ea65dd-dcbb-4c3b-8483-488681b996e9/bundle(main)}
+2024-7-16 11:32:23 - debug: [json-group] check self or raw asset, skip. f4845990-e17f-411e-b3a6-fa50eff4b210 depended by f4845990-e17f-411e-b3a6-fa50eff4b210 has checked in raw asset f4845990-e17f-411e-b3a6-fa50eff4b210/bundle(main)}
+2024-7-16 11:32:23 - debug: handle json group in bundle main success
+2024-7-16 11:32:23 - debug: init image compress task 0 in bundle main
+2024-7-16 11:32:23 - debug: // ---- build task 查询 Asset Bundle ---- (2619ms)
+2024-7-16 11:32:23 - debug: run build task 查询 Asset Bundle success in 2 s√, progress: 18%
+2024-7-16 11:32:23 - debug: [Build Memory track]: 查询 Asset Bundle start:213.18MB, end 221.12MB, increase: 7.94MB
+2024-7-16 11:32:23 - debug: 查询 Asset Bundle start, progress: 18%
+2024-7-16 11:32:23 - debug: // ---- build task 查询 Asset Bundle ----
+2024-7-16 11:32:24 - debug: // ---- build task 查询 Asset Bundle ---- (891ms)
+2024-7-16 11:32:24 - debug: run build task 查询 Asset Bundle success in 891 ms√, progress: 23%
+2024-7-16 11:32:24 - debug: [Build Memory track]: 查询 Asset Bundle start:221.14MB, end 208.05MB, increase: -13401.23KB
+2024-7-16 11:32:24 - debug: native:(onAfterBundleDataTask) start..., progress: 23%
+2024-7-16 11:32:24 - debug: // ---- build task native：onAfterBundleDataTask ----
+2024-7-16 11:32:25 - debug: // ---- build task native：onAfterBundleDataTask ---- (585ms)
+2024-7-16 11:32:25 - debug: native:(onAfterBundleDataTask) in 585 ms ✓, progress: 23%
+2024-7-16 11:32:25 - debug: 打包脚本 start, progress: 23%
+2024-7-16 11:32:25 - debug: // ---- build task 打包脚本 ----
+2024-7-16 11:32:25 - debug: Caught exception during build core-js: WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema. - configuration.entry should be an non-empty array.   -> A non-empty array of non-empty stringsThis may indicates the core-js polyfill is not necessary. See https://github.com/zloirock/core-js/issues/822
+2024-7-16 11:32:25 - debug: Generate systemJs..., progress: 23%
+2024-7-16 11:32:26 - debug: 构建项目脚本 start..., progress: 23%
+2024-7-16 11:32:26 - debug: Build script in bundle start, progress: 23%
+2024-7-16 11:32:27 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2024-7-16 11:32:28 - log: [build-script]enter sub process 2876, C:\ProgramData\cocos\editors\Creator\3.8.3\CocosCreator.exe,C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\builder\static\sub-process-index
+2024-7-16 11:32:29 - warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/53190/Desktop/TK2/assets/text/tank1.ts -> file:///C:/Users/53190/Desktop/TK2/assets/text/firedirection1.ts -> file:///C:/Users/53190/Desktop/TK2/assets/text/tank1.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/53190/Desktop/TK2/assets/text/tank0.ts -> file:///C:/Users/53190/Desktop/TK2/assets/text/firedirection0.ts -> file:///C:/Users/53190/Desktop/TK2/assets/text/tank0.ts
+2024-7-16 11:32:30 - debug: excute-script over with build-script 3126ms
+2024-7-16 11:32:30 - debug: Copy externalScripts success!
+2024-7-16 11:32:30 - debug: Build script in bundle success, progress: 23%
+2024-7-16 11:32:31 - debug: 构建项目脚本 in (4467 ms) √, progress: 23%
+2024-7-16 11:32:31 - debug: 构建引擎脚本 start..., progress: 23%
+2024-7-16 11:32:32 - debug: Use cache engine: {link(C:\Users\53190\AppData\Local\Temp\CocosCreator\3.8.3\builder\engine\582e75784029393a8ba6770471be2c00)}
+2024-7-16 11:32:32 - debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","dragon-bones","intersection-2d","meshopt","particle-2d","physics-2d-box2d","profiler","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.8.3","md5Map":[],"engineName":"src/cocos-js","platform":"WINDOWS","useCache":true,"isNative":true,"nativeCodeBundleMode":"wasm","wasmCompressionMode":false,"output":"C:\\Users\\53190\\Desktop\\TK2\\build\\windows\\data\\src\\cocos-js","targets":"chrome 116","flags":{"DEBUG":false,"NET_MODE":0,"SERVER_MODE":false},"entry":"C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine"}
+2024-7-16 11:32:32 - debug: 构建引擎脚本 in (964 ms) √, progress: 23%
+2024-7-16 11:32:32 - debug: Copy plugin script ..., progress: 23%
+2024-7-16 11:32:32 - debug: Generate import-map..., progress: 23%
+2024-7-16 11:32:33 - debug: // ---- build task 打包脚本 ---- (7787ms)
+2024-7-16 11:32:33 - debug: run build task 打包脚本 success in 7 s√, progress: 28%
+2024-7-16 11:32:33 - debug: [Build Memory track]: 打包脚本 start:209.27MB, end 253.75MB, increase: 44.48MB
+2024-7-16 11:32:33 - debug: Build Assets start, progress: 28%
+2024-7-16 11:32:33 - debug: // ---- build task Build Assets ----
+2024-7-16 11:32:33 - debug: Build bundles..., progress: 28%
+2024-7-16 11:32:33 - debug: Pack Images start, progress: 28%
+2024-7-16 11:32:34 - debug: builder:pack-auto-atlas-image (1396ms)
+2024-7-16 11:32:34 - debug: Pack Images success, progress: 28%
+2024-7-16 11:32:34 - debug: Compress image start..., progress: 28%
+2024-7-16 11:32:34 - group: Compress image...
+2024-7-16 11:32:34 - debug: sort compress task {}
+2024-7-16 11:32:34 - debug: Num of all image compress task 0, really: 0, configTasks: 0
+2024-7-16 11:32:34 - debug: No image need to compress
+2024-7-16 11:32:34 - groupEnd: Compress image...
+2024-7-16 11:32:34 - debug: Compress image success..., progress: 28%
+2024-7-16 11:32:34 - debug: Output asset in bundles start, progress: 28%
+2024-7-16 11:32:34 - debug: Handle all json groups in bundle internal
+2024-7-16 11:32:34 - debug: handle json group
+2024-7-16 11:32:34 - debug: Handle all json groups in bundle resources
+2024-7-16 11:32:34 - debug: handle json group
+2024-7-16 11:32:34 - debug: handle single json
+2024-7-16 11:32:34 - debug: Handle all json groups in bundle main
+2024-7-16 11:32:34 - debug: handle json group
+2024-7-16 11:32:34 - debug: Json group(029dd5974) compile success，json number: 6
+2024-7-16 11:32:34 - debug: Json group(029e2f4fe) compile success，json number: 6
+2024-7-16 11:32:34 - debug: Json group(0ca60d3e4) compile success，json number: 6
+2024-7-16 11:32:34 - debug: handle single json
+2024-7-16 11:32:34 - debug: Json group(044a966d9) compile success，json number: 6
+2024-7-16 11:32:34 - debug: Json group(09e1fd531) compile success，json number: 6
+2024-7-16 11:32:34 - debug: Json group(04ef1a1e4) compile success，json number: 6
+2024-7-16 11:32:34 - debug: Json group(019e0010b) compile success，json number: 6
+2024-7-16 11:32:34 - debug: Json group(049e90c10) compile success，json number: 6
+2024-7-16 11:32:34 - debug: Json group(098927a65) compile success，json number: 6
+2024-7-16 11:32:34 - debug: Json group(08385ff53) compile success，json number: 6
+2024-7-16 11:32:34 - debug: handle single json
+2024-7-16 11:32:35 - debug: Output asset in bundles success, progress: 28%
+2024-7-16 11:32:35 - debug: Output asset in bundles start, progress: 28%
+2024-7-16 11:32:35 - debug: compress config of bundle internal...
+2024-7-16 11:32:35 - debug: compress config of bundle internal success
+2024-7-16 11:32:35 - debug: compress config of bundle resources...
+2024-7-16 11:32:35 - debug: compress config of bundle resources success
+2024-7-16 11:32:35 - debug: compress config of bundle main...
+2024-7-16 11:32:35 - debug: compress config of bundle main success
+2024-7-16 11:32:35 - debug: output config of bundle internal
+2024-7-16 11:32:35 - debug: output config of bundle internal success
+2024-7-16 11:32:35 - debug: output config of bundle resources
+2024-7-16 11:32:35 - debug: output config of bundle resources success
+2024-7-16 11:32:35 - debug: output config of bundle main
+2024-7-16 11:32:35 - debug: output config of bundle main success
+2024-7-16 11:32:35 - debug: Output asset in bundles success, progress: 28%
+2024-7-16 11:32:37 - debug: // ---- build task Build Assets ---- (3998ms)
+2024-7-16 11:32:37 - debug: run build task Build Assets success in 3 s√, progress: 33%
+2024-7-16 11:32:37 - debug: [Build Memory track]: Build Assets start:253.77MB, end 207.91MB, increase: -46954.21KB
+2024-7-16 11:32:37 - debug: 整理部分构建选项内数据到 settings.json start, progress: 33%
+2024-7-16 11:32:37 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-7-16 11:32:37 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (826ms)
+2024-7-16 11:32:37 - debug: run build task 整理部分构建选项内数据到 settings.json success in 826 ms√, progress: 34%
+2024-7-16 11:32:37 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:208.01MB, end 209.62MB, increase: 1.61MB
+2024-7-16 11:32:37 - debug: 填充脚本数据到 settings.json start, progress: 34%
+2024-7-16 11:32:37 - debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-7-16 11:32:37 - warn: The SpriteFrame used by component "cc.Sprite" in scene "victory" is missing. Detailed information:Node path: "Canvas/vectory"Asset url: "db://assets/Scenes/victory"Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
+2024-7-16 11:32:38 - debug: // ---- build task 填充脚本数据到 settings.json ---- (910ms)
+2024-7-16 11:32:38 - debug: run build task 填充脚本数据到 settings.json success in 910 ms√, progress: 36%
+2024-7-16 11:32:38 - debug: [Build Memory track]: 填充脚本数据到 settings.json start:209.63MB, end 211.28MB, increase: 1.65MB
+2024-7-16 11:32:38 - debug: 整理部分构建选项内数据到 settings.json start, progress: 36%
+2024-7-16 11:32:38 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-7-16 11:32:39 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1129ms)
+2024-7-16 11:32:39 - debug: run build task 整理部分构建选项内数据到 settings.json success in 1 s√, progress: 38%
+2024-7-16 11:32:39 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:211.30MB, end 213.53MB, increase: 2.23MB
+2024-7-16 11:32:39 - debug: cocos-service:(onBeforeCompressSettings) start..., progress: 38%
+2024-7-16 11:32:39 - debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2024-7-16 11:32:40 - debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (1003ms)
+2024-7-16 11:32:40 - debug: cocos-service:(onBeforeCompressSettings) in 1003 ms ✓, progress: 40%
+2024-7-16 11:32:40 - debug: 整理静态模板文件 start, progress: 40%
+2024-7-16 11:32:40 - debug: // ---- build task 整理静态模板文件 ----
+2024-7-16 11:32:41 - debug: // ---- build task 整理静态模板文件 ---- (918ms)
+2024-7-16 11:32:41 - debug: run build task 整理静态模板文件 success in 918 ms√, progress: 45%
+2024-7-16 11:32:41 - debug: [Build Memory track]: 整理静态模板文件 start:208.50MB, end 211.39MB, increase: 2.88MB
+2024-7-16 11:32:41 - debug: native:(onAfterCompressSettings) start..., progress: 45%
+2024-7-16 11:32:41 - debug: // ---- build task native：onAfterCompressSettings ----
+2024-7-16 11:32:41 - log: Checking template version...
+2024-7-16 11:32:41 - log: Validating template consistency...
+2024-7-16 11:32:41 - log: Validating platform source code directories...
+2024-7-16 11:32:41 - debug: generateCMakeConfig, {"CC_USE_GLES3":"set(CC_USE_GLES3 ON)","CC_USE_GLES2":"set(CC_USE_GLES2 ON)","USE_SERVER_MODE":"set(USE_SERVER_MODE OFF)","NET_MODE":"set(NET_MODE 0)","XXTEAKEY":"","CC_ENABLE_SWAPPY":"set(CC_ENABLE_SWAPPY OFF)","APP_NAME":"set(APP_NAME \"HuNaoTank\")","COCOS_X_PATH":"set(COCOS_X_PATH \"C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/native\")","USE_JOB_SYSTEM_TASKFLOW":"set(USE_JOB_SYSTEM_TASKFLOW OFF)","USE_JOB_SYSTEM_TBB":"set(USE_JOB_SYSTEM_TBB OFF)","ENABLE_FLOAT_OUTPUT":"set(ENABLE_FLOAT_OUTPUT OFF)","USE_PHYSICS_PHYSX":"set(USE_PHYSICS_PHYSX OFF)","USE_OCCLUSION_QUERY":"set(USE_OCCLUSION_QUERY OFF)","USE_GEOMETRY_RENDERER":"set(USE_GEOMETRY_RENDERER OFF)","USE_DEBUG_RENDERER":"set(USE_DEBUG_RENDERER OFF)","USE_AUDIO":"set(USE_AUDIO ON)","USE_VIDEO":"set(USE_VIDEO ON)","USE_WEBVIEW":"set(USE_WEBVIEW ON)","USE_SOCKET":"set(USE_SOCKET OFF)","USE_WEBSOCKET_SERVER":"set(USE_WEBSOCKET_SERVER OFF)","USE_SPINE":"set(USE_SPINE ON)","USE_DRAGONBONES":"set(USE_DRAGONBONES ON)","CC_EXECUTABLE_NAME":"set(CC_EXECUTABLE_NAME \"demo3_final\")","CC_USE_VULKAN":"set(CC_USE_VULKAN ON)"}
+2024-7-16 11:32:41 - log: While replace template content, file C:\Users\53190\Desktop\TK2\build\windows\proj\main.cpp
+2024-7-16 11:32:41 - log: While replace template content, file C:\Users\53190\Desktop\TK2\build\windows\proj\main.m
+2024-7-16 11:32:41 - log: While replace template content, file C:\Users\53190\Desktop\TK2\build\windows\proj\settings.gradle
+2024-7-16 11:32:41 - log: While replace template content, file C:\Users\53190\Desktop\TK2\native\engine\win64/app/build.gradle
+2024-7-16 11:32:41 - log: While replace template content, file C:\Users\53190\Desktop\TK2\native\engine\win64/instantapp/build.gradle
+2024-7-16 11:32:41 - log: While replace template content, file C:\Users\53190\Desktop\TK2\native\engine\win64/entry/src/main/config.json
+2024-7-16 11:32:42 - debug: // ---- build task native：onAfterCompressSettings ---- (586ms)
+2024-7-16 11:32:42 - debug: native:(onAfterCompressSettings) in 586 ms ✓, progress: 46%
+2024-7-16 11:32:42 - debug: cocos-service:(onAfterCompressSettings) start..., progress: 46%
+2024-7-16 11:32:42 - debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2024-7-16 11:32:43 - debug: // ---- build task cocos-service：onAfterCompressSettings ---- (1413ms)
+2024-7-16 11:32:43 - debug: cocos-service:(onAfterCompressSettings) in 1413 ms ✓, progress: 48%
+2024-7-16 11:32:43 - debug: 给所有的资源加上 MD5 后缀 start, progress: 48%
+2024-7-16 11:32:43 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2024-7-16 11:32:44 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (570ms)
+2024-7-16 11:32:44 - debug: run build task 给所有的资源加上 MD5 后缀 success in 570 ms√, progress: 58%
+2024-7-16 11:32:44 - debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:206.77MB, end 206.92MB, increase: 155.61KB
+2024-7-16 11:32:44 - debug: native:(onAfterBuild) start..., progress: 58%
+2024-7-16 11:32:44 - debug: // ---- build task native：onAfterBuild ----
+2024-7-16 11:32:44 - log: selecting visual studio generator ...
+2024-7-16 11:32:44 - log: run "C:\Program Files\CMake\bin\cmake.exe" -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_tUQ2r2" -G"Visual Studio 17 2022" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_tUQ2r2\build_Visual_Studio_17_2022" -A x64
+2024-7-16 11:32:44 - log: [cmake] -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22631.
+2024-7-16 11:32:46 - log: [cmake] -- The CXX compiler identification is MSVC 19.40.33812.0
+2024-7-16 11:32:46 - log: [cmake] -- Detecting CXX compiler ABI info
+2024-7-16 11:32:48 - log: [cmake] -- Detecting CXX compiler ABI info - done
+2024-7-16 11:32:48 - log: [cmake] -- Check for working CXX compiler: D:/Visual Studio/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe - skipped
+2024-7-16 11:32:48 - log: [cmake] -- Detecting CXX compile features
+2024-7-16 11:32:48 - log: [cmake] -- Detecting CXX compile features - done
+2024-7-16 11:32:48 - log: [cmake] -- Configuring done (3.8s)
+2024-7-16 11:32:48 - log: [cmake] -- Generating done (0.0s)
+2024-7-16 11:32:48 - log: [cmake] -- Build files have been written to: C:/Users/53190/AppData/Local/Temp/cmakeTest_tUQ2r2/build_Visual_Studio_17_2022
+2024-7-16 11:32:48 - log:  using Visual Studio 17 2022
+2024-7-16 11:32:48 - log: run "C:\Program Files\CMake\bin\cmake.exe" -S"C:/Users/53190/Desktop/TK2/native/engine/win64" -B"C:/Users/53190/Desktop/TK2/build/windows/proj" -A x64 -DRES_DIR="C:/Users/53190/Desktop/TK2/build/windows" -DAPP_NAME="HuNaoTank" -DLAUNCH_TYPE="Release"
+2024-7-16 11:32:48 - log: [cmake] -- Building for: Visual Studio 17 2022
+2024-7-16 11:32:48 - log: [cmake] -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22631.
+2024-7-16 11:32:50 - log: [cmake] -- The CXX compiler identification is MSVC 19.40.33812.0
+2024-7-16 11:32:50 - log: [cmake] -- Detecting CXX compiler ABI info
+2024-7-16 11:32:51 - log: [cmake] -- Detecting CXX compiler ABI info - done
+2024-7-16 11:32:51 - log: [cmake] -- Check for working CXX compiler: D:/Visual Studio/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe - skipped
+2024-7-16 11:32:51 - log: [cmake] -- Detecting CXX compile features
+2024-7-16 11:32:51 - log: [cmake] -- Detecting CXX compile features - done
+2024-7-16 11:32:53 - log: [cmake] -- The C compiler identification is MSVC 19.40.33812.0
+2024-7-16 11:32:53 - log: [cmake] -- The ASM compiler identification is MSVC
+2024-7-16 11:32:53 - log: [cmake] -- Found assembler: D:/Visual Studio/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe
+2024-7-16 11:32:53 - log: [cmake] -- Detecting C compiler ABI info
+2024-7-16 11:32:54 - log: [cmake] -- Detecting C compiler ABI info - done
+2024-7-16 11:32:54 - log: [cmake] -- Check for working C compiler: D:/Visual Studio/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe - skipped
+2024-7-16 11:32:54 - log: [cmake] -- Detecting C compile features
+2024-7-16 11:32:54 - log: [cmake] -- Detecting C compile features - done
+2024-7-16 11:32:54 - log: [cmake] -- platform: Windows
+2024-7-16 11:32:54 - log: [cmake] -- Ignore NO_WERROR
+2024-7-16 11:32:54 - log: [cmake-warn] CMake Deprecation Warning at C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/templates/cmake/common.cmake:9 (cmake_policy):  The OLD behavior for policy CMP0111 will be removed from a future version  of CMake.  The cmake-policies(7) manual explains that the OLD behaviors of all  policies are deprecated and that a policy should be set to OLD only under  specific short-term circumstances.  Projects should be ported to the NEW  behavior and not rely on setting a policy to OLD.Call Stack (most recent call first):  C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/native/cmake/predefine.cmake:375 (include)  C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/native/CMakeLists.txt:2 (include)  C:/Users/53190/Desktop/TK2/native/engine/common/CMakeLists.txt:50 (include)  CMakeLists.txt:10 (include)
+2024-7-16 11:32:54 - log: [cmake] -- OPTION BUILTIN_COCOS_X_PATH:	-- OPTION USE_BUILTIN_EXTERNAL:	OFF-- OPTION USE_MODULES:	OFF-- OPTION CC_USE_METAL:	-- OPTION CC_USE_GLES3:	ON-- OPTION CC_USE_GLES2:	ON-- OPTION CC_USE_VULKAN:	ON-- OPTION CC_DEBUG_FORCE:	OFF-- OPTION USE_SE_V8:	ON-- OPTION USE_V8_DEBUGGER:	ON
+2024-7-16 11:32:54 - log: [cmake] -- OPTION USE_V8_DEBUGGER_FORCE:	OFF-- OPTION USE_SE_SM:	OFF-- OPTION USE_SOCKET:	OFF-- OPTION USE_AUDIO:	ON-- OPTION USE_EDIT_BOX:	ON-- OPTION USE_VIDEO:	OFF-- OPTION USE_WEBVIEW:	OFF-- OPTION USE_MIDDLEWARE:	ON-- OPTION USE_DRAGONBONES:	ON-- OPTION USE_SPINE:	ON-- OPTION USE_WEBSOCKET_SERVER:	OFF-- OPTION USE_PHYSICS_PHYSX:	OFF-- OPTION USE_JOB_SYSTEM_TBB:	OFF-- OPTION USE_JOB_SYSTEM_TASKFLOW:	OFF-- OPTION USE_XR:	OFF-- OPTION USE_SERVER_MODE:	OFF-- OPTION USE_AR_MODULE:	OFF-- OPTION USE_AR_AUTO:	OFF-- OPTION USE_AR_CORE:	OFF-- OPTION USE_AR_ENGINE:	OFF-- OPTION USE_CCACHE:	-- OPTION CCACHE_EXECUTABLE:	CCACHE_EXECUTABLE-NOTFOUND-- OPTION NODE_EXECUTABLE:	C:/Program Files/nodejs/node.exe-- OPTION NET_MODE:	0-- OPTION USE_REMOTE_LOG:	OFF
+2024-7-16 11:32:54 - log: [cmake] -- platform path: 
+2024-7-16 11:32:55 - log: [cmake] -- Try generating C:/Users/53190/Desktop/TK2/native/engine/win64/Pre-AutoLoadPlulgins.cmake
+2024-7-16 11:32:55 - log: [cmake] --  execute C:/Program Files/nodejs/node.exe plugin_parser.js
+2024-7-16 11:32:55 - log: [cmake] [searching plugins] directory C:/Users/53190/Desktop/TK2/extensions does not exist
+2024-7-16 11:32:55 - log: [cmake] [searching plugins] no plugins found!
+2024-7-16 11:32:55 - log: [cmake] -- Searching hook files Pre*.cmake or *Pre.cmake in C:/Users/53190/Desktop/TK2/native/engine/win64
+2024-7-16 11:32:55 - log: [cmake] -- No plugins are loaded!
+2024-7-16 11:32:55 - log: [cmake] -- Searching hook files Post*.cmake or *Post.cmake in C:/Users/53190/Desktop/TK2/native/engine/win64
+2024-7-16 11:32:55 - log: [cmake] -- Configuring done (7.1s)
+2024-7-16 11:32:55 - log: [cmake] -- Generating done (0.2s)
+2024-7-16 11:32:55 - log: [cmake-warn] CMake Warning:  Manually-specified variables were not used by the project:    LAUNCH_TYPE
+2024-7-16 11:32:55 - log: [cmake] -- Build files have been written to: C:/Users/53190/Desktop/TK2/build/windows/proj
+2024-7-16 11:32:55 - debug: // ---- build task native：onAfterBuild ---- (11526ms)
+2024-7-16 11:32:55 - debug: native:(onAfterBuild) in 11526 ms ✓, progress: 60%
+2024-7-16 11:32:55 - debug: cocos-service:(onAfterBuild) start..., progress: 60%
+2024-7-16 11:32:55 - debug: // ---- build task cocos-service：onAfterBuild ----
+2024-7-16 11:32:56 - debug: // ---- build task cocos-service：onAfterBuild ---- (952ms)
+2024-7-16 11:32:56 - debug: cocos-service:(onAfterBuild) in 952 ms ✓, progress: 62%
+2024-7-16 11:32:56 - debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 62%
+2024-7-16 11:32:56 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+2024-7-16 11:32:57 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (597ms)
+2024-7-16 11:32:57 - debug: adsense-h5g-plugin:(onAfterBuild) in 597 ms ✓, progress: 64%
+2024-7-16 11:32:57 - log: Asset DB is resume!
+2024-7-16 11:32:58 - debug: builder:build-project-total (46033ms)
+2024-7-16 11:32:58 - warn: The SpriteFrame used by component "cc.Sprite" in scene "victory" is missing. Detailed information:Node path: "Canvas/vectory"Asset url: "db://assets/Scenes/victory"Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
+2024-7-16 11:32:58 - debug: build success in 46033!
+2024-7-16 11:32:58 - debug: [Build Memory track]: builder:build-project-total start:212.90MB, end 212.35MB, increase: -558.42KB
+2024-7-16 11:32:58 - debug: ================================ build Task (windows) Finished in (46 s)ms ================================
+2024-7-16 11:33:17 - debug: // ---- builder:run-build-stage-make ----
+2024-7-16 11:33:17 - debug: Use build file cocos.compile.config.json in root(C:\Users\53190\Desktop\TK2\build\windows)
+2024-7-16 11:33:17 - log: [task:make]: init options success, 10%
+2024-7-16 11:33:17 - log: [task:make]: native:(make) start..., 10%
+2024-7-16 11:33:17 - debug: // ---- build task native：make ----
+2024-7-16 11:33:17 - log: run "C:\Program Files\CMake\bin\cmake.exe" --build "C:/Users/53190/Desktop/TK2/build/windows/proj" --config Release -- -verbosity:quiet
+2024-7-16 11:33:17 - log: [cmake] 閫傜敤浜� .NET Framework MSBuild 鐗堟湰 17.10.4+10fbfbf2e
+2024-7-16 11:33:23 - log: [cmake-warn] C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\tools\swig-config\spine.i(444): warning 303: %extend defined for an undeclared class spine::SkeletonJson. [C:\Users\53190\Desktop\TK2\build\windows\proj\cocos_engine.vcxproj]
+2024-7-16 11:33:23 - log: [cmake-warn] C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\tools\swig-config\spine.i(421): warning 303: %extend defined for an undeclared class spine::SkeletonClipping. [C:\Users\53190\Desktop\TK2\build\windows\proj\cocos_engine.vcxproj]C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\tools\swig-config\spine.i(538): warning 303: %extend defined for an undeclared class spine::Vector2. [C:\Users\53190\Desktop\TK2\build\windows\proj\cocos_engine.vcxproj]
+2024-7-16 11:35:18 - debug: // ---- build task native：make ---- (121602ms)
+2024-7-16 11:35:18 - log: [task:make]: native:(make) in 121602 ms ✓, 23.333333333333332%
+2024-7-16 11:35:19 - debug: // ---- builder:run-build-stage-make ---- (121961ms)
+2024-7-16 11:35:19 - debug: [Build Memory track]: builder:build-stage-total make start:213.23MB, end 213.42MB, increase: 190.78KB
+2024-7-16 11:35:19 - log: [task:make]: success!
+2024-7-16 11:36:54 - debug: // ---- builder:run-build-stage-run ----
+2024-7-16 11:36:54 - debug: Use build file cocos.compile.config.json in root(C:\Users\53190\Desktop\TK2\build\windows)
+2024-7-16 11:36:54 - log: [task:run]: init options success, 10%
+2024-7-16 11:36:54 - log: [task:run]: native:(run) start..., 10%
+2024-7-16 11:36:54 - debug: // ---- build task native：run ----
+2024-7-16 11:36:54 - log: [runCmd]: demo3_final.exe 
+2024-7-16 11:36:55 - log: [task:run]: 构建插件 native 的钩子函数 run 执行失败，请检查插件的代码逻辑~, 23.333333333333332%
+2024-7-16 11:36:55 - log: [task:run]: failed to exec demo3_final.exe , 36.66666666666667%
+2024-7-16 11:36:55 - debug: refresh db internal success
+2024-7-16 11:36:56 - debug: refresh db assets success
+2024-7-16 11:36:56 - debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-16 11:36:56 - debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-16 11:36:56 - debug: // ---- builder:run-build-stage-run ---- (2178ms)
+2024-7-16 11:36:56 - debug: [Build Memory track]: builder:build-stage-total run start:214.38MB, end 215.13MB, increase: 768.78KB
+2024-7-16 11:36:56 - error: Run build stage[run] in package C:\Users\53190\Desktop\TK2\build\windows failed!
+2024-7-16 11:36:56 - error: failed to exec demo3_final.exe 

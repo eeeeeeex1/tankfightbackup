@@ -22,28 +22,13 @@ export class SceneSwitcher extends Component {
     @property(AudioSource)
     private clickAudio: AudioSource = null;
 
-    CurrentUser:user;
-    RegSet:user[];
     start() {
         // 绑定按钮点击事件,传递存档参数
-        this.RegSet=Object.assign(new Array(),JSON.parse(localStorage.getItem('RegSet')));
-        for(const admin of this.RegSet)
-        {
-            if(admin.Account=='wuxu')
-            {
-                console.log('success!')
-                break;
-            }
-        }
-        this.CurrentUser=director.getScene().getChildByName('PassNode').getComponent(PassInf).CurrentUser;
         this.node.on(Button.EventType.CLICK, this.loadSinglePlayerScene, this);
     }
 
     loadSinglePlayerScene() {
         this.clickAudio.playOneShot(this.clickAudio.clip, 1);
-        if(this.CurrentUser.save!=0)
-        director.loadScene('single'); //有存档则进入继续游戏界面
-        else
-        director.loadScene('single1');//没有则选择游戏模式
+        director.loadScene('single2');
     }
 }

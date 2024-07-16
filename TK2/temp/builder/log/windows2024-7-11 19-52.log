@@ -604,3 +604,15 @@
 2024-7-11 20:03:51 - debug: // ---- builder:run-build-stage-run ---- (205161ms)
 2024-7-11 20:03:51 - debug: [Build Memory track]: builder:build-stage-total run start:217.53MB, end 218.14MB, increase: 627.56KB
 2024-7-11 20:03:51 - log: [task:run]: success!
+2024-7-16 11:31:57 - debug: // ---- builder:run-build-stage-run ----
+2024-7-16 11:31:57 - debug: Use build file cocos.compile.config.json in root(D:\Release\demo3)
+2024-7-16 11:31:57 - log: [task:run]: init options success, 10%
+2024-7-16 11:31:57 - log: [task:run]: native:(run) start..., 10%
+2024-7-16 11:31:57 - debug: // ---- build task native：run ----
+2024-7-16 11:31:57 - log: [runCmd]: demo3_final.exe 
+2024-7-16 11:32:01 - log: [runCmd demo3_final.exe] 11:31:58 [INFO]: Vulkan device initialized.11:31:58 [INFO]: RENDERER: NVIDIA GeForce RTX 4060 Laptop GPU11:31:58 [INFO]: VENDOR: Nvidia Corporation11:31:58 [INFO]: VERSION: 1.3.27811:31:58 [INFO]: INSTANCE_LAYERS: 11:31:58 [INFO]: INSTANCE_EXTENSIONS: VK_KHR_surface VK_KHR_win32_surface 11:31:58 [INFO]: DEVICE_LAYERS: 11:31:58 [INFO]: DEVICE_EXTENSIONS: VK_KHR_swapchain VK_KHR_fragment_shading_rate 11:31:58 [INFO]: COMPRESSED_FORMATS: dxt 11:31:58 [INFO]: JS: injectWebAssembly ...11:31:58 [INFO]: Device thread detached.11:31:58 [INFO]: Resizing surface: 800x60011:31:59 [INFO]: Shader 'util/splash-screen|splash-screen-vs:vert|splash-screen-fs:frag' compilation succeeded.11:32:00 [INFO]: Shader 'for2d/builtin-sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA0|USE_TEXTURE1|IS_GRAY0' compilation succeeded.11:32:01 [INFO]: Total device memory leaked: 0 bytes.
+2024-7-16 11:32:01 - debug: // ---- build task native：run ---- (3759ms)
+2024-7-16 11:32:01 - log: [task:run]: native:(run) in 3759 ms ✓, 23.333333333333332%
+2024-7-16 11:32:02 - debug: // ---- builder:run-build-stage-run ---- (4049ms)
+2024-7-16 11:32:02 - debug: [Build Memory track]: builder:build-stage-total run start:211.88MB, end 211.83MB, increase: -49.46KB
+2024-7-16 11:32:02 - log: [task:run]: success!

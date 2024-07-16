@@ -1,0 +1,792 @@
+2024-7-16 13:53:14-log: Cannot access game frame or container.
+2024-7-16 13:53:17-debug: asset-db:require-engine-code (3500ms)
+2024-7-16 13:53:20-log: meshopt wasm decoder initialized
+2024-7-16 13:53:20-log: [bullet]:bullet wasm lib loaded.
+2024-7-16 13:53:20-log: [box2d]:box2d wasm lib loaded.
+2024-7-16 13:53:20-log: Cocos Creator v3.8.3
+2024-7-16 13:53:20-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:24.32MB, end 76.69MB, increase: 52.37MB
+2024-7-16 13:53:20-debug: [Assets Memory track]: asset-db-plugin-register: programming start:77.55MB, end 80.74MB, increase: 3.19MB
+2024-7-16 13:53:21-debug: [Assets Memory track]: asset-db-plugin-register: builder start:80.76MB, end 190.81MB, increase: 110.06MB
+2024-7-16 13:53:21-debug: [Assets Memory track]: asset-db-plugin-register: project start:77.42MB, end 194.56MB, increase: 117.14MB
+2024-7-16 13:53:21-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:191.21MB, end 194.50MB, increase: 3.29MB
+2024-7-16 13:53:21-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:76.70MB, end 194.58MB, increase: 117.89MB
+2024-7-16 13:53:21-debug: asset-db:worker-init: initPlugin (1353ms)
+2024-7-16 13:53:21-debug: [Assets Memory track]: asset-db:worker-init start:24.32MB, end 189.11MB, increase: 164.79MB
+2024-7-16 13:53:21-debug: Run asset db hook programming:beforePreStart ...
+2024-7-16 13:53:21-debug: Run asset db hook programming:beforePreStart success!
+2024-7-16 13:53:21-debug: Run asset db hook engine-extends:beforePreStart success!
+2024-7-16 13:53:21-debug: Run asset db hook engine-extends:beforePreStart ...
+2024-7-16 13:53:22-debug: asset-db:worker-init (9079ms)
+2024-7-16 13:53:22-debug: asset-db-hook-programming-beforePreStart (917ms)
+2024-7-16 13:53:22-debug: asset-db-hook-engine-extends-beforePreStart (916ms)
+2024-7-16 13:53:23-debug: Preimport db internal success
+2024-7-16 13:53:23-debug: Preimport db assets success
+2024-7-16 13:53:23-debug: Run asset db hook programming:afterPreStart ...
+2024-7-16 13:53:23-debug: starting packer-driver...
+2024-7-16 13:53:24-debug: initialize scripting environment...
+2024-7-16 13:53:24-debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-7-16 13:53:24-debug: Run asset db hook engine-extends:afterPreStart success!
+2024-7-16 13:53:24-debug: Run asset db hook programming:afterPreStart success!
+2024-7-16 13:53:24-debug: [Assets Memory track]: asset-db:worker-init: preStart start:189.12MB, end 195.20MB, increase: 6.08MB
+2024-7-16 13:53:24-debug: Run asset db hook engine-extends:afterPreStart ...
+2024-7-16 13:53:24-debug: Start up the 'internal' database...
+2024-7-16 13:53:25-debug: asset-db-hook-programming-afterPreStart (1413ms)
+2024-7-16 13:53:25-debug: asset-db:worker-effect-data-processing (678ms)
+2024-7-16 13:53:25-debug: asset-db-hook-engine-extends-afterPreStart (678ms)
+2024-7-16 13:53:25-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:189.17MB, end 208.63MB, increase: 19.46MB
+2024-7-16 13:53:25-debug: Start up the 'assets' database...
+2024-7-16 13:53:25-debug: asset-db:worker-startup-database[internal] (3718ms)
+2024-7-16 13:53:25-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:194.50MB, end 208.60MB, increase: 14.10MB
+2024-7-16 13:53:25-debug: [Assets Memory track]: asset-db:worker-init: startup start:195.21MB, end 208.61MB, increase: 13.40MB
+2024-7-16 13:53:25-debug: lazy register asset handler directory
+2024-7-16 13:53:25-debug: lazy register asset handler json
+2024-7-16 13:53:25-debug: lazy register asset handler *
+2024-7-16 13:53:25-debug: lazy register asset handler spine-data
+2024-7-16 13:53:25-debug: lazy register asset handler text
+2024-7-16 13:53:25-debug: lazy register asset handler dragonbones-atlas
+2024-7-16 13:53:25-debug: lazy register asset handler dragonbones
+2024-7-16 13:53:25-debug: lazy register asset handler terrain
+2024-7-16 13:53:25-debug: lazy register asset handler typescript
+2024-7-16 13:53:25-debug: lazy register asset handler javascript
+2024-7-16 13:53:25-debug: lazy register asset handler sprite-frame
+2024-7-16 13:53:25-debug: lazy register asset handler prefab
+2024-7-16 13:53:25-debug: lazy register asset handler tiled-map
+2024-7-16 13:53:25-debug: lazy register asset handler scene
+2024-7-16 13:53:25-debug: lazy register asset handler buffer
+2024-7-16 13:53:25-debug: lazy register asset handler image
+2024-7-16 13:53:25-debug: lazy register asset handler texture
+2024-7-16 13:53:25-debug: lazy register asset handler alpha-image
+2024-7-16 13:53:25-debug: lazy register asset handler texture-cube
+2024-7-16 13:53:25-debug: lazy register asset handler erp-texture-cube
+2024-7-16 13:53:25-debug: lazy register asset handler sign-image
+2024-7-16 13:53:25-debug: lazy register asset handler render-texture
+2024-7-16 13:53:25-debug: lazy register asset handler texture-cube-face
+2024-7-16 13:53:25-debug: lazy register asset handler rt-sprite-frame
+2024-7-16 13:53:25-debug: lazy register asset handler gltf
+2024-7-16 13:53:25-debug: lazy register asset handler gltf-mesh
+2024-7-16 13:53:25-debug: lazy register asset handler gltf-animation
+2024-7-16 13:53:25-debug: lazy register asset handler gltf-skeleton
+2024-7-16 13:53:25-debug: lazy register asset handler gltf-material
+2024-7-16 13:53:25-debug: lazy register asset handler gltf-scene
+2024-7-16 13:53:25-debug: lazy register asset handler fbx
+2024-7-16 13:53:25-debug: lazy register asset handler gltf-embeded-image
+2024-7-16 13:53:25-debug: lazy register asset handler material
+2024-7-16 13:53:25-debug: lazy register asset handler physics-material
+2024-7-16 13:53:25-debug: lazy register asset handler effect-header
+2024-7-16 13:53:25-debug: lazy register asset handler effect
+2024-7-16 13:53:25-debug: lazy register asset handler audio-clip
+2024-7-16 13:53:25-debug: lazy register asset handler animation-clip
+2024-7-16 13:53:25-debug: lazy register asset handler animation-graph
+2024-7-16 13:53:25-debug: lazy register asset handler ttf-font
+2024-7-16 13:53:25-debug: lazy register asset handler animation-graph-variant
+2024-7-16 13:53:25-debug: lazy register asset handler animation-mask
+2024-7-16 13:53:25-debug: lazy register asset handler particle
+2024-7-16 13:53:25-debug: lazy register asset handler sprite-atlas
+2024-7-16 13:53:25-debug: lazy register asset handler bitmap-font
+2024-7-16 13:53:25-debug: lazy register asset handler auto-atlas
+2024-7-16 13:53:25-debug: lazy register asset handler label-atlas
+2024-7-16 13:53:25-debug: lazy register asset handler instantiation-material
+2024-7-16 13:53:25-debug: lazy register asset handler render-pipeline
+2024-7-16 13:53:25-debug: lazy register asset handler render-stage
+2024-7-16 13:53:25-debug: lazy register asset handler render-flow
+2024-7-16 13:53:25-debug: lazy register asset handler instantiation-mesh
+2024-7-16 13:53:25-debug: lazy register asset handler instantiation-animation
+2024-7-16 13:53:25-debug: lazy register asset handler instantiation-skeleton
+2024-7-16 13:53:25-debug: lazy register asset handler video-clip
+2024-7-16 13:53:25-debug: asset-db:worker-startup-database[assets] (2489ms)
+2024-7-16 13:53:25-debug: asset-db:start-database (3846ms)
+2024-7-16 13:53:25-debug: asset-db:ready (14472ms)
+2024-7-16 13:53:25-debug: init worker message success
+2024-7-16 13:53:26-debug: [Build Memory track]: builder:worker-init start:208.10MB, end 218.85MB, increase: 10.76MB
+2024-7-16 13:53:26-debug: programming:execute-script (5ms)
+2024-7-16 13:53:26-debug: builder:worker-init (994ms)
+2024-7-16 13:53:50-debug: Start record console... {file(C:\Users\53190\Desktop\TK2\temp\builder\log\windows2024-7-16 13-53.log)}
+2024-7-16 13:53:50-debug: =================================== build Task (windows) Start ================================
+2024-7-16 13:53:50-debug: Build with Cocos Creator 3.8.3
+2024-7-16 13:53:50-debug: Start build task, options:{"name":"HuNaoTank","server":"","platform":"windows","buildPath":"D:\\Release","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"overwriteProjectSettings":{"macroConfig":{"cleanupImageCache":"inherit-project-setting"},"includeModules":{"physics":"inherit-project-setting","physics-2d":"inherit-project-setting","gfx-webgl2":"off"}},"nativeCodeBundleMode":"wasm","polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"7af63cc6-90a2-42ce-bfb5-42897472820c","outputName":"windows","taskName":"windows","scenes":[{"url":"db://assets/map/alonemap1-difficult.scene","uuid":"c3d1c1df-a290-4d94-bfd1-97122c6d8e77"},{"url":"db://assets/map/alonemap1.scene","uuid":"5cc9f225-3b99-4692-b986-208e09e59dc6"},{"url":"db://assets/map/alonemap2-difficult.scene","uuid":"dba266be-edcb-4b1a-a819-b38c18738630"},{"url":"db://assets/map/alonemap2.scene","uuid":"2698b5f0-3f61-4865-a446-ba38cfbdfddc"},{"url":"db://assets/map/alonemap3-difficult.scene","uuid":"1f299242-f13f-4393-9ad0-c3b2064c2606"},{"url":"db://assets/map/alonemap3.scene","uuid":"1c6af74a-a8a3-47c1-8750-c97c5958c42f"},{"url":"db://assets/map/doublemap0.scene","uuid":"36291188-d37d-4b4f-a128-588f20d16162"},{"url":"db://assets/Scenes/freemode.scene","uuid":"ffb92940-9467-499a-9753-3b912ab5ee43"},{"url":"db://assets/Scenes/LoadingScene.scene","uuid":"7af63cc6-90a2-42ce-bfb5-42897472820c"},{"url":"db://assets/Scenes/LoginScene.scene","uuid":"9486f291-e0a6-47f7-ab5b-7440590026f7"},{"url":"db://assets/Scenes/return.scene","uuid":"bda4619b-1bc8-442d-90ee-6b04df2eccd8"},{"url":"db://assets/Scenes/select.scene","uuid":"0554d124-5936-4455-9b17-a083050a9281"},{"url":"db://assets/Scenes/single.scene","uuid":"b9b0fce6-d144-4637-8f7b-c8b0c724ec99"},{"url":"db://assets/Scenes/single1.scene","uuid":"03313355-9855-490d-98a2-49a0837a55c4"},{"url":"db://assets/Scenes/single2.scene","uuid":"83b92481-fe75-4b51-bba6-fdf192d0731b"},{"url":"db://assets/Scenes/victory.scene","uuid":"2be201f8-3f82-437d-b138-1947eaf8f5a2"}],"wasmCompressionMode":false,"packages":{"windows":{"executableName":"HuNaoTank","renderBackEnd":{"vulkan":true,"gles3":true,"gles2":true},"targetPlatform":"x64","__version__":"1.0.1","vsData":""},"cocos-service":{"configID":"bbddf8","services":[],"__version__":"3.0.7"},"native":{"encrypted":false,"xxteaKey":"87GkcY6FhEQ47RYP","compressZip":false,"JobSystem":"none","__version__":"1.0.2"}},"__version__":"1.3.8","buildMode":"normal","logDest":"project://temp/builder/log/windows2024-7-16 13-53.log"}
+2024-7-16 13:53:50-debug: native:(onBeforeBuild) start..., progress: 0%
+2024-7-16 13:53:50-debug: // ---- build task native：onBeforeBuild ----
+2024-7-16 13:53:50-debug: // ---- build task native：onBeforeBuild ---- (292ms)
+2024-7-16 13:53:50-debug: native:(onBeforeBuild) in 292 ms ✓, progress: 2%
+2024-7-16 13:53:50-debug: cocos-service:(onBeforeBuild) start..., progress: 2%
+2024-7-16 13:53:50-debug: // ---- build task cocos-service：onBeforeBuild ----
+2024-7-16 13:53:51-debug: // ---- build task cocos-service：onBeforeBuild ---- (975ms)
+2024-7-16 13:53:51-debug: cocos-service:(onBeforeBuild) in 975 ms ✓, progress: 4%
+2024-7-16 13:53:51-debug: scene:(onBeforeBuild) start..., progress: 4%
+2024-7-16 13:53:51-debug: // ---- build task scene：onBeforeBuild ----
+2024-7-16 13:53:52-debug: // ---- build task scene：onBeforeBuild ---- (907ms)
+2024-7-16 13:53:52-debug: scene:(onBeforeBuild) in 907 ms ✓, progress: 5%
+2024-7-16 13:53:52-debug: Start lock asset db..., progress: 5%
+2024-7-16 13:53:52-log: Asset DB is paused with build!
+2024-7-16 13:53:52-debug: Query all assets info in project
+2024-7-16 13:53:53-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-7-16 13:53:53-debug: native:(onAfterInit) start..., progress: 5%
+2024-7-16 13:53:53-debug: // ---- build task native：onAfterInit ----
+2024-7-16 13:53:55-debug: Native engine root:C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native
+2024-7-16 13:53:56-debug: // ---- build task native：onAfterInit ---- (2994ms)
+2024-7-16 13:53:56-debug: windows:(onAfterInit) start..., progress: 7%
+2024-7-16 13:53:56-debug: native:(onAfterInit) in 2994 ms ✓, progress: 7%
+2024-7-16 13:53:56-debug: // ---- build task windows：onAfterInit ----
+2024-7-16 13:53:56-debug: // ---- build task windows：onAfterInit ---- (591ms)
+2024-7-16 13:53:56-debug: windows:(onAfterInit) in 591 ms ✓, progress: 9%
+2024-7-16 13:53:56-debug: cocos-service:(onAfterInit) start..., progress: 9%
+2024-7-16 13:53:56-debug: // ---- build task cocos-service：onAfterInit ----
+2024-7-16 13:53:57-debug: // ---- build task cocos-service：onAfterInit ---- (1296ms)
+2024-7-16 13:53:57-debug: cocos-service:(onAfterInit) in 1296 ms ✓, progress: 11%
+2024-7-16 13:53:57-debug: engine:(onAfterInit) start..., progress: 11%
+2024-7-16 13:53:57-debug: // ---- build task engine：onAfterInit ----
+2024-7-16 13:53:58-debug: // ---- build task engine：onAfterInit ---- (898ms)
+2024-7-16 13:53:58-debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 13%
+2024-7-16 13:53:58-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+2024-7-16 13:53:58-debug: [adsense-h5g-plugin] remove script success
+2024-7-16 13:53:58-debug: engine:(onAfterInit) in 898 ms ✓, progress: 13%
+2024-7-16 13:53:59-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (669ms)
+2024-7-16 13:53:59-debug: adsense-h5g-plugin:(onBeforeBundleInit) in 669 ms ✓, progress: 13%
+2024-7-16 13:54:00-debug: Init all bundles start..., progress: 13%
+2024-7-16 13:54:00-debug: native:(onAfterBundleInit) start..., progress: 13%
+2024-7-16 13:54:00-debug: Num of bundles: 3..., progress: 13%
+2024-7-16 13:54:00-debug: // ---- build task native：onAfterBundleInit ----
+2024-7-16 13:54:01-debug: // ---- build task native：onAfterBundleInit ---- (944ms)
+2024-7-16 13:54:01-debug: native:(onAfterBundleInit) in 944 ms ✓, progress: 13%
+2024-7-16 13:54:01-debug: windows:(onAfterBundleInit) start..., progress: 13%
+2024-7-16 13:54:01-debug: // ---- build task windows：onAfterBundleInit ----
+2024-7-16 13:54:02-debug: // ---- build task windows：onAfterBundleInit ---- (931ms)
+2024-7-16 13:54:02-debug: 查询 Asset Bundle start, progress: 13%
+2024-7-16 13:54:02-debug: windows:(onAfterBundleInit) in 931 ms ✓, progress: 13%
+2024-7-16 13:54:02-debug: // ---- build task 查询 Asset Bundle ----
+2024-7-16 13:54:02-debug: Init bundle root assets start..., progress: 13%
+2024-7-16 13:54:04-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-7-16 13:54:04-debug:   Number of all scenes: 16
+2024-7-16 13:54:04-debug:   Number of all scripts: 76
+2024-7-16 13:54:04-debug:   Number of other assets: 690
+2024-7-16 13:54:04-debug: Init bundle root assets success..., progress: 13%
+2024-7-16 13:54:04-debug: reload all scripts.
+2024-7-16 13:54:04-debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2024-7-16 13:54:04-debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\c8\c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\c8\c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register DebugViewRuntimeControl
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\63\638a41546e5520d7d1c352cf5d8fc99ebd0254ca.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\63\638a41546e5520d7d1c352cf5d8fc99ebd0254ca.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/63/638a41546e5520d7d1c352cf5d8fc99ebd0254ca.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register HLB
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\2d\2da63302ee048af6c0f82a0d760f9979c73e1719.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\2d\2da63302ee048af6c0f82a0d760f9979c73e1719.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register LB
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/2d/2da63302ee048af6c0f82a0d760f9979c73e1719.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\32\3233cd480d2ca910d279ea620420793c25c72039.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\32\3233cd480d2ca910d279ea620420793c25c72039.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/32/3233cd480d2ca910d279ea620420793c25c72039.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register Loading
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\8c\8c888454cc9cd65fa951f0c29cc3e3400f3f54b3.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\8c\8c888454cc9cd65fa951f0c29cc3e3400f3f54b3.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/8c/8c888454cc9cd65fa951f0c29cc3e3400f3f54b3.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register PassInf
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\ef\ef007abda56006dc86686f56e54d6d17088807b1.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\ef\ef007abda56006dc86686f56e54d6d17088807b1.js is not in module cache!
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register Reg
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/ef/ef007abda56006dc86686f56e54d6d17088807b1.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\78\782c5b9fd3e9296cfc9f4f2447a50a196c22a5a6.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\78\782c5b9fd3e9296cfc9f4f2447a50a196c22a5a6.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register SLB
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/78/782c5b9fd3e9296cfc9f4f2447a50a196c22a5a6.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\f1\f1b9ce00a80fc0c07833a54189da7b8a737a0bca.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\f1\f1b9ce00a80fc0c07833a54189da7b8a737a0bca.js is not in module cache!
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\29\2937c1ce234cd43b02ffdd1631734622064c7b75.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\29\2937c1ce234cd43b02ffdd1631734622064c7b75.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/29/2937c1ce234cd43b02ffdd1631734622064c7b75.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register pause
+2024-7-16 13:54:04-debug: [[Executor]] Register _continue
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/f1/f1b9ce00a80fc0c07833a54189da7b8a737a0bca.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\4d\4dda55f71d2b46878696f60bfab7b8f8d0f75921.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\4d\4dda55f71d2b46878696f60bfab7b8f8d0f75921.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/4d/4dda55f71d2b46878696f60bfab7b8f8d0f75921.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register _pause
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\86\861ee725b294d069fd697f9fcafd4c0767d3dcec.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\86\861ee725b294d069fd697f9fcafd4c0767d3dcec.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register adventure
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/86/861ee725b294d069fd697f9fcafd4c0767d3dcec.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\c2\c22416ce258bf506152f96f753d4701a77d5ae05.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\c2\c22416ce258bf506152f96f753d4701a77d5ae05.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/c2/c22416ce258bf506152f96f753d4701a77d5ae05.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register change0
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\5f\5f517046dd181678beb49c1d067c00b563b772bb.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\5f\5f517046dd181678beb49c1d067c00b563b772bb.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register change1
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/5f/5f517046dd181678beb49c1d067c00b563b772bb.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\de\de99df5388e3001faa0b2435259bc53d1f15e678.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\de\de99df5388e3001faa0b2435259bc53d1f15e678.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register continueGame
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/de/de99df5388e3001faa0b2435259bc53d1f15e678.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\a8\a8c45e0c079714ffdcaa61f004351fcaf3190f75.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\a8\a8c45e0c079714ffdcaa61f004351fcaf3190f75.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register double
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/a8/a8c45e0c079714ffdcaa61f004351fcaf3190f75.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\d1\d1359497464b954af951bf29de7c2ad69ae7a474.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\d1\d1359497464b954af951bf29de7c2ad69ae7a474.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/d1/d1359497464b954af951bf29de7c2ad69ae7a474.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register easy
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\09\098768ce9f2961282fd189166415acec90a95848.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\09\098768ce9f2961282fd189166415acec90a95848.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/09/098768ce9f2961282fd189166415acec90a95848.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register endgame
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\10\108fe786493403df76d709e8e36616221e8b1a9f.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\10\108fe786493403df76d709e8e36616221e8b1a9f.js is not in module cache!
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Register esc
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/10/108fe786493403df76d709e8e36616221e8b1a9f.js" loaded.
+2024-7-16 13:54:04-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\56\561fb2ec24ba17f81c62a994194fdd9486386110.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\56\561fb2ec24ba17f81c62a994194fdd9486386110.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/56/561fb2ec24ba17f81c62a994194fdd9486386110.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register freemode
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\b7\b799d70cdcaa9308b6e592ed7767535856e0b385.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\b7\b799d70cdcaa9308b6e592ed7767535856e0b385.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/b7/b799d70cdcaa9308b6e592ed7767535856e0b385.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register hard
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\f2\f2337d916a89609d93786ccba130516451275982.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\f2\f2337d916a89609d93786ccba130516451275982.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register l1e
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/f2/f2337d916a89609d93786ccba130516451275982.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\f0\f0b2b4f6f5ce11d3d8b48f60b620cba4a80ad3d1.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\f0\f0b2b4f6f5ce11d3d8b48f60b620cba4a80ad3d1.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register l1e
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/f0/f0b2b4f6f5ce11d3d8b48f60b620cba4a80ad3d1.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\86\865ef9b00a1f18a106fa8c0e3018daefc9d4ec1a.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\86\865ef9b00a1f18a106fa8c0e3018daefc9d4ec1a.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register l1e
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/86/865ef9b00a1f18a106fa8c0e3018daefc9d4ec1a.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\fb\fb9d2dd52c7ac42565e8cb696e8d64ef0a24cf3e.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\fb\fb9d2dd52c7ac42565e8cb696e8d64ef0a24cf3e.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/fb/fb9d2dd52c7ac42565e8cb696e8d64ef0a24cf3e.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register l1e
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\a9\a95d6b4aa96afd376a2736c876a2e077de60d681.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\a9\a95d6b4aa96afd376a2736c876a2e077de60d681.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/a9/a95d6b4aa96afd376a2736c876a2e077de60d681.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register l1e
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\22\22b4775b9fdd764d073dba0f95da17c720e63722.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\22\22b4775b9fdd764d073dba0f95da17c720e63722.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register l1e
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/22/22b4775b9fdd764d073dba0f95da17c720e63722.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\ee\ee0e44312a866c1e55f6cebb12b159c36a97e3e4.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\ee\ee0e44312a866c1e55f6cebb12b159c36a97e3e4.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/ee/ee0e44312a866c1e55f6cebb12b159c36a97e3e4.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register log
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\1c\1c325fa7804c7a5a9f7db0b7bd1b84f6b64a8838.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\1c\1c325fa7804c7a5a9f7db0b7bd1b84f6b64a8838.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register reStart
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/1c/1c325fa7804c7a5a9f7db0b7bd1b84f6b64a8838.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\9a\9a886641c760c54424ba4213cc1f37ac6f53873c.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\9a\9a886641c760c54424ba4213cc1f37ac6f53873c.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register returnlog
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/9a/9a886641c760c54424ba4213cc1f37ac6f53873c.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\49\49bb2b8db5b1e32fdc7120e21faab537b5893f9a.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\49\49bb2b8db5b1e32fdc7120e21faab537b5893f9a.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register returnselect
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/49/49bb2b8db5b1e32fdc7120e21faab537b5893f9a.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\9a\9a135a67d02dc1e2ad30815a26de467b7f9c32fd.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\9a\9a135a67d02dc1e2ad30815a26de467b7f9c32fd.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register SceneSwitcher
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/9a/9a135a67d02dc1e2ad30815a26de467b7f9c32fd.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\db\db251560b25b962e8fb4297f074efe4c6db999f6.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\db\db251560b25b962e8fb4297f074efe4c6db999f6.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/db/db251560b25b962e8fb4297f074efe4c6db999f6.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register shut
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\fb\fb642317bf50f113d5e6b31360f8bd31feb6b4cb.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\fb\fb642317bf50f113d5e6b31360f8bd31feb6b4cb.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/fb/fb642317bf50f113d5e6b31360f8bd31feb6b4cb.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register time01
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\15\158682a7de51c5a729c9106b65c2150ebb020ba1.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\15\158682a7de51c5a729c9106b65c2150ebb020ba1.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register time02
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/15/158682a7de51c5a729c9106b65c2150ebb020ba1.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\1f\1f75658aea0b3942a0b43febfc4777832a413dee.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\1f\1f75658aea0b3942a0b43febfc4777832a413dee.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/1f/1f75658aea0b3942a0b43febfc4777832a413dee.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register time03
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\ec\ec1f70e92938f955cc14e4eb88f2487d0d5ce12c.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\ec\ec1f70e92938f955cc14e4eb88f2487d0d5ce12c.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/ec/ec1f70e92938f955cc14e4eb88f2487d0d5ce12c.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register time11
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\dd\dd3fc2252955a96acf111e8700af04d7d293a496.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\dd\dd3fc2252955a96acf111e8700af04d7d293a496.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register time12
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/dd/dd3fc2252955a96acf111e8700af04d7d293a496.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\ec\ec4d90b279cab9afbc99a159349d46d01f902636.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\ec\ec4d90b279cab9afbc99a159349d46d01f902636.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register time13
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/ec/ec4d90b279cab9afbc99a159349d46d01f902636.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\b5\b51c18b5f608ca501d40bdbc25d40f86801839e9.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\b5\b51c18b5f608ca501d40bdbc25d40f86801839e9.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/b5/b51c18b5f608ca501d40bdbc25d40f86801839e9.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register welcome
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\ab\ab3f9b01c0899c2ae742a9f4a73774bcb7157903.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\ab\ab3f9b01c0899c2ae742a9f4a73774bcb7157903.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/ab/ab3f9b01c0899c2ae742a9f4a73774bcb7157903.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register AudioManeger
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\38\382660daedd8bc3b1ff708cb2219b8cbc14d3bae.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\38\382660daedd8bc3b1ff708cb2219b8cbc14d3bae.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/38/382660daedd8bc3b1ff708cb2219b8cbc14d3bae.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register background
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\53\5327e9066a0879e6e99f6952b59b5bf34838a752.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\53\5327e9066a0879e6e99f6952b59b5bf34838a752.js is not in module cache!
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\14\1492a90b7df80e0a4511bdaa96e886af08a1f8ac.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\14\1492a90b7df80e0a4511bdaa96e886af08a1f8ac.js is not in module cache!
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\d6\d6d9719bfd0dfd14fe3f7d640e45cae0b8ee8bc8.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\d6\d6d9719bfd0dfd14fe3f7d640e45cae0b8ee8bc8.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register firedirection1
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/d6/d6d9719bfd0dfd14fe3f7d640e45cae0b8ee8bc8.js" loaded.
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:54:04-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Register PlayerController1
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/14/1492a90b7df80e0a4511bdaa96e886af08a1f8ac.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register Bullet
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/53/5327e9066a0879e6e99f6952b59b5bf34838a752.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\3a\3adcdcc17dcbc125ec921b938769678becaff77e.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\3a\3adcdcc17dcbc125ec921b938769678becaff77e.js is not in module cache!
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\00\003ab2187c680bbea441ba0632a608b31fa606aa.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\00\003ab2187c680bbea441ba0632a608b31fa606aa.js is not in module cache!
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\14\145352324dc90651ec195bf6d3a887f28a05f028.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\14\145352324dc90651ec195bf6d3a887f28a05f028.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register firedirection0
+2024-7-16 13:54:04-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/14/145352324dc90651ec195bf6d3a887f28a05f028.js" loaded.
+2024-7-16 13:54:04-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-warn: You are explicitly specifying `undefined` type to cc property "tanklife" of cc class "PlayerController0".Is this intended? If not, this may indicate a circular reference.For example: // foo.tsimport { _decorator } from 'cc';import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.                              // When importing './bar', execution of './bar' is hung on to wait execution of 'foo.ts',                              // the `Bar` imported here is `undefined` until './bar' finish its execution.                              // It leads to that@_decorator.ccclass           //  ↓export class Foo {            //  ↓    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`    public bar: Bar;          // To eliminate this error, either:                              // - Refactor your module structure(recommended), or                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`}
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/00/003ab2187c680bbea441ba0632a608b31fa606aa.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register PlayerController0
+2024-7-16 13:54:04-debug: [[Executor]] Register Bullet
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/3a/3adcdcc17dcbc125ec921b938769678becaff77e.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\13\13669f8c592e1b3e63569264ae2410cae5684cdd.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\13\13669f8c592e1b3e63569264ae2410cae5684cdd.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register TankCheatController
+2024-7-16 13:54:04-warn: 'SystemEventType' is deprecated since v3.3.0, please use 'Input.EventType' instead.
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/13/13669f8c592e1b3e63569264ae2410cae5684cdd.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\b0\b0df8f52b2f98f84e7f798f3fa4dad5e6a2a16ca.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\b0\b0df8f52b2f98f84e7f798f3fa4dad5e6a2a16ca.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/b0/b0df8f52b2f98f84e7f798f3fa4dad5e6a2a16ca.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register enemybullet
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\85\85736bae687500ed12bbe82349fe8a758967c3d9.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\85\85736bae687500ed12bbe82349fe8a758967c3d9.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/85/85736bae687500ed12bbe82349fe8a758967c3d9.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register enemylandmine
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\47\47bf7232d7b38f93f447b1d61b23194b70bfbc60.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\47\47bf7232d7b38f93f447b1d61b23194b70bfbc60.js is not in module cache!
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\d1\d12e516505b7094995e894959933d84bbadaed84.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\d1\d12e516505b7094995e894959933d84bbadaed84.js is not in module cache!
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Register enemytank_001
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/d1/d12e516505b7094995e894959933d84bbadaed84.js" loaded.
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Register enemyfire
+2024-7-16 13:54:04-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/47/47bf7232d7b38f93f447b1d61b23194b70bfbc60.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\e5\e5f780770445628c1fd517ebfda20519801aa08d.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\e5\e5f780770445628c1fd517ebfda20519801aa08d.js is not in module cache!
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Register sprite
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/e5/e5f780770445628c1fd517ebfda20519801aa08d.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\2f\2f5c5d1fe1efb2029fabecfa018a4eada70c3f1b.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\2f\2f5c5d1fe1efb2029fabecfa018a4eada70c3f1b.js is not in module cache!
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\f6\f6181b154a8c735727963e808ca20676b5c0f82b.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\f6\f6181b154a8c735727963e808ca20676b5c0f82b.js is not in module cache!
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Register enemytank_002
+2024-7-16 13:54:04-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/f6/f6181b154a8c735727963e808ca20676b5c0f82b.js" loaded.
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/2f/2f5c5d1fe1efb2029fabecfa018a4eada70c3f1b.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register enemyfire
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\d3\d3aa0b7eb56689ec18584239be58c02ea196d646.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\d3\d3aa0b7eb56689ec18584239be58c02ea196d646.js is not in module cache!
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Register sprite
+2024-7-16 13:54:04-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/d3/d3aa0b7eb56689ec18584239be58c02ea196d646.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\09\09954fb5950b82f4b47a5b3476f7f55567c41df6.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\09\09954fb5950b82f4b47a5b3476f7f55567c41df6.js is not in module cache!
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\ca\cacd00db61cdda87ee5127c0b3b12e5f99bdbc04.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\ca\cacd00db61cdda87ee5127c0b3b12e5f99bdbc04.js is not in module cache!
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/ca/cacd00db61cdda87ee5127c0b3b12e5f99bdbc04.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register enemytank
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/09/09954fb5950b82f4b47a5b3476f7f55567c41df6.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register enemyfire
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\3a\3a23cf9839665a9576ecee83c99104521238c454.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\3a\3a23cf9839665a9576ecee83c99104521238c454.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/3a/3a23cf9839665a9576ecee83c99104521238c454.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register fireaffect0
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\b4\b4a9c427ae2295de62decaf6145e68a726c1fffc.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\b4\b4a9c427ae2295de62decaf6145e68a726c1fffc.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register fireaffect1
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/b4/b4a9c427ae2295de62decaf6145e68a726c1fffc.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\5a\5a7f361d44bdee39f48589ac94802aa554ad1cde.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\5a\5a7f361d44bdee39f48589ac94802aa554ad1cde.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register fort
+2024-7-16 13:54:04-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/5a/5a7f361d44bdee39f48589ac94802aa554ad1cde.js" loaded.
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\4f\4faa53579107686853832cbebc82cc967d199e9c.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\4f\4faa53579107686853832cbebc82cc967d199e9c.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register hp0
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/4f/4faa53579107686853832cbebc82cc967d199e9c.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\53\531f55a7568a779c5f2a4b3c6907fbf898ae6028.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\53\531f55a7568a779c5f2a4b3c6907fbf898ae6028.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/53/531f55a7568a779c5f2a4b3c6907fbf898ae6028.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register hp1
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\37\37c23abe68d230ce18de4fc5886505540f24f95d.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\37\37c23abe68d230ce18de4fc5886505540f24f95d.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register landmine0
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/37/37c23abe68d230ce18de4fc5886505540f24f95d.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\b2\b28939a9540b76eb1010e50c73e1b59763c8df57.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\b2\b28939a9540b76eb1010e50c73e1b59763c8df57.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/b2/b28939a9540b76eb1010e50c73e1b59763c8df57.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register landmine0
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\12\124b437a5dcd566df8b1132d6563d62d30e93d3d.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\12\124b437a5dcd566df8b1132d6563d62d30e93d3d.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register landmine1
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/12/124b437a5dcd566df8b1132d6563d62d30e93d3d.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\d9\d9c864b005961085d7d3937efb5c2829cdf24e69.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\d9\d9c864b005961085d7d3937efb5c2829cdf24e69.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/d9/d9c864b005961085d7d3937efb5c2829cdf24e69.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register wallbox
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\7a\7a02aa86158c790682e4ef50c99d33249679f9b1.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\7a\7a02aa86158c790682e4ef50c99d33249679f9b1.js is not in module cache!
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\09\09898b3261ca5fe4d1e3689a69548aa17bb95e47.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\09\09898b3261ca5fe4d1e3689a69548aa17bb95e47.js is not in module cache!
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Register objectfirefast
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/09/09898b3261ca5fe4d1e3689a69548aa17bb95e47.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/7a/7a02aa86158c790682e4ef50c99d33249679f9b1.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register playerfire
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\82\82ba527f1a3d381121fdd24b478398e1581cd17d.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\82\82ba527f1a3d381121fdd24b478398e1581cd17d.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register objectmovefast
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/82/82ba527f1a3d381121fdd24b478398e1581cd17d.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\ff\ff75748150f141970dc9f4a6d13905cf5f636951.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\ff\ff75748150f141970dc9f4a6d13905cf5f636951.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register background
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/ff/ff75748150f141970dc9f4a6d13905cf5f636951.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\ff\ff4b64016a470e529d7730d63c7b62531d47942d.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\ff\ff4b64016a470e529d7730d63c7b62531d47942d.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/ff/ff4b64016a470e529d7730d63c7b62531d47942d.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register speedaffect0
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\41\41398af551fbf31cadcfa5aec20cb8932ee3b0db.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\41\41398af551fbf31cadcfa5aec20cb8932ee3b0db.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register speedaffect1
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/41/41398af551fbf31cadcfa5aec20cb8932ee3b0db.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\42\42c367825cdcaba022864ba11180687ecebc7cf0.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\42\42c367825cdcaba022864ba11180687ecebc7cf0.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/42/42c367825cdcaba022864ba11180687ecebc7cf0.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Register tankdestroy
+2024-7-16 13:54:04-warn: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\85\85a7ac11b409b26f63523c11d5034d73b04022f6.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\85\85a7ac11b409b26f63523c11d5034d73b04022f6.js is not in module cache!
+2024-7-16 13:54:04-warn: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:54:04-debug: [[Executor]] Register sprite
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/85/85a7ac11b409b26f63523c11d5034d73b04022f6.js" loaded.
+2024-7-16 13:54:04-debug: C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\a2\a229e95230aad9e1eab8f598835d66076370a97d.js resolved to C:\Users\53190\Desktop\TK2\temp\programming\packer-driver\targets\editor\chunks\a2\a229e95230aad9e1eab8f598835d66076370a97d.js is not in module cache!
+2024-7-16 13:54:04-debug: [[Executor]] Register tankdestroy
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/a2/a229e95230aad9e1eab8f598835d66076370a97d.js" loaded.
+2024-7-16 13:54:04-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-7-16 13:54:04-debug: Incremental keys: 
+2024-7-16 13:54:04-debug: Init bundle share assets start..., progress: 13%
+2024-7-16 13:54:04-debug: Init bundle share assets success..., progress: 13%
+2024-7-16 13:54:05-warn: The SpriteFrame used by component "cc.Sprite" in scene "victory" is missing. Detailed information:Node path: "Canvas/vectory"Asset url: "db://assets/Scenes/victory"Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
+2024-7-16 13:54:05-debug: handle json group in bundle internal
+2024-7-16 13:54:05-debug: handle json group in bundle internal success
+2024-7-16 13:54:05-debug: handle json group in bundle resources
+2024-7-16 13:54:05-debug: handle json group in bundle resources success
+2024-7-16 13:54:05-debug: handle json group in bundle main
+2024-7-16 13:54:05-debug: init image compress task 0 in bundle internal
+2024-7-16 13:54:05-debug: [json-group] check self or raw asset, skip. 1b563b92-0169-4b09-8e57-dda755953bb9 depended by 285e0e0b-d379-456d-bf07-60f18f9ea848 has checked in raw asset 1b563b92-0169-4b09-8e57-dda755953bb9/bundle(main)}
+2024-7-16 13:54:05-debug: init image compress task 0 in bundle resources
+2024-7-16 13:54:05-debug: [json-group] check self or raw asset, skip. 285e0e0b-d379-456d-bf07-60f18f9ea848 depended by 1b563b92-0169-4b09-8e57-dda755953bb9 has checked in raw asset 285e0e0b-d379-456d-bf07-60f18f9ea848/bundle(main)}
+2024-7-16 13:54:05-debug: [json-group] check self or raw asset, skip. f4845990-e17f-411e-b3a6-fa50eff4b210 depended by f4845990-e17f-411e-b3a6-fa50eff4b210 has checked in raw asset 36291188-d37d-4b4f-a128-588f20d16162/bundle(main)}
+2024-7-16 13:54:05-debug: [json-group] check self or raw asset, skip. 44ea65dd-dcbb-4c3b-8483-488681b996e9 depended by 44ea65dd-dcbb-4c3b-8483-488681b996e9 has checked in raw asset 36291188-d37d-4b4f-a128-588f20d16162/bundle(main)}
+2024-7-16 13:54:05-debug: [json-group] check self or raw asset, skip. 44ea65dd-dcbb-4c3b-8483-488681b996e9 depended by 44ea65dd-dcbb-4c3b-8483-488681b996e9 has checked in raw asset 44ea65dd-dcbb-4c3b-8483-488681b996e9/bundle(main)}
+2024-7-16 13:54:05-debug: handle json group in bundle main success
+2024-7-16 13:54:05-debug: [json-group] check self or raw asset, skip. f4845990-e17f-411e-b3a6-fa50eff4b210 depended by f4845990-e17f-411e-b3a6-fa50eff4b210 has checked in raw asset f4845990-e17f-411e-b3a6-fa50eff4b210/bundle(main)}
+2024-7-16 13:54:05-debug: init image compress task 0 in bundle main
+2024-7-16 13:54:05-debug: // ---- build task 查询 Asset Bundle ---- (3209ms)
+2024-7-16 13:54:05-debug: run build task 查询 Asset Bundle success in 3 s√, progress: 18%
+2024-7-16 13:54:05-debug: [Build Memory track]: 查询 Asset Bundle start:171.73MB, end 211.35MB, increase: 39.62MB
+2024-7-16 13:54:05-debug: 查询 Asset Bundle start, progress: 18%
+2024-7-16 13:54:05-debug: // ---- build task 查询 Asset Bundle ----
+2024-7-16 13:54:06-debug: // ---- build task 查询 Asset Bundle ---- (916ms)
+2024-7-16 13:54:06-debug: run build task 查询 Asset Bundle success in 916 ms√, progress: 23%
+2024-7-16 13:54:06-debug: [Build Memory track]: 查询 Asset Bundle start:211.37MB, end 208.57MB, increase: -2870.73KB
+2024-7-16 13:54:06-debug: native:(onAfterBundleDataTask) start..., progress: 23%
+2024-7-16 13:54:06-debug: // ---- build task native：onAfterBundleDataTask ----
+2024-7-16 13:54:07-debug: // ---- build task native：onAfterBundleDataTask ---- (612ms)
+2024-7-16 13:54:07-debug: // ---- build task 打包脚本 ----
+2024-7-16 13:54:07-debug: native:(onAfterBundleDataTask) in 612 ms ✓, progress: 23%
+2024-7-16 13:54:07-debug: 打包脚本 start, progress: 23%
+2024-7-16 13:54:07-debug: Caught exception during build core-js: WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema. - configuration.entry should be an non-empty array.   -> A non-empty array of non-empty stringsThis may indicates the core-js polyfill is not necessary. See https://github.com/zloirock/core-js/issues/822
+2024-7-16 13:54:07-debug: Generate systemJs..., progress: 23%
+2024-7-16 13:54:09-debug: 构建项目脚本 start..., progress: 23%
+2024-7-16 13:54:09-debug: Build script in bundle start, progress: 23%
+2024-7-16 13:54:10-log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2024-7-16 13:54:10-log: [build-script]enter sub process 28800, C:\ProgramData\cocos\editors\Creator\3.8.3\CocosCreator.exe,C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\builder\static\sub-process-index
+2024-7-16 13:54:12-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/53190/Desktop/TK2/assets/text/tank1.ts -> file:///C:/Users/53190/Desktop/TK2/assets/text/firedirection1.ts -> file:///C:/Users/53190/Desktop/TK2/assets/text/tank1.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/53190/Desktop/TK2/assets/text/tank0.ts -> file:///C:/Users/53190/Desktop/TK2/assets/text/firedirection0.ts -> file:///C:/Users/53190/Desktop/TK2/assets/text/tank0.ts
+2024-7-16 13:54:13-debug: excute-script over with build-script 3137ms
+2024-7-16 13:54:13-debug: Copy externalScripts success!
+2024-7-16 13:54:13-debug: Build script in bundle success, progress: 23%
+2024-7-16 13:54:13-debug: 构建项目脚本 in (4220 ms) √, progress: 23%
+2024-7-16 13:54:13-debug: 构建引擎脚本 start..., progress: 23%
+2024-7-16 13:54:14-debug: Use cache engine: {link(C:\Users\53190\AppData\Local\Temp\CocosCreator\3.8.3\builder\engine\582e75784029393a8ba6770471be2c00)}
+2024-7-16 13:54:14-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","dragon-bones","intersection-2d","meshopt","particle-2d","physics-2d-box2d","profiler","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.8.3","md5Map":[],"engineName":"src/cocos-js","platform":"WINDOWS","useCache":true,"isNative":true,"nativeCodeBundleMode":"wasm","wasmCompressionMode":false,"output":"D:\\Release\\windows\\data\\src\\cocos-js","targets":"chrome 116","flags":{"DEBUG":false,"NET_MODE":0,"SERVER_MODE":false},"entry":"C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine"}
+2024-7-16 13:54:14-debug: 构建引擎脚本 in (1008 ms) √, progress: 23%
+2024-7-16 13:54:14-debug: Copy plugin script ..., progress: 23%
+2024-7-16 13:54:14-debug: Generate import-map..., progress: 23%
+2024-7-16 13:54:15-debug: // ---- build task 打包脚本 ---- (8252ms)
+2024-7-16 13:54:15-debug: run build task 打包脚本 success in 8 s√, progress: 28%
+2024-7-16 13:54:15-debug: [Build Memory track]: 打包脚本 start:209.80MB, end 253.79MB, increase: 43.99MB
+2024-7-16 13:54:15-debug: Build Assets start, progress: 28%
+2024-7-16 13:54:15-debug: // ---- build task Build Assets ----
+2024-7-16 13:54:15-debug: Pack Images start, progress: 28%
+2024-7-16 13:54:15-debug: Build bundles..., progress: 28%
+2024-7-16 13:54:16-debug: builder:pack-auto-atlas-image (1372ms)
+2024-7-16 13:54:16-debug: Pack Images success, progress: 28%
+2024-7-16 13:54:16-debug: Compress image start..., progress: 28%
+2024-7-16 13:54:16-debug: sort compress task {}
+2024-7-16 13:54:16-debug: Num of all image compress task 0, really: 0, configTasks: 0
+2024-7-16 13:54:16-debug: No image need to compress
+2024-7-16 13:54:16-debug: Compress image success..., progress: 28%
+2024-7-16 13:54:16-debug: Output asset in bundles start, progress: 28%
+2024-7-16 13:54:16-debug: Handle all json groups in bundle internal
+2024-7-16 13:54:16-debug: handle json group
+2024-7-16 13:54:16-debug: Handle all json groups in bundle resources
+2024-7-16 13:54:16-debug: handle json group
+2024-7-16 13:54:16-debug: handle single json
+2024-7-16 13:54:16-debug: Handle all json groups in bundle main
+2024-7-16 13:54:16-debug: handle json group
+2024-7-16 13:54:16-debug: Json group(029dd5974) compile success，json number: 6
+2024-7-16 13:54:16-debug: Json group(029e2f4fe) compile success，json number: 6
+2024-7-16 13:54:16-debug: Json group(0ca60d3e4) compile success，json number: 6
+2024-7-16 13:54:16-debug: handle single json
+2024-7-16 13:54:17-debug: Json group(044a966d9) compile success，json number: 6
+2024-7-16 13:54:17-debug: Json group(01f268dba) compile success，json number: 6
+2024-7-16 13:54:17-debug: Json group(09e1fd531) compile success，json number: 6
+2024-7-16 13:54:17-debug: Json group(08fcd6a5e) compile success，json number: 6
+2024-7-16 13:54:17-debug: Json group(019e0010b) compile success，json number: 6
+2024-7-16 13:54:17-debug: Json group(0ddfc29d1) compile success，json number: 6
+2024-7-16 13:54:17-debug: Json group(049e90c10) compile success，json number: 6
+2024-7-16 13:54:17-debug: Json group(098927a65) compile success，json number: 6
+2024-7-16 13:54:17-debug: Json group(08385ff53) compile success，json number: 6
+2024-7-16 13:54:17-debug: handle single json
+2024-7-16 13:54:17-debug: Output asset in bundles success, progress: 28%
+2024-7-16 13:54:17-debug: Output asset in bundles start, progress: 28%
+2024-7-16 13:54:17-debug: compress config of bundle internal success
+2024-7-16 13:54:17-debug: compress config of bundle internal...
+2024-7-16 13:54:17-debug: compress config of bundle resources...
+2024-7-16 13:54:17-debug: compress config of bundle resources success
+2024-7-16 13:54:17-debug: compress config of bundle main...
+2024-7-16 13:54:17-debug: compress config of bundle main success
+2024-7-16 13:54:17-debug: output config of bundle internal
+2024-7-16 13:54:17-debug: output config of bundle internal success
+2024-7-16 13:54:17-debug: output config of bundle resources
+2024-7-16 13:54:17-debug: output config of bundle resources success
+2024-7-16 13:54:17-debug: output config of bundle main
+2024-7-16 13:54:17-debug: output config of bundle main success
+2024-7-16 13:54:17-debug: Output asset in bundles success, progress: 28%
+2024-7-16 13:54:19-debug: // ---- build task Build Assets ---- (4335ms)
+2024-7-16 13:54:19-debug: run build task Build Assets success in 4 s√, progress: 33%
+2024-7-16 13:54:19-debug: 整理部分构建选项内数据到 settings.json start, progress: 33%
+2024-7-16 13:54:19-debug: [Build Memory track]: Build Assets start:253.81MB, end 219.12MB, increase: -35522.77KB
+2024-7-16 13:54:19-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-7-16 13:54:20-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (610ms)
+2024-7-16 13:54:20-debug: run build task 整理部分构建选项内数据到 settings.json success in 610 ms√, progress: 34%
+2024-7-16 13:54:20-debug: 填充脚本数据到 settings.json start, progress: 34%
+2024-7-16 13:54:20-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:219.21MB, end 220.29MB, increase: 1.09MB
+2024-7-16 13:54:20-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-7-16 13:54:20-warn: The SpriteFrame used by component "cc.Sprite" in scene "victory" is missing. Detailed information:Node path: "Canvas/vectory"Asset url: "db://assets/Scenes/victory"Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
+2024-7-16 13:54:21-debug: // ---- build task 填充脚本数据到 settings.json ---- (860ms)
+2024-7-16 13:54:21-debug: run build task 填充脚本数据到 settings.json success in 860 ms√, progress: 36%
+2024-7-16 13:54:21-debug: [Build Memory track]: 填充脚本数据到 settings.json start:220.31MB, end 215.55MB, increase: -4873.07KB
+2024-7-16 13:54:21-debug: 整理部分构建选项内数据到 settings.json start, progress: 36%
+2024-7-16 13:54:21-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-7-16 13:54:22-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1126ms)
+2024-7-16 13:54:22-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 s√, progress: 38%
+2024-7-16 13:54:22-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:215.57MB, end 217.83MB, increase: 2.26MB
+2024-7-16 13:54:22-debug: cocos-service:(onBeforeCompressSettings) start..., progress: 38%
+2024-7-16 13:54:22-debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2024-7-16 13:54:23-debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (1004ms)
+2024-7-16 13:54:23-debug: 整理静态模板文件 start, progress: 40%
+2024-7-16 13:54:23-debug: cocos-service:(onBeforeCompressSettings) in 1004 ms ✓, progress: 40%
+2024-7-16 13:54:23-debug: // ---- build task 整理静态模板文件 ----
+2024-7-16 13:54:24-debug: // ---- build task 整理静态模板文件 ---- (916ms)
+2024-7-16 13:54:24-debug: run build task 整理静态模板文件 success in 916 ms√, progress: 45%
+2024-7-16 13:54:24-debug: [Build Memory track]: 整理静态模板文件 start:219.52MB, end 218.73MB, increase: -811.88KB
+2024-7-16 13:54:24-debug: native:(onAfterCompressSettings) start..., progress: 45%
+2024-7-16 13:54:24-debug: // ---- build task native：onAfterCompressSettings ----
+2024-7-16 13:54:24-log: Checking template version...
+2024-7-16 13:54:24-log: Validating template consistency...
+2024-7-16 13:54:24-log: Validating platform source code directories...
+2024-7-16 13:54:24-debug: generateCMakeConfig, {"CC_USE_GLES3":"set(CC_USE_GLES3 ON)","CC_USE_GLES2":"set(CC_USE_GLES2 ON)","USE_SERVER_MODE":"set(USE_SERVER_MODE OFF)","NET_MODE":"set(NET_MODE 0)","XXTEAKEY":"","CC_ENABLE_SWAPPY":"set(CC_ENABLE_SWAPPY OFF)","APP_NAME":"set(APP_NAME \"HuNaoTank\")","COCOS_X_PATH":"set(COCOS_X_PATH \"C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/native\")","USE_JOB_SYSTEM_TASKFLOW":"set(USE_JOB_SYSTEM_TASKFLOW OFF)","USE_JOB_SYSTEM_TBB":"set(USE_JOB_SYSTEM_TBB OFF)","ENABLE_FLOAT_OUTPUT":"set(ENABLE_FLOAT_OUTPUT OFF)","USE_PHYSICS_PHYSX":"set(USE_PHYSICS_PHYSX OFF)","USE_OCCLUSION_QUERY":"set(USE_OCCLUSION_QUERY OFF)","USE_GEOMETRY_RENDERER":"set(USE_GEOMETRY_RENDERER OFF)","USE_DEBUG_RENDERER":"set(USE_DEBUG_RENDERER OFF)","USE_AUDIO":"set(USE_AUDIO ON)","USE_VIDEO":"set(USE_VIDEO ON)","USE_WEBVIEW":"set(USE_WEBVIEW ON)","USE_SOCKET":"set(USE_SOCKET OFF)","USE_WEBSOCKET_SERVER":"set(USE_WEBSOCKET_SERVER OFF)","USE_SPINE":"set(USE_SPINE ON)","USE_DRAGONBONES":"set(USE_DRAGONBONES ON)","CC_EXECUTABLE_NAME":"set(CC_EXECUTABLE_NAME \"HuNaoTank\")","CC_USE_VULKAN":"set(CC_USE_VULKAN ON)"}
+2024-7-16 13:54:24-log: While replace template content, file D:\Release\windows\proj\main.cpp
+2024-7-16 13:54:24-log: While replace template content, file D:\Release\windows\proj\main.m
+2024-7-16 13:54:24-log: While replace template content, file C:\Users\53190\Desktop\TK2\native\engine\win64/app/build.gradle
+2024-7-16 13:54:24-log: While replace template content, file C:\Users\53190\Desktop\TK2\native\engine\win64/instantapp/build.gradle
+2024-7-16 13:54:24-log: While replace template content, file C:\Users\53190\Desktop\TK2\native\engine\win64/entry/src/main/config.json
+2024-7-16 13:54:24-log: While replace template content, file D:\Release\windows\proj\settings.gradle
+2024-7-16 13:54:24-debug: // ---- build task native：onAfterCompressSettings ---- (630ms)
+2024-7-16 13:54:24-debug: native:(onAfterCompressSettings) in 630 ms ✓, progress: 46%
+2024-7-16 13:54:24-debug: cocos-service:(onAfterCompressSettings) start..., progress: 46%
+2024-7-16 13:54:24-debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2024-7-16 13:54:26-debug: // ---- build task cocos-service：onAfterCompressSettings ---- (1201ms)
+2024-7-16 13:54:26-debug: cocos-service:(onAfterCompressSettings) in 1201 ms ✓, progress: 48%
+2024-7-16 13:54:26-debug: 给所有的资源加上 MD5 后缀 start, progress: 48%
+2024-7-16 13:54:26-debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2024-7-16 13:54:26-debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (595ms)
+2024-7-16 13:54:26-debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:216.72MB, end 217.79MB, increase: 1.07MB
+2024-7-16 13:54:26-debug: run build task 给所有的资源加上 MD5 后缀 success in 595 ms√, progress: 58%
+2024-7-16 13:54:26-debug: // ---- build task native：onAfterBuild ----
+2024-7-16 13:54:26-debug: native:(onAfterBuild) start..., progress: 58%
+2024-7-16 13:54:26-log: selecting visual studio generator ...
+2024-7-16 13:54:26-log: run "C:\Program Files\CMake\bin\cmake.exe" -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_XGSePd" -G"Visual Studio 17 2022" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_XGSePd\build_Visual_Studio_17_2022" -A x64
+2024-7-16 13:54:26-log: [cmake] -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22631.
+2024-7-16 13:54:30-log: [cmake] -- The CXX compiler identification is MSVC 19.39.33521.0
+2024-7-16 13:54:30-log: [cmake] -- Detecting CXX compiler ABI info
+2024-7-16 13:54:31-log: [cmake] -- Detecting CXX compiler ABI info - done
+2024-7-16 13:54:31-log: [cmake] -- Check for working CXX compiler: D:/Visual Studio/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe - skipped
+2024-7-16 13:54:31-log: [cmake] -- Detecting CXX compile features
+2024-7-16 13:54:31-log: [cmake] -- Detecting CXX compile features - done
+2024-7-16 13:54:31-log: [cmake] -- Configuring done (4.8s)
+2024-7-16 13:54:31-log: [cmake] -- Generating done (0.0s)
+2024-7-16 13:54:31-log: [cmake] -- Build files have been written to: C:/Users/53190/AppData/Local/Temp/cmakeTest_XGSePd/build_Visual_Studio_17_2022
+2024-7-16 13:54:31-log:  using Visual Studio 17 2022
+2024-7-16 13:54:31-log: run "C:\Program Files\CMake\bin\cmake.exe" -S"C:/Users/53190/Desktop/TK2/native/engine/win64" -B"D:/Release/windows/proj" -A x64 -DRES_DIR="D:/Release/windows" -DAPP_NAME="HuNaoTank" -DLAUNCH_TYPE="Release"
+2024-7-16 13:54:31-log: [cmake] -- Building for: Visual Studio 17 2022
+2024-7-16 13:54:31-log: [cmake] -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22631.
+2024-7-16 13:54:32-log: [cmake] -- The CXX compiler identification is MSVC 19.39.33521.0
+2024-7-16 13:54:32-log: [cmake] -- Detecting CXX compiler ABI info
+2024-7-16 13:54:33-log: [cmake] -- Detecting CXX compiler ABI info - done
+2024-7-16 13:54:33-log: [cmake] -- Check for working CXX compiler: D:/Visual Studio/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe - skipped
+2024-7-16 13:54:33-log: [cmake] -- Detecting CXX compile features
+2024-7-16 13:54:33-log: [cmake] -- Detecting CXX compile features - done
+2024-7-16 13:54:34-log: [cmake] -- The C compiler identification is MSVC 19.39.33521.0
+2024-7-16 13:54:34-log: [cmake] -- The ASM compiler identification is MSVC
+2024-7-16 13:54:34-log: [cmake] -- Found assembler: D:/Visual Studio/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe
+2024-7-16 13:54:34-log: [cmake] -- Detecting C compiler ABI info
+2024-7-16 13:54:34-log: [cmake] -- Detecting C compiler ABI info - done
+2024-7-16 13:54:34-log: [cmake] -- Check for working C compiler: D:/Visual Studio/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe - skipped
+2024-7-16 13:54:34-log: [cmake] -- Detecting C compile features
+2024-7-16 13:54:34-log: [cmake] -- Detecting C compile features - done
+2024-7-16 13:54:34-log: [cmake] -- platform: Windows
+2024-7-16 13:54:34-log: [cmake] -- Ignore NO_WERROR
+2024-7-16 13:54:35-log: [cmake-warn] CMake Deprecation Warning at C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/templates/cmake/common.cmake:9 (cmake_policy):  The OLD behavior for policy CMP0111 will be removed from a future version  of CMake.  The cmake-policies(7) manual explains that the OLD behaviors of all  policies are deprecated and that a policy should be set to OLD only under  specific short-term circumstances.  Projects should be ported to the NEW  behavior and not rely on setting a policy to OLD.Call Stack (most recent call first):  C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/native/cmake/predefine.cmake:375 (include)  C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/native/CMakeLists.txt:2 (include)  C:/Users/53190/Desktop/TK2/native/engine/common/CMakeLists.txt:50 (include)  CMakeLists.txt:10 (include)
+2024-7-16 13:54:35-log: [cmake] -- OPTION BUILTIN_COCOS_X_PATH:	-- OPTION USE_BUILTIN_EXTERNAL:	OFF-- OPTION USE_MODULES:	OFF-- OPTION CC_USE_METAL:	-- OPTION CC_USE_GLES3:	ON-- OPTION CC_USE_GLES2:	ON-- OPTION CC_USE_VULKAN:	ON-- OPTION CC_DEBUG_FORCE:	OFF-- OPTION USE_SE_V8:	ON-- OPTION USE_V8_DEBUGGER:	ON-- OPTION USE_V8_DEBUGGER_FORCE:	OFF-- OPTION USE_SE_SM:	OFF
+2024-7-16 13:54:35-log: [cmake] -- OPTION USE_SOCKET:	OFF-- OPTION USE_AUDIO:	ON-- OPTION USE_EDIT_BOX:	ON-- OPTION USE_VIDEO:	OFF-- OPTION USE_WEBVIEW:	OFF-- OPTION USE_MIDDLEWARE:	ON-- OPTION USE_DRAGONBONES:	ON-- OPTION USE_SPINE:	ON-- OPTION USE_WEBSOCKET_SERVER:	OFF-- OPTION USE_PHYSICS_PHYSX:	OFF-- OPTION USE_JOB_SYSTEM_TBB:	OFF-- OPTION USE_JOB_SYSTEM_TASKFLOW:	OFF-- OPTION USE_XR:	OFF-- OPTION USE_SERVER_MODE:	OFF-- OPTION USE_AR_MODULE:	OFF-- OPTION USE_AR_AUTO:	OFF-- OPTION USE_AR_CORE:	OFF-- OPTION USE_AR_ENGINE:	OFF-- OPTION USE_CCACHE:	-- OPTION CCACHE_EXECUTABLE:	CCACHE_EXECUTABLE-NOTFOUND-- OPTION NODE_EXECUTABLE:	C:/Program Files/nodejs/node.exe-- OPTION NET_MODE:	0-- OPTION USE_REMOTE_LOG:	OFF
+2024-7-16 13:54:35-log: [cmake] -- platform path: 
+2024-7-16 13:54:35-log: [cmake] -- Try generating C:/Users/53190/Desktop/TK2/native/engine/win64/Pre-AutoLoadPlulgins.cmake
+2024-7-16 13:54:35-log: [cmake] --  execute C:/Program Files/nodejs/node.exe plugin_parser.js
+2024-7-16 13:54:36-log: [cmake] [searching plugins] directory C:/Users/53190/Desktop/TK2/extensions does not exist
+2024-7-16 13:54:36-log: [cmake] [searching plugins] no plugins found!
+2024-7-16 13:54:36-log: [cmake] -- Searching hook files Pre*.cmake or *Pre.cmake in C:/Users/53190/Desktop/TK2/native/engine/win64
+2024-7-16 13:54:36-log: [cmake] -- No plugins are loaded!
+2024-7-16 13:54:36-log: [cmake] -- Searching hook files Post*.cmake or *Post.cmake in C:/Users/53190/Desktop/TK2/native/engine/win64
+2024-7-16 13:54:36-log: [cmake] -- Configuring done (4.3s)
+2024-7-16 13:54:36-log: [cmake] -- Generating done (0.2s)
+2024-7-16 13:54:36-log: [cmake-warn] CMake Warning:  Manually-specified variables were not used by the project:    LAUNCH_TYPE
+2024-7-16 13:54:36-log: [cmake] -- Build files have been written to: D:/Release/windows/proj
+2024-7-16 13:54:36-debug: // ---- build task native：onAfterBuild ---- (9634ms)
+2024-7-16 13:54:36-debug: native:(onAfterBuild) in 9634 ms ✓, progress: 60%
+2024-7-16 13:54:36-debug: cocos-service:(onAfterBuild) start..., progress: 60%
+2024-7-16 13:54:36-debug: // ---- build task cocos-service：onAfterBuild ----
+2024-7-16 13:54:37-debug: // ---- build task cocos-service：onAfterBuild ---- (960ms)
+2024-7-16 13:54:37-debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 62%
+2024-7-16 13:54:37-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+2024-7-16 13:54:37-debug: cocos-service:(onAfterBuild) in 960 ms ✓, progress: 62%
+2024-7-16 13:54:37-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (602ms)
+2024-7-16 13:54:37-debug: adsense-h5g-plugin:(onAfterBuild) in 602 ms ✓, progress: 64%
+2024-7-16 13:54:37-log: Asset DB is resume!
+2024-7-16 13:54:38-debug: builder:build-project-total (48556ms)
+2024-7-16 13:54:38-debug: build success in 48556!
+2024-7-16 13:54:38-debug: [Build Memory track]: builder:build-project-total start:165.27MB, end 226.73MB, increase: 61.46MB
+2024-7-16 13:54:38-debug: ================================ build Task (windows) Finished in (48 s)ms ================================
+2024-7-16 13:54:38-debug: Stop record console. {file(C:\Users\53190\Desktop\TK2\temp\builder\log\windows2024-7-16 13-53.log)}
+2024-7-16 13:54:38-warn: The SpriteFrame used by component "cc.Sprite" in scene "victory" is missing. Detailed information:Node path: "Canvas/vectory"Asset url: "db://assets/Scenes/victory"Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
+2024-7-16 13:54:53-debug: Start record console... {file(C:\Users\53190\Desktop\TK2\temp\builder\log\windows2024-7-16 13-53.log)}
+2024-7-16 13:54:53-debug: // ---- builder:run-build-stage-make ----
+2024-7-16 13:54:53-log: [task:make]: init options success, 10%
+2024-7-16 13:54:53-debug: Use build file cocos.compile.config.json in root(D:\Release\windows)
+2024-7-16 13:54:53-log: run "C:\Program Files\CMake\bin\cmake.exe" --build "D:/Release/windows/proj" --config Release -- -verbosity:quiet
+2024-7-16 13:54:53-debug: // ---- build task native：make ----
+2024-7-16 13:54:53-log: [task:make]: native:(make) start..., 10%
+2024-7-16 13:54:53-log: [cmake] 适用于 .NET Framework MSBuild 版本 17.9.5+33de0b227
+2024-7-16 13:54:53-debug: refresh db internal success
+2024-7-16 13:54:54-debug: refresh db assets success
+2024-7-16 13:54:54-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-16 13:54:54-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-16 13:54:54-debug: asset-db:refresh-all-database (646ms)
+2024-7-16 13:54:54-debug: asset-db:worker-effect-data-processing (309ms)
+2024-7-16 13:54:54-debug: asset-db-hook-engine-extends-afterRefresh (310ms)
+2024-7-16 13:55:00-log: [cmake-warn] C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\tools\swig-config\spine.i(444): warning 303: %extend defined for an undeclared class spine::SkeletonJson. [D:\Release\windows\proj\cocos_engine.vcxproj]C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\tools\swig-config\spine.i(421): warning 303: %extend defined for an undeclared class spine::SkeletonClipping. [D:\Release\windows\proj\cocos_engine.vcxproj]
+2024-7-16 13:55:00-log: [cmake-warn] C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\tools\swig-config\spine.i(538): warning 303: %extend defined for an undeclared class spine::Vector2. [D:\Release\windows\proj\cocos_engine.vcxproj]
+2024-7-16 13:56:50-debug: // ---- build task native：make ---- (116993ms)
+2024-7-16 13:56:50-log: [task:make]: native:(make) in 116993 ms ✓, 23.333333333333332%
+2024-7-16 13:56:51-debug: // ---- builder:run-build-stage-make ---- (117369ms)
+2024-7-16 13:56:51-debug: [Build Memory track]: builder:build-stage-total make start:223.10MB, end 224.51MB, increase: 1.42MB
+2024-7-16 13:56:51-log: [task:make]: success!
+2024-7-16 13:56:51-debug: Stop record console. {file(C:\Users\53190\Desktop\TK2\temp\builder\log\windows2024-7-16 13-53.log)}
+2024-7-16 13:57:04-debug: Start record console... {file(C:\Users\53190\Desktop\TK2\temp\builder\log\windows2024-7-16 13-53.log)}
+2024-7-16 13:57:04-debug: // ---- builder:run-build-stage-run ----
+2024-7-16 13:57:04-log: [task:run]: init options success, 10%
+2024-7-16 13:57:04-debug: Use build file cocos.compile.config.json in root(D:\Release\windows)
+2024-7-16 13:57:04-log: [runCmd]: HuNaoTank.exe 
+2024-7-16 13:57:04-log: [task:run]: native:(run) start..., 10%
+2024-7-16 13:57:04-debug: // ---- build task native：run ----
+2024-7-16 13:57:15-log: [runCmd HuNaoTank.exe] 13:57:05 [INFO]: Vulkan device initialized.13:57:05 [INFO]: RENDERER: NVIDIA GeForce RTX 4060 Laptop GPU13:57:05 [INFO]: VENDOR: Nvidia Corporation13:57:05 [INFO]: VERSION: 1.3.27813:57:05 [INFO]: INSTANCE_LAYERS: 13:57:05 [INFO]: INSTANCE_EXTENSIONS: VK_KHR_surface VK_KHR_win32_surface 13:57:05 [INFO]: DEVICE_LAYERS: 13:57:05 [INFO]: DEVICE_EXTENSIONS: VK_KHR_swapchain VK_KHR_fragment_shading_rate 13:57:05 [INFO]: COMPRESSED_FORMATS: dxt 13:57:05 [INFO]: JS: injectWebAssembly ...13:57:05 [INFO]: Device thread detached.13:57:05 [INFO]: Resizing surface: 800x60013:57:06 [INFO]: Shader 'util/splash-screen|splash-screen-vs:vert|splash-screen-fs:frag' compilation succeeded.13:57:07 [INFO]: Shader 'for2d/builtin-sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA0|USE_TEXTURE1|IS_GRAY0' compilation succeeded.13:57:12 [DEBUG]: JS: somehow preload success on windows13:57:12 [DEBUG]: JS: somehow preload success on windows13:57:12 [DEBUG]: JS: somehow preload success on windows13:57:15 [INFO]: Total device memory leaked: 0 bytes.
+2024-7-16 13:57:15-debug: // ---- build task native：run ---- (10486ms)
+2024-7-16 13:57:15-log: [task:run]: native:(run) in 10486 ms ✓, 23.333333333333332%
+2024-7-16 13:57:15-debug: // ---- builder:run-build-stage-run ---- (10781ms)
+2024-7-16 13:57:15-debug: [Build Memory track]: builder:build-stage-total run start:224.43MB, end 224.81MB, increase: 391.41KB
+2024-7-16 13:57:15-log: [task:run]: success!
+2024-7-16 13:57:15-debug: Stop record console. {file(C:\Users\53190\Desktop\TK2\temp\builder\log\windows2024-7-16 13-53.log)}
+2024-7-16 13:57:15-debug: refresh db internal success
+2024-7-16 13:57:15-debug: refresh db assets success
+2024-7-16 13:57:15-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-16 13:57:15-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-16 13:57:16-debug: asset-db:refresh-all-database (868ms)
+2024-7-16 13:57:16-debug: asset-db:worker-effect-data-processing (463ms)
+2024-7-16 13:57:16-debug: asset-db-hook-engine-extends-afterRefresh (464ms)
+2024-7-16 14:07:01-debug: refresh db internal success
+2024-7-16 14:07:01-debug: refresh db assets success
+2024-7-16 14:07:01-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-16 14:07:01-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-16 14:07:01-debug: asset-db:refresh-all-database (276ms)
+2024-7-16 14:07:01-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-16 14:19:12-debug: refresh db internal success
+2024-7-16 14:19:12-debug: refresh db assets success
+2024-7-16 14:19:12-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-16 14:19:12-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-16 14:19:12-debug: asset-db:refresh-all-database (265ms)
+2024-7-16 14:19:12-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-16 14:19:12-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-16 14:20:34-debug: refresh db internal success
+2024-7-16 14:20:35-debug: refresh db assets success
+2024-7-16 14:20:35-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-16 14:20:35-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-16 14:20:35-debug: asset-db:refresh-all-database (275ms)
+2024-7-16 14:20:35-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-16 14:20:35-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-7-16 14:21:00-debug: refresh db internal success
+2024-7-16 14:21:00-debug: refresh db assets success
+2024-7-16 14:21:00-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-16 14:21:00-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-16 14:21:00-debug: asset-db:refresh-all-database (363ms)
+2024-7-16 14:21:00-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-16 14:21:00-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-7-16 14:22:36-debug: refresh db internal success
+2024-7-16 14:22:36-debug: refresh db assets success
+2024-7-16 14:22:36-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-7-16 14:22:36-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-7-16 14:22:36-debug: asset-db:refresh-all-database (258ms)
+2024-7-16 14:22:36-debug: asset-db:worker-effect-data-processing (1ms)
+2024-7-16 14:22:36-debug: asset-db-hook-engine-extends-afterRefresh (1ms)

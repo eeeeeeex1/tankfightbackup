@@ -1,377 +1,0 @@
-2024-7-6 01:12:10 - debug: =================================== build Task (windows-002) Start ================================
-2024-7-6 01:12:10 - debug: Start build task, options:{"name":"TK2","server":"","platform":"windows","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"overwriteProjectSettings":{"macroConfig":{"cleanupImageCache":"inherit-project-setting"},"includeModules":{"physics":"inherit-project-setting","physics-2d":"inherit-project-setting","gfx-webgl2":"off"}},"nativeCodeBundleMode":"wasm","polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"0554d124-5936-4455-9b17-a083050a9281","outputName":"windows-002","taskName":"windows-002","scenes":[{"url":"db://assets/Scenes/BeginScene.scene","uuid":"6af980a4-4fd8-4a72-bb26-f91537116825"},{"url":"db://assets/Scenes/LoadingScene.scene","uuid":"7af63cc6-90a2-42ce-bfb5-42897472820c"},{"url":"db://assets/Scenes/scene-2d-001.scene","uuid":"bda4619b-1bc8-442d-90ee-6b04df2eccd8"},{"url":"db://assets/Scenes/select.scene","uuid":"0554d124-5936-4455-9b17-a083050a9281"},{"url":"db://assets/Scenes/single.scene","uuid":"b9b0fce6-d144-4637-8f7b-c8b0c724ec99"}],"wasmCompressionMode":false,"packages":{"windows":{"executableName":"test","renderBackEnd":{"vulkan":false,"gles3":true,"gles2":true},"targetPlatform":"x64","__version__":"1.0.1","vsData":""},"cocos-service":{"configID":"bbddf8","services":[],"__version__":"3.0.7"},"native":{"encrypted":false,"xxteaKey":"88zoe9WhJHaKbLrr","compressZip":false,"JobSystem":"none","__version__":"1.0.2"}},"__version__":"1.3.8","buildMode":"normal","logDest":"project://temp/builder/log/windows2024-7-6 01-12.log"}
-2024-7-6 01:12:10 - debug: Build with Cocos Creator 3.8.3
-2024-7-6 01:12:10 - debug: native:(onBeforeBuild) start..., progress: 0%
-2024-7-6 01:12:10 - debug: // ---- build task native：onBeforeBuild ----
-2024-7-6 01:12:10 - debug: // ---- build task native：onBeforeBuild ---- (67ms)
-2024-7-6 01:12:10 - debug: native:(onBeforeBuild) in 67 ms ✓, progress: 2%
-2024-7-6 01:12:10 - debug: cocos-service:(onBeforeBuild) start..., progress: 2%
-2024-7-6 01:12:10 - debug: // ---- build task cocos-service：onBeforeBuild ----
-2024-7-6 01:12:10 - debug: // ---- build task cocos-service：onBeforeBuild ---- (266ms)
-2024-7-6 01:12:10 - debug: cocos-service:(onBeforeBuild) in 266 ms ✓, progress: 4%
-2024-7-6 01:12:10 - debug: scene:(onBeforeBuild) start..., progress: 4%
-2024-7-6 01:12:10 - debug: // ---- build task scene：onBeforeBuild ----
-2024-7-6 01:12:10 - debug: // ---- build task scene：onBeforeBuild ---- (112ms)
-2024-7-6 01:12:10 - debug: scene:(onBeforeBuild) in 112 ms ✓, progress: 5%
-2024-7-6 01:12:10 - debug: Start lock asset db..., progress: 5%
-2024-7-6 01:12:10 - log: Asset DB is paused with build!
-2024-7-6 01:12:10 - debug: Query all assets info in project
-2024-7-6 01:12:11 - debug: init custom config: keepNodeUuid: false, useCache: true
-2024-7-6 01:12:11 - debug: native:(onAfterInit) start..., progress: 5%
-2024-7-6 01:12:11 - debug: // ---- build task native：onAfterInit ----
-2024-7-6 01:12:14 - debug: Native engine root:C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native
-2024-7-6 01:12:14 - debug: // ---- build task native：onAfterInit ---- (3149ms)
-2024-7-6 01:12:14 - debug: native:(onAfterInit) in 3149 ms ✓, progress: 7%
-2024-7-6 01:12:14 - debug: windows:(onAfterInit) start..., progress: 7%
-2024-7-6 01:12:14 - debug: // ---- build task windows：onAfterInit ----
-2024-7-6 01:12:14 - debug: // ---- build task windows：onAfterInit ---- (102ms)
-2024-7-6 01:12:14 - debug: windows:(onAfterInit) in 102 ms ✓, progress: 9%
-2024-7-6 01:12:14 - debug: cocos-service:(onAfterInit) start..., progress: 9%
-2024-7-6 01:12:14 - debug: // ---- build task cocos-service：onAfterInit ----
-2024-7-6 01:12:14 - debug: // ---- build task cocos-service：onAfterInit ---- (205ms)
-2024-7-6 01:12:14 - debug: cocos-service:(onAfterInit) in 205 ms ✓, progress: 11%
-2024-7-6 01:12:14 - debug: engine:(onAfterInit) start..., progress: 11%
-2024-7-6 01:12:14 - debug: // ---- build task engine：onAfterInit ----
-2024-7-6 01:12:14 - debug: // ---- build task engine：onAfterInit ---- (109ms)
-2024-7-6 01:12:14 - debug: engine:(onAfterInit) in 109 ms ✓, progress: 13%
-2024-7-6 01:12:14 - debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 13%
-2024-7-6 01:12:14 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
-2024-7-6 01:12:14 - debug: [adsense-h5g-plugin] remove script success
-2024-7-6 01:12:14 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (103ms)
-2024-7-6 01:12:14 - debug: adsense-h5g-plugin:(onBeforeBundleInit) in 103 ms ✓, progress: 13%
-2024-7-6 01:12:14 - debug: Init all bundles start..., progress: 13%
-2024-7-6 01:12:14 - debug: Num of bundles: 3..., progress: 13%
-2024-7-6 01:12:14 - debug: native:(onAfterBundleInit) start..., progress: 13%
-2024-7-6 01:12:14 - debug: // ---- build task native：onAfterBundleInit ----
-2024-7-6 01:12:14 - debug: // ---- build task native：onAfterBundleInit ---- (160ms)
-2024-7-6 01:12:14 - debug: native:(onAfterBundleInit) in 160 ms ✓, progress: 13%
-2024-7-6 01:12:14 - debug: windows:(onAfterBundleInit) start..., progress: 13%
-2024-7-6 01:12:14 - debug: // ---- build task windows：onAfterBundleInit ----
-2024-7-6 01:12:15 - debug: // ---- build task windows：onAfterBundleInit ---- (148ms)
-2024-7-6 01:12:15 - debug: windows:(onAfterBundleInit) in 148 ms ✓, progress: 13%
-2024-7-6 01:12:15 - debug: 查询 Asset Bundle start, progress: 13%
-2024-7-6 01:12:15 - debug: // ---- build task 查询 Asset Bundle ----
-2024-7-6 01:12:15 - debug: Init bundle root assets start..., progress: 13%
-2024-7-6 01:12:15 - debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-7-6 01:12:15 - debug:   Number of all scenes: 5
-2024-7-6 01:12:15 - debug:   Number of all scripts: 5
-2024-7-6 01:12:15 - debug:   Number of other assets: 339
-2024-7-6 01:12:15 - debug: Init bundle root assets success..., progress: 13%
-2024-7-6 01:12:15 - debug: reload all scripts.
-2024-7-6 01:12:15 - debug: Set detail map pack:///resolution-detail-map.json: {}
-2024-7-6 01:12:15 - groupCollapsed: Invalidate all modules
-2024-7-6 01:12:15 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js is not in module cache!
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
-2024-7-6 01:12:15 - debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
-2024-7-6 01:12:15 - groupEnd: Invalidate all modules
-2024-7-6 01:12:15 - groupCollapsed: Imports all modules
-2024-7-6 01:12:15 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
-2024-7-6 01:12:15 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
-2024-7-6 01:12:15 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
-2024-7-6 01:12:15 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\c8\c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\c8\c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js is not in module cache!
-2024-7-6 01:12:15 - debug: [[Executor]] Register DebugViewRuntimeControl
-2024-7-6 01:12:15 - debug: [[Executor]] Module "pack:///chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js" loaded.
-2024-7-6 01:12:15 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\50\50c30f67700a5fa0b712ec808eeb1b4e83f1e1ba.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\50\50c30f67700a5fa0b712ec808eeb1b4e83f1e1ba.js is not in module cache!
-2024-7-6 01:12:15 - debug: [[Executor]] Register Loading
-2024-7-6 01:12:15 - debug: [[Executor]] Module "pack:///chunks/50/50c30f67700a5fa0b712ec808eeb1b4e83f1e1ba.js" loaded.
-2024-7-6 01:12:15 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\9e\9eb26d464851e8f8137b4fff732292f64a509282.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\9e\9eb26d464851e8f8137b4fff732292f64a509282.js is not in module cache!
-2024-7-6 01:12:15 - debug: [[Executor]] Register initlog
-2024-7-6 01:12:15 - debug: [[Executor]] Module "pack:///chunks/9e/9eb26d464851e8f8137b4fff732292f64a509282.js" loaded.
-2024-7-6 01:12:15 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\7e\7ee63c9a9e29a3b987d22de292a94292f031aa6c.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\7e\7ee63c9a9e29a3b987d22de292a94292f031aa6c.js is not in module cache!
-2024-7-6 01:12:15 - debug: [[Executor]] Register SceneSwitcher
-2024-7-6 01:12:15 - debug: [[Executor]] Module "pack:///chunks/7e/7ee63c9a9e29a3b987d22de292a94292f031aa6c.js" loaded.
-2024-7-6 01:12:15 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\10\107735bd8ab6aeedb8dedfa61097e7d039af005f.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\10\107735bd8ab6aeedb8dedfa61097e7d039af005f.js is not in module cache!
-2024-7-6 01:12:15 - debug: [[Executor]] Register welcome
-2024-7-6 01:12:15 - debug: [[Executor]] Module "pack:///chunks/10/107735bd8ab6aeedb8dedfa61097e7d039af005f.js" loaded.
-2024-7-6 01:12:15 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
-2024-7-6 01:12:15 - groupEnd: Imports all modules
-2024-7-6 01:12:15 - debug: Incremental keys: 
-2024-7-6 01:12:15 - debug: Init bundle share assets start..., progress: 13%
-2024-7-6 01:12:15 - debug: Init bundle share assets success..., progress: 13%
-2024-7-6 01:12:15 - debug: handle json group in bundle internal
-2024-7-6 01:12:15 - debug: handle json group in bundle internal success
-2024-7-6 01:12:15 - debug: handle json group in bundle resources
-2024-7-6 01:12:15 - debug: handle json group in bundle resources success
-2024-7-6 01:12:15 - debug: handle json group in bundle main
-2024-7-6 01:12:15 - debug: init image compress task 0 in bundle internal
-2024-7-6 01:12:15 - debug: init image compress task 0 in bundle resources
-2024-7-6 01:12:15 - debug: handle json group in bundle main success
-2024-7-6 01:12:15 - debug: init image compress task 0 in bundle main
-2024-7-6 01:12:15 - debug: // ---- build task 查询 Asset Bundle ---- (397ms)
-2024-7-6 01:12:15 - debug: run build task 查询 Asset Bundle success in 397 ms√, progress: 18%
-2024-7-6 01:12:15 - debug: [Build Memory track]: 查询 Asset Bundle start:169.54MB, end 172.27MB, increase: 2.73MB
-2024-7-6 01:12:15 - debug: 查询 Asset Bundle start, progress: 18%
-2024-7-6 01:12:15 - debug: // ---- build task 查询 Asset Bundle ----
-2024-7-6 01:12:15 - debug: // ---- build task 查询 Asset Bundle ---- (97ms)
-2024-7-6 01:12:15 - debug: run build task 查询 Asset Bundle success in 97 ms√, progress: 23%
-2024-7-6 01:12:15 - debug: [Build Memory track]: 查询 Asset Bundle start:172.29MB, end 172.63MB, increase: 353.69KB
-2024-7-6 01:12:15 - debug: native:(onAfterBundleDataTask) start..., progress: 23%
-2024-7-6 01:12:15 - debug: // ---- build task native：onAfterBundleDataTask ----
-2024-7-6 01:12:15 - debug: // ---- build task native：onAfterBundleDataTask ---- (105ms)
-2024-7-6 01:12:15 - debug: native:(onAfterBundleDataTask) in 105 ms ✓, progress: 23%
-2024-7-6 01:12:15 - debug: 打包脚本 start, progress: 23%
-2024-7-6 01:12:15 - debug: // ---- build task 打包脚本 ----
-2024-7-6 01:12:15 - debug: Caught exception during build core-js: WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema. - configuration.entry should be an non-empty array.   -> A non-empty array of non-empty stringsThis may indicates the core-js polyfill is not necessary. See https://github.com/zloirock/core-js/issues/822
-2024-7-6 01:12:15 - debug: Generate systemJs..., progress: 23%
-2024-7-6 01:12:17 - debug: 构建项目脚本 start..., progress: 23%
-2024-7-6 01:12:17 - debug: Build script in bundle start, progress: 23%
-2024-7-6 01:12:17 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
-2024-7-6 01:12:18 - log: [build-script]enter sub process 2664, C:\ProgramData\cocos\editors\Creator\3.8.3\CocosCreator.exe,C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\builder\static\sub-process-index
-2024-7-6 01:12:20 - debug: excute-script over with build-script 2182ms
-2024-7-6 01:12:20 - debug: Copy externalScripts success!
-2024-7-6 01:12:20 - debug: Build script in bundle success, progress: 23%
-2024-7-6 01:12:20 - debug: 构建项目脚本 in (2448 ms) √, progress: 23%
-2024-7-6 01:12:20 - debug: 构建引擎脚本 start..., progress: 23%
-2024-7-6 01:12:20 - debug: Use cache engine: {link(C:\Users\53190\AppData\Local\Temp\CocosCreator\3.8.3\builder\engine\582e75784029393a8ba6770471be2c00)}
-2024-7-6 01:12:20 - debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","dragon-bones","intersection-2d","meshopt","particle-2d","physics-2d-box2d","profiler","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.8.3","md5Map":[],"engineName":"src/cocos-js","platform":"WINDOWS","useCache":true,"isNative":true,"nativeCodeBundleMode":"wasm","wasmCompressionMode":false,"output":"D:\\TankFight\\TK2\\build\\windows-002\\data\\src\\cocos-js","targets":"chrome 116","flags":{"DEBUG":false,"NET_MODE":0,"SERVER_MODE":false},"entry":"C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine"}
-2024-7-6 01:12:20 - debug: 构建引擎脚本 in (260 ms) √, progress: 23%
-2024-7-6 01:12:20 - debug: Copy plugin script ..., progress: 23%
-2024-7-6 01:12:20 - debug: Generate import-map..., progress: 23%
-2024-7-6 01:12:20 - debug: // ---- build task 打包脚本 ---- (4941ms)
-2024-7-6 01:12:20 - debug: run build task 打包脚本 success in 4 s√, progress: 28%
-2024-7-6 01:12:20 - debug: [Build Memory track]: 打包脚本 start:173.28MB, end 219.47MB, increase: 46.19MB
-2024-7-6 01:12:20 - debug: Build Assets start, progress: 28%
-2024-7-6 01:12:20 - debug: // ---- build task Build Assets ----
-2024-7-6 01:12:20 - debug: Build bundles..., progress: 28%
-2024-7-6 01:12:20 - debug: Pack Images start, progress: 28%
-2024-7-6 01:12:20 - debug: builder:pack-auto-atlas-image (203ms)
-2024-7-6 01:12:20 - debug: Pack Images success, progress: 28%
-2024-7-6 01:12:20 - debug: Compress image start..., progress: 28%
-2024-7-6 01:12:20 - group: Compress image...
-2024-7-6 01:12:20 - debug: sort compress task {}
-2024-7-6 01:12:20 - debug: Num of all image compress task 0, really: 0, configTasks: 0
-2024-7-6 01:12:20 - debug: No image need to compress
-2024-7-6 01:12:20 - groupEnd: Compress image...
-2024-7-6 01:12:20 - debug: Compress image success..., progress: 28%
-2024-7-6 01:12:20 - debug: Output asset in bundles start, progress: 28%
-2024-7-6 01:12:20 - debug: Handle all json groups in bundle internal
-2024-7-6 01:12:20 - debug: handle json group
-2024-7-6 01:12:20 - debug: Handle all json groups in bundle resources
-2024-7-6 01:12:20 - debug: handle json group
-2024-7-6 01:12:20 - debug: handle single json
-2024-7-6 01:12:20 - debug: Handle all json groups in bundle main
-2024-7-6 01:12:20 - debug: handle json group
-2024-7-6 01:12:20 - debug: Json group(0cfd6fd25) compile success，json number: 6
-2024-7-6 01:12:20 - debug: Json group(0925958c2) compile success，json number: 6
-2024-7-6 01:12:20 - debug: Json group(0ca60d3e4) compile success，json number: 6
-2024-7-6 01:12:20 - debug: handle single json
-2024-7-6 01:12:20 - debug: Json group(0ca295cd6) compile success，json number: 6
-2024-7-6 01:12:20 - debug: Json group(049e90c10) compile success，json number: 6
-2024-7-6 01:12:20 - debug: Json group(0e4b203e2) compile success，json number: 6
-2024-7-6 01:12:20 - debug: Json group(022f13c27) compile success，json number: 6
-2024-7-6 01:12:20 - debug: handle single json
-2024-7-6 01:12:21 - debug: Output asset in bundles success, progress: 28%
-2024-7-6 01:12:21 - debug: Output asset in bundles start, progress: 28%
-2024-7-6 01:12:21 - debug: compress config of bundle internal...
-2024-7-6 01:12:21 - debug: compress config of bundle internal success
-2024-7-6 01:12:21 - debug: compress config of bundle resources...
-2024-7-6 01:12:21 - debug: compress config of bundle resources success
-2024-7-6 01:12:21 - debug: compress config of bundle main...
-2024-7-6 01:12:21 - debug: compress config of bundle main success
-2024-7-6 01:12:21 - debug: output config of bundle internal
-2024-7-6 01:12:21 - debug: output config of bundle internal success
-2024-7-6 01:12:21 - debug: output config of bundle resources
-2024-7-6 01:12:21 - debug: output config of bundle resources success
-2024-7-6 01:12:21 - debug: output config of bundle main
-2024-7-6 01:12:21 - debug: output config of bundle main success
-2024-7-6 01:12:21 - debug: Output asset in bundles success, progress: 28%
-2024-7-6 01:12:21 - debug: // ---- build task Build Assets ---- (642ms)
-2024-7-6 01:12:21 - debug: run build task Build Assets success in 642 ms√, progress: 33%
-2024-7-6 01:12:21 - debug: [Build Memory track]: Build Assets start:219.49MB, end 217.57MB, increase: -1966.09KB
-2024-7-6 01:12:21 - debug: 整理部分构建选项内数据到 settings.json start, progress: 33%
-2024-7-6 01:12:21 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-6 01:12:21 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (117ms)
-2024-7-6 01:12:21 - debug: run build task 整理部分构建选项内数据到 settings.json success in 117 ms√, progress: 34%
-2024-7-6 01:12:21 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:217.65MB, end 217.95MB, increase: 305.30KB
-2024-7-6 01:12:21 - debug: 填充脚本数据到 settings.json start, progress: 34%
-2024-7-6 01:12:21 - debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-7-6 01:12:21 - debug: // ---- build task 填充脚本数据到 settings.json ---- (101ms)
-2024-7-6 01:12:21 - debug: run build task 填充脚本数据到 settings.json success in 101 ms√, progress: 36%
-2024-7-6 01:12:21 - debug: [Build Memory track]: 填充脚本数据到 settings.json start:217.97MB, end 218.26MB, increase: 296.74KB
-2024-7-6 01:12:21 - debug: 整理部分构建选项内数据到 settings.json start, progress: 36%
-2024-7-6 01:12:21 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-6 01:12:21 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (163ms)
-2024-7-6 01:12:21 - debug: run build task 整理部分构建选项内数据到 settings.json success in 163 ms√, progress: 38%
-2024-7-6 01:12:21 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:218.27MB, end 218.80MB, increase: 541.68KB
-2024-7-6 01:12:21 - debug: cocos-service:(onBeforeCompressSettings) start..., progress: 38%
-2024-7-6 01:12:21 - debug: // ---- build task cocos-service：onBeforeCompressSettings ----
-2024-7-6 01:12:21 - debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (249ms)
-2024-7-6 01:12:21 - debug: cocos-service:(onBeforeCompressSettings) in 249 ms ✓, progress: 40%
-2024-7-6 01:12:21 - debug: 整理静态模板文件 start, progress: 40%
-2024-7-6 01:12:21 - debug: // ---- build task 整理静态模板文件 ----
-2024-7-6 01:12:22 - debug: // ---- build task 整理静态模板文件 ---- (199ms)
-2024-7-6 01:12:22 - debug: run build task 整理静态模板文件 success in 199 ms√, progress: 45%
-2024-7-6 01:12:22 - debug: [Build Memory track]: 整理静态模板文件 start:219.17MB, end 216.10MB, increase: -3143.67KB
-2024-7-6 01:12:22 - debug: native:(onAfterCompressSettings) start..., progress: 45%
-2024-7-6 01:12:22 - debug: // ---- build task native：onAfterCompressSettings ----
-2024-7-6 01:12:22 - log: Checking template version...
-2024-7-6 01:12:22 - log: Validating template consistency...
-2024-7-6 01:12:22 - log: Validating platform source code directories...
-2024-7-6 01:12:22 - debug: generateCMakeConfig, {"CC_USE_GLES3":"set(CC_USE_GLES3 ON)","CC_USE_GLES2":"set(CC_USE_GLES2 ON)","USE_SERVER_MODE":"set(USE_SERVER_MODE OFF)","NET_MODE":"set(NET_MODE 0)","XXTEAKEY":"","CC_ENABLE_SWAPPY":"set(CC_ENABLE_SWAPPY OFF)","APP_NAME":"set(APP_NAME \"TK2\")","COCOS_X_PATH":"set(COCOS_X_PATH \"C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/native\")","USE_JOB_SYSTEM_TASKFLOW":"set(USE_JOB_SYSTEM_TASKFLOW OFF)","USE_JOB_SYSTEM_TBB":"set(USE_JOB_SYSTEM_TBB OFF)","ENABLE_FLOAT_OUTPUT":"set(ENABLE_FLOAT_OUTPUT OFF)","USE_PHYSICS_PHYSX":"set(USE_PHYSICS_PHYSX OFF)","USE_OCCLUSION_QUERY":"set(USE_OCCLUSION_QUERY OFF)","USE_GEOMETRY_RENDERER":"set(USE_GEOMETRY_RENDERER OFF)","USE_DEBUG_RENDERER":"set(USE_DEBUG_RENDERER OFF)","USE_AUDIO":"set(USE_AUDIO ON)","USE_VIDEO":"set(USE_VIDEO ON)","USE_WEBVIEW":"set(USE_WEBVIEW ON)","USE_SOCKET":"set(USE_SOCKET OFF)","USE_WEBSOCKET_SERVER":"set(USE_WEBSOCKET_SERVER OFF)","USE_SPINE":"set(USE_SPINE ON)","USE_DRAGONBONES":"set(USE_DRAGONBONES ON)","CC_EXECUTABLE_NAME":"set(CC_EXECUTABLE_NAME \"test\")","CC_USE_VULKAN":"set(CC_USE_VULKAN OFF)"}
-2024-7-6 01:12:22 - log: While replace template content, file D:\TankFight\TK2\build\windows-002\proj\main.cpp
-2024-7-6 01:12:22 - log: While replace template content, file D:\TankFight\TK2\build\windows-002\proj\main.m
-2024-7-6 01:12:22 - log: While replace template content, file D:\TankFight\TK2\build\windows-002\proj\settings.gradle
-2024-7-6 01:12:22 - log: While replace template content, file D:\TankFight\TK2\native\engine\win64/app/build.gradle
-2024-7-6 01:12:22 - log: While replace template content, file D:\TankFight\TK2\native\engine\win64/instantapp/build.gradle
-2024-7-6 01:12:22 - log: While replace template content, file D:\TankFight\TK2\native\engine\win64/entry/src/main/config.json
-2024-7-6 01:12:22 - debug: // ---- build task native：onAfterCompressSettings ---- (112ms)
-2024-7-6 01:12:22 - debug: native:(onAfterCompressSettings) in 112 ms ✓, progress: 46%
-2024-7-6 01:12:22 - debug: cocos-service:(onAfterCompressSettings) start..., progress: 46%
-2024-7-6 01:12:22 - debug: // ---- build task cocos-service：onAfterCompressSettings ----
-2024-7-6 01:12:22 - debug: // ---- build task cocos-service：onAfterCompressSettings ---- (221ms)
-2024-7-6 01:12:22 - debug: cocos-service:(onAfterCompressSettings) in 221 ms ✓, progress: 48%
-2024-7-6 01:12:22 - debug: 给所有的资源加上 MD5 后缀 start, progress: 48%
-2024-7-6 01:12:22 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
-2024-7-6 01:12:22 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (99ms)
-2024-7-6 01:12:22 - debug: run build task 给所有的资源加上 MD5 后缀 success in 99 ms√, progress: 58%
-2024-7-6 01:12:22 - debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:217.35MB, end 217.62MB, increase: 276.95KB
-2024-7-6 01:12:22 - debug: native:(onAfterBuild) start..., progress: 58%
-2024-7-6 01:12:22 - debug: // ---- build task native：onAfterBuild ----
-2024-7-6 01:12:22 - log: selecting visual studio generator ...
-2024-7-6 01:12:22 - log: run "C:\Program Files\CMake\bin\cmake.exe" -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_iGcKEA" -G"Visual Studio 17 2022" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_iGcKEA\build_Visual_Studio_17_2022" -A x64
-2024-7-6 01:12:22 - log: [cmake] -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22631.
-2024-7-6 01:12:26 - log: [cmake] -- The CXX compiler identification is MSVC 19.39.33521.0
-2024-7-6 01:12:27 - log: [cmake] -- Detecting CXX compiler ABI info
-2024-7-6 01:12:27 - log: [cmake] -- Detecting CXX compiler ABI info - done
-2024-7-6 01:12:27 - log: [cmake] -- Check for working CXX compiler: D:/Visual Studio/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe - skipped
-2024-7-6 01:12:27 - log: [cmake] -- Detecting CXX compile features
-2024-7-6 01:12:27 - log: [cmake] -- Detecting CXX compile features - done
-2024-7-6 01:12:27 - log: [cmake] -- Configuring done (5.3s)
-2024-7-6 01:12:28 - log: [cmake] -- Generating done (0.0s)
-2024-7-6 01:12:28 - log: [cmake] -- Build files have been written to: C:/Users/53190/AppData/Local/Temp/cmakeTest_iGcKEA/build_Visual_Studio_17_2022
-2024-7-6 01:12:28 - log:  using Visual Studio 17 2022
-2024-7-6 01:12:28 - log: run "C:\Program Files\CMake\bin\cmake.exe" -S"D:/TankFight/TK2/native/engine/win64" -B"D:/TankFight/TK2/build/windows-002/proj" -A x64 -DRES_DIR="D:/TankFight/TK2/build/windows-002" -DAPP_NAME="TK2" -DLAUNCH_TYPE="Release"
-2024-7-6 01:12:28 - log: [cmake] -- Building for: Visual Studio 17 2022
-2024-7-6 01:12:28 - log: [cmake] -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22631.
-2024-7-6 01:12:29 - log: [cmake] -- The CXX compiler identification is MSVC 19.39.33521.0
-2024-7-6 01:12:29 - log: [cmake] -- Detecting CXX compiler ABI info
-2024-7-6 01:12:29 - log: [cmake] -- Detecting CXX compiler ABI info - done
-2024-7-6 01:12:29 - log: [cmake] -- Check for working CXX compiler: D:/Visual Studio/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe - skipped
-2024-7-6 01:12:29 - log: [cmake] -- Detecting CXX compile features
-2024-7-6 01:12:29 - log: [cmake] -- Detecting CXX compile features - done
-2024-7-6 01:12:30 - log: [cmake] -- The C compiler identification is MSVC 19.39.33521.0
-2024-7-6 01:12:30 - log: [cmake] -- The ASM compiler identification is MSVC
-2024-7-6 01:12:30 - log: [cmake] -- Found assembler: D:/Visual Studio/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe
-2024-7-6 01:12:30 - log: [cmake] -- Detecting C compiler ABI info
-2024-7-6 01:12:31 - log: [cmake] -- Detecting C compiler ABI info - done
-2024-7-6 01:12:31 - log: [cmake] -- Check for working C compiler: D:/Visual Studio/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe - skipped
-2024-7-6 01:12:31 - log: [cmake] -- Detecting C compile features
-2024-7-6 01:12:31 - log: [cmake] -- Detecting C compile features - done
-2024-7-6 01:12:31 - log: [cmake] -- platform: Windows
-2024-7-6 01:12:31 - log: [cmake] -- Ignore NO_WERROR
-2024-7-6 01:12:31 - log: [cmake-warn] CMake Deprecation Warning at C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/templates/cmake/common.cmake:9 (cmake_policy):  The OLD behavior for policy CMP0111 will be removed from a future version  of CMake.  The cmake-policies(7) manual explains that the OLD behaviors of all  policies are deprecated and that a policy should be set to OLD only under  specific short-term circumstances.  Projects should be ported to the NEW  behavior and not rely on setting a policy to OLD.Call Stack (most recent call first):  C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/native/cmake/predefine.cmake:375 (include)  C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/native/CMakeLists.txt:2 (include)  D:/TankFight/TK2/native/engine/common/CMakeLists.txt:50 (include)  CMakeLists.txt:10 (include)
-2024-7-6 01:12:31 - log: [cmake] -- OPTION BUILTIN_COCOS_X_PATH:	-- OPTION USE_BUILTIN_EXTERNAL:	OFF-- OPTION USE_MODULES:	OFF-- OPTION CC_USE_METAL:	-- OPTION CC_USE_GLES3:	ON-- OPTION CC_USE_GLES2:	ON-- OPTION CC_USE_VULKAN:	OFF-- OPTION CC_DEBUG_FORCE:	OFF-- OPTION USE_SE_V8:	ON-- OPTION USE_V8_DEBUGGER:	ON-- OPTION USE_V8_DEBUGGER_FORCE:	OFF-- OPTION USE_SE_SM:	OFF
-2024-7-6 01:12:31 - log: [cmake] -- OPTION USE_SOCKET:	OFF-- OPTION USE_AUDIO:	ON-- OPTION USE_EDIT_BOX:	ON-- OPTION USE_VIDEO:	OFF-- OPTION USE_WEBVIEW:	OFF-- OPTION USE_MIDDLEWARE:	ON-- OPTION USE_DRAGONBONES:	ON-- OPTION USE_SPINE:	ON-- OPTION USE_WEBSOCKET_SERVER:	OFF-- OPTION USE_PHYSICS_PHYSX:	OFF-- OPTION USE_JOB_SYSTEM_TBB:	OFF-- OPTION USE_JOB_SYSTEM_TASKFLOW:	OFF-- OPTION USE_XR:	OFF-- OPTION USE_SERVER_MODE:	OFF-- OPTION USE_AR_MODULE:	OFF-- OPTION USE_AR_AUTO:	OFF-- OPTION USE_AR_CORE:	OFF-- OPTION USE_AR_ENGINE:	OFF-- OPTION USE_CCACHE:	-- OPTION CCACHE_EXECUTABLE:	CCACHE_EXECUTABLE-NOTFOUND-- OPTION NODE_EXECUTABLE:	C:/Program Files/nodejs/node.exe-- OPTION NET_MODE:	0-- OPTION USE_REMOTE_LOG:	OFF
-2024-7-6 01:12:31 - log: [cmake] -- platform path: 
-2024-7-6 01:12:32 - log: [cmake] -- Try generating D:/TankFight/TK2/native/engine/win64/Pre-AutoLoadPlulgins.cmake
-2024-7-6 01:12:32 - log: [cmake] --  execute C:/Program Files/nodejs/node.exe plugin_parser.js
-2024-7-6 01:12:32 - log: [cmake] [searching plugins] directory D:/TankFight/TK2/extensions does not exist
-2024-7-6 01:12:32 - log: [cmake] [searching plugins] no plugins found!
-2024-7-6 01:12:32 - log: [cmake] -- Searching hook files Pre*.cmake or *Pre.cmake in D:/TankFight/TK2/native/engine/win64-- No plugins are loaded!
-2024-7-6 01:12:32 - log: [cmake] -- Searching hook files Post*.cmake or *Post.cmake in D:/TankFight/TK2/native/engine/win64
-2024-7-6 01:12:32 - log: [cmake] -- Configuring done (4.3s)
-2024-7-6 01:12:32 - log: [cmake] -- Generating done (0.2s)
-2024-7-6 01:12:32 - log: [cmake-warn] CMake Warning:  Manually-specified variables were not used by the project:    LAUNCH_TYPE
-2024-7-6 01:12:32 - log: [cmake] -- Build files have been written to: D:/TankFight/TK2/build/windows-002/proj
-2024-7-6 01:12:32 - debug: // ---- build task native：onAfterBuild ---- (10274ms)
-2024-7-6 01:12:32 - debug: native:(onAfterBuild) in 10274 ms ✓, progress: 60%
-2024-7-6 01:12:32 - debug: cocos-service:(onAfterBuild) start..., progress: 60%
-2024-7-6 01:12:32 - debug: // ---- build task cocos-service：onAfterBuild ----
-2024-7-6 01:12:33 - debug: // ---- build task cocos-service：onAfterBuild ---- (239ms)
-2024-7-6 01:12:33 - debug: cocos-service:(onAfterBuild) in 239 ms ✓, progress: 62%
-2024-7-6 01:12:33 - debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 62%
-2024-7-6 01:12:33 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
-2024-7-6 01:12:33 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (104ms)
-2024-7-6 01:12:33 - debug: adsense-h5g-plugin:(onAfterBuild) in 104 ms ✓, progress: 64%
-2024-7-6 01:12:33 - log: Asset DB is resume!
-2024-7-6 01:12:33 - debug: builder:build-project-total (22796ms)
-2024-7-6 01:12:33 - debug: build success in 22796!
-2024-7-6 01:12:33 - debug: [Build Memory track]: builder:build-project-total start:164.80MB, end 172.78MB, increase: 7.98MB
-2024-7-6 01:12:33 - debug: ================================ build Task (windows-002) Finished in (22 s)ms ================================
-2024-7-6 01:12:45 - debug: // ---- builder:run-build-stage-make ----
-2024-7-6 01:12:45 - debug: Use build file cocos.compile.config.json in root(D:\TankFight\TK2\build\windows-002)
-2024-7-6 01:12:45 - log: [task:make]: init options success, 10%
-2024-7-6 01:12:45 - log: [task:make]: native:(make) start..., 10%
-2024-7-6 01:12:45 - debug: // ---- build task native：make ----
-2024-7-6 01:12:45 - log: run "C:\Program Files\CMake\bin\cmake.exe" --build "D:/TankFight/TK2/build/windows-002/proj" --config Release -- -verbosity:quiet
-2024-7-6 01:12:45 - log: [cmake] 适用于 .NET Framework MSBuild 版本 17.9.5+33de0b227
-2024-7-6 01:12:52 - log: [cmake-warn] C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\tools\swig-config\spine.i(444): warning 303: %extend defined for an undeclared class spine::SkeletonJson. [D:\TankFight\TK2\build\windows-002\proj\cocos_engine.vcxproj]
-2024-7-6 01:12:52 - log: [cmake-warn] C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\tools\swig-config\spine.i(421): warning 303: %extend defined for an undeclared class spine::SkeletonClipping. [D:\TankFight\TK2\build\windows-002\proj\cocos_engine.vcxproj]C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\tools\swig-config\spine.i(538): warning 303: %extend defined for an undeclared class spine::Vector2. [D:\TankFight\TK2\build\windows-002\proj\cocos_engine.vcxproj]
-2024-7-6 01:14:47 - debug: // ---- build task native：make ---- (122021ms)
-2024-7-6 01:14:47 - log: [task:make]: native:(make) in 122021 ms ✓, 23.333333333333332%
-2024-7-6 01:14:47 - debug: // ---- builder:run-build-stage-make ---- (122242ms)
-2024-7-6 01:14:47 - debug: [Build Memory track]: builder:build-stage-total make start:173.14MB, end 173.34MB, increase: 204.46KB
-2024-7-6 01:14:47 - log: [task:make]: success!
-2024-7-6 01:14:50 - debug: // ---- builder:run-build-stage-run ----
-2024-7-6 01:14:50 - debug: Use build file cocos.compile.config.json in root(D:\TankFight\TK2\build\windows-002)
-2024-7-6 01:14:50 - log: [task:run]: init options success, 10%
-2024-7-6 01:14:50 - log: [task:run]: native:(run) start..., 10%
-2024-7-6 01:14:50 - debug: // ---- build task native：run ----
-2024-7-6 01:14:50 - log: [runCmd]: test.exe 
-2024-7-6 01:15:00 - log: [runCmd test.exe] (Info) Hardware profile: None(Info) PVRVFrame version 10.8
-2024-7-6 01:15:00 - log: [runCmd test.exe] 01:14:52 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]01:14:52 [INFO]: GLES3 device initialized.01:14:52 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2) (SDK Build: 18.1@5086772)01:14:52 [INFO]: VENDOR: Imagination Technologies (Host: NVIDIA Corporation)01:14:52 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 NVIDIA 555.99)01:14:52 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 01:14:52 [INFO]: FRAMEBUFFER_FETCH: NONE01:14:52 [INFO]: MULTI_SAMPLE_RENDER_TO_TEXTURE: NONE01:14:52 [INFO]: JS: injectWebAssembly ...01:14:52 [INFO]: Device thread detached.01:14:52 [INFO]: Shader 'util/splash-screen|splash-screen-vs:vert|splash-screen-fs:frag' compilation succeeded.01:14:54 [INFO]: Shader 'for2d/builtin-sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA0|USE_TEXTURE1|IS_GRAY0' compilation succeeded.
-2024-7-6 01:15:00 - debug: // ---- build task native：run ---- (9551ms)
-2024-7-6 01:15:00 - log: [task:run]: native:(run) in 9551 ms ✓, 23.333333333333332%
-2024-7-6 01:15:00 - debug: // ---- builder:run-build-stage-run ---- (9618ms)
-2024-7-6 01:15:00 - debug: [Build Memory track]: builder:build-stage-total run start:172.84MB, end 173.55MB, increase: 730.83KB
-2024-7-6 01:15:00 - log: [task:run]: success!

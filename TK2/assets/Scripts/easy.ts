@@ -41,7 +41,7 @@ export class easy extends Component {
         }
         let json=JSON.stringify(RegSet);
         localStorage.setItem('RegSet',json);
-        director.loadScene('alonemap0');
+        director.loadScene('alonemap1');
     }
 }
 

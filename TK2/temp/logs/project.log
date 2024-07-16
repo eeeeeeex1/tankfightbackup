@@ -1,94 +1,94 @@
-2024-7-15 16:02:39 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine
-2024-7-15 16:02:39 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-2024-7-15 16:02:39 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native
-2024-7-15 16:02:40 - log: Request namespace: device-list
-2024-7-15 16:02:51 - log: [Scene] meshopt wasm decoder initialized
-2024-7-15 16:02:51 - log: [Scene] [box2d]:box2d wasm lib loaded.
-2024-7-15 16:02:51 - log: [Scene] [bullet]:bullet wasm lib loaded.
-2024-7-15 16:02:51 - log: [Scene] [PHYSICS]: using builtin.
-2024-7-15 16:02:52 - log: [Scene] Cocos Creator v3.8.3
-2024-7-15 16:02:52 - info: [Scene] Forward render pipeline initialized.
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:53:09 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine
+2024-7-16 13:53:10 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+2024-7-16 13:53:10 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native
+2024-7-16 13:53:11 - log: Request namespace: device-list
+2024-7-16 13:53:26 - log: [Scene] meshopt wasm decoder initialized
+2024-7-16 13:53:26 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2024-7-16 13:53:26 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2024-7-16 13:53:26 - log: [Scene] [PHYSICS]: using builtin.
+2024-7-16 13:53:27 - log: [Scene] Cocos Creator v3.8.3
+2024-7-16 13:53:27 - info: [Scene] Forward render pipeline initialized.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/9e/9e7f213547356e50b5cbb518e663112ef72ad361.js:23:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/10/108fe786493403df76d709e8e36616221e8b1a9f.js:23:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/9e/9e7f213547356e50b5cbb518e663112ef72ad361.js:23:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/10/108fe786493403df76d709e8e36616221e8b1a9f.js:23:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/76/768bafa733be3256e32c3def74aa845427cbda00.js:40:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/d6/d6d9719bfd0dfd14fe3f7d640e45cae0b8ee8bc8.js:40:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/76/768bafa733be3256e32c3def74aa845427cbda00.js:40:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/d6/d6d9719bfd0dfd14fe3f7d640e45cae0b8ee8bc8.js:40:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/c9/c901d93c052257a31fbe2a9924f6e926148d46f8.js:39:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/14/1492a90b7df80e0a4511bdaa96e886af08a1f8ac.js:39:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/c9/c901d93c052257a31fbe2a9924f6e926148d46f8.js:39:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/14/1492a90b7df80e0a4511bdaa96e886af08a1f8ac.js:39:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/c1/c1785c9a459ad6794f76476877efca01022166fd.js:40:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/14/145352324dc90651ec195bf6d3a887f28a05f028.js:40:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/c1/c1785c9a459ad6794f76476877efca01022166fd.js:40:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/14/145352324dc90651ec195bf6d3a887f28a05f028.js:40:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/29/29c30c9840145cba6bc1566afee57815314c6b7e.js:39:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/00/003ab2187c680bbea441ba0632a608b31fa606aa.js:39:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/29/29c30c9840145cba6bc1566afee57815314c6b7e.js:39:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/00/003ab2187c680bbea441ba0632a608b31fa606aa.js:39:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] You are explicitly specifying `undefined` type to cc property "tanklife" of cc class "PlayerController0".
+2024-7-16 13:53:27 - warn: [Scene] You are explicitly specifying `undefined` type to cc property "tanklife" of cc class "PlayerController0".
 Is this intended? If not, this may indicate a circular reference.
 For example:
 
@@ -130,331 +130,283 @@ export class Foo {            //  ↓
     at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:141083:11)
     at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:141108:5)
     at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272931:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/c1/c1cd9da44ef9308ea43a797bcd3f5aac252ac83c.js:39:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/13/13669f8c592e1b3e63569264ae2410cae5684cdd.js:39:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEventType' is deprecated since v3.3.0, please use 'Input.EventType' instead.Error: [Scene] 'SystemEventType' is deprecated since v3.3.0, please use 'Input.EventType' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEventType' is deprecated since v3.3.0, please use 'Input.EventType' instead.Error: [Scene] 'SystemEventType' is deprecated since v3.3.0, please use 'Input.EventType' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/c1/c1cd9da44ef9308ea43a797bcd3f5aac252ac83c.js:39:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/13/13669f8c592e1b3e63569264ae2410cae5684cdd.js:39:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/5f/5f58f7b34acfc58e28f168bedac8ca75d31a76d0.js:30:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/d1/d12e516505b7094995e894959933d84bbadaed84.js:30:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/5f/5f58f7b34acfc58e28f168bedac8ca75d31a76d0.js:30:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/d1/d12e516505b7094995e894959933d84bbadaed84.js:30:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/15/156ac76656b133cdceb9676d8ab010ce63ceede8.js:37:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/47/47bf7232d7b38f93f447b1d61b23194b70bfbc60.js:37:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/15/156ac76656b133cdceb9676d8ab010ce63ceede8.js:37:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/47/47bf7232d7b38f93f447b1d61b23194b70bfbc60.js:37:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/d2/d2548def85b5b90788a2a38be8c8598ba71e3a35.js:27:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/e5/e5f780770445628c1fd517ebfda20519801aa08d.js:27:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/d2/d2548def85b5b90788a2a38be8c8598ba71e3a35.js:27:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/e5/e5f780770445628c1fd517ebfda20519801aa08d.js:27:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/bd/bdb4bec021b4f41e79fddf33f4d469fe2a2e3da4.js:30:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/f6/f6181b154a8c735727963e808ca20676b5c0f82b.js:30:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/bd/bdb4bec021b4f41e79fddf33f4d469fe2a2e3da4.js:30:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/f6/f6181b154a8c735727963e808ca20676b5c0f82b.js:30:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/ce/ce4b0c7074de12c694e8785a61958a06a0b87c91.js:37:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/2f/2f5c5d1fe1efb2029fabecfa018a4eada70c3f1b.js:37:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/ce/ce4b0c7074de12c694e8785a61958a06a0b87c91.js:37:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/2f/2f5c5d1fe1efb2029fabecfa018a4eada70c3f1b.js:37:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/8a/8a796688552d796e01f41291bec7752f368b4d7a.js:27:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/d3/d3aa0b7eb56689ec18584239be58c02ea196d646.js:27:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/8a/8a796688552d796e01f41291bec7752f368b4d7a.js:27:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/d3/d3aa0b7eb56689ec18584239be58c02ea196d646.js:27:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/22/224704c99e77461012f7fd6b6ffd305ca4ac92f0.js:30:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/ca/cacd00db61cdda87ee5127c0b3b12e5f99bdbc04.js:30:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/22/224704c99e77461012f7fd6b6ffd305ca4ac92f0.js:30:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/ca/cacd00db61cdda87ee5127c0b3b12e5f99bdbc04.js:30:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/2a/2a7184acd35df755fa53d038a1761355de7c4bdd.js:37:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/09/09954fb5950b82f4b47a5b3476f7f55567c41df6.js:37:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/2a/2a7184acd35df755fa53d038a1761355de7c4bdd.js:37:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/09/09954fb5950b82f4b47a5b3476f7f55567c41df6.js:37:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/e8/e81e9a16b403e865871843b6edbaf1f863850a91.js:31:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/5a/5a7f361d44bdee39f48589ac94802aa554ad1cde.js:31:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/e8/e81e9a16b403e865871843b6edbaf1f863850a91.js:31:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/5a/5a7f361d44bdee39f48589ac94802aa554ad1cde.js:31:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/09/09c31c90c109741a1347daf574fc6834f6317a91.js:41:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/09/09898b3261ca5fe4d1e3689a69548aa17bb95e47.js:41:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/09/09c31c90c109741a1347daf574fc6834f6317a91.js:41:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/09/09898b3261ca5fe4d1e3689a69548aa17bb95e47.js:41:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.Error: [Scene] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/64/64591ccd9c2df7a4c193da8e24a8a410dc34c1f1.js:27:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/85/85a7ac11b409b26f63523c11d5034d73b04022f6.js:27:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+2024-7-16 13:53:27 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
     at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
     at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)
     at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)
-    at Object.execute (file:///C:/Users/53190/Desktop/tankfightbackup/TK2/temp/programming/packer-driver/targets/editor/chunks/64/64591ccd9c2df7a4c193da8e24a8a410dc34c1f1.js:27:7)
+    at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/85/85a7ac11b409b26f63523c11d5034d73b04022f6.js:27:7)
     at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
     at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
-2024-7-15 16:02:52 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-2024-7-15 16:05:02 - log: 16:04:59 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
-16:04:59 [DEBUG]: WORKAREA WIDTH 1699.00, HEIGHT 968.00
-16:04:59 [DEBUG]: FRAME SCALE = 1.00
-16:04:59 [DEBUG]: Project Config:
-16:04:59 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\simulator\Release\
-16:04:59 [DEBUG]:     writable path: $(PROJDIR)\
-16:04:59 [DEBUG]:     script file: $(PROJDIR)\main.js
-16:04:59 [DEBUG]:     frame size: 852 x 393
-16:04:59 [DEBUG]:     frame scale: 1.00
-16:04:59 [DEBUG]:     show console: NO
-16:04:59 [DEBUG]:     write debug log: NO ()
-16:04:59 [DEBUG]:     listen: 
-16:04:59 [DEBUG]:     debugger: none
-16:04:59 [DEBUG]:     add searching path:
-16:04:59 [DEBUG]: 
-
-
-16:04:59 [DEBUG]: [WARNING]:not find lang
-16:05:00 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
-16:05:00 [DEBUG]: EGL context bounded to thread c26d046fd4ff2d6
-16:05:00 [INFO]: GLES3 device initialized.
-16:05:00 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2) (SDK Build: 18.1@5086772)
-16:05:00 [INFO]: VENDOR: Imagination Technologies (Host: NVIDIA Corporation)
-16:05:00 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 NVIDIA 556.12)
-16:05:00 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
-16:05:00 [INFO]: FRAMEBUFFER_FETCH: NONE
-16:05:00 [INFO]: MULTI_SAMPLE_RENDER_TO_TEXTURE: NONE
-16:05:00 [INFO]: Device validator enabled.
-16:05:00 [DEBUG]: D/ Initializing V8, version: 11.6.189.22
-
-16:05:00 [DEBUG]: D/ libuv version: 1.41.0
-
-16:05:00 [DEBUG]: D/ Number of interfaces: 10
-16:05:00 [DEBUG]: D/ Debugger listening..., visit [
-16:05:00 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
-16:05:00 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=10.128.8.21:5086/00010002-0003-4004-8005-000600070008
-16:05:00 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.130.11:5086/00010002-0003-4004-8005-000600070008
-16:05:00 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.56.104:5086/00010002-0003-4004-8005-000600070008
-16:05:00 [DEBUG]: D/   ] in chrome browser to debug!
-16:05:00 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
-16:05:00 [INFO]: JS: injectWebAssembly ...
-16:05:00 [DEBUG]: In the constructor of HttpClient!
-16:05:00 [DEBUG]: iShow!
-16:05:00 [DEBUG]: EventBus[Engine] has no listener found!
-16:05:01 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js
-16:05:02 [WARN]: JS: Failed to set shading scale, pipelineSceneData is invalid.
-16:05:02 [WARN]: JS: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
-16:05:02 [DEBUG]: JS: [PHYSICS2D]: register box2d.
-16:05:02 [DEBUG]: EGL context bounded to thread d3a2a4743dada626
-16:05:02 [INFO]: Device thread detached.
-16:05:02 [DEBUG]: JS: Cocos Creator v3.8.3
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/16/163996210373c7cf440f2380bca044c978bfdfe8.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/3f/3fa8c7130e94c9393b264a7ce32f5474676f6187.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/2c/2cf4671fbceb6daaffc4bc64059321f1484b1336.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/6e/6effc2048ee312d207d27495ab80489c13b29886.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/e0/e015d3811a55f90f5a401bf93aa90eb76a424379.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/2e/2ed0aa1839a02c2d83fa09134af5
-2024-7-15 16:05:02 - log: 114a9570ecf1.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/fa/faaa1d2cf610d34962f1e604bfa36557af918b38.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/2b/2bf6eb265c2f7ada0a6c91b8ce48bb4d1aadd357.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/f9/f97f73bcb70d42f150024c0f2b592257781e26dd.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/f3/f305075da1810cfa481bef618e823272f7a6da3a.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/b9/b9c038c9b0f3b6b1a522e6c83969e105617ad878.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/f9/f9ef8108184207a2a3ac8a4af16370e7cccdebfd.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/22/2293fa9ab01540ca40b9eaf4f350d7045e60f8e2.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/10/10fc00572e6c8f6f7211e7b1d40709f7aae1789e.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/9e/9e7f213547356e50b5cbb518e663112ef72ad361.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/c4/c45c38bb2ce35a2b17aaaa5a8b6504bbb2e042ac.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/2d/2d4b72c861f41697deb32f2f75093b435a2d06fa.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/3e/3efe872ca08ed922e9d548ac300812b54a4d686f.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/7b/7b7060f8c2781355f8a414a6966812986d623666.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/07/07f8bb379e39f4bd5df848e5495ce7f2a2fb7446.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/d6/d632ebeba1e0d67c2b9171e2d8b2791b328bf10e.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/aa/aac31d343bfea844a1ba6f4d76edc9f36e9938db.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/3b/3b85ed1652b9d44667fb5ef63f0711b2809b9bd0.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/e7/e7640da30d025e5c8796b87e496fe8c04b518fa9.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/4f/4fe22a3985cfb02c22c2a17d6de0e50bb4dbb51b.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/dd/dd4c130e8ccf203291080f0fa344bd2aa5e21961.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/ba/ba48c1bc3a60fabaddb1a0e0ec7ca9074e1ce976.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/fd/fddf01d3ea17c60dcff36d7e1a456051ac1a13aa.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/2c/2c6a65c18edae598f3e2bec0e048ab9f0313ed3d.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/48/48aab7253c5c5e84f1cd48ed2abbcc87c2d1f117.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/8f/8f31433e45c7043ba48a2d6870b0d7cec5a433b2.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/c1/c1cd9da44ef9308ea43a797bcd3f5aac252ac83c.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/14/14af3b859c0758052d18165131f6e3da01ad7a4c.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/94/94321f4f1af9dbd4916d5ced4ebfac5ada8de0e2.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/15/156ac76656b133cdceb9676d8ab010ce63ceede8.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/5f/5f58f7b34acfc58e28f168bedac8ca75d31a76d0.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/d2/d2548def85b5b90788a2a38be8c8598ba71e3a35.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/ce/ce4b0c7074de12c694e8785a6195
-2024-7-15 16:05:02 - log: 8a06a0b87c91.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/bd/bdb4bec021b4f41e79fddf33f4d469fe2a2e3da4.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/8a/8a796688552d796e01f41291bec7752f368b4d7a.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/2a/2a7184acd35df755fa53d038a1761355de7c4bdd.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/22/224704c99e77461012f7fd6b6ffd305ca4ac92f0.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/f2/f2f6aa5f06f5f81f8105593540c24a24b61b9a3c.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/27/27a8f37aa477c7259e80dac8ba761d9932f77293.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/c1/c1785c9a459ad6794f76476877efca01022166fd.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/76/768bafa733be3256e32c3def74aa845427cbda00.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/e8/e81e9a16b403e865871843b6edbaf1f863850a91.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/25/251c48f2cc3004bede1cb01ebfe057d7fb0c4627.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/bb/bbafb926bd3bb69f42a995b3352eefc004f82b05.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/ef/efbc47a15e8f1ec86fca52e4c3e0ffe131972d6d.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/81/81c8c8678fe95936d5149dd5a6f95fd194230c4d.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/b5/b5a3cb1bfa28802874cb7bb5fef8631039733854.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/d0/d0b24a6a83405260d524a0781c5ac3b37ff3123b.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/07/073198205827371d30f242361c9e97e6587b9a79.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/cf/cfef35fccd1666dbbf65fc98139fece6746bcd6d.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/09/09c31c90c109741a1347daf574fc6834f6317a91.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/2d/2d1addb569eda8cdb43a43caaf1d518ef09ad229.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/1f/1fcb6ccd21d66cbe43845a51ba9b441e985e1709.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/89/893f8e426d1663c7ffa75bf3f7889edac24d9b62.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/29/29c30c9840145cba6bc1566afee57815314c6b7e.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/c9/c901d93c052257a31fbe2a9924f6e926148d46f8.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/f4/f4b160259ae123c6943f05775b0182cb5d1c2f04.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/64/64591ccd9c2df7a4c193da8e24a8a410dc34c1f1.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/a7/a79b85e4e569bc3b43467d5705ec4863e103a309.js
-16:05:02 [DEBUG]: JS: httpHandler: http://192.168.56.104:7456/scripting/x/chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js
-16:05:02 [WARN]: JS: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
-16:05:02 [WARN]: JS: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
-16:05:02 [WARN]: JS: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'inp
-2024-7-15 16:05:03 - log: ut' instead.
-16:05:02 [WARN]: JS: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
-16:05:02 [WARN]: JS: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-16:05:02 [WARN]: JS: You are explicitly specifying `undefined` type to cc property "tanklife" of cc class "PlayerController0".
+2024-7-16 13:53:27 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2024-7-16 13:53:29 - warn: [Scene] Can't add renderable component to this node because it already have one.Error: [Scene] Can't add renderable component to this node because it already have one.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at NodeUIProperties.set uiComp [as uiComp] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41745:13)
+    at Sprite.__preload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:96748:37)
+    at Sprite.__preload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:94470:17)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40444:171)
+    at UnsortedInvoker.eval [as _invoke] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38380:9)
+2024-7-16 13:53:37 - info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+2024-7-16 13:53:37 - info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/10/108fe786493403df76d709e8e36616221e8b1a9f.js:23:7)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/10/108fe786493403df76d709e8e36616221e8b1a9f.js:23:7)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/d6/d6d9719bfd0dfd14fe3f7d640e45cae0b8ee8bc8.js:40:7)
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/d6/d6d9719bfd0dfd14fe3f7d640e45cae0b8ee8bc8.js:40:7)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/14/1492a90b7df80e0a4511bdaa96e886af08a1f8ac.js:39:7)
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/14/1492a90b7df80e0a4511bdaa96e886af08a1f8ac.js:39:7)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/14/145352324dc90651ec195bf6d3a887f28a05f028.js:40:7)
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/14/145352324dc90651ec195bf6d3a887f28a05f028.js:40:7)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/00/003ab2187c680bbea441ba0632a608b31fa606aa.js:39:7)
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/00/003ab2187c680bbea441ba0632a608b31fa606aa.js:39:7)
+2024-7-16 13:54:04 - warn: [Assets] You are explicitly specifying `undefined` type to cc property "tanklife" of cc class "PlayerController0".
 Is this intended? If not, this may indicate a circular reference.
 For example:
 
@@ -465,356 +417,283 @@ import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
                               // When importing './bar', execution of './bar' is hung on to wait execution of 'foo.ts',
                               // the `Bar` imported here is `undefined` until './bar' finish its execution.
                               // It leads to that
-@_decorator.ccclass           //  ?
-export class Foo {            //  ?
-    @_decorator.type(Bar)     //  ? is equivalent to `@_decorator.type(undefined)`
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
     public bar: Bar;          // To eliminate this error, either:
                               // - Refactor your module structure(recommended), or
                               // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
-}
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
-16:05:02 [WARN]: JS: 'SystemEventType' is deprecated since v3.3.0, please use 'Input.EventType' instead.
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
-16:05:02 [WARN]: JS: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
-16:05:02 [WARN]: JS: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
-16:05:02 [WARN]: JS: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
-16:05:02 [WARN]: JS: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
-16:05:02 [WARN]: JS: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
-16:05:02 [WARN]: JS: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
-16:05:02 [WARN]: JS: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
-16:05:02 [WARN]: JS: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
-16:05:02 [WARN]: JS: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
-16:05:02 [WARN]: JS: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-16:05:02 [WARN]: JS: 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.
-16:05:02 [WARN]: JS: 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-16:05:03 [DEBUG]: OpenAL was initialized successfully!
-16:05:03 [DEBUG]: V/AudioCache (56): AudioCache() 000001E6B21E1680, id=1
-16:05:03 [DEBUG]: V/AudioCache (102): readDataTask begin, cache id=1
-16:05:03 [DEBUG]: V/AudioCache (212): pcm buffer was loaded successfully, total frames: 24192, total read frames: 24192, adjust frames: 0, remainingFrames: 0
-16:05:03 [DEBUG]: V/AudioCache (259): readDataTask end, cache id=1
-16:05:03 [DEBUG]: JS: somehow preload success on windows
-16:05:03 [DEBUG]: JS: somehow preload success on windows
-16:05:03 [DEBUG]: JS: some
-2024-7-15 16:05:25 - log: how preload success on windows
-16:05:03 [INFO]: Shader 'for2d/builtin-sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA0|USE_TEXTURE1|IS_GRAY0' compilation succeeded.
-16:05:03 [INFO]: Shader 'util/profiler|profiler-vs:vert|profiler-fs:frag' compilation succeeded.
-16:05:12 [DEBUG]: JS: somehow preload success on windows
-16:05:19 [DEBUG]: JS: somehow preload success on windows
-16:05:19 [DEBUG]: JS: wuxu
-16:05:19 [DEBUG]: JS: found!
-16:05:19 [DEBUG]: JS: Password Error!
-16:05:19 [INFO]: Shader 'internal/builtin-clear-stencil|sprite-vs:vert|sprite-fs:frag' compilation succeeded.
-16:05:19 [INFO]: Shader 'internal/builtin-graphics|vs:vert|fs:frag' compilation succeeded.
-16:05:23 [DEBUG]: JS: somehow preload success on windows
-16:05:23 [DEBUG]: JS: wuxu
-16:05:23 [DEBUG]: JS: found!
-16:05:23 [DEBUG]: JS: Login Success!
-16:05:23 [DEBUG]: JS: somehow preload success on windows
-16:05:23 [DEBUG]: JS: somehow preload success on windows
-16:05:23 [DEBUG]: JS: somehow preload success on windows
-16:05:23 [DEBUG]: JS: success!
-16:05:24 [DEBUG]: JS: somehow preload success on windows
-16:05:24 [DEBUG]: JS: somehow preload success on windows
-16:05:24 [DEBUG]: JS: somehow preload success on windows
-16:05:25 [DEBUG]: HttpClient::destroyInstance begin
-16:05:25 [DEBUG]: HttpClient destructor
-16:05:25 [DEBUG]: HttpClient::destroyInstance() finished!
-16:05:25 [DEBUG]: V/AudioCache (64): ~AudioCache() 000001E6B21E1680, id=1, begin
-16:05:25 [DEBUG]: V/AudioCache (81): ~AudioCache(id=1), delete buffer: 1
-16:05:25 [DEBUG]: V/AudioCache (97): ~AudioCache() 000001E6B21E1680, id=1, end
-16:05:25 [DEBUG]: D/ ScriptEngine::cleanup begin ...
-
-16:05:25 [DEBUG]: D/ GC begin ..., (js->native map) size: 596
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B27542C0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2755000 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9E840 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9EB90 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9D110 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9D460 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9AFF0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9B340 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2315C30 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2315240 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2315590 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2315F80 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2314BA0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2314EF0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2314500 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2314850 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B23158E0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2388720 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2385F60 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2387340 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2386950 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2387690 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2386CA0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2388080 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2388A70 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B23862B0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B23879E0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B23883D0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2387D30 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2388DC0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2386FF0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2389110 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2386600 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2389460 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize,
-2024-7-15 16:05:25 - log:  000001E6B23897B0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2389B00 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2756A80 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2756730 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2754610 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B27556A0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2755D40 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B27563E0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2757B10 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2756DD0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9CDC0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21DA790 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D7C80 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D7290 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D75E0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D9700 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D7930 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D9A50 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21DA0F0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D8670 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D7FD0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D8320 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D9060 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21DAAE0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D9DA0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D6F40 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D89C0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D93B0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E113A0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E11A40 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E120E0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E11D90 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E12E20 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E12AD0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E13170 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E134C0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E116F0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E13810 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E12430 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E14550 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E13B60 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E13EB0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E12780 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E148A0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E14BF0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E14200 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1E11050 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A7B8D0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A79110 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A7A840 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A78DC0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A7C2C0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A7C610 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A78A70 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A7BF70 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A79460 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A797B0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A7BC20 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A7AB90 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A7A4F0 ... 
-
-1
-2024-7-15 16:05:25 - log: (Info) Hardware profile: None
-(Info) PVRVFrame version 10.8
-
-2024-7-15 16:05:25 - log: 6:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A79B00 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A79E50 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A7AEE0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A7A1A0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A7B230 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A7B580 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9B9E0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9DE50 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9D7B0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9C080 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9C3D0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9B690 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9DB00 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9E4F0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9C720 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9E1A0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9BD30 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E631A9CA70 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E63172F230 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B2266C70 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6316EA810 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1FFF330 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1D94740 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1FFF680 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1DFDA60 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1DFDDB0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B1DFE100 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D2870 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D3260 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D3C50 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D3900 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D2BC0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D2F10 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D3FA0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D35B0 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D2520 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21D8D10 ... 
-
-16:05:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001E6B21DA440 ... 
-
-16:05:25 [DEBUG]: D/ GC end ..., (js->native map) size: 332
-
-16:05:25 [DEBUG]: D/ GC begin ..., (js->native map) size: 332
-
-16:05:25 [DEBUG]: D/ GC end ..., (js->native map) size: 332
-
-16:05:25 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
-
-16:05:25 [DEBUG]: D/ GC end ..., (js->native map) size: 0
-
-16:05:25 [DEBUG]: D/ ScriptEngine::cleanup end ...
-
-16:05:25 [DEBUG]: EGL context bounded to thread d3a2a4743dada626
-
+}[Assets] You are explicitly specifying `undefined` type to cc property "tanklife" of cc class "PlayerController0".
+Is this intended? If not, this may indicate a circular reference.
+For example:
+
+ 
+// foo.ts
+import { _decorator } from 'cc';
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
+                              // When importing './bar', execution of './bar' is hung on to wait execution of 'foo.ts',
+                              // the `Bar` imported here is `undefined` until './bar' finish its execution.
+                              // It leads to that
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
+    public bar: Bar;          // To eliminate this error, either:
+                              // - Refactor your module structure(recommended), or
+                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
+}  
+// foo.ts  
+import { _decorator } from 'cc';  
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.  
+// When importing './bar', execution of './bar' is hung on to wait execution of 'foo.ts',  
+// the `Bar` imported here is `undefined` until './bar' finish its execution.  
+// It leads to that  
+@_decorator.ccclass           //  ↓  
+export class Foo {            //  ↓  
+@_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`  
+public bar: Bar;          // To eliminate this error, either:  
+// - Refactor your module structure(recommended), or  
+// - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`  
+}  
+at Object.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-worker\node_modules\v-stacks\index.js:14:17)  
+at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-worker\static\script.ccc:1:531)  
+at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at parseAttributes (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:141172:7)  
+at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:140919:5)  
+at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:141083:11)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/13/13669f8c592e1b3e63569264ae2410cae5684cdd.js:39:7)
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEventType' is deprecated since v3.3.0, please use 'Input.EventType' instead.[Assets] 'SystemEventType' is deprecated since v3.3.0, please use 'Input.EventType' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/13/13669f8c592e1b3e63569264ae2410cae5684cdd.js:39:7)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/d1/d12e516505b7094995e894959933d84bbadaed84.js:30:7)
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/d1/d12e516505b7094995e894959933d84bbadaed84.js:30:7)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/47/47bf7232d7b38f93f447b1d61b23194b70bfbc60.js:37:7)
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/47/47bf7232d7b38f93f447b1d61b23194b70bfbc60.js:37:7)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/e5/e5f780770445628c1fd517ebfda20519801aa08d.js:27:7)
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/e5/e5f780770445628c1fd517ebfda20519801aa08d.js:27:7)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/f6/f6181b154a8c735727963e808ca20676b5c0f82b.js:30:7)
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/f6/f6181b154a8c735727963e808ca20676b5c0f82b.js:30:7)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/2f/2f5c5d1fe1efb2029fabecfa018a4eada70c3f1b.js:37:7)
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/2f/2f5c5d1fe1efb2029fabecfa018a4eada70c3f1b.js:37:7)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/d3/d3aa0b7eb56689ec18584239be58c02ea196d646.js:27:7)
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/d3/d3aa0b7eb56689ec18584239be58c02ea196d646.js:27:7)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/ca/cacd00db61cdda87ee5127c0b3b12e5f99bdbc04.js:30:7)
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/ca/cacd00db61cdda87ee5127c0b3b12e5f99bdbc04.js:30:7)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/09/09954fb5950b82f4b47a5b3476f7f55567c41df6.js:37:7)
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/09/09954fb5950b82f4b47a5b3476f7f55567c41df6.js:37:7)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/5a/5a7f361d44bdee39f48589ac94802aa554ad1cde.js:31:7)
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/5a/5a7f361d44bdee39f48589ac94802aa554ad1cde.js:31:7)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/09/09898b3261ca5fe4d1e3689a69548aa17bb95e47.js:41:7)
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/09/09898b3261ca5fe4d1e3689a69548aa17bb95e47.js:41:7)
+2024-7-16 13:54:04 - warn: [Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.[Assets] 'systemEvent' is deprecated since v3.4.0, please use 'input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/85/85a7ac11b409b26f63523c11d5034d73b04022f6.js:27:7)
+2024-7-16 13:54:04 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)  
+at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)  
+at _checkObsoleteByName (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165070:7)  
+at __checkObsolete__ (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:165089:7)  
+at Object.execute (file:///C:/Users/53190/Desktop/TK2/temp/programming/packer-driver/targets/editor/chunks/85/85a7ac11b409b26f63523c11d5034d73b04022f6.js:27:7)
+2024-7-16 13:54:05 - warn: [Assets] The SpriteFrame used by component "cc.Sprite" in scene "victory" is missing. Detailed information:
+Node path: "Canvas/vectory"
+Asset url: "db://assets/Scenes/victory"
+Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
+[Assets] The SpriteFrame used by component "cc.Sprite" in scene "victory" is missing. Detailed information:
+Node path: "Canvas/vectory"
+Asset url: "db://assets/Scenes/victory"
+Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
+  
+at Object.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-worker\node_modules\v-stacks\index.js:14:17)  
+at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-worker\static\script.ccc:1:531)  
+at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2337)  
+at MissingObjectReporter.doReport (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-object-reporter.ccc:6:68)
+2024-7-16 13:54:12 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/53190/Desktop/TK2/assets/text/tank1.ts -> file:///C:/Users/53190/Desktop/TK2/assets/text/firedirection1.ts -> file:///C:/Users/53190/Desktop/TK2/assets/text/tank1.ts
+[warning][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/53190/Desktop/TK2/assets/text/tank0.ts -> file:///C:/Users/53190/Desktop/TK2/assets/text/firedirection0.ts -> file:///C:/Users/53190/Desktop/TK2/assets/text/tank0.ts
+[Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/53190/Desktop/TK2/assets/text/tank1.ts -> file:///C:/Users/53190/Desktop/TK2/assets/text/firedirection1.ts -> file:///C:/Users/53190/Desktop/TK2/assets/text/tank1.ts
+[warning][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/53190/Desktop/TK2/assets/text/tank0.ts -> file:///C:/Users/53190/Desktop/TK2/assets/text/firedirection0.ts -> file:///C:/Users/53190/Desktop/TK2/assets/text/tank0.ts
+  
+at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2337)  
+at Socket.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3352)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)
+2024-7-16 13:54:20 - warn: [Assets] The SpriteFrame used by component "cc.Sprite" in scene "victory" is missing. Detailed information:
+Node path: "Canvas/vectory"
+Asset url: "db://assets/Scenes/victory"
+Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
+[Assets] The SpriteFrame used by component "cc.Sprite" in scene "victory" is missing. Detailed information:
+Node path: "Canvas/vectory"
+Asset url: "db://assets/Scenes/victory"
+Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
+  
+at Object.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-worker\node_modules\v-stacks\index.js:14:17)  
+at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-worker\static\script.ccc:1:531)  
+at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2337)  
+at MissingObjectReporter.doReport (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-object-reporter.ccc:6:68)
+2024-7-16 13:54:38 - warn: [Assets] The SpriteFrame used by component "cc.Sprite" in scene "victory" is missing. Detailed information:
+Node path: "Canvas/vectory"
+Asset url: "db://assets/Scenes/victory"
+Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
+[Assets] The SpriteFrame used by component "cc.Sprite" in scene "victory" is missing. Detailed information:
+Node path: "Canvas/vectory"
+Asset url: "db://assets/Scenes/victory"
+Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
+  
+at Object.encode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-worker\node_modules\v-stacks\index.js:14:17)  
+at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-worker\static\script.ccc:1:531)  
+at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)  
+at MissingObjectReporter.doReport (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-object-reporter.ccc:6:68)
+2024-7-16 14:20:45 - info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+2024-7-16 14:20:45 - info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html

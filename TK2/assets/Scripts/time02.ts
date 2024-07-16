@@ -42,17 +42,12 @@ export class time02 extends Component {
                         break;
                 }
                 RegSet[i].d1time2=time/1000;
-                if(RegSet[i].d1time==0)
-                    RegSet[i].d1time=Number((RegSet[i].d1time1+RegSet[i].d1time2).toFixed(2));
-                else
-                {
-                    if(RegSet[i].d1time>(RegSet[i].d1time1+RegSet[i].d1time2))
-                    RegSet[i].d1time=Number((RegSet[i].d1time1+RegSet[i].d1time2).toFixed(2));
-                }
                 RegSet[i].save=2;
                 let json=JSON.stringify(RegSet);
                 localStorage.setItem('RegSet',json);
-                director.loadScene('victory');
+                this.scheduleOnce(() => {
+                    director.loadScene('alonemap3');
+                }, 3);
             }
     
             if(!find("Canvas/background/tank/playertank"))

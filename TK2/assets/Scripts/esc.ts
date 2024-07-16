@@ -15,7 +15,7 @@ export class esc extends Component {
         if(event.keyCode==macro.KEY.escape)
         {
             console.log('esc');
-            director.loadScene('return');
+            director.loadScene('freemode');
         }
     }
 }

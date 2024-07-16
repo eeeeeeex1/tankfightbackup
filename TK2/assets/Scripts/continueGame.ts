@@ -33,9 +33,18 @@ export class continueGame extends Component {
         if(this.currentUser.difficulty==1)
         {
             if(this.currentUser.save==1)
-                director.loadScene('alonemap1');
+                director.loadScene('alonemap2');
+            if(this.currentUser.save==2)
+                director.loadScene('alonemap3');
         }
-    }
+        else if(this.currentUser.difficulty==2)
+        {
+            if(this.currentUser.save==1)
+                director.loadScene('alonemap2-difficult');
+            if(this.currentUser.save==2)
+                director.loadScene('alonemap3-difficult');
+        }
+    }//根据用户所选难度读档
 }
 
 

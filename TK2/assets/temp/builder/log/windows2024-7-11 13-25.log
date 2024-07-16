@@ -1,524 +1,0 @@
-2024-7-11 13:25:48 - debug: =================================== build Task (windows) Start ================================
-2024-7-11 13:25:48 - debug: Start build task, options:{"platform":"windows","startScene":"7af63cc6-90a2-42ce-bfb5-42897472820c","name":"demo2","outputName":"windows","taskName":"windows","mainBundleCompressionType":"merge_dep","packages":{"native":{"encrypted":false,"xxteaKey":"92Cy+ii1BOl4KUUd","compressZip":false,"JobSystem":"none"},"windows":{"executableName":"demo2","renderBackEnd":{"vulkan":true,"gles3":true,"gles2":true},"targetPlatform":"x64","__version__":"1.0.1","vsData":""},"cocos-service":{"configID":"bbddf8","services":[]}},"server":"","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"overwriteProjectSettings":{"macroConfig":{"cleanupImageCache":"inherit-project-setting"},"includeModules":{"physics":"inherit-project-setting","physics-2d":"inherit-project-setting","gfx-webgl2":"off"}},"nativeCodeBundleMode":"wasm","polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"scenes":[{"url":"db://assets/map/alonemap0-difficult.scene","uuid":"1f299242-f13f-4393-9ad0-c3b2064c2606"},{"url":"db://assets/map/alonemap0.scene","uuid":"1c6af74a-a8a3-47c1-8750-c97c5958c42f"},{"url":"db://assets/map/alonemap2.scene","uuid":"36291188-d37d-4b4f-a128-588f20d16162"},{"url":"db://assets/map/doublemap.scene","uuid":"56c94625-6c31-4bd5-90fe-90c9552fdc01"},{"url":"db://assets/map/doublemap0.scene","uuid":"6edb7132-96e2-4656-abd7-5ddc42a84e26"},{"url":"db://assets/map/test.scene","uuid":"d506c42d-a2d8-4de2-bff7-83bd68a68175"},{"url":"db://assets/Scenes/LoadingScene.scene","uuid":"7af63cc6-90a2-42ce-bfb5-42897472820c"},{"url":"db://assets/Scenes/LoginScene.scene","uuid":"9486f291-e0a6-47f7-ab5b-7440590026f7"},{"url":"db://assets/Scenes/return.scene","uuid":"bda4619b-1bc8-442d-90ee-6b04df2eccd8"},{"url":"db://assets/Scenes/select.scene","uuid":"0554d124-5936-4455-9b17-a083050a9281"},{"url":"db://assets/Scenes/single.scene","uuid":"b9b0fce6-d144-4637-8f7b-c8b0c724ec99"},{"url":"db://assets/Scenes/single1.scene","uuid":"03313355-9855-490d-98a2-49a0837a55c4"},{"url":"db://assets/Scenes/victory.scene","uuid":"2be201f8-3f82-437d-b138-1947eaf8f5a2"}],"wasmCompressionMode":false,"logDest":"project://temp/builder/log/windows2024-7-11 13-25.log"}
-2024-7-11 13:25:48 - debug: Build with Cocos Creator 3.8.3
-2024-7-11 13:25:48 - debug: native:(onBeforeBuild) start..., progress: 0%
-2024-7-11 13:25:48 - debug: // ---- build task native：onBeforeBuild ----
-2024-7-11 13:25:48 - debug: // ---- build task native：onBeforeBuild ---- (1ms)
-2024-7-11 13:25:48 - debug: native:(onBeforeBuild) in 1 ms ✓, progress: 2%
-2024-7-11 13:25:48 - debug: cocos-service:(onBeforeBuild) start..., progress: 2%
-2024-7-11 13:25:48 - debug: // ---- build task cocos-service：onBeforeBuild ----
-2024-7-11 13:25:48 - debug: // ---- build task cocos-service：onBeforeBuild ---- (5ms)
-2024-7-11 13:25:48 - debug: cocos-service:(onBeforeBuild) in 5 ms ✓, progress: 4%
-2024-7-11 13:25:48 - debug: scene:(onBeforeBuild) start..., progress: 4%
-2024-7-11 13:25:48 - debug: // ---- build task scene：onBeforeBuild ----
-2024-7-11 13:25:48 - debug: // ---- build task scene：onBeforeBuild ---- (1ms)
-2024-7-11 13:25:48 - debug: scene:(onBeforeBuild) in 1 ms ✓, progress: 5%
-2024-7-11 13:25:48 - debug: Start lock asset db..., progress: 5%
-2024-7-11 13:25:48 - log: Asset DB is paused with build!
-2024-7-11 13:25:48 - debug: Query all assets info in project
-2024-7-11 13:25:48 - debug: init custom config: keepNodeUuid: false, useCache: true
-2024-7-11 13:25:48 - debug: native:(onAfterInit) start..., progress: 5%
-2024-7-11 13:25:48 - debug: // ---- build task native：onAfterInit ----
-2024-7-11 13:25:49 - debug: Native engine root:C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native
-2024-7-11 13:25:49 - debug: // ---- build task native：onAfterInit ---- (451ms)
-2024-7-11 13:25:49 - debug: native:(onAfterInit) in 451 ms ✓, progress: 7%
-2024-7-11 13:25:49 - debug: windows:(onAfterInit) start..., progress: 7%
-2024-7-11 13:25:49 - debug: // ---- build task windows：onAfterInit ----
-2024-7-11 13:25:49 - debug: // ---- build task windows：onAfterInit ---- (3ms)
-2024-7-11 13:25:49 - debug: windows:(onAfterInit) in 3 ms ✓, progress: 9%
-2024-7-11 13:25:49 - debug: cocos-service:(onAfterInit) start..., progress: 9%
-2024-7-11 13:25:49 - debug: // ---- build task cocos-service：onAfterInit ----
-2024-7-11 13:25:49 - debug: // ---- build task cocos-service：onAfterInit ---- (2ms)
-2024-7-11 13:25:49 - debug: cocos-service:(onAfterInit) in 2 ms ✓, progress: 11%
-2024-7-11 13:25:49 - debug: engine:(onAfterInit) start..., progress: 11%
-2024-7-11 13:25:49 - debug: // ---- build task engine：onAfterInit ----
-2024-7-11 13:25:49 - debug: // ---- build task engine：onAfterInit ---- (1ms)
-2024-7-11 13:25:49 - debug: engine:(onAfterInit) in 1 ms ✓, progress: 13%
-2024-7-11 13:25:49 - debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 13%
-2024-7-11 13:25:49 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
-2024-7-11 13:25:49 - debug: [adsense-h5g-plugin] remove script success
-2024-7-11 13:25:49 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (2ms)
-2024-7-11 13:25:49 - debug: adsense-h5g-plugin:(onBeforeBundleInit) in 2 ms ✓, progress: 13%
-2024-7-11 13:25:49 - debug: Init all bundles start..., progress: 13%
-2024-7-11 13:25:49 - debug: Num of bundles: 3..., progress: 13%
-2024-7-11 13:25:49 - debug: native:(onAfterBundleInit) start..., progress: 13%
-2024-7-11 13:25:49 - debug: // ---- build task native：onAfterBundleInit ----
-2024-7-11 13:25:49 - debug: // ---- build task native：onAfterBundleInit ---- (2ms)
-2024-7-11 13:25:49 - debug: native:(onAfterBundleInit) in 2 ms ✓, progress: 13%
-2024-7-11 13:25:49 - debug: windows:(onAfterBundleInit) start..., progress: 13%
-2024-7-11 13:25:49 - debug: // ---- build task windows：onAfterBundleInit ----
-2024-7-11 13:25:49 - debug: // ---- build task windows：onAfterBundleInit ---- (1ms)
-2024-7-11 13:25:49 - debug: windows:(onAfterBundleInit) in 1 ms ✓, progress: 13%
-2024-7-11 13:25:49 - debug: 查询 Asset Bundle start, progress: 13%
-2024-7-11 13:25:49 - debug: // ---- build task 查询 Asset Bundle ----
-2024-7-11 13:25:49 - debug: Init bundle root assets start..., progress: 13%
-2024-7-11 13:25:49 - debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-7-11 13:25:49 - debug:   Number of all scenes: 13
-2024-7-11 13:25:49 - debug:   Number of all scripts: 60
-2024-7-11 13:25:49 - debug:   Number of other assets: 609
-2024-7-11 13:25:49 - debug: Init bundle root assets success..., progress: 13%
-2024-7-11 13:25:49 - debug: reload all scripts.
-2024-7-11 13:25:49 - debug: Set detail map pack:///resolution-detail-map.json: {}
-2024-7-11 13:25:49 - groupCollapsed: Invalidate all modules
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
-2024-7-11 13:25:49 - debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
-2024-7-11 13:25:49 - groupEnd: Invalidate all modules
-2024-7-11 13:25:49 - groupCollapsed: Imports all modules
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\c8\c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\c8\c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register DebugViewRuntimeControl
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\38\384921d5cd14c207cb4712dcecdc5152a1d3795c.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\38\384921d5cd14c207cb4712dcecdc5152a1d3795c.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register HLB
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/38/384921d5cd14c207cb4712dcecdc5152a1d3795c.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\dc\dcc83c28e89e83bde6b61796a06099f5670670f1.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\dc\dcc83c28e89e83bde6b61796a06099f5670670f1.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register LB
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/dc/dcc83c28e89e83bde6b61796a06099f5670670f1.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\50\50c30f67700a5fa0b712ec808eeb1b4e83f1e1ba.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\50\50c30f67700a5fa0b712ec808eeb1b4e83f1e1ba.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register Loading
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/50/50c30f67700a5fa0b712ec808eeb1b4e83f1e1ba.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\32\3260500038c15552d43f59d6b509c95e1febf8a0.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\32\3260500038c15552d43f59d6b509c95e1febf8a0.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register PassInf
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/32/3260500038c15552d43f59d6b509c95e1febf8a0.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\4d\4d7857ab2de0f55b0ca2d635ab5822e18fdb8c21.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\4d\4d7857ab2de0f55b0ca2d635ab5822e18fdb8c21.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register SLB
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/4d/4d7857ab2de0f55b0ca2d635ab5822e18fdb8c21.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\92\92714e810e57f6e13cbe636b3432886aed4aabb9.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\92\92714e810e57f6e13cbe636b3432886aed4aabb9.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register change0
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/92/92714e810e57f6e13cbe636b3432886aed4aabb9.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\69\69577dc199881d78a73a0827218eb86942602ec9.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\69\69577dc199881d78a73a0827218eb86942602ec9.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register change1
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/69/69577dc199881d78a73a0827218eb86942602ec9.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\df\df06cbc8fed14dbb2278e77827da6a628e26ef2a.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\df\df06cbc8fed14dbb2278e77827da6a628e26ef2a.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register double
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/df/df06cbc8fed14dbb2278e77827da6a628e26ef2a.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\61\61bd8b6d2dbe4f4e3d65152ad75fcdf97f293392.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\61\61bd8b6d2dbe4f4e3d65152ad75fcdf97f293392.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register easy
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/61/61bd8b6d2dbe4f4e3d65152ad75fcdf97f293392.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\ae\aeeee5e034ceca1ec7dfed6e8f52e14324a1fc5e.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\ae\aeeee5e034ceca1ec7dfed6e8f52e14324a1fc5e.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register endgame
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/ae/aeeee5e034ceca1ec7dfed6e8f52e14324a1fc5e.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\d9\d971c502b914999e80fb9ee701dc445d42345877.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\d9\d971c502b914999e80fb9ee701dc445d42345877.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register esc
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/d9/d971c502b914999e80fb9ee701dc445d42345877.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\a2\a2430651bcc5d66b7a5a6bdf15e3f2a9f03b9457.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\a2\a2430651bcc5d66b7a5a6bdf15e3f2a9f03b9457.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register hard
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/a2/a2430651bcc5d66b7a5a6bdf15e3f2a9f03b9457.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\64\64ce6dd9c651e5c51a2186680c637515cd5b2e58.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\64\64ce6dd9c651e5c51a2186680c637515cd5b2e58.js is not in module cache!
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Register log
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/64/64ce6dd9c651e5c51a2186680c637515cd5b2e58.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\f0\f0b15c2f586cf2c1a1da084611b1f38943248fec.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\f0\f0b15c2f586cf2c1a1da084611b1f38943248fec.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register pause
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/f0/f0b15c2f586cf2c1a1da084611b1f38943248fec.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\fc\fc03191039ff1dc7eac55887bbf323bdf9d243ad.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\fc\fc03191039ff1dc7eac55887bbf323bdf9d243ad.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register reStart
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/fc/fc03191039ff1dc7eac55887bbf323bdf9d243ad.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\0f\0f04fb789a6c7629e5cd49ae749338f6dce39df6.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\0f\0f04fb789a6c7629e5cd49ae749338f6dce39df6.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register returnlog
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/0f/0f04fb789a6c7629e5cd49ae749338f6dce39df6.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\6b\6b91a48b000c0b404c2005a17a116614998121dc.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\6b\6b91a48b000c0b404c2005a17a116614998121dc.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register returnselect
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/6b/6b91a48b000c0b404c2005a17a116614998121dc.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\7e\7ee63c9a9e29a3b987d22de292a94292f031aa6c.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\7e\7ee63c9a9e29a3b987d22de292a94292f031aa6c.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register SceneSwitcher
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/7e/7ee63c9a9e29a3b987d22de292a94292f031aa6c.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\85\85c658ae1c751848aaa55e9a4f0418b1038db90b.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\85\85c658ae1c751848aaa55e9a4f0418b1038db90b.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register shut
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/85/85c658ae1c751848aaa55e9a4f0418b1038db90b.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\f5\f5413de1e274ee66c1cac6b509b9c78d90fa93a0.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\f5\f5413de1e274ee66c1cac6b509b9c78d90fa93a0.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register time01
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/f5/f5413de1e274ee66c1cac6b509b9c78d90fa93a0.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\46\4632f5a4ea797d920bf2e069b8c2515abff664eb.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\46\4632f5a4ea797d920bf2e069b8c2515abff664eb.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register time11
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/46/4632f5a4ea797d920bf2e069b8c2515abff664eb.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\10\107735bd8ab6aeedb8dedfa61097e7d039af005f.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\10\107735bd8ab6aeedb8dedfa61097e7d039af005f.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register welcome
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/10/107735bd8ab6aeedb8dedfa61097e7d039af005f.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\96\96a1d608170b6742a1cb3d661554d7612da226fd.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\96\96a1d608170b6742a1cb3d661554d7612da226fd.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register AudioManeger
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/96/96a1d608170b6742a1cb3d661554d7612da226fd.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\85\8506b5890a376671fb518d6bc944b0e0c189a65f.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\85\8506b5890a376671fb518d6bc944b0e0c189a65f.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register background
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/85/8506b5890a376671fb518d6bc944b0e0c189a65f.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\37\37b153d16d326e699d889dd2abe7af979808812f.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\37\37b153d16d326e699d889dd2abe7af979808812f.js is not in module cache!
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\bd\bda66f12b708819fefbdfd3f5ac4139372f1955c.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\bd\bda66f12b708819fefbdfd3f5ac4139372f1955c.js is not in module cache!
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\7b\7b65579927e3436e25a33e2cd766c3229919bb92.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\7b\7b65579927e3436e25a33e2cd766c3229919bb92.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register firedirection1
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/7b/7b65579927e3436e25a33e2cd766c3229919bb92.js" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Register PlayerController1
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/bd/bda66f12b708819fefbdfd3f5ac4139372f1955c.js" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Register Bullet
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/37/37b153d16d326e699d889dd2abe7af979808812f.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\74\74415ce5e09097a65a5a79d76907797be9a9a87b.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\74\74415ce5e09097a65a5a79d76907797be9a9a87b.js is not in module cache!
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\cc\ccd58ad23c547685d09480e2fdc942fd3911138c.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\cc\ccd58ad23c547685d09480e2fdc942fd3911138c.js is not in module cache!
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\36\36d3bfeda5cf9f318bc54772175b4f3fc5a0607e.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\36\36d3bfeda5cf9f318bc54772175b4f3fc5a0607e.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register firedirection0
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/36/36d3bfeda5cf9f318bc54772175b4f3fc5a0607e.js" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Register PlayerController0
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/cc/ccd58ad23c547685d09480e2fdc942fd3911138c.js" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Register Bullet
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/74/74415ce5e09097a65a5a79d76907797be9a9a87b.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\62\6275fa94b592203dc11997433cb492a59edefec9.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\62\6275fa94b592203dc11997433cb492a59edefec9.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register TankCheatController
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/62/6275fa94b592203dc11997433cb492a59edefec9.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\3e\3edfb0d15a6fd62055ec1aa8fb517c9c95c8fac5.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\3e\3edfb0d15a6fd62055ec1aa8fb517c9c95c8fac5.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register enemybullet
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/3e/3edfb0d15a6fd62055ec1aa8fb517c9c95c8fac5.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\1e\1e3a0887b2546876cf3cf9f1111e7eaec80e236a.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\1e\1e3a0887b2546876cf3cf9f1111e7eaec80e236a.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register enemylandmine
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/1e/1e3a0887b2546876cf3cf9f1111e7eaec80e236a.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\dd\dde7d279c58603d0f85d0e1963fd2e6139d16a6f.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\dd\dde7d279c58603d0f85d0e1963fd2e6139d16a6f.js is not in module cache!
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\9d\9d0a93837a709fc36ca97b9a11ceb65d0326ecba.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\9d\9d0a93837a709fc36ca97b9a11ceb65d0326ecba.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register enemytank_001
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/9d/9d0a93837a709fc36ca97b9a11ceb65d0326ecba.js" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Register enemyfire
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/dd/dde7d279c58603d0f85d0e1963fd2e6139d16a6f.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\67\676fe619b4b0fde6d65c3680ba2f40e3885017ed.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\67\676fe619b4b0fde6d65c3680ba2f40e3885017ed.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register sprite
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/67/676fe619b4b0fde6d65c3680ba2f40e3885017ed.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\93\93ce8d695a3f6a76a6e1b8d1174b56535c8a9802.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\93\93ce8d695a3f6a76a6e1b8d1174b56535c8a9802.js is not in module cache!
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\57\57fa5ecf90ed779c926850b6fa73d0f1de13ae2a.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\57\57fa5ecf90ed779c926850b6fa73d0f1de13ae2a.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register enemytank_002
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/57/57fa5ecf90ed779c926850b6fa73d0f1de13ae2a.js" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Register enemyfire
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/93/93ce8d695a3f6a76a6e1b8d1174b56535c8a9802.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\47\477cdafdb0d323c9c52c2d7e6f023d04e7502b65.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\47\477cdafdb0d323c9c52c2d7e6f023d04e7502b65.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register sprite
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/47/477cdafdb0d323c9c52c2d7e6f023d04e7502b65.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\a0\a060a1c4b617696d9c1dcacf6b48a1b21c4d36b4.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\a0\a060a1c4b617696d9c1dcacf6b48a1b21c4d36b4.js is not in module cache!
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\f0\f060d6f668839bbfe6113042b8cd96d43a74db5b.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\f0\f060d6f668839bbfe6113042b8cd96d43a74db5b.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register enemytank
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/f0/f060d6f668839bbfe6113042b8cd96d43a74db5b.js" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Register enemyfire
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/a0/a060a1c4b617696d9c1dcacf6b48a1b21c4d36b4.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\c7\c738b4a9b147d5326231324f6aa0f916d54c0594.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\c7\c738b4a9b147d5326231324f6aa0f916d54c0594.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register fireaffect0
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/c7/c738b4a9b147d5326231324f6aa0f916d54c0594.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\d0\d071c5af2ebf586a3bd2153d8102bb7a4e9fff34.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\d0\d071c5af2ebf586a3bd2153d8102bb7a4e9fff34.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register fireaffect1
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/d0/d071c5af2ebf586a3bd2153d8102bb7a4e9fff34.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\5c\5cc82e7ad78f9ebf88236365f0529486837c7b82.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\5c\5cc82e7ad78f9ebf88236365f0529486837c7b82.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register fort
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/5c/5cc82e7ad78f9ebf88236365f0529486837c7b82.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\89\8906db6d13046aeec5c8a3fce431d7deaca8fde1.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\89\8906db6d13046aeec5c8a3fce431d7deaca8fde1.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register hp0
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/89/8906db6d13046aeec5c8a3fce431d7deaca8fde1.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\5f\5f512b4a44dace4a3ed4b4beae2ba24854549ac8.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\5f\5f512b4a44dace4a3ed4b4beae2ba24854549ac8.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register hp1
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/5f/5f512b4a44dace4a3ed4b4beae2ba24854549ac8.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\fd\fd1de5ba0abea696b44097c7c70321f7e30d53ca.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\fd\fd1de5ba0abea696b44097c7c70321f7e30d53ca.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register landmine0
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/fd/fd1de5ba0abea696b44097c7c70321f7e30d53ca.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\80\8048104a86f8d48b38f3bf72a69a5a583fd461d9.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\80\8048104a86f8d48b38f3bf72a69a5a583fd461d9.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register landmine0
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/80/8048104a86f8d48b38f3bf72a69a5a583fd461d9.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\b1\b104e002c6ceaf41d3202f4112fc5cc5ddd26542.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\b1\b104e002c6ceaf41d3202f4112fc5cc5ddd26542.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register landmine1
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/b1/b104e002c6ceaf41d3202f4112fc5cc5ddd26542.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\7d\7d776c13862b8294ac8e1ca54933c7ce511c9de6.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\7d\7d776c13862b8294ac8e1ca54933c7ce511c9de6.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register wallbox
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/7d/7d776c13862b8294ac8e1ca54933c7ce511c9de6.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\8c\8cbcac0ff3852ef0ad041ecd0c3489f1faffc83c.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\8c\8cbcac0ff3852ef0ad041ecd0c3489f1faffc83c.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register objectfirefast
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/8c/8cbcac0ff3852ef0ad041ecd0c3489f1faffc83c.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\61\613099c8a6849ad586c6e443d2565d771480f804.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\61\613099c8a6849ad586c6e443d2565d771480f804.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register objectmovefast
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/61/613099c8a6849ad586c6e443d2565d771480f804.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\f3\f35666bd6a8722196c11b551fc4efab271183c17.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\f3\f35666bd6a8722196c11b551fc4efab271183c17.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register playerfire
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/f3/f35666bd6a8722196c11b551fc4efab271183c17.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\3a\3ae15428e46cec218300a87cb6d309f49a021773.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\3a\3ae15428e46cec218300a87cb6d309f49a021773.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register background
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/3a/3ae15428e46cec218300a87cb6d309f49a021773.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\c9\c99779b06efa9823621ab8342827c1ad0774ca91.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\c9\c99779b06efa9823621ab8342827c1ad0774ca91.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register speedaffect0
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/c9/c99779b06efa9823621ab8342827c1ad0774ca91.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\38\38629f0ed4e9381bb79dd57fda3dd2475331d578.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\38\38629f0ed4e9381bb79dd57fda3dd2475331d578.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register speedaffect1
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/38/38629f0ed4e9381bb79dd57fda3dd2475331d578.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\fe\fe26176a1b669ffdbe0bde11740255bfde568dfc.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\fe\fe26176a1b669ffdbe0bde11740255bfde568dfc.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register tankdestroy
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/fe/fe26176a1b669ffdbe0bde11740255bfde568dfc.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\c6\c6fc4e15b0e353e7e1398942192d7a2ccfdd9038.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\c6\c6fc4e15b0e353e7e1398942192d7a2ccfdd9038.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register sprite
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/c6/c6fc4e15b0e353e7e1398942192d7a2ccfdd9038.js" loaded.
-2024-7-11 13:25:49 - debug: D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\cc\cc9236053f6bd93142b84e579965a32f6c28a3ca.js resolved to D:\TankFight\TK2\temp\programming\packer-driver\targets\editor\chunks\cc\cc9236053f6bd93142b84e579965a32f6c28a3ca.js is not in module cache!
-2024-7-11 13:25:49 - debug: [[Executor]] Register tankdestroy
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/cc/cc9236053f6bd93142b84e579965a32f6c28a3ca.js" loaded.
-2024-7-11 13:25:49 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
-2024-7-11 13:25:49 - groupEnd: Imports all modules
-2024-7-11 13:25:49 - debug: Incremental keys: 
-2024-7-11 13:25:49 - debug: Init bundle share assets start..., progress: 13%
-2024-7-11 13:25:49 - warn: The SpriteFrame used by component "cc.Sprite" in scene "victory" is missing. Detailed information:Node path: "Canvas/vectory"Asset url: "db://assets/Scenes/victory"Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
-2024-7-11 13:25:49 - debug: Init bundle share assets success..., progress: 13%
-2024-7-11 13:25:49 - debug: handle json group in bundle internal
-2024-7-11 13:25:49 - debug: handle json group in bundle internal success
-2024-7-11 13:25:49 - debug: handle json group in bundle resources
-2024-7-11 13:25:49 - debug: handle json group in bundle resources success
-2024-7-11 13:25:49 - debug: handle json group in bundle main
-2024-7-11 13:25:49 - debug: init image compress task 0 in bundle internal
-2024-7-11 13:25:49 - debug: init image compress task 0 in bundle resources
-2024-7-11 13:25:49 - debug: [json-group] check self or raw asset, skip. 1b563b92-0169-4b09-8e57-dda755953bb9 depended by 285e0e0b-d379-456d-bf07-60f18f9ea848 has checked in raw asset 1b563b92-0169-4b09-8e57-dda755953bb9/bundle(main)}
-2024-7-11 13:25:49 - debug: [json-group] check self or raw asset, skip. 285e0e0b-d379-456d-bf07-60f18f9ea848 depended by 1b563b92-0169-4b09-8e57-dda755953bb9 has checked in raw asset 285e0e0b-d379-456d-bf07-60f18f9ea848/bundle(main)}
-2024-7-11 13:25:49 - debug: [json-group] check self or raw asset, skip. f4845990-e17f-411e-b3a6-fa50eff4b210 depended by f4845990-e17f-411e-b3a6-fa50eff4b210 has checked in raw asset 36291188-d37d-4b4f-a128-588f20d16162/bundle(main)}
-2024-7-11 13:25:49 - debug: [json-group] check self or raw asset, skip. 44ea65dd-dcbb-4c3b-8483-488681b996e9 depended by 44ea65dd-dcbb-4c3b-8483-488681b996e9 has checked in raw asset 36291188-d37d-4b4f-a128-588f20d16162/bundle(main)}
-2024-7-11 13:25:49 - debug: [json-group] check self or raw asset, skip. 44ea65dd-dcbb-4c3b-8483-488681b996e9 depended by 44ea65dd-dcbb-4c3b-8483-488681b996e9 has checked in raw asset 44ea65dd-dcbb-4c3b-8483-488681b996e9/bundle(main)}
-2024-7-11 13:25:49 - debug: [json-group] check self or raw asset, skip. f4845990-e17f-411e-b3a6-fa50eff4b210 depended by f4845990-e17f-411e-b3a6-fa50eff4b210 has checked in raw asset 6edb7132-96e2-4656-abd7-5ddc42a84e26/bundle(main)}
-2024-7-11 13:25:49 - debug: [json-group] check self or raw asset, skip. 44ea65dd-dcbb-4c3b-8483-488681b996e9 depended by 44ea65dd-dcbb-4c3b-8483-488681b996e9 has checked in raw asset 6edb7132-96e2-4656-abd7-5ddc42a84e26/bundle(main)}
-2024-7-11 13:25:49 - debug: [json-group] check self or raw asset, skip. f4845990-e17f-411e-b3a6-fa50eff4b210 depended by f4845990-e17f-411e-b3a6-fa50eff4b210 has checked in raw asset d506c42d-a2d8-4de2-bff7-83bd68a68175/bundle(main)}
-2024-7-11 13:25:49 - debug: [json-group] check self or raw asset, skip. 44ea65dd-dcbb-4c3b-8483-488681b996e9 depended by 44ea65dd-dcbb-4c3b-8483-488681b996e9 has checked in raw asset d506c42d-a2d8-4de2-bff7-83bd68a68175/bundle(main)}
-2024-7-11 13:25:49 - debug: [json-group] check self or raw asset, skip. f4845990-e17f-411e-b3a6-fa50eff4b210 depended by f4845990-e17f-411e-b3a6-fa50eff4b210 has checked in raw asset f4845990-e17f-411e-b3a6-fa50eff4b210/bundle(main)}
-2024-7-11 13:25:49 - debug: handle json group in bundle main success
-2024-7-11 13:25:49 - debug: init image compress task 0 in bundle main
-2024-7-11 13:25:49 - debug: // ---- build task 查询 Asset Bundle ---- (305ms)
-2024-7-11 13:25:49 - debug: run build task 查询 Asset Bundle success in 305 ms√, progress: 18%
-2024-7-11 13:25:49 - debug: [Build Memory track]: 查询 Asset Bundle start:206.07MB, end 246.19MB, increase: 40.12MB
-2024-7-11 13:25:49 - debug: 查询 Asset Bundle start, progress: 18%
-2024-7-11 13:25:49 - debug: // ---- build task 查询 Asset Bundle ----
-2024-7-11 13:25:49 - debug: // ---- build task 查询 Asset Bundle ---- (4ms)
-2024-7-11 13:25:49 - debug: run build task 查询 Asset Bundle success in 4 ms√, progress: 23%
-2024-7-11 13:25:49 - debug: [Build Memory track]: 查询 Asset Bundle start:246.20MB, end 242.82MB, increase: -3466.27KB
-2024-7-11 13:25:49 - debug: native:(onAfterBundleDataTask) start..., progress: 23%
-2024-7-11 13:25:49 - debug: // ---- build task native：onAfterBundleDataTask ----
-2024-7-11 13:25:49 - debug: // ---- build task native：onAfterBundleDataTask ---- (1ms)
-2024-7-11 13:25:49 - debug: native:(onAfterBundleDataTask) in 1 ms ✓, progress: 23%
-2024-7-11 13:25:49 - debug: 打包脚本 start, progress: 23%
-2024-7-11 13:25:49 - debug: // ---- build task 打包脚本 ----
-2024-7-11 13:25:49 - debug: Caught exception during build core-js: WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema. - configuration.entry should be an non-empty array.   -> A non-empty array of non-empty stringsThis may indicates the core-js polyfill is not necessary. See https://github.com/zloirock/core-js/issues/822
-2024-7-11 13:25:49 - debug: Generate systemJs..., progress: 23%
-2024-7-11 13:25:51 - debug: 构建项目脚本 start..., progress: 23%
-2024-7-11 13:25:51 - debug: Build script in bundle start, progress: 23%
-2024-7-11 13:25:51 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
-2024-7-11 13:25:52 - log: [build-script]enter sub process 37172, C:\ProgramData\cocos\editors\Creator\3.8.3\CocosCreator.exe,C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\builder\static\sub-process-index
-2024-7-11 13:25:53 - warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/TankFight/TK2/assets/text/tank1.ts -> file:///D:/TankFight/TK2/assets/text/firedirection1.ts -> file:///D:/TankFight/TK2/assets/text/tank1.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/TankFight/TK2/assets/text/tank0.ts -> file:///D:/TankFight/TK2/assets/text/firedirection0.ts -> file:///D:/TankFight/TK2/assets/text/tank0.ts
-2024-7-11 13:25:54 - debug: excute-script over with build-script 3049ms
-2024-7-11 13:25:54 - debug: Copy externalScripts success!
-2024-7-11 13:25:54 - debug: Build script in bundle success, progress: 23%
-2024-7-11 13:25:54 - debug: 构建项目脚本 in (3102 ms) √, progress: 23%
-2024-7-11 13:25:54 - debug: 构建引擎脚本 start..., progress: 23%
-2024-7-11 13:25:54 - debug: Use cache engine: {link(C:\Users\53190\AppData\Local\Temp\CocosCreator\3.8.3\builder\engine\582e75784029393a8ba6770471be2c00)}
-2024-7-11 13:25:54 - debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","dragon-bones","intersection-2d","meshopt","particle-2d","physics-2d-box2d","profiler","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.8.3","md5Map":[],"engineName":"src/cocos-js","platform":"WINDOWS","useCache":true,"isNative":true,"nativeCodeBundleMode":"wasm","wasmCompressionMode":false,"output":"D:\\TankFight\\TK2\\build\\windows\\data\\src\\cocos-js","targets":"chrome 116","flags":{"DEBUG":false,"NET_MODE":0,"SERVER_MODE":false},"entry":"C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine"}
-2024-7-11 13:25:54 - debug: 构建引擎脚本 in (164 ms) √, progress: 23%
-2024-7-11 13:25:54 - debug: Copy plugin script ..., progress: 23%
-2024-7-11 13:25:54 - debug: Generate import-map..., progress: 23%
-2024-7-11 13:25:54 - debug: // ---- build task 打包脚本 ---- (5433ms)
-2024-7-11 13:25:54 - debug: run build task 打包脚本 success in 5 s√, progress: 28%
-2024-7-11 13:25:54 - debug: [Build Memory track]: 打包脚本 start:242.99MB, end 258.64MB, increase: 15.66MB
-2024-7-11 13:25:54 - debug: Build Assets start, progress: 28%
-2024-7-11 13:25:54 - debug: // ---- build task Build Assets ----
-2024-7-11 13:25:54 - debug: Build bundles..., progress: 28%
-2024-7-11 13:25:54 - debug: Pack Images start, progress: 28%
-2024-7-11 13:25:54 - debug: builder:pack-auto-atlas-image (1ms)
-2024-7-11 13:25:54 - debug: Pack Images success, progress: 28%
-2024-7-11 13:25:54 - debug: Compress image start..., progress: 28%
-2024-7-11 13:25:54 - group: Compress image...
-2024-7-11 13:25:54 - debug: sort compress task {}
-2024-7-11 13:25:54 - debug: Num of all image compress task 0, really: 0, configTasks: 0
-2024-7-11 13:25:54 - debug: No image need to compress
-2024-7-11 13:25:54 - groupEnd: Compress image...
-2024-7-11 13:25:54 - debug: Compress image success..., progress: 28%
-2024-7-11 13:25:54 - debug: Output asset in bundles start, progress: 28%
-2024-7-11 13:25:54 - debug: Handle all json groups in bundle internal
-2024-7-11 13:25:54 - debug: handle json group
-2024-7-11 13:25:54 - debug: Handle all json groups in bundle resources
-2024-7-11 13:25:54 - debug: handle json group
-2024-7-11 13:25:54 - debug: handle single json
-2024-7-11 13:25:54 - debug: Handle all json groups in bundle main
-2024-7-11 13:25:54 - debug: handle json group
-2024-7-11 13:25:54 - debug: Json group(013400e30) compile success，json number: 6
-2024-7-11 13:25:54 - debug: Json group(029e2f4fe) compile success，json number: 6
-2024-7-11 13:25:54 - debug: Json group(0ca60d3e4) compile success，json number: 6
-2024-7-11 13:25:54 - debug: handle single json
-2024-7-11 13:25:54 - debug: Json group(0ea3cfb1e) compile success，json number: 6
-2024-7-11 13:25:54 - warn: The SpriteFrame used by component "cc.Sprite" in scene "victory" is missing. Detailed information:Node path: "Canvas/vectory"Asset url: "db://assets/Scenes/victory"Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
-2024-7-11 13:25:54 - debug: Json group(09e1fd531) compile success，json number: 6
-2024-7-11 13:25:55 - debug: Json group(01b5732c9) compile success，json number: 6
-2024-7-11 13:25:55 - debug: Json group(019e0010b) compile success，json number: 6
-2024-7-11 13:25:55 - debug: Json group(0ae6da85c) compile success，json number: 6
-2024-7-11 13:25:55 - debug: Json group(049e90c10) compile success，json number: 6
-2024-7-11 13:25:55 - debug: Json group(0b06f38ac) compile success，json number: 6
-2024-7-11 13:25:55 - debug: Json group(08385ff53) compile success，json number: 6
-2024-7-11 13:25:55 - debug: Json group(02cc4f60e) compile success，json number: 6
-2024-7-11 13:25:55 - debug: handle single json
-2024-7-11 13:25:55 - debug: Output asset in bundles success, progress: 28%
-2024-7-11 13:25:55 - debug: Output asset in bundles start, progress: 28%
-2024-7-11 13:25:55 - debug: compress config of bundle internal...
-2024-7-11 13:25:55 - debug: compress config of bundle internal success
-2024-7-11 13:25:55 - debug: compress config of bundle resources...
-2024-7-11 13:25:55 - debug: compress config of bundle resources success
-2024-7-11 13:25:55 - debug: compress config of bundle main...
-2024-7-11 13:25:55 - debug: compress config of bundle main success
-2024-7-11 13:25:55 - debug: output config of bundle internal
-2024-7-11 13:25:55 - debug: output config of bundle internal success
-2024-7-11 13:25:55 - debug: output config of bundle resources
-2024-7-11 13:25:55 - debug: output config of bundle resources success
-2024-7-11 13:25:55 - debug: output config of bundle main
-2024-7-11 13:25:55 - debug: output config of bundle main success
-2024-7-11 13:25:55 - debug: Output asset in bundles success, progress: 28%
-2024-7-11 13:25:55 - debug: // ---- build task Build Assets ---- (505ms)
-2024-7-11 13:25:55 - debug: run build task Build Assets success in 505 ms√, progress: 33%
-2024-7-11 13:25:55 - debug: [Build Memory track]: Build Assets start:258.66MB, end 268.57MB, increase: 9.91MB
-2024-7-11 13:25:55 - debug: 整理部分构建选项内数据到 settings.json start, progress: 33%
-2024-7-11 13:25:55 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-11 13:25:55 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
-2024-7-11 13:25:55 - debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 34%
-2024-7-11 13:25:55 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:268.65MB, end 268.67MB, increase: 23.83KB
-2024-7-11 13:25:55 - debug: 填充脚本数据到 settings.json start, progress: 34%
-2024-7-11 13:25:55 - debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-7-11 13:25:55 - debug: // ---- build task 填充脚本数据到 settings.json ---- (2ms)
-2024-7-11 13:25:55 - debug: run build task 填充脚本数据到 settings.json success in 2 ms√, progress: 36%
-2024-7-11 13:25:55 - debug: [Build Memory track]: 填充脚本数据到 settings.json start:268.69MB, end 268.72MB, increase: 24.78KB
-2024-7-11 13:25:55 - debug: 整理部分构建选项内数据到 settings.json start, progress: 36%
-2024-7-11 13:25:55 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-11 13:25:55 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
-2024-7-11 13:25:55 - debug: run build task 整理部分构建选项内数据到 settings.json success in 3 ms√, progress: 38%
-2024-7-11 13:25:55 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:268.73MB, end 268.86MB, increase: 128.08KB
-2024-7-11 13:25:55 - debug: cocos-service:(onBeforeCompressSettings) start..., progress: 38%
-2024-7-11 13:25:55 - debug: // ---- build task cocos-service：onBeforeCompressSettings ----
-2024-7-11 13:25:55 - debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (2ms)
-2024-7-11 13:25:55 - debug: cocos-service:(onBeforeCompressSettings) in 2 ms ✓, progress: 40%
-2024-7-11 13:25:55 - debug: 整理静态模板文件 start, progress: 40%
-2024-7-11 13:25:55 - debug: // ---- build task 整理静态模板文件 ----
-2024-7-11 13:25:55 - debug: // ---- build task 整理静态模板文件 ---- (25ms)
-2024-7-11 13:25:55 - debug: run build task 整理静态模板文件 success in 25 ms√, progress: 45%
-2024-7-11 13:25:55 - debug: [Build Memory track]: 整理静态模板文件 start:268.95MB, end 272.84MB, increase: 3.89MB
-2024-7-11 13:25:55 - debug: native:(onAfterCompressSettings) start..., progress: 45%
-2024-7-11 13:25:55 - debug: // ---- build task native：onAfterCompressSettings ----
-2024-7-11 13:25:55 - log: Checking template version...
-2024-7-11 13:25:55 - log: Validating template consistency...
-2024-7-11 13:25:55 - log: Validating platform source code directories...
-2024-7-11 13:25:55 - debug: generateCMakeConfig, {"CC_USE_GLES3":"set(CC_USE_GLES3 ON)","CC_USE_GLES2":"set(CC_USE_GLES2 ON)","USE_SERVER_MODE":"set(USE_SERVER_MODE OFF)","NET_MODE":"set(NET_MODE 0)","XXTEAKEY":"","CC_ENABLE_SWAPPY":"set(CC_ENABLE_SWAPPY OFF)","APP_NAME":"set(APP_NAME \"demo2\")","COCOS_X_PATH":"set(COCOS_X_PATH \"C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/native\")","USE_JOB_SYSTEM_TASKFLOW":"set(USE_JOB_SYSTEM_TASKFLOW OFF)","USE_JOB_SYSTEM_TBB":"set(USE_JOB_SYSTEM_TBB OFF)","ENABLE_FLOAT_OUTPUT":"set(ENABLE_FLOAT_OUTPUT OFF)","USE_PHYSICS_PHYSX":"set(USE_PHYSICS_PHYSX OFF)","USE_OCCLUSION_QUERY":"set(USE_OCCLUSION_QUERY OFF)","USE_GEOMETRY_RENDERER":"set(USE_GEOMETRY_RENDERER OFF)","USE_DEBUG_RENDERER":"set(USE_DEBUG_RENDERER OFF)","USE_AUDIO":"set(USE_AUDIO ON)","USE_VIDEO":"set(USE_VIDEO ON)","USE_WEBVIEW":"set(USE_WEBVIEW ON)","USE_SOCKET":"set(USE_SOCKET OFF)","USE_WEBSOCKET_SERVER":"set(USE_WEBSOCKET_SERVER OFF)","USE_SPINE":"set(USE_SPINE ON)","USE_DRAGONBONES":"set(USE_DRAGONBONES ON)","CC_EXECUTABLE_NAME":"set(CC_EXECUTABLE_NAME \"demo2\")","CC_USE_VULKAN":"set(CC_USE_VULKAN ON)"}
-2024-7-11 13:25:55 - log: While replace template content, file D:\TankFight\TK2\build\windows\proj\main.cpp
-2024-7-11 13:25:55 - log: While replace template content, file D:\TankFight\TK2\build\windows\proj\main.m
-2024-7-11 13:25:55 - log: While replace template content, file D:\TankFight\TK2\build\windows\proj\settings.gradle
-2024-7-11 13:25:55 - log: While replace template content, file D:\TankFight\TK2\native\engine\win64/app/build.gradle
-2024-7-11 13:25:55 - log: While replace template content, file D:\TankFight\TK2\native\engine\win64/instantapp/build.gradle
-2024-7-11 13:25:55 - log: While replace template content, file D:\TankFight\TK2\native\engine\win64/entry/src/main/config.json
-2024-7-11 13:25:55 - debug: // ---- build task native：onAfterCompressSettings ---- (16ms)
-2024-7-11 13:25:55 - debug: native:(onAfterCompressSettings) in 16 ms ✓, progress: 46%
-2024-7-11 13:25:55 - debug: cocos-service:(onAfterCompressSettings) start..., progress: 46%
-2024-7-11 13:25:55 - debug: // ---- build task cocos-service：onAfterCompressSettings ----
-2024-7-11 13:25:55 - debug: // ---- build task cocos-service：onAfterCompressSettings ---- (3ms)
-2024-7-11 13:25:55 - debug: cocos-service:(onAfterCompressSettings) in 3 ms ✓, progress: 48%
-2024-7-11 13:25:55 - debug: 给所有的资源加上 MD5 后缀 start, progress: 48%
-2024-7-11 13:25:55 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
-2024-7-11 13:25:55 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (1ms)
-2024-7-11 13:25:55 - debug: run build task 给所有的资源加上 MD5 后缀 success in 1 ms√, progress: 58%
-2024-7-11 13:25:55 - debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:273.56MB, end 273.58MB, increase: 17.03KB
-2024-7-11 13:25:55 - debug: native:(onAfterBuild) start..., progress: 58%
-2024-7-11 13:25:55 - debug: // ---- build task native：onAfterBuild ----
-2024-7-11 13:25:55 - log: selecting visual studio generator ...
-2024-7-11 13:25:55 - log: run "C:\Program Files\CMake\bin\cmake.exe" -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB" -G"Visual Studio 17 2022" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB\build_Visual_Studio_17_2022" -A x64
-2024-7-11 13:25:55 - error: [cmake-err] CMake Error at CMakeLists.txt:4 (project):  Generator    Visual Studio 17 2022  could not find any instance of Visual Studio.
-2024-7-11 13:25:55 - log: [cmake] -- Configuring incomplete, errors occurred!
-2024-7-11 13:25:55 - debug: Error: run cmake failed "cmake -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB" -G"Visual Studio 17 2022" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB\build_Visual_Studio_17_2022" -A x64", code: 1, signal: null    at ChildProcess.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\scripts\native-pack-tool\source\utils.ts:484:28)    at ChildProcess.emit (events.js:315:20)    at maybeClose (internal/child_process.js:1048:16)    at Socket.<anonymous> (internal/child_process.js:439:11)    at Socket.emit (events.js:315:20)    at Pipe.<anonymous> (net.js:673:12)
-2024-7-11 13:25:55 - log: run "C:\Program Files\CMake\bin\cmake.exe" -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB" -G"Visual Studio 16 2019" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB\build_Visual_Studio_16_2019" -A x64
-2024-7-11 13:25:55 - error: [cmake-err] CMake Error at CMakeLists.txt:4 (project):  Generator    Visual Studio 16 2019  could not find any instance of Visual Studio.
-2024-7-11 13:25:55 - log: [cmake] -- Configuring incomplete, errors occurred!
-2024-7-11 13:25:55 - debug: Error: run cmake failed "cmake -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB" -G"Visual Studio 16 2019" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB\build_Visual_Studio_16_2019" -A x64", code: 1, signal: null    at ChildProcess.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\scripts\native-pack-tool\source\utils.ts:484:28)    at ChildProcess.emit (events.js:315:20)    at maybeClose (internal/child_process.js:1048:16)    at Process.onexit (internal/child_process.js:288:5)
-2024-7-11 13:25:55 - log: run "C:\Program Files\CMake\bin\cmake.exe" -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB" -G"Visual Studio 15 2017" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB\build_Visual_Studio_15_2017" -A x64
-2024-7-11 13:25:55 - error: [cmake-err] CMake Error at CMakeLists.txt:4 (project):  Generator    Visual Studio 15 2017  could not find any instance of Visual Studio.
-2024-7-11 13:25:55 - log: [cmake] -- Configuring incomplete, errors occurred!
-2024-7-11 13:25:55 - debug: Error: run cmake failed "cmake -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB" -G"Visual Studio 15 2017" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB\build_Visual_Studio_15_2017" -A x64", code: 1, signal: null    at ChildProcess.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\scripts\native-pack-tool\source\utils.ts:484:28)    at ChildProcess.emit (events.js:315:20)    at maybeClose (internal/child_process.js:1048:16)    at Process.onexit (internal/child_process.js:288:5)
-2024-7-11 13:25:55 - log: run "C:\Program Files\CMake\bin\cmake.exe" -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB" -G"Visual Studio 14 2015" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB\build_Visual_Studio_14_2015" -A x64
-2024-7-11 13:25:55 - error: [cmake-err] CMake Error at CMakeLists.txt:4 (project):  Failed to run MSBuild command:    MSBuild.exe  to get the value of VCTargetsPath:    no such file or directory
-2024-7-11 13:25:55 - log: [cmake] -- Configuring incomplete, errors occurred!
-2024-7-11 13:25:55 - debug: Error: run cmake failed "cmake -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB" -G"Visual Studio 14 2015" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB\build_Visual_Studio_14_2015" -A x64", code: 1, signal: null    at ChildProcess.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\scripts\native-pack-tool\source\utils.ts:484:28)    at ChildProcess.emit (events.js:315:20)    at maybeClose (internal/child_process.js:1048:16)    at Process.onexit (internal/child_process.js:288:5)
-2024-7-11 13:25:55 - log: run "C:\Program Files\CMake\bin\cmake.exe" -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB" -G"Visual Studio 12 2013" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB\build_Visual_Studio_12_2013" -A x64
-2024-7-11 13:25:55 - error: [cmake-err] CMake Error at CMakeLists.txt:4 (project):  Failed to run MSBuild command:    MSBuild.exe  to get the value of VCTargetsPath:    no such file or directory
-2024-7-11 13:25:55 - log: [cmake] -- Configuring incomplete, errors occurred!
-2024-7-11 13:25:55 - debug: Error: run cmake failed "cmake -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB" -G"Visual Studio 12 2013" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB\build_Visual_Studio_12_2013" -A x64", code: 1, signal: null    at ChildProcess.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\scripts\native-pack-tool\source\utils.ts:484:28)    at ChildProcess.emit (events.js:315:20)    at maybeClose (internal/child_process.js:1048:16)    at Process.onexit (internal/child_process.js:288:5)
-2024-7-11 13:25:55 - log: run "C:\Program Files\CMake\bin\cmake.exe" -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB" -G"Visual Studio 11 2012" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB\build_Visual_Studio_11_2012" -A x64
-2024-7-11 13:25:55 - error: [cmake-err] CMake Error: Could not create named generator Visual Studio 11 2012
-2024-7-11 13:25:55 - error: [cmake-err] Generators  Visual Studio 17 2022        = Generates Visual Studio 2022 project files.                                 Use -A option to specify architecture.  Visual Studio 16 2019        = Generates Visual 
-2024-7-11 13:25:55 - error: [cmake-err] Studio 2019 project files.                                 Use -A option to specify architecture.  Visual Studio 15 2017 [arch] = Generates Visual Studio 2017 project files.                                 Optional [arch] can be "Win64" or "ARM".  Visual Studio 14 2015 [arch] = Generates Visual Studio 2015 project files.                                 Optional [arch] can be "Win64" or "ARM".  Visual Studio 12 2013 [arch] = Deprecated.  Generates Visual Studio 2013                                 project files.  Optional [arch] can be                                 "Win64" or "ARM".  Visual Studio 9 2008 [arch]  = Deprecated.  Generates Visual Studio 2008                                 project files.  Optional [arch] can be                                 "Win64" or "IA64".  Borland Makefiles            = Generates Borland makefiles.* NMake Makefiles              = Generates NMake makefiles.  NMake Makefiles JOM          = Generates JOM makefiles.  MSYS Makefiles               = Generates MSYS makefiles.  MinGW Makefiles              = Generates a make file for use with                                 mingw32-make.  Green Hills MULTI            = Generates Green Hills MULTI files                                 (experimental, work-in-progress).  Unix Makefiles               = Generates standard UNIX makefiles.  Ninja                        = Generates build.ninja files.  Ninja Multi-Config           = Generates build-<Config>.ninja files.  Watcom WMake                 = Generates Watcom WMake makefiles.  CodeBlocks - MinGW Makefiles = Generates CodeBlocks project files                                 (deprecated).  CodeBlocks - NMake Makefiles = Generates CodeBlocks project files                                 (deprecated).  CodeBlocks - NMake Makefiles JOM                               = Generates CodeBlocks project files                                 (deprecated).  CodeBlocks - Ninja           = Generates CodeBlocks project files                                 (deprecated).  CodeBlocks - Unix Makefiles  = Generates CodeBlocks project files                                 (deprecated).  CodeLite - MinGW Makefiles   = Generates CodeLite project files                                 (deprecated).  CodeLite - NMake Makefiles   = Generates CodeLite project files                                 (deprecated).  CodeLite - Ninja             = Generates CodeLite project files                                 (deprecated).  CodeLite - Unix Makefiles    = Generates CodeLite project files                                 (deprecated).  Eclipse CDT4 - NMake Makefiles                               = Generates Eclipse CDT 4.0 project files                                 (deprecated).  Eclipse CDT4 - MinGW Makefiles                               = Generates Eclipse CDT 4.0 project files                                 (deprecated).  Eclipse CDT4 - Ninja         = Generates Eclipse CDT 4.0 project files                                 (deprecated).  Eclipse CDT4 - Unix Makefiles= Generates Eclipse CDT 4.0 project files                                 (deprecated).  Kate - MinGW Makefiles       = Generates Kate project files (deprecated).  Kate - NMake Makefiles       = Generates Kate project files (deprecated).  Kate - Ninja                 = Generates Kate project files (deprecated).  Kate - Ninja Multi-Config    = Generates Kate project files (deprecated).  Kate - Unix Makefiles        = Generates Kate project files (deprecated).  Sublime Text 2 - MinGW Makefiles                               = Generates Sublime Text 2 project files                                 (deprecated).  Sublime Text 2 - NMake Makefiles                               = Generates Sublime Text 2 project files                                 (deprecated).  Sublime Text 2 - Ninja       = Generates Sublime Text 2 project files                                 (deprecated).  Sublime Text 2 - Unix Makefiles                               = Generates Sublime Text 2 project files                                 (deprecated).
-2024-7-11 13:25:55 - debug: Error: run cmake failed "cmake -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB" -G"Visual Studio 11 2012" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB\build_Visual_Studio_11_2012" -A x64", code: 1, signal: null    at ChildProcess.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\scripts\native-pack-tool\source\utils.ts:484:28)    at ChildProcess.emit (events.js:315:20)    at maybeClose (internal/child_process.js:1048:16)    at Process.onexit (internal/child_process.js:288:5)
-2024-7-11 13:25:55 - log: run "C:\Program Files\CMake\bin\cmake.exe" -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB" -G"Visual Studio 10 2010" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB\build_Visual_Studio_10_2010" -A x64
-2024-7-11 13:25:56 - error: [cmake-err] CMake Error: Could not create named generator Visual Studio 10 2010
-2024-7-11 13:25:56 - error: [cmake-err] Generators  Visual Studio 17 2022        = Generates Visual Studio 2022 project files.                                 Use -A option to specify architecture.  Visual Studio 16 2019        = Generates Visual
-2024-7-11 13:25:56 - error: [cmake-err]  Studio 2019 project files.                                 Use -A option to specify architecture.  Visual Studio 15 2017 [arch] = Generates Visual Studio 2017 project files.                                 Optional [arch] can be "Win64" or "ARM".  Visual Studio 14 2015 [arch] = Generates Visual Studio 2015 project files.                                 Optional [arch] can be "Win64" or "ARM".  Visual Studio 12 2013 [arch] = Deprecated.  Generates Visual Studio 2013                                 project files.  Optional [arch] can be                                 "Win64" or "ARM".  Visual Studio 9 2008 [arch]  = Deprecated.  Generates Visual Studio 2008                                 project files.  Optional [arch] can be                                 "Win64" or "IA64".  Borland Makefiles            = Generates Borland makefiles.* NMake Makefiles              = Generates NMake makefiles.  NMake Makefiles JOM          = Generates JOM makefiles.  MSYS Makefiles               = Generates MSYS makefiles.  MinGW Makefiles              = Generates a make file for use with                                 mingw32-make.  Green Hills MULTI            = Generates Green Hills MULTI files                                 (experimental, work-in-progress).  Unix Makefiles               = Generates standard UNIX makefiles.  Ninja                        = Generates build.ninja files.  Ninja Multi-Config           = Generates build-<Config>.ninja files.  Watcom WMake                 = Generates Watcom WMake makefiles.  CodeBlocks - MinGW Makefiles = Generates CodeBlocks project files                                 (deprecated).  CodeBlocks - NMake Makefiles = Generates CodeBlocks project files                                 (deprecated).  CodeBlocks - NMake Makefiles JOM                               = Generates CodeBlocks project files                                 (deprecated).  CodeBlocks - Ninja           = Generates CodeBlocks project files                                 (deprecated).  CodeBlocks - Unix Makefiles  = Generates CodeBlocks project files                                 (deprecated).  CodeLite - MinGW Makefiles   = Generates CodeLite project files                                 (deprecated).  CodeLite - NMake Makefiles   = Generates CodeLite project files                                 (deprecated).  CodeLite - Ninja             = Generates CodeLite project files                                 (deprecated).  CodeLite - Unix Makefiles    = Generates CodeLite project files                                 (deprecated).  Eclipse CDT4 - NMake Makefiles                               = Generates Eclipse CDT 4.0 project files                                 (deprecated).  Eclipse CDT4 - MinGW Makefiles                               = Generates Eclipse CDT 4.0 project files                                 (deprecated).  Eclipse CDT4 - Ninja         = Generates Eclipse CDT 4.0 project files                                 (deprecated).  Eclipse CDT4 - Unix Makefiles= Generates Eclipse CDT 4.0 project files                                 (deprecated).  Kate - MinGW Makefiles       = Generates Kate project files (deprecated).  Kate - NMake Makefiles       = Generates Kate project files (deprecated).  Kate - Ninja                 = Generates Kate project files (deprecated).  Kate - Ninja Multi-Config    = Generates Kate project files (deprecated).  Kate - Unix Makefiles        = Generates Kate project files (deprecated).  Sublime Text 2 - MinGW Makefiles                               = Generates Sublime Text 2 project files                                 (deprecated).  Sublime Text 2 - NMake Makefiles                               = Generates Sublime Text 2 project files                                 (deprecated).  Sublime Text 2 - Ninja       = Generates Sublime Text 2 project files                                 (deprecated).
-2024-7-11 13:25:56 - error: [cmake-err]   Sublime Text 2 - Unix Makefiles                               = Generates Sublime Text 2 project files                                 (deprecated).
-2024-7-11 13:25:56 - debug: Error: run cmake failed "cmake -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB" -G"Visual Studio 10 2010" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB\build_Visual_Studio_10_2010" -A x64", code: 1, signal: null    at ChildProcess.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\scripts\native-pack-tool\source\utils.ts:484:28)    at ChildProcess.emit (events.js:315:20)    at maybeClose (internal/child_process.js:1048:16)    at Process.onexit (internal/child_process.js:288:5)
-2024-7-11 13:25:56 - log: run "C:\Program Files\CMake\bin\cmake.exe" -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB" -G"Visual Studio 9 2008" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB\build_Visual_Studio_9_2008" -A x64
-2024-7-11 13:25:56 - log: [cmake] -- The CXX compiler identification is unknown
-2024-7-11 13:25:56 - error: [cmake-err] CMake Error at CMakeLists.txt:4 (project):  No CMAKE_CXX_COMPILER could be found.
-2024-7-11 13:25:56 - log: [cmake] -- Configuring incomplete, errors occurred!
-2024-7-11 13:25:56 - debug: Error: run cmake failed "cmake -S"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB" -G"Visual Studio 9 2008" -B"C:\Users\53190\AppData\Local\Temp\cmakeTest_UrHarB\build_Visual_Studio_9_2008" -A x64", code: 1, signal: null    at ChildProcess.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\scripts\native-pack-tool\source\utils.ts:484:28)    at ChildProcess.emit (events.js:315:20)    at maybeClose (internal/child_process.js:1048:16)    at Process.onexit (internal/child_process.js:288:5)
-2024-7-11 13:25:56 - log: run "C:\Program Files\CMake\bin\cmake.exe" -S"D:/TankFight/TK2/native/engine/win64" -B"D:/TankFight/TK2/build/windows/proj" -DRES_DIR="D:/TankFight/TK2/build/windows" -DAPP_NAME="demo2" -DLAUNCH_TYPE="Release"
-2024-7-11 13:25:56 - log: [cmake] -- Building for: NMake Makefiles
-2024-7-11 13:25:56 - error: [cmake-err] CMake Error at CMakeLists.txt:4 (project):  Running   'nmake' '-?'  failed with:   no such file or directoryCMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage
-2024-7-11 13:25:56 - log: [cmake] -- Configuring incomplete, errors occurred!
-2024-7-11 13:25:56 - debug: 构建插件 native 的钩子函数 onAfterBuild 执行失败，请检查插件的代码逻辑~, progress: 60%
-2024-7-11 13:25:56 - debug: Error: run cmake failed "cmake -S"D:/TankFight/TK2/native/engine/win64" -B"D:/TankFight/TK2/build/windows/proj" -DRES_DIR="D:/TankFight/TK2/build/windows" -DAPP_NAME="demo2" -DLAUNCH_TYPE="Release"", code: 1, signal: null, progress: 62%
-2024-7-11 13:25:56 - debug: [Build Memory track]: builder:build-project-total start:200.54MB, end 271.29MB, increase: 70.75MB
-2024-7-11 13:25:56 - log: Asset DB is resume!
-2024-7-11 13:25:56 - debug: builder:build-project-total (7842ms)
-2024-7-11 13:25:56 - warn: The SpriteFrame used by component "cc.Sprite" in scene "victory" is missing. Detailed information:Node path: "Canvas/vectory"Asset url: "db://assets/Scenes/victory"Missing uuid: "9f07242a-881b-4e5a-87a4-b3b7aae88cb6@f9941"
-2024-7-11 13:25:56 - debug: build success in 7842!
-2024-7-11 13:25:56 - error: Error: run cmake failed "cmake -S"D:/TankFight/TK2/native/engine/win64" -B"D:/TankFight/TK2/build/windows/proj" -DRES_DIR="D:/TankFight/TK2/build/windows" -DAPP_NAME="demo2" -DLAUNCH_TYPE="Release"", code: 1, signal: null    at ChildProcess.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\scripts\native-pack-tool\source\utils.ts:484:28)    at ChildProcess.emit (events.js:315:20)    at maybeClose (internal/child_process.js:1048:16)    at Process.onexit (internal/child_process.js:288:5)
-2024-7-11 13:25:56 - debug: ================================ build Task (windows) Finished in (7 s)ms ================================

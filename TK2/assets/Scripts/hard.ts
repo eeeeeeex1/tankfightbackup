@@ -41,7 +41,7 @@ export class hard extends Component {
         }
         let json=JSON.stringify(RegSet);
         localStorage.setItem('RegSet',json);
-        director.loadScene('alonemap0-difficult');
+        director.loadScene('alonemap1-difficult');
     }
 }
 

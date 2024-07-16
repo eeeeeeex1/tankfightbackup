@@ -1,4 +1,4 @@
-import { _decorator, Component, Node ,find, director} from 'cc';
+import { _decorator, Component, Node ,find, director,AudioSource} from 'cc';
 import { background } from '../text/background';
 import { PassInf } from './PassInf';
 const { ccclass, property } = _decorator;
@@ -18,6 +18,8 @@ class user{
 }
 @ccclass('time01')
 export class time01 extends Component {
+    @property(AudioSource)
+    private clickAudio: AudioSource = null;
     startTime:number;
     endTime:number;
     start() {
@@ -25,6 +27,9 @@ export class time01 extends Component {
     }
 
     update(deltaTime: number) {
+        if (!this.clickAudio.playing) {
+            this.clickAudio.play();
+        }
         if((!find("Canvas/background/tank/enemytank"))&&find("Canvas/background/tank/playertank"))//检测是否击杀所有敌人并存活
         {this.endTime=Date.now();
             let time=this.endTime-this.startTime;//计算通关时间
@@ -36,13 +41,19 @@ export class time01 extends Component {
                 if(RegSet[i].Account==Account)
                     break;
             }
-            RegSet[i].d1time1=time/1000;
-            RegSet[i].save=1;//存储通关记录
+            RegSet[i].d1time3=time/1000;
+            if(RegSet[i].d1time==0)
+                RegSet[i].d1time=Number((RegSet[i].d1time1+RegSet[i].d1time2+RegSet[i].d1time3).toFixed(2));
+            else
+            {
+                if(RegSet[i].d1time>(RegSet[i].d1time1+RegSet[i].d1time2+RegSet[i].d1time3))
+                RegSet[i].d1time=Number((RegSet[i].d1time1+RegSet[i].d1time2+RegSet[i].d1time3).toFixed(2));
+            }
+            RegSet[i].save=0;//存储通关记录
             let json=JSON.stringify(RegSet);
             localStorage.setItem('RegSet',json);
-            this.scheduleOnce(() => {
-                director.loadScene('alonemap1');
-            }, 3);
+            director.loadScene('victory');
+            
         }
 
         if(!find("Canvas/background/tank/playertank"))//若玩家被击杀则返回

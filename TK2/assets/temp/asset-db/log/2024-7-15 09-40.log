@@ -1,573 +1,0 @@
-2024-7-15 09:40:54-log: Cannot access game frame or container.
-2024-7-15 09:41:03-debug: asset-db:require-engine-code (9420ms)
-2024-7-15 09:41:03-log: meshopt wasm decoder initialized
-2024-7-15 09:41:03-log: [bullet]:bullet wasm lib loaded.
-2024-7-15 09:41:03-log: [box2d]:box2d wasm lib loaded.
-2024-7-15 09:41:03-log: Cocos Creator v3.8.3
-2024-7-15 09:41:06-debug: [Assets Memory track]: asset-db-plugin-register: project start:78.36MB, end 166.62MB, increase: 88.26MB
-2024-7-15 09:41:03-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:24.72MB, end 77.74MB, increase: 53.02MB
-2024-7-15 09:41:06-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:77.75MB, end 166.64MB, increase: 88.89MB
-2024-7-15 09:41:06-debug: [Assets Memory track]: asset-db-plugin-register: builder start:78.91MB, end 170.93MB, increase: 92.02MB
-2024-7-15 09:41:06-debug: asset-db:worker-init: initPlugin (2144ms)
-2024-7-15 09:41:06-debug: [Assets Memory track]: asset-db:worker-init start:24.72MB, end 166.70MB, increase: 141.98MB
-2024-7-15 09:41:06-debug: Run asset db hook programming:beforePreStart ...
-2024-7-15 09:41:06-debug: Run asset db hook engine-extends:beforePreStart success!
-2024-7-15 09:41:06-debug: Run asset db hook engine-extends:beforePreStart ...
-2024-7-15 09:41:06-debug: Run asset db hook programming:beforePreStart success!
-2024-7-15 09:41:10-debug: asset-db:worker-init (17118ms)
-2024-7-15 09:41:10-debug: asset-db-hook-programming-beforePreStart (4704ms)
-2024-7-15 09:41:10-debug: asset-db-hook-engine-extends-beforePreStart (4704ms)
-2024-7-15 09:41:13-debug: Preimport db internal success
-2024-7-15 09:41:14-debug: Preimport db assets success
-2024-7-15 09:41:14-debug: Run asset db hook programming:afterPreStart ...
-2024-7-15 09:41:14-debug: starting packer-driver...
-2024-7-15 09:41:15-debug: initialize scripting environment...
-2024-7-15 09:41:15-debug: Set detail map pack:///resolution-detail-map.json: {}
-2024-7-15 09:41:15-debug: Run asset db hook engine-extends:afterPreStart ...
-2024-7-15 09:41:15-debug: Run asset db hook engine-extends:afterPreStart success!
-2024-7-15 09:41:15-debug: Start up the 'internal' database...
-2024-7-15 09:41:15-debug: Run asset db hook programming:afterPreStart success!
-2024-7-15 09:41:17-debug: asset-db-hook-programming-afterPreStart (2927ms)
-2024-7-15 09:41:17-debug: asset-db:worker-effect-data-processing (1992ms)
-2024-7-15 09:41:17-debug: asset-db-hook-engine-extends-afterPreStart (1992ms)
-2024-7-15 09:41:17-debug: Start up the 'assets' database...
-2024-7-15 09:41:19-debug: asset-db:worker-startup-database[internal] (13299ms)
-2024-7-15 09:41:19-debug: [Assets Memory track]: asset-db:worker-init: startup start:146.33MB, end 156.27MB, increase: 9.93MB
-2024-7-15 09:41:19-debug: lazy register asset handler directory
-2024-7-15 09:41:19-debug: lazy register asset handler text
-2024-7-15 09:41:19-debug: lazy register asset handler *
-2024-7-15 09:41:19-debug: lazy register asset handler json
-2024-7-15 09:41:19-debug: lazy register asset handler spine-data
-2024-7-15 09:41:19-debug: lazy register asset handler dragonbones
-2024-7-15 09:41:19-debug: lazy register asset handler terrain
-2024-7-15 09:41:19-debug: lazy register asset handler javascript
-2024-7-15 09:41:19-debug: lazy register asset handler scene
-2024-7-15 09:41:19-debug: lazy register asset handler dragonbones-atlas
-2024-7-15 09:41:19-debug: lazy register asset handler prefab
-2024-7-15 09:41:19-debug: lazy register asset handler typescript
-2024-7-15 09:41:19-debug: lazy register asset handler sprite-frame
-2024-7-15 09:41:19-debug: lazy register asset handler image
-2024-7-15 09:41:19-debug: lazy register asset handler sign-image
-2024-7-15 09:41:19-debug: lazy register asset handler alpha-image
-2024-7-15 09:41:19-debug: lazy register asset handler buffer
-2024-7-15 09:41:19-debug: lazy register asset handler texture
-2024-7-15 09:41:19-debug: lazy register asset handler erp-texture-cube
-2024-7-15 09:41:19-debug: lazy register asset handler render-texture
-2024-7-15 09:41:19-debug: lazy register asset handler texture-cube
-2024-7-15 09:41:19-debug: lazy register asset handler texture-cube-face
-2024-7-15 09:41:19-debug: lazy register asset handler rt-sprite-frame
-2024-7-15 09:41:19-debug: lazy register asset handler tiled-map
-2024-7-15 09:41:19-debug: lazy register asset handler gltf-animation
-2024-7-15 09:41:19-debug: lazy register asset handler gltf-mesh
-2024-7-15 09:41:19-debug: lazy register asset handler gltf-material
-2024-7-15 09:41:19-debug: lazy register asset handler gltf-skeleton
-2024-7-15 09:41:19-debug: lazy register asset handler gltf-embeded-image
-2024-7-15 09:41:19-debug: lazy register asset handler fbx
-2024-7-15 09:41:19-debug: lazy register asset handler gltf
-2024-7-15 09:41:19-debug: lazy register asset handler gltf-scene
-2024-7-15 09:41:19-debug: lazy register asset handler physics-material
-2024-7-15 09:41:19-debug: lazy register asset handler effect
-2024-7-15 09:41:19-debug: lazy register asset handler material
-2024-7-15 09:41:19-debug: lazy register asset handler effect-header
-2024-7-15 09:41:19-debug: lazy register asset handler animation-graph
-2024-7-15 09:41:19-debug: lazy register asset handler audio-clip
-2024-7-15 09:41:19-debug: lazy register asset handler animation-graph-variant
-2024-7-15 09:41:19-debug: lazy register asset handler animation-mask
-2024-7-15 09:41:19-debug: lazy register asset handler animation-clip
-2024-7-15 09:41:19-debug: lazy register asset handler ttf-font
-2024-7-15 09:41:19-debug: lazy register asset handler sprite-atlas
-2024-7-15 09:41:19-debug: lazy register asset handler bitmap-font
-2024-7-15 09:41:19-debug: lazy register asset handler label-atlas
-2024-7-15 09:41:19-debug: lazy register asset handler render-pipeline
-2024-7-15 09:41:19-debug: lazy register asset handler auto-atlas
-2024-7-15 09:41:19-debug: lazy register asset handler render-flow
-2024-7-15 09:41:19-debug: lazy register asset handler instantiation-material
-2024-7-15 09:41:19-debug: lazy register asset handler instantiation-mesh
-2024-7-15 09:41:19-debug: lazy register asset handler instantiation-animation
-2024-7-15 09:41:19-debug: lazy register asset handler render-stage
-2024-7-15 09:41:19-debug: lazy register asset handler particle
-2024-7-15 09:41:19-debug: lazy register asset handler instantiation-skeleton
-2024-7-15 09:41:19-debug: lazy register asset handler video-clip
-2024-7-15 09:41:19-debug: asset-db:worker-startup-database[assets] (6139ms)
-2024-7-15 09:41:19-debug: asset-db:start-database (13430ms)
-2024-7-15 09:41:19-debug: asset-db:ready (30481ms)
-2024-7-15 09:41:19-debug: init worker message success
-2024-7-15 09:41:20-debug: [Build Memory track]: builder:worker-init start:159.97MB, end 166.95MB, increase: 6.98MB
-2024-7-15 09:41:20-debug: programming:execute-script (7ms)
-2024-7-15 09:41:20-debug: builder:worker-init (1193ms)
-2024-7-15 11:04:09-debug: refresh db internal success
-2024-7-15 11:04:09-debug: refresh db assets success
-2024-7-15 11:04:09-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:04:09-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:04:09-debug: asset-db:refresh-all-database (317ms)
-2024-7-15 11:04:09-debug: asset-db:worker-effect-data-processing (3ms)
-2024-7-15 11:04:09-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
-2024-7-15 11:04:31-debug: start refresh asset from C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scene...
-2024-7-15 11:04:31-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:04:31-debug: refresh asset C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map success
-2024-7-15 11:04:31-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\mapbackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:04:56-debug: refresh db internal success
-2024-7-15 11:04:56-debug: refresh db assets success
-2024-7-15 11:04:56-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:04:56-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:04:56-debug: asset-db:refresh-all-database (183ms)
-2024-7-15 11:04:56-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-15 11:04:56-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-15 11:06:24-debug: refresh db internal success
-2024-7-15 11:06:24-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photo\beijing.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:06:24-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photobackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:06:24-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photo\beijing.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:06:24-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photo\beijing.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-15 11:06:24-debug: refresh db assets success
-2024-7-15 11:06:24-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:06:24-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:06:24-debug: asset-db:refresh-all-database (184ms)
-2024-7-15 11:06:24-debug: asset-db:worker-effect-data-processing (3ms)
-2024-7-15 11:06:24-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2024-7-15 11:07:07-debug: start refresh asset from C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scene...
-2024-7-15 11:07:07-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:07:07-debug: refresh asset C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map success
-2024-7-15 11:07:07-debug: refresh db internal success
-2024-7-15 11:07:07-debug: refresh db assets success
-2024-7-15 11:07:07-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:07:07-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:07:07-debug: asset-db:refresh-all-database (227ms)
-2024-7-15 11:07:07-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-15 11:07:07-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-15 11:08:06-debug: refresh db internal success
-2024-7-15 11:08:06-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:08:06-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:08:06-debug: refresh db assets success
-2024-7-15 11:08:06-debug: asset-db:refresh-all-database (118ms)
-2024-7-15 11:08:09-debug: refresh db internal success
-2024-7-15 11:08:09-debug: refresh db assets success
-2024-7-15 11:08:09-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:08:09-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:08:09-debug: asset-db:refresh-all-database (121ms)
-2024-7-15 11:10:03-debug: refresh db internal success
-2024-7-15 11:10:03-debug: refresh db assets success
-2024-7-15 11:10:03-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:10:03-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:10:03-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-15 11:10:03-debug: asset-db:refresh-all-database (192ms)
-2024-7-15 11:10:03-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-15 11:10:28-debug: start refresh asset from C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scene...
-2024-7-15 11:10:28-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:10:28-debug: refresh asset C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map success
-2024-7-15 11:10:28-debug: refresh db internal success
-2024-7-15 11:10:28-debug: refresh db assets success
-2024-7-15 11:10:28-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:10:28-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:10:28-debug: asset-db:refresh-all-database (259ms)
-2024-7-15 11:10:28-debug: asset-db:worker-effect-data-processing (44ms)
-2024-7-15 11:10:28-debug: asset-db-hook-engine-extends-afterRefresh (45ms)
-2024-7-15 11:19:58-debug: refresh db internal success
-2024-7-15 11:19:58-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photo\carrot.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:19:58-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photobackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:19:58-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photo\carrot.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:19:58-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photo\carrot.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-15 11:19:58-debug: refresh db assets success
-2024-7-15 11:19:58-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:19:58-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:19:58-debug: asset-db:refresh-all-database (166ms)
-2024-7-15 11:19:58-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-15 11:19:58-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-15 11:21:11-debug: start refresh asset from C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scene...
-2024-7-15 11:21:11-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:21:11-debug: refresh asset C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map success
-2024-7-15 11:21:11-debug: refresh db internal success
-2024-7-15 11:21:11-debug: refresh db assets success
-2024-7-15 11:21:11-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:21:11-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:21:11-debug: asset-db:refresh-all-database (196ms)
-2024-7-15 11:21:11-debug: asset-db:worker-effect-data-processing (4ms)
-2024-7-15 11:21:11-debug: asset-db-hook-engine-extends-afterRefresh (6ms)
-2024-7-15 11:30:54-debug: refresh db internal success
-2024-7-15 11:30:54-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photo\cloud.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:30:54-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photobackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:30:54-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photo\cloud.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:30:54-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photo\cloud.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-15 11:30:54-debug: refresh db assets success
-2024-7-15 11:30:54-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:30:54-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:30:54-debug: asset-db:refresh-all-database (207ms)
-2024-7-15 11:30:54-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-15 11:30:54-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-15 11:31:24-debug: start refresh asset from C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scene...
-2024-7-15 11:31:24-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:31:24-debug: refresh asset C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map success
-2024-7-15 11:31:24-debug: refresh db internal success
-2024-7-15 11:31:24-debug: refresh db assets success
-2024-7-15 11:31:24-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:31:24-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:31:24-debug: asset-db:refresh-all-database (217ms)
-2024-7-15 11:31:24-debug: asset-db:worker-effect-data-processing (36ms)
-2024-7-15 11:31:24-debug: asset-db-hook-engine-extends-afterRefresh (40ms)
-2024-7-15 11:33:33-debug: start refresh asset from C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scene...
-2024-7-15 11:33:33-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:33:33-debug: refresh asset C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map success
-2024-7-15 11:33:34-debug: refresh db internal success
-2024-7-15 11:33:34-debug: refresh db assets success
-2024-7-15 11:33:34-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:33:34-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:33:34-debug: asset-db:refresh-all-database (240ms)
-2024-7-15 11:33:34-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-15 11:33:34-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-15 11:35:52-debug: refresh db internal success
-2024-7-15 11:35:52-debug: refresh db assets success
-2024-7-15 11:35:52-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:35:52-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:35:52-debug: asset-db:refresh-all-database (449ms)
-2024-7-15 11:35:52-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-15 11:35:52-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-15 11:35:56-debug: refresh db internal success
-2024-7-15 11:35:56-debug: refresh db assets success
-2024-7-15 11:35:56-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:35:56-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:35:56-debug: asset-db:refresh-all-database (113ms)
-2024-7-15 11:37:08-debug: Query all assets info in project
-2024-7-15 11:37:08-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-7-15 11:37:08-debug: 查询 Asset Bundle start, progress: 0%
-2024-7-15 11:37:08-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-15 11:37:08-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-7-15 11:37:08-debug:   Number of all scenes: 13
-2024-7-15 11:37:08-debug:   Number of all scripts: 63
-2024-7-15 11:37:08-debug:   Number of other assets: 679
-2024-7-15 11:37:08-debug: // ---- build task 查询 Asset Bundle ---- (13ms)
-2024-7-15 11:37:08-debug: [Build Memory track]: 查询 Asset Bundle start:166.75MB, end 166.75MB, increase: -2.58KB
-2024-7-15 11:37:08-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-15 11:37:08-debug: run build task 查询 Asset Bundle success in 13 ms√, progress: 5%
-2024-7-15 11:37:08-debug: 查询 Asset Bundle start, progress: 5%
-2024-7-15 11:37:08-debug: // ---- build task 查询 Asset Bundle ---- (3ms)
-2024-7-15 11:37:08-debug: run build task 查询 Asset Bundle success in 3 ms√, progress: 10%
-2024-7-15 11:37:08-debug: [Build Memory track]: 查询 Asset Bundle start:166.76MB, end 166.90MB, increase: 136.88KB
-2024-7-15 11:37:08-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-15 11:37:08-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-7-15 11:37:08-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
-2024-7-15 11:37:08-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:166.91MB, end 166.92MB, increase: 14.60KB
-2024-7-15 11:37:08-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
-2024-7-15 11:37:08-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-7-15 11:37:08-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-7-15 11:37:08-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
-2024-7-15 11:37:08-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
-2024-7-15 11:37:08-debug: [Build Memory track]: 填充脚本数据到 settings.json start:166.94MB, end 166.96MB, increase: 18.64KB
-2024-7-15 11:37:08-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-7-15 11:37:08-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-15 11:37:08-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (14ms)
-2024-7-15 11:37:08-debug: run build task 整理部分构建选项内数据到 settings.json success in 14 ms√, progress: 15%
-2024-7-15 11:37:08-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:166.97MB, end 167.09MB, increase: 123.44KB
-2024-7-15 11:37:34-debug: refresh db internal success
-2024-7-15 11:37:34-debug: refresh db assets success
-2024-7-15 11:37:34-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:37:34-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:37:34-debug: asset-db:refresh-all-database (254ms)
-2024-7-15 11:37:34-debug: asset-db:worker-effect-data-processing (3ms)
-2024-7-15 11:37:34-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
-2024-7-15 11:38:05-debug: start refresh asset from C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scene...
-2024-7-15 11:38:05-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:38:05-debug: refresh asset C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map success
-2024-7-15 11:38:05-debug: refresh db internal success
-2024-7-15 11:38:05-debug: refresh db assets success
-2024-7-15 11:38:05-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:38:05-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:38:05-debug: asset-db:refresh-all-database (166ms)
-2024-7-15 11:38:05-debug: asset-db:worker-effect-data-processing (2ms)
-2024-7-15 11:38:05-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2024-7-15 11:38:32-debug: Query all assets info in project
-2024-7-15 11:38:32-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-7-15 11:38:32-debug: 查询 Asset Bundle start, progress: 0%
-2024-7-15 11:38:32-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-15 11:38:32-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-7-15 11:38:32-debug:   Number of all scripts: 63
-2024-7-15 11:38:32-debug:   Number of other assets: 679
-2024-7-15 11:38:32-debug:   Number of all scenes: 13
-2024-7-15 11:38:32-debug: // ---- build task 查询 Asset Bundle ---- (12ms)
-2024-7-15 11:38:32-debug: run build task 查询 Asset Bundle success in 12 ms√, progress: 5%
-2024-7-15 11:38:32-debug: 查询 Asset Bundle start, progress: 5%
-2024-7-15 11:38:32-debug: [Build Memory track]: 查询 Asset Bundle start:171.62MB, end 172.42MB, increase: 812.64KB
-2024-7-15 11:38:32-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-15 11:38:32-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
-2024-7-15 11:38:32-debug: run build task 查询 Asset Bundle success in 7 ms√, progress: 10%
-2024-7-15 11:38:32-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-15 11:38:32-debug: [Build Memory track]: 查询 Asset Bundle start:172.43MB, end 170.15MB, increase: -2331.99KB
-2024-7-15 11:38:32-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-7-15 11:38:32-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
-2024-7-15 11:38:32-debug: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 12%
-2024-7-15 11:38:32-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:170.17MB, end 170.18MB, increase: 17.03KB
-2024-7-15 11:38:32-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-7-15 11:38:32-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-7-15 11:38:32-debug: // ---- build task 填充脚本数据到 settings.json ---- (2ms)
-2024-7-15 11:38:32-debug: run build task 填充脚本数据到 settings.json success in 2 ms√, progress: 13%
-2024-7-15 11:38:32-debug: [Build Memory track]: 填充脚本数据到 settings.json start:170.20MB, end 170.21MB, increase: 16.22KB
-2024-7-15 11:38:32-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-7-15 11:38:32-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-15 11:38:32-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (12ms)
-2024-7-15 11:38:32-debug: run build task 整理部分构建选项内数据到 settings.json success in 12 ms√, progress: 15%
-2024-7-15 11:38:32-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:170.23MB, end 170.34MB, increase: 118.52KB
-2024-7-15 11:38:49-debug: refresh db internal success
-2024-7-15 11:38:49-debug: refresh db assets success
-2024-7-15 11:38:49-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:38:49-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:38:49-debug: asset-db:refresh-all-database (134ms)
-2024-7-15 11:38:49-debug: asset-db:worker-effect-data-processing (2ms)
-2024-7-15 11:38:49-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2024-7-15 11:40:03-debug: Query all assets info in project
-2024-7-15 11:40:03-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-7-15 11:40:03-debug: 查询 Asset Bundle start, progress: 0%
-2024-7-15 11:40:03-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-15 11:40:03-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-7-15 11:40:03-debug:   Number of other assets: 679
-2024-7-15 11:40:03-debug:   Number of all scripts: 63
-2024-7-15 11:40:03-debug:   Number of all scenes: 13
-2024-7-15 11:40:03-debug: // ---- build task 查询 Asset Bundle ---- (11ms)
-2024-7-15 11:40:03-debug: run build task 查询 Asset Bundle success in 11 ms√, progress: 5%
-2024-7-15 11:40:03-debug: 查询 Asset Bundle start, progress: 5%
-2024-7-15 11:40:03-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-15 11:40:03-debug: [Build Memory track]: 查询 Asset Bundle start:172.06MB, end 171.38MB, increase: -698.70KB
-2024-7-15 11:40:03-debug: // ---- build task 查询 Asset Bundle ---- (8ms)
-2024-7-15 11:40:03-debug: run build task 查询 Asset Bundle success in 8 ms√, progress: 10%
-2024-7-15 11:40:03-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-15 11:40:03-debug: [Build Memory track]: 查询 Asset Bundle start:171.39MB, end 171.52MB, increase: 137.81KB
-2024-7-15 11:40:03-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-7-15 11:40:03-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
-2024-7-15 11:40:03-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 12%
-2024-7-15 11:40:03-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:171.54MB, end 171.55MB, increase: 15.07KB
-2024-7-15 11:40:03-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-7-15 11:40:03-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-7-15 11:40:03-debug: // ---- build task 填充脚本数据到 settings.json ---- (2ms)
-2024-7-15 11:40:03-debug: run build task 填充脚本数据到 settings.json success in 2 ms√, progress: 13%
-2024-7-15 11:40:03-debug: [Build Memory track]: 填充脚本数据到 settings.json start:171.57MB, end 171.58MB, increase: 17.38KB
-2024-7-15 11:40:03-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-7-15 11:40:03-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-15 11:40:03-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (9ms)
-2024-7-15 11:40:03-debug: run build task 整理部分构建选项内数据到 settings.json success in 9 ms√, progress: 15%
-2024-7-15 11:40:03-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:171.60MB, end 171.71MB, increase: 118.59KB
-2024-7-15 11:40:19-debug: refresh db internal success
-2024-7-15 11:40:19-debug: refresh db assets success
-2024-7-15 11:40:19-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:40:19-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:40:19-debug: asset-db:refresh-all-database (192ms)
-2024-7-15 11:40:19-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-15 11:40:19-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-15 11:40:27-debug: Query all assets info in project
-2024-7-15 11:40:27-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-7-15 11:40:27-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-15 11:40:27-debug: 查询 Asset Bundle start, progress: 0%
-2024-7-15 11:40:27-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-7-15 11:40:27-debug:   Number of all scripts: 63
-2024-7-15 11:40:27-debug:   Number of other assets: 679
-2024-7-15 11:40:27-debug:   Number of all scenes: 13
-2024-7-15 11:40:27-debug: run build task 查询 Asset Bundle success in 16 ms√, progress: 5%
-2024-7-15 11:40:27-debug: // ---- build task 查询 Asset Bundle ---- (16ms)
-2024-7-15 11:40:27-debug: [Build Memory track]: 查询 Asset Bundle start:172.91MB, end 173.00MB, increase: 96.03KB
-2024-7-15 11:40:27-debug: 查询 Asset Bundle start, progress: 5%
-2024-7-15 11:40:27-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-15 11:40:27-debug: // ---- build task 查询 Asset Bundle ---- (8ms)
-2024-7-15 11:40:27-debug: run build task 查询 Asset Bundle success in 8 ms√, progress: 10%
-2024-7-15 11:40:27-debug: [Build Memory track]: 查询 Asset Bundle start:173.02MB, end 173.16MB, increase: 143.01KB
-2024-7-15 11:40:27-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-7-15 11:40:27-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-15 11:40:27-debug: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 12%
-2024-7-15 11:40:27-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:173.17MB, end 173.19MB, increase: 17.06KB
-2024-7-15 11:40:27-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-7-15 11:40:27-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-7-15 11:40:27-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
-2024-7-15 11:40:27-debug: run build task 填充脚本数据到 settings.json success in 2 ms√, progress: 13%
-2024-7-15 11:40:27-debug: // ---- build task 填充脚本数据到 settings.json ---- (2ms)
-2024-7-15 11:40:27-debug: [Build Memory track]: 填充脚本数据到 settings.json start:173.20MB, end 173.22MB, increase: 16.29KB
-2024-7-15 11:40:27-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-7-15 11:40:27-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-15 11:40:27-debug: run build task 整理部分构建选项内数据到 settings.json success in 8 ms√, progress: 15%
-2024-7-15 11:40:27-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:173.23MB, end 173.35MB, increase: 117.77KB
-2024-7-15 11:40:27-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (8ms)
-2024-7-15 11:40:43-debug: refresh db internal success
-2024-7-15 11:40:43-debug: refresh db assets success
-2024-7-15 11:40:43-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:40:43-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:40:43-debug: asset-db:refresh-all-database (183ms)
-2024-7-15 11:40:43-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-15 11:40:43-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-15 11:40:48-debug: Query all assets info in project
-2024-7-15 11:40:48-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-7-15 11:40:48-debug: 查询 Asset Bundle start, progress: 0%
-2024-7-15 11:40:48-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-15 11:40:48-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-7-15 11:40:48-debug:   Number of all scenes: 13
-2024-7-15 11:40:48-debug:   Number of other assets: 679
-2024-7-15 11:40:48-debug:   Number of all scripts: 63
-2024-7-15 11:40:48-debug: // ---- build task 查询 Asset Bundle ---- (5ms)
-2024-7-15 11:40:48-debug: run build task 查询 Asset Bundle success in 5 ms√, progress: 5%
-2024-7-15 11:40:48-debug: [Build Memory track]: 查询 Asset Bundle start:174.04MB, end 173.94MB, increase: -111.59KB
-2024-7-15 11:40:48-debug: 查询 Asset Bundle start, progress: 5%
-2024-7-15 11:40:48-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-15 11:40:48-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
-2024-7-15 11:40:48-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
-2024-7-15 11:40:48-debug: [Build Memory track]: 查询 Asset Bundle start:173.95MB, end 174.08MB, increase: 137.34KB
-2024-7-15 11:40:48-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-7-15 11:40:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-15 11:40:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
-2024-7-15 11:40:48-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
-2024-7-15 11:40:48-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:174.10MB, end 174.11MB, increase: 14.32KB
-2024-7-15 11:40:48-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-7-15 11:40:48-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-7-15 11:40:48-debug: // ---- build task 填充脚本数据到 settings.json ---- (3ms)
-2024-7-15 11:40:48-debug: run build task 填充脚本数据到 settings.json success in 3 ms√, progress: 13%
-2024-7-15 11:40:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-15 11:40:48-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-7-15 11:40:48-debug: [Build Memory track]: 填充脚本数据到 settings.json start:174.13MB, end 174.14MB, increase: 18.70KB
-2024-7-15 11:40:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
-2024-7-15 11:40:48-debug: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 15%
-2024-7-15 11:40:48-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:174.16MB, end 174.27MB, increase: 117.53KB
-2024-7-15 11:40:48-debug: Query all assets info in project
-2024-7-15 11:40:48-debug: init custom config: keepNodeUuid: false, useCache: true
-2024-7-15 11:40:48-debug: 查询 Asset Bundle start, progress: 0%
-2024-7-15 11:40:48-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-15 11:40:48-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
-2024-7-15 11:40:48-debug:   Number of all scenes: 13
-2024-7-15 11:40:48-debug:   Number of all scripts: 63
-2024-7-15 11:40:48-debug:   Number of other assets: 679
-2024-7-15 11:40:48-debug: // ---- build task 查询 Asset Bundle ---- (3ms)
-2024-7-15 11:40:48-debug: run build task 查询 Asset Bundle success in 3 ms√, progress: 5%
-2024-7-15 11:40:48-debug: [Build Memory track]: 查询 Asset Bundle start:173.81MB, end 174.83MB, increase: 1.03MB
-2024-7-15 11:40:48-debug: 查询 Asset Bundle start, progress: 5%
-2024-7-15 11:40:48-debug: // ---- build task 查询 Asset Bundle ----
-2024-7-15 11:40:48-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
-2024-7-15 11:40:48-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
-2024-7-15 11:40:48-debug: [Build Memory track]: 查询 Asset Bundle start:174.85MB, end 174.12MB, increase: -740.32KB
-2024-7-15 11:40:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-15 11:40:48-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2024-7-15 11:40:48-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
-2024-7-15 11:40:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
-2024-7-15 11:40:48-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:174.14MB, end 174.15MB, increase: 14.39KB
-2024-7-15 11:40:48-debug: 填充脚本数据到 settings.json start, progress: 12%
-2024-7-15 11:40:48-debug: // ---- build task 填充脚本数据到 settings.json ----
-2024-7-15 11:40:48-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
-2024-7-15 11:40:48-debug: [Build Memory track]: 填充脚本数据到 settings.json start:174.17MB, end 174.18MB, increase: 10.30KB
-2024-7-15 11:40:48-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2024-7-15 11:40:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2024-7-15 11:40:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
-2024-7-15 11:40:48-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 15%
-2024-7-15 11:40:48-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:174.19MB, end 174.31MB, increase: 120.71KB
-2024-7-15 11:40:56-debug: refresh db internal success
-2024-7-15 11:40:56-debug: refresh db assets success
-2024-7-15 11:40:56-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:40:56-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:40:56-debug: asset-db:refresh-all-database (150ms)
-2024-7-15 11:40:56-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-15 11:40:56-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-15 11:44:33-debug: refresh db internal success
-2024-7-15 11:44:33-debug: refresh db assets success
-2024-7-15 11:44:33-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:44:33-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:44:33-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-15 11:44:33-debug: asset-db:refresh-all-database (123ms)
-2024-7-15 11:44:33-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-15 11:45:17-debug: start refresh asset from C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scene...
-2024-7-15 11:45:17-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:45:17-debug: refresh asset C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map success
-2024-7-15 11:45:17-debug: refresh db internal success
-2024-7-15 11:45:17-debug: refresh db assets success
-2024-7-15 11:45:17-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:45:17-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:45:17-debug: asset-db:refresh-all-database (196ms)
-2024-7-15 11:45:17-debug: asset-db:worker-effect-data-processing (2ms)
-2024-7-15 11:45:17-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2024-7-15 11:52:06-debug: refresh db internal success
-2024-7-15 11:52:06-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photo\clod.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:52:06-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photobackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:52:06-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photo\clod.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:52:06-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photo\clod.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-15 11:52:06-debug: refresh db assets success
-2024-7-15 11:52:06-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:52:06-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:52:06-debug: asset-db:refresh-all-database (340ms)
-2024-7-15 11:52:06-debug: asset-db:worker-effect-data-processing (2ms)
-2024-7-15 11:52:06-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2024-7-15 11:56:20-debug: start refresh asset from C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scene...
-2024-7-15 11:56:20-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:56:20-debug: refresh asset C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map success
-2024-7-15 11:56:21-debug: refresh db internal success
-2024-7-15 11:56:21-debug: refresh db assets success
-2024-7-15 11:56:21-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:56:21-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:56:21-debug: asset-db:refresh-all-database (275ms)
-2024-7-15 11:56:21-debug: asset-db:worker-effect-data-processing (69ms)
-2024-7-15 11:56:21-debug: asset-db-hook-engine-extends-afterRefresh (75ms)
-2024-7-15 11:59:19-debug: refresh db internal success
-2024-7-15 11:59:19-debug: refresh db assets success
-2024-7-15 11:59:19-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:59:19-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:59:19-debug: asset-db:refresh-all-database (151ms)
-2024-7-15 11:59:19-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-15 11:59:19-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-15 11:59:38-debug: refresh db internal success
-2024-7-15 11:59:38-debug: refresh db assets success
-2024-7-15 11:59:38-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:59:38-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:59:38-debug: asset-db:refresh-all-database (238ms)
-2024-7-15 11:59:38-debug: asset-db:worker-effect-data-processing (2ms)
-2024-7-15 11:59:38-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2024-7-15 11:59:42-debug: start refresh asset from C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scene...
-2024-7-15 11:59:42-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-15 11:59:42-debug: refresh asset C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map success
-2024-7-15 11:59:43-debug: refresh db internal success
-2024-7-15 11:59:43-debug: refresh db assets success
-2024-7-15 11:59:43-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 11:59:43-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 11:59:43-debug: asset-db:refresh-all-database (308ms)
-2024-7-15 11:59:43-debug: asset-db:worker-effect-data-processing (11ms)
-2024-7-15 11:59:43-debug: asset-db-hook-engine-extends-afterRefresh (15ms)
-2024-7-15 12:04:16-debug: refresh db internal success
-2024-7-15 12:04:16-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photo\wooden.pngbackground: #aaff85; color: #000;color: #000;
-2024-7-15 12:04:16-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photobackground: #aaff85; color: #000;color: #000;
-2024-7-15 12:04:16-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photo\wooden.png@6c48abackground: #aaff85; color: #000;color: #000;
-2024-7-15 12:04:16-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\photo\wooden.png@f9941background: #aaff85; color: #000;color: #000;
-2024-7-15 12:04:16-debug: refresh db assets success
-2024-7-15 12:04:16-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 12:04:16-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 12:04:16-debug: asset-db:refresh-all-database (287ms)
-2024-7-15 12:04:16-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-15 12:05:17-debug: refresh db internal success
-2024-7-15 12:05:17-debug: refresh db assets success
-2024-7-15 12:05:17-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 12:05:17-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 12:05:17-debug: asset-db:refresh-all-database (130ms)
-2024-7-15 12:05:17-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-15 12:05:17-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2024-7-15 14:33:06-debug: refresh db internal success
-2024-7-15 14:33:07-debug: refresh db assets success
-2024-7-15 14:33:07-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 14:33:07-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 14:33:09-debug: asset-db:refresh-all-database (2436ms)
-2024-7-15 14:33:09-debug: asset-db:worker-effect-data-processing (2012ms)
-2024-7-15 14:33:09-debug: asset-db-hook-engine-extends-afterRefresh (2014ms)
-2024-7-15 14:38:27-debug: refresh db internal success
-2024-7-15 14:38:27-debug: refresh db assets success
-2024-7-15 14:38:27-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 14:38:27-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 14:38:27-debug: asset-db:refresh-all-database (270ms)
-2024-7-15 14:38:27-debug: asset-db:worker-effect-data-processing (3ms)
-2024-7-15 14:38:27-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
-2024-7-15 14:38:53-debug: refresh db internal success
-2024-7-15 14:38:53-debug: refresh db assets success
-2024-7-15 14:38:53-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 14:38:53-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 14:38:53-debug: asset-db:refresh-all-database (223ms)
-2024-7-15 14:38:53-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-15 14:38:53-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-15 14:47:43-debug: refresh db internal success
-2024-7-15 14:47:43-debug: refresh db assets success
-2024-7-15 14:47:43-debug: Run asset db hook engine-extends:afterRefresh ...
-2024-7-15 14:47:43-debug: Run asset db hook engine-extends:afterRefresh success!
-2024-7-15 14:47:43-debug: asset-db:worker-effect-data-processing (1ms)
-2024-7-15 14:47:43-debug: asset-db:refresh-all-database (148ms)
-2024-7-15 14:47:43-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2024-7-15 14:47:46-debug: start refresh asset from C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scene...
-2024-7-15 14:47:46-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-15 14:47:46-debug: refresh asset C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map success
-2024-7-15 14:47:47-debug: start refresh asset from C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scene...
-2024-7-15 14:47:47-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-15 14:47:47-debug: refresh asset C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map success
-2024-7-15 14:47:47-debug: start refresh asset from C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scene...
-2024-7-15 14:47:47-debug: %cImport%c: C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map\alonemap2.scenebackground: #aaff85; color: #000;color: #000;
-2024-7-15 14:47:47-debug: refresh asset C:\Users\charon\Desktop\tankfightbackup\TK2\assets\map success

@@ -54,7 +54,7 @@
     },
     "options": {
       "windows": {
-        "executableName": "demo3_final",
+        "executableName": "HuNaoTank",
         "renderBackEnd": {
           "vulkan": true,
           "gles3": true,
@@ -464,6 +464,61 @@
       },
       "1720771875952": {
         "executableName": "demo3_final",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1721095993675": {
+        "executableName": "HuNaoTank",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1721096332746": {
+        "executableName": "HuNaoTank",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1721096860308": {
+        "executableName": "demo3",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1721100480023": {
+        "executableName": "HuNaoTank",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1",
+        "vsData": ""
+      },
+      "1721109229981": {
+        "executableName": "HuNaoTank",
         "renderBackEnd": {
           "vulkan": true,
           "gles3": true,
